@@ -407,18 +407,27 @@ def parse_json_object(text: str) -> dict[str, Any]:
 def normalize_summary(raw: dict[str, Any]) -> dict[str, Any]:
     pico = raw.get("pico") if isinstance(raw.get("pico"), dict) else {}
     return {
-        "question": str(raw.get("question", "")).strip(),
-        "methods": str(raw.get("methods", "")).strip(),
-        "results": str(raw.get("results", "")).strip(),
-        "clinical_takeaway": str(raw.get("clinical_takeaway", "")).strip(),
-        "limitations": str(raw.get("limitations", "")).strip(),
+        "question": clean_generated_text(raw.get("question", "")),
+        "methods": clean_generated_text(raw.get("methods", "")),
+        "results": clean_generated_text(raw.get("results", "")),
+        "clinical_takeaway": clean_generated_text(raw.get("clinical_takeaway", "")),
+        "limitations": clean_generated_text(raw.get("limitations", "")),
         "pico": {
-            "p": str(pico.get("p", "")).strip(),
-            "i": str(pico.get("i", "")).strip(),
-            "c": str(pico.get("c", "")).strip(),
-            "o": str(pico.get("o", "")).strip(),
+            "p": clean_generated_text(pico.get("p", "")),
+            "i": clean_generated_text(pico.get("i", "")),
+            "c": clean_generated_text(pico.get("c", "")),
+            "o": clean_generated_text(pico.get("o", "")),
         },
     }
+
+
+def clean_generated_text(value: Any) -> str:
+    return (
+        str(value)
+        .replace("초록에서 명확하지 않음", "명확한 정보 없음")
+        .replace("초록에서 명확하지 않습니다", "명확한 정보 없음")
+        .strip()
+    )
 
 
 def complete_ai_fields(paper: dict[str, Any]) -> bool:
@@ -435,8 +444,15 @@ def complete_ai_fields(paper: dict[str, Any]) -> bool:
 
 def normalize_ai_output(raw: dict[str, Any]) -> dict[str, Any]:
     return {
-        "title_ko": str(raw.get("title_ko", "")).strip(),
+        "title_ko": clean_generated_text(raw.get("title_ko", "")),
         "summary": normalize_summary(raw),
+    }
+
+
+def normalized_existing_ai(paper: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "title_ko": clean_generated_text(paper.get("title_ko", "")),
+        "summary": normalize_summary(paper.get("summary") or {}),
     }
 
 
@@ -461,7 +477,7 @@ Abstract:
                     "Write Korean in a concise clinical-learning style. "
                     "Do not give medical advice or treatment instructions. "
                     "Do not invent sample sizes, outcomes, or claims not present in the abstract. "
-                    "If a PICO element is unclear, write '초록에서 명확하지 않음'. "
+                    "If a PICO element is unclear, write '명확한 정보 없음'. "
                     "Keep each summary field to one short Korean sentence."
                 ),
             },
@@ -500,9 +516,10 @@ def attach_summaries(papers: list[dict[str, Any]], existing: dict[str, dict[str,
         if old.get("title_ko"):
             paper["title_ko"] = old["title_ko"]
         if old.get("summary_status") == "complete" and complete_ai_fields(old):
-            paper["title_ko"] = old["title_ko"]
+            normalized_old = normalized_existing_ai(old)
+            paper["title_ko"] = normalized_old["title_ko"]
             paper["summary_status"] = "complete"
-            paper["summary"] = old["summary"]
+            paper["summary"] = normalized_old["summary"]
             continue
         if not paper.get("abstract"):
             paper["summary_status"] = "missing"

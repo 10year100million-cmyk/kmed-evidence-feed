@@ -1012,7 +1012,7 @@
 
       function summaryFallback(paper, key) {
         const value = paper.summary_status === "complete" ? paper.summary?.[key] : "";
-        if (value) return value;
+        if (value) return cleanDisplayText(value);
         if (paper.summary_status === "error") return "AI 요약 생성 중 오류가 발생했습니다. 원문과 초록을 먼저 확인하세요.";
         if (!paper.abstract) return "초록이 없어 AI 요약을 생성하지 않았습니다.";
         return "AI 요약 생성 대기 중입니다.";
@@ -1020,7 +1020,7 @@
 
       function detailFallback(paper, key) {
         const value = paper.summary_status === "complete" ? paper.summary?.[key] : "";
-        if (value) return value;
+        if (value) return cleanDisplayText(value);
         if (paper.summary_status === "error") return "AI 요약 생성 중 오류가 발생했습니다.";
         if (!paper.abstract) return "초록이 없어 AI 요약을 생성하지 않았습니다.";
         return "AI 요약 생성 대기 중입니다.";
@@ -1029,10 +1029,16 @@
       function picoFallback(paper, key) {
         const pico = paper.summary_status === "complete" ? paper.summary?.pico : null;
         const value = pico?.[key];
-        if (value) return value;
+        if (value) return cleanDisplayText(value);
         if (paper.summary_status === "error") return "AI 요약 생성 오류";
         if (!paper.abstract) return "초록 없음";
         return "AI 요약 생성 대기 중";
+      }
+
+      function cleanDisplayText(value) {
+        return String(value ?? "")
+          .replaceAll("초록에서 명확하지 않음", "명확한 정보 없음")
+          .replaceAll("초록에서 명확하지 않습니다", "명확한 정보 없음");
       }
 
       function sortedPapers(papers) {
