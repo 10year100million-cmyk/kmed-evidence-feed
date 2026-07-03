@@ -464,6 +464,53 @@
         resize: vertical;
       }
 
+      .archive-controls {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: #fff;
+        padding: 16px;
+        display: grid;
+        gap: 12px;
+      }
+
+      .archive-search {
+        width: 100%;
+        min-height: 40px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 8px 12px;
+        color: #344054;
+        font-size: 13px;
+      }
+
+      .archive-selects {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .archive-select {
+        min-height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        color: #344054;
+        padding: 7px 10px;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .archive-summary {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
       .map-grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1000,6 +1047,10 @@
           grid-template-columns: 1fr;
         }
 
+        .archive-selects {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
         .sort-row {
           border-left: 0;
           padding-left: 0;
@@ -1096,6 +1147,10 @@
           grid-template-columns: 82px minmax(0, 1fr) 24px;
         }
 
+        .archive-selects {
+          grid-template-columns: 1fr;
+        }
+
         .summary-line {
           grid-template-columns: 1fr;
           gap: 4px;
@@ -1124,6 +1179,7 @@
 
         <nav class="top-nav" aria-label="주요 메뉴">
           <button class="nav-btn active" type="button" data-view="latest">최신논문</button>
+          <button class="nav-btn" type="button" data-view="archive">아카이브</button>
           <button class="nav-btn" type="button" data-view="weekly">주간브리핑</button>
           <button class="nav-btn" type="button" data-view="journal">저널클럽</button>
           <button class="nav-btn" type="button" data-view="map">근거맵</button>
@@ -1253,6 +1309,7 @@
       const EVIDENCE_FILTERS = ["전체", "RCT", "Meta-analysis", "Cohort", "Case report", "Safety"];
       const VIEWS = {
         latest: "최신논문",
+        archive: "아카이브",
         weekly: "주간브리핑",
         journal: "저널클럽",
         map: "근거맵",
@@ -1263,6 +1320,16 @@
         category: "전체",
         evidence: "전체",
         sort: "latest",
+        archivePapers: [],
+        archiveIndex: null,
+        archiveLoaded: false,
+        archiveLoading: false,
+        archiveError: "",
+        archiveSearch: "",
+        archiveCategory: "전체",
+        archiveEvidence: "전체",
+        archiveYear: "전체",
+        archiveStatus: "전체",
         selectedId: null,
         openSummaryId: null,
         readSet: new Set(JSON.parse(localStorage.getItem("kmedReadPapers") || "[]")),
@@ -1279,6 +1346,7 @@
         bookmark: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 4.75c0-.69.56-1.25 1.25-1.25h7.5c.69 0 1.25.56 1.25 1.25v15l-5-3.25-5 3.25v-15Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>',
         bookmarkFill: '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.75c0-.69.56-1.25 1.25-1.25h7.5c.69 0 1.25.56 1.25 1.25v15l-5-3.25-5 3.25v-15Z"/></svg>',
       };
+      let archiveSearchTimer = null;
 
       function saveSets() {
         localStorage.setItem("kmedReadPapers", JSON.stringify([...state.readSet]));
@@ -1385,6 +1453,71 @@
           });
         });
         return counts;
+      }
+
+      function allKnownPapers() {
+        return state.archiveLoaded ? state.archivePapers : state.papers;
+      }
+
+      function uniqueYears(papers) {
+        return [...new Set(papers.map((paper) => String(paper.pub_date || "").slice(0, 4)).filter(Boolean))].sort((a, b) => b.localeCompare(a));
+      }
+
+      function paperMatchesEvidence(paper, evidence) {
+        return evidence === "전체" || paper.evidence_type === evidence || (evidence === "Safety" && (paper.safety_flags || []).length > 0);
+      }
+
+      function archiveFilteredPapers() {
+        const query = state.archiveSearch.trim().toLowerCase();
+        return sortedPapers(state.archivePapers.filter((paper) => {
+          const categoryOK = state.archiveCategory === "전체" || (paper.categories || []).includes(state.archiveCategory);
+          const evidenceOK = paperMatchesEvidence(paper, state.archiveEvidence);
+          const yearOK = state.archiveYear === "전체" || String(paper.pub_date || "").startsWith(state.archiveYear);
+          const statusOK =
+            state.archiveStatus === "전체" ||
+            (state.archiveStatus === "저장" && state.bookmarkSet.has(paper.id)) ||
+            (state.archiveStatus === "읽음" && state.readSet.has(paper.id)) ||
+            (state.archiveStatus === "미독" && !state.readSet.has(paper.id));
+          const searchOK = !query || [
+            paper.title,
+            paper.title_ko,
+            paper.journal,
+            paper.abstract,
+            paper.pmid,
+          ].some((value) => String(value || "").toLowerCase().includes(query));
+          return categoryOK && evidenceOK && yearOK && statusOK && searchOK;
+        }));
+      }
+
+      async function loadArchive() {
+        if (state.archiveLoaded || state.archiveLoading) return;
+        state.archiveLoading = true;
+        state.archiveError = "";
+        render();
+        try {
+          const indexResponse = await fetch("archive/index.json", { cache: "no-store" });
+          if (!indexResponse.ok) throw new Error("archive/index.json을 불러오지 못했습니다.");
+          const index = await indexResponse.json();
+          const yearFiles = Array.isArray(index.years) ? index.years : [];
+          const datasets = await Promise.all(yearFiles.map(async (yearInfo) => {
+            const file = yearInfo.file || `archive/papers-${yearInfo.year}.json`;
+            const response = await fetch(file, { cache: "no-store" });
+            if (!response.ok) throw new Error(`${file}을 불러오지 못했습니다.`);
+            return response.json();
+          }));
+          const byPmid = new Map();
+          datasets.flatMap((dataset) => Array.isArray(dataset.papers) ? dataset.papers : []).forEach((paper) => {
+            if (paper.pmid) byPmid.set(String(paper.pmid), paper);
+          });
+          state.archiveIndex = index;
+          state.archivePapers = sortedPapers([...byPmid.values()]);
+          state.archiveLoaded = true;
+        } catch (error) {
+          state.archiveError = error instanceof Error ? error.message : "아카이브를 불러오지 못했습니다.";
+        } finally {
+          state.archiveLoading = false;
+          render();
+        }
       }
 
       function renderFilterGroup(containerId, items, active, onClick) {
@@ -1593,7 +1726,10 @@
       }
 
       function renderJournalView() {
-        const savedPapers = rankedPapers(state.papers.filter((paper) => state.bookmarkSet.has(paper.id)));
+        if (!state.archiveLoaded && !state.archiveLoading && !state.archiveError) {
+          loadArchive();
+        }
+        const savedPapers = rankedPapers(allKnownPapers().filter((paper) => state.bookmarkSet.has(paper.id)));
         const readSaved = savedPapers.filter((paper) => state.readSet.has(paper.id)).length;
         document.getElementById("paperList").innerHTML = `
           <div class="view-shell">
@@ -1669,7 +1805,72 @@
         `;
       }
 
+      function renderSelectOptions(items, active) {
+        return items.map((item) => `<option value="${escapeAttr(item)}" ${item === active ? "selected" : ""}>${escapeHTML(item)}</option>`).join("");
+      }
+
+      function renderArchiveView() {
+        if (!state.archiveLoaded && !state.archiveLoading && !state.archiveError) {
+          loadArchive();
+        }
+        if (state.archiveLoading) {
+          document.getElementById("paperList").innerHTML = `
+            <div class="view-shell">
+              ${renderViewHead("아카이브", "누적 논문 데이터를 불러오는 중입니다.")}
+              <div class="empty-state">아카이브를 불러오는 중입니다.</div>
+            </div>
+          `;
+          return;
+        }
+        if (state.archiveError) {
+          document.getElementById("paperList").innerHTML = `
+            <div class="view-shell">
+              ${renderViewHead("아카이브", "누적 논문 파일을 읽지 못했습니다.")}
+              <div class="error-state">${escapeHTML(state.archiveError)}<br>GitHub Actions가 archive 파일을 생성한 뒤 다시 확인하세요.</div>
+            </div>
+          `;
+          return;
+        }
+
+        const years = ["전체", ...uniqueYears(state.archivePapers)];
+        const results = archiveFilteredPapers();
+        const visibleResults = results.slice(0, 100);
+        const total = state.archiveIndex?.total || state.archivePapers.length;
+        document.getElementById("paperList").innerHTML = `
+          <div class="view-shell">
+            ${renderViewHead("아카이브", "공부한 논문을 누적 보관합니다. 제목, 초록, PMID로 검색하고 분야·근거 유형·연도·읽음 상태로 좁혀볼 수 있습니다.")}
+            <div class="metric-grid">
+              ${renderMetric("누적 논문", `${total}편`, "연도별 아카이브 기준")}
+              ${renderMetric("현재 결과", `${results.length}편`, "검색과 필터 적용 후")}
+              ${renderMetric("저장 논문", `${state.bookmarkSet.size}편`, "이 브라우저의 저널클럽 저장")}
+              ${renderMetric("읽음 완료", `${state.readSet.size}편`, "이 브라우저의 읽음 표시")}
+            </div>
+            <section class="archive-controls" aria-label="아카이브 검색과 필터">
+              <input class="archive-search" id="archiveSearch" type="search" value="${escapeAttr(state.archiveSearch)}" placeholder="제목, 한글 제목, 저널, 초록, PMID 검색">
+              <div class="archive-selects">
+                <select class="archive-select" id="archiveCategory">${renderSelectOptions(CATEGORY_FILTERS, state.archiveCategory)}</select>
+                <select class="archive-select" id="archiveEvidence">${renderSelectOptions(EVIDENCE_FILTERS, state.archiveEvidence)}</select>
+                <select class="archive-select" id="archiveYear">${renderSelectOptions(years, state.archiveYear)}</select>
+                <select class="archive-select" id="archiveStatus">${renderSelectOptions(["전체", "저장", "읽음", "미독"], state.archiveStatus)}</select>
+                <button class="small-action" type="button" id="archiveResetBtn">초기화</button>
+              </div>
+              <div class="archive-summary">
+                <span>총 ${total}편 중 ${results.length}편 표시 조건 일치</span>
+                <span>${results.length > visibleResults.length ? "상위 100편만 먼저 표시" : "전체 결과 표시"}</span>
+              </div>
+            </section>
+            <div class="paper-list">
+              ${visibleResults.length ? visibleResults.map(renderPaperCard).join("") : '<div class="empty-state">조건에 맞는 아카이브 논문이 없습니다.</div>'}
+            </div>
+          </div>
+        `;
+      }
+
       function renderActiveView() {
+        if (state.view === "archive") {
+          renderArchiveView();
+          return;
+        }
         if (state.view === "weekly") {
           renderWeeklyView();
           return;
@@ -1773,6 +1974,39 @@
               document.getElementById("journalMarkdown")?.select();
               copyButton.textContent = "선택 완료";
             }
+          });
+        }
+        const archiveSearch = document.getElementById("archiveSearch");
+        if (archiveSearch) {
+          archiveSearch.addEventListener("input", () => {
+            state.archiveSearch = archiveSearch.value;
+            clearTimeout(archiveSearchTimer);
+            archiveSearchTimer = setTimeout(render, 180);
+          });
+        }
+        [
+          ["archiveCategory", "archiveCategory"],
+          ["archiveEvidence", "archiveEvidence"],
+          ["archiveYear", "archiveYear"],
+          ["archiveStatus", "archiveStatus"],
+        ].forEach(([id, stateKey]) => {
+          const select = document.getElementById(id);
+          if (select) {
+            select.addEventListener("change", () => {
+              state[stateKey] = select.value;
+              render();
+            });
+          }
+        });
+        const resetButton = document.getElementById("archiveResetBtn");
+        if (resetButton) {
+          resetButton.addEventListener("click", () => {
+            state.archiveSearch = "";
+            state.archiveCategory = "전체";
+            state.archiveEvidence = "전체";
+            state.archiveYear = "전체";
+            state.archiveStatus = "전체";
+            render();
           });
         }
       }

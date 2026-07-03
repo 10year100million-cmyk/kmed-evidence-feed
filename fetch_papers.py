@@ -538,23 +538,81 @@ def attach_summaries(papers: list[dict[str, Any]], existing: dict[str, dict[str,
             paper["summary_error"] = str(exc)[:240]
 
 
-def load_existing(path: Path) -> dict[str, dict[str, Any]]:
+def load_dataset_papers(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
-        return {}
+        return []
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
-        return {}
-    return {str(paper.get("pmid")): paper for paper in data.get("papers", []) if paper.get("pmid")}
+        return []
+    return [paper for paper in data.get("papers", []) if paper.get("pmid")]
 
 
-def collect_papers(args: argparse.Namespace) -> dict[str, Any]:
+def load_existing(path: Path, archive_dir: Path | None = None) -> dict[str, dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    if archive_dir and archive_dir.exists():
+        for archive_path in sorted(archive_dir.glob("papers-*.json")):
+            for paper in load_dataset_papers(archive_path):
+                merged[str(paper["pmid"])] = paper
+    for paper in load_dataset_papers(path):
+        merged[str(paper["pmid"])] = paper
+    return merged
+
+
+def paper_sort_key(paper: dict[str, Any]) -> tuple[str, str]:
+    return (str(paper.get("pub_date") or ""), str(paper.get("pmid") or ""))
+
+
+def paper_year(paper: dict[str, Any]) -> str:
+    match = re.match(r"((?:19|20)\d{2})", str(paper.get("pub_date") or ""))
+    return match.group(1) if match else "unknown"
+
+
+def dataset_for_papers(papers: list[dict[str, Any]], updated: str) -> dict[str, Any]:
+    return {
+        "updated": updated,
+        "total": len(papers),
+        "source": "PubMed (NCBI E-utilities)",
+        "papers": papers,
+    }
+
+
+def build_archive_outputs(all_papers: list[dict[str, Any]], archive_dir: Path, updated: str) -> tuple[dict[str, Any], dict[Path, dict[str, Any]]]:
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for paper in all_papers:
+        grouped.setdefault(paper_year(paper), []).append(paper)
+
+    archive_files: dict[Path, dict[str, Any]] = {}
+    years = []
+    for year, papers in sorted(grouped.items(), reverse=True):
+        sorted_year_papers = sorted(papers, key=paper_sort_key, reverse=True)
+        filename = f"papers-{year}.json"
+        years.append({"year": year, "count": len(sorted_year_papers), "file": f"{archive_dir.name}/{filename}"})
+        archive_files[archive_dir / filename] = {
+            "updated": updated,
+            "year": year,
+            "total": len(sorted_year_papers),
+            "source": "PubMed (NCBI E-utilities)",
+            "papers": sorted_year_papers,
+        }
+
+    index = {
+        "updated": updated,
+        "total": len(all_papers),
+        "source": "PubMed (NCBI E-utilities)",
+        "years": years,
+    }
+    return index, archive_files
+
+
+def collect_papers(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, Any], dict[Path, dict[str, Any]]]:
     ncbi_api_key = os.environ.get("NCBI_API_KEY", "").strip() or None
     email = os.environ.get("NCBI_EMAIL", "").strip() or None
     requests_per_second = 9.5 if ncbi_api_key else 2.8
     limiter = RateLimiter(requests_per_second)
     output_path = Path(args.output)
-    existing = load_existing(output_path)
+    archive_dir = Path(args.archive_dir)
+    existing = load_existing(output_path, archive_dir)
     seen: set[str] = set()
     papers: list[dict[str, Any]] = []
 
@@ -573,12 +631,17 @@ def collect_papers(args: argparse.Namespace) -> dict[str, Any]:
 
     papers.sort(key=lambda item: item.get("pub_date") or "", reverse=True)
     attach_summaries(papers, existing, args.max_summaries, args.no_ai)
-    return {
-        "updated": dt.datetime.now(dt.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %Z"),
-        "total": len(papers),
-        "source": "PubMed (NCBI E-utilities)",
-        "papers": papers,
-    }
+    merged = dict(existing)
+    for paper in papers:
+        merged[str(paper["pmid"])] = paper
+
+    all_papers = sorted(merged.values(), key=paper_sort_key, reverse=True)
+    latest_limit = args.latest_limit if args.latest_limit > 0 else len(all_papers)
+    latest_papers = all_papers[:latest_limit]
+    updated = dt.datetime.now(dt.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %Z")
+    latest_dataset = dataset_for_papers(latest_papers, updated)
+    archive_index, archive_files = build_archive_outputs(all_papers, archive_dir, updated)
+    return latest_dataset, archive_index, archive_files
 
 
 def validate_dataset(dataset: dict[str, Any]) -> list[str]:
@@ -622,21 +685,25 @@ def validate_dataset(dataset: dict[str, Any]) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build papers.json for the Korean medicine evidence feed.")
     parser.add_argument("--output", default="papers.json", help="Output JSON file path.")
+    parser.add_argument("--archive-dir", default="archive", help="Directory for cumulative archive JSON files.")
     parser.add_argument("--lookback-days", type=int, default=30, help="PubMed publication date lookback window.")
     parser.add_argument("--category-limit", type=int, default=30, help="Maximum PubMed IDs to fetch per category.")
     parser.add_argument("--limit", type=int, default=0, help="Optional total paper limit for testing.")
+    parser.add_argument("--latest-limit", type=int, default=50, help="Maximum papers to keep in the latest feed.")
     parser.add_argument("--max-summaries", type=int, default=20, help="Maximum new AI summaries to generate per run.")
     parser.add_argument("--no-ai", action="store_true", help="Skip OpenAI summarization even when OPENAI_API_KEY exists.")
     parser.add_argument("--dry-run", action="store_true", help="Fetch and validate without writing output.")
     args = parser.parse_args()
 
     try:
-        dataset = collect_papers(args)
+        dataset, archive_index, archive_files = collect_papers(args)
     except Exception as exc:  # noqa: BLE001 - CLI should report unexpected network/parser failures.
         print(f"Fetch failed: {exc}", file=sys.stderr)
         return 1
 
     errors = validate_dataset(dataset)
+    for archive_path, archive_dataset in archive_files.items():
+        errors.extend(f"{archive_path}: {error}" for error in validate_dataset(archive_dataset))
     if errors:
         print("Validation errors:", file=sys.stderr)
         for error in errors:
@@ -645,12 +712,18 @@ def main() -> int:
 
     output = json.dumps(dataset, ensure_ascii=False, indent=2)
     if args.dry_run:
-        print(f"Dry run OK: {dataset['total']} papers fetched.")
+        print(f"Dry run OK: {dataset['total']} latest papers, {archive_index['total']} archived papers.")
         print(output[:2000])
         return 0
 
     Path(args.output).write_text(output + "\n", encoding="utf-8")
-    print(f"Wrote {args.output}: {dataset['total']} papers.")
+    archive_dir = Path(args.archive_dir)
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    (archive_dir / "index.json").write_text(json.dumps(archive_index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    for archive_path, archive_dataset in archive_files.items():
+        archive_path.write_text(json.dumps(archive_dataset, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {args.output}: {dataset['total']} latest papers.")
+    print(f"Wrote {archive_dir}: {archive_index['total']} archived papers.")
     return 0
 
 
