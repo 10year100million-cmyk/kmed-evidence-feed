@@ -28,6 +28,57 @@ BASE_EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
 DEFAULT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.4-mini")
 
+SUMMARY_RESPONSE_SCHEMA: dict[str, Any] = {
+    "type": "object",
+    "properties": {
+        "title_ko": {
+            "type": "string",
+            "description": "A natural Korean translation of the English paper title.",
+        },
+        "question": {
+            "type": "string",
+            "description": "The study question in one concise Korean sentence.",
+        },
+        "methods": {
+            "type": "string",
+            "description": "The study design and method in one concise Korean sentence.",
+        },
+        "results": {
+            "type": "string",
+            "description": "The main result in one concise Korean sentence.",
+        },
+        "clinical_takeaway": {
+            "type": "string",
+            "description": "A cautious clinical learning point for Korean medicine doctors.",
+        },
+        "limitations": {
+            "type": "string",
+            "description": "The main limitation or caution in one concise Korean sentence.",
+        },
+        "pico": {
+            "type": "object",
+            "properties": {
+                "p": {"type": "string", "description": "Population/problem."},
+                "i": {"type": "string", "description": "Intervention/exposure."},
+                "c": {"type": "string", "description": "Comparator/control."},
+                "o": {"type": "string", "description": "Outcome."},
+            },
+            "required": ["p", "i", "c", "o"],
+            "additionalProperties": False,
+        },
+    },
+    "required": [
+        "title_ko",
+        "question",
+        "methods",
+        "results",
+        "clinical_takeaway",
+        "limitations",
+        "pico",
+    ],
+    "additionalProperties": False,
+}
+
 CATEGORIES: list[dict[str, Any]] = [
     {
         "id": "acupuncture",
@@ -306,6 +357,7 @@ def efetch(pmids: list[str], limiter: RateLimiter, ncbi_api_key: str | None, ema
                 "authors": parse_authors(article),
                 "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
                 "abstract": abstract,
+                "title_ko": "",
                 "publication_types": publication_types,
                 "evidence_type": evidence_type,
                 "evidence_level": evidence_level,
@@ -369,35 +421,61 @@ def normalize_summary(raw: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def complete_ai_fields(paper: dict[str, Any]) -> bool:
+    summary = paper.get("summary") if isinstance(paper.get("summary"), dict) else {}
+    pico = summary.get("pico") if isinstance(summary.get("pico"), dict) else {}
+    required_summary = ["question", "methods", "results", "clinical_takeaway", "limitations"]
+    required_pico = ["p", "i", "c", "o"]
+    return (
+        bool(str(paper.get("title_ko", "")).strip())
+        and all(bool(str(summary.get(key, "")).strip()) for key in required_summary)
+        and all(bool(str(pico.get(key, "")).strip()) for key in required_pico)
+    )
+
+
+def normalize_ai_output(raw: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "title_ko": str(raw.get("title_ko", "")).strip(),
+        "summary": normalize_summary(raw),
+    }
+
+
 def summarize_with_openai(paper: dict[str, Any], api_key: str, model: str) -> dict[str, Any]:
     prompt = f"""
-You are helping Korean medicine doctors study PubMed papers.
-Return only valid JSON with this exact shape:
-{{
-  "question": "Korean, one sentence",
-  "methods": "Korean, one sentence",
-  "results": "Korean, one sentence",
-  "clinical_takeaway": "Korean, one sentence, cautious and non-prescriptive",
-  "limitations": "Korean, one sentence",
-  "pico": {{"p": "", "i": "", "c": "", "o": ""}}
-}}
-
-Rules:
-- Do not invent details that are not in the title or abstract.
-- If a PICO field is unclear, write "초록에서 명확하지 않음".
-- Do not give medical advice; summarize study relevance only.
-- Keep each Korean sentence concise.
-
 Title: {paper["title"]}
 Journal: {paper["journal"]}
+Publication date: {paper.get("pub_date", "")}
 Evidence type: {paper["evidence_type"]}
+Categories: {", ".join(paper.get("categories", []))}
 Abstract:
 {paper["abstract"]}
 """.strip()
     body = {
         "model": model,
-        "input": prompt,
-        "max_output_tokens": 900,
+        "input": [
+            {
+                "role": "developer",
+                "content": (
+                    "You help Korean medicine doctors study PubMed papers. "
+                    "Translate and summarize only from the provided title, metadata, and abstract. "
+                    "Write Korean in a concise clinical-learning style. "
+                    "Do not give medical advice or treatment instructions. "
+                    "Do not invent sample sizes, outcomes, or claims not present in the abstract. "
+                    "If a PICO element is unclear, write '초록에서 명확하지 않음'. "
+                    "Keep each summary field to one short Korean sentence."
+                ),
+            },
+            {"role": "user", "content": prompt},
+        ],
+        "text": {
+            "format": {
+                "type": "json_schema",
+                "name": "kmed_paper_summary",
+                "strict": True,
+                "schema": SUMMARY_RESPONSE_SCHEMA,
+            }
+        },
+        "max_output_tokens": 1200,
     }
     request = urllib.request.Request(
         OPENAI_RESPONSES_URL,
@@ -411,7 +489,7 @@ Abstract:
     )
     with urllib.request.urlopen(request, timeout=60) as response:
         payload = json.loads(response.read().decode("utf-8"))
-    return normalize_summary(parse_json_object(extract_response_text(payload)))
+    return normalize_ai_output(parse_json_object(extract_response_text(payload)))
 
 
 def attach_summaries(papers: list[dict[str, Any]], existing: dict[str, dict[str, Any]], max_summaries: int, skip_ai: bool) -> None:
@@ -419,7 +497,10 @@ def attach_summaries(papers: list[dict[str, Any]], existing: dict[str, dict[str,
     completed = 0
     for paper in papers:
         old = existing.get(paper["pmid"], {})
-        if old.get("summary_status") == "complete" and old.get("summary"):
+        if old.get("title_ko"):
+            paper["title_ko"] = old["title_ko"]
+        if old.get("summary_status") == "complete" and complete_ai_fields(old):
+            paper["title_ko"] = old["title_ko"]
             paper["summary_status"] = "complete"
             paper["summary"] = old["summary"]
             continue
@@ -430,7 +511,9 @@ def attach_summaries(papers: list[dict[str, Any]], existing: dict[str, dict[str,
             paper["summary_status"] = "missing"
             continue
         try:
-            paper["summary"] = summarize_with_openai(paper, api_key, DEFAULT_MODEL)
+            output = summarize_with_openai(paper, api_key, DEFAULT_MODEL)
+            paper["title_ko"] = output["title_ko"]
+            paper["summary"] = output["summary"]
             paper["summary_status"] = "complete"
             completed += 1
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
@@ -493,6 +576,7 @@ def validate_dataset(dataset: dict[str, Any]) -> list[str]:
         "authors",
         "url",
         "abstract",
+        "title_ko",
         "categories",
         "evidence_type",
         "evidence_level",

@@ -1,6 +1,11 @@
 name: Update PubMed papers
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - "fetch_papers.py"
+      - ".github/workflows/update-papers.yml"
   schedule:
     - cron: "20 19 * * *"
   workflow_dispatch:

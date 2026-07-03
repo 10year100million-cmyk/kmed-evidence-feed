@@ -320,6 +320,14 @@
         color: #101828;
       }
 
+      .paper-title-ko {
+        margin: -2px 0 8px;
+        color: #0d6d77;
+        font-size: 14px;
+        line-height: 1.45;
+        font-weight: 700;
+      }
+
       .paper-meta {
         margin-bottom: 12px;
         color: var(--muted);
@@ -1003,12 +1011,28 @@
       }
 
       function summaryFallback(paper, key) {
-        const labels = {
-          question: "초록 기반 요약이 아직 생성되지 않았습니다.",
-          clinical_takeaway: "원문과 초록을 확인해 진료 적용 가능성을 판단하세요.",
-          limitations: "연구 설계, 표본수, 대조군, 추적 기간을 확인하세요.",
-        };
-        return paper.summary?.[key] || labels[key] || "";
+        const value = paper.summary_status === "complete" ? paper.summary?.[key] : "";
+        if (value) return value;
+        if (paper.summary_status === "error") return "AI 요약 생성 중 오류가 발생했습니다. 원문과 초록을 먼저 확인하세요.";
+        if (!paper.abstract) return "초록이 없어 AI 요약을 생성하지 않았습니다.";
+        return "AI 요약 생성 대기 중입니다.";
+      }
+
+      function detailFallback(paper, key) {
+        const value = paper.summary_status === "complete" ? paper.summary?.[key] : "";
+        if (value) return value;
+        if (paper.summary_status === "error") return "AI 요약 생성 중 오류가 발생했습니다.";
+        if (!paper.abstract) return "초록이 없어 AI 요약을 생성하지 않았습니다.";
+        return "AI 요약 생성 대기 중입니다.";
+      }
+
+      function picoFallback(paper, key) {
+        const pico = paper.summary_status === "complete" ? paper.summary?.pico : null;
+        const value = pico?.[key];
+        if (value) return value;
+        if (paper.summary_status === "error") return "AI 요약 생성 오류";
+        if (!paper.abstract) return "초록 없음";
+        return "AI 요약 생성 대기 중";
       }
 
       function sortedPapers(papers) {
@@ -1071,6 +1095,7 @@
             <button class="read-toggle ${isRead ? "checked" : ""}" type="button" aria-label="읽음 표시" data-action="read" data-id="${paper.id}"></button>
             <div class="paper-main">
               <h2 class="paper-title">${escapeHTML(paper.title || "Untitled")}</h2>
+              ${paper.title_ko ? `<div class="paper-title-ko">${escapeHTML(paper.title_ko)}</div>` : ""}
               <div class="paper-meta">${escapeHTML(paper.journal || "Journal")} · ${formatDate(paper.pub_date)}${paper.doi ? ` · doi: ${escapeHTML(paper.doi)}` : ""}</div>
               <div class="summary-lines">
                 <div class="summary-line"><span class="line-label">핵심 질문</span><span>${escapeHTML(summaryFallback(paper, "question"))}</span></div>
@@ -1088,19 +1113,19 @@
               <div class="detail-grid">
                 <div>
                   <h3>연구 방법</h3>
-                  <p>${escapeHTML(summary.methods || "요약이 아직 없습니다.")}</p>
+                  <p>${escapeHTML(detailFallback(paper, "methods"))}</p>
                 </div>
                 <div>
                   <h3>주요 결과</h3>
-                  <p>${escapeHTML(summary.results || "요약이 아직 없습니다.")}</p>
+                  <p>${escapeHTML(detailFallback(paper, "results"))}</p>
                 </div>
                 <div>
                   <h3>PICO</h3>
                   <div class="pico-grid">
-                    <div class="pico-row"><span class="pico-key">P</span><span>${escapeHTML(pico.p || "초록에서 명확하지 않음")}</span></div>
-                    <div class="pico-row"><span class="pico-key">I</span><span>${escapeHTML(pico.i || "초록에서 명확하지 않음")}</span></div>
-                    <div class="pico-row"><span class="pico-key">C</span><span>${escapeHTML(pico.c || "초록에서 명확하지 않음")}</span></div>
-                    <div class="pico-row"><span class="pico-key">O</span><span>${escapeHTML(pico.o || "초록에서 명확하지 않음")}</span></div>
+                    <div class="pico-row"><span class="pico-key">P</span><span>${escapeHTML(picoFallback(paper, "p"))}</span></div>
+                    <div class="pico-row"><span class="pico-key">I</span><span>${escapeHTML(picoFallback(paper, "i"))}</span></div>
+                    <div class="pico-row"><span class="pico-key">C</span><span>${escapeHTML(picoFallback(paper, "c"))}</span></div>
+                    <div class="pico-row"><span class="pico-key">O</span><span>${escapeHTML(picoFallback(paper, "o"))}</span></div>
                   </div>
                 </div>
                 <div>
