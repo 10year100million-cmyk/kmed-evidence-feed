@@ -1,0 +1,1273 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>오늘의 한의학 근거</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --band: #f6f9fb;
+        --panel: #ffffff;
+        --ink: #111827;
+        --muted: #667085;
+        --soft: #98a2b3;
+        --line: #d8e2ea;
+        --line-soft: #edf2f6;
+        --teal: #087f8c;
+        --teal-dark: #06636d;
+        --teal-soft: #e7f5f6;
+        --amber: #c98214;
+        --amber-soft: #fff4df;
+        --shadow: 0 10px 30px rgba(16, 24, 40, 0.04);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+
+      button,
+      input,
+      select,
+      textarea {
+        font: inherit;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .app-header {
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.96);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .header-inner {
+        min-height: 78px;
+        padding: 0 26px;
+        display: grid;
+        grid-template-columns: minmax(280px, 1fr) auto minmax(280px, 1fr);
+        align-items: center;
+        gap: 24px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        min-width: 0;
+      }
+
+      .brand-mark {
+        width: 42px;
+        height: 42px;
+        border: 1px solid #a9d7da;
+        border-radius: 8px;
+        color: var(--teal);
+        display: grid;
+        place-items: center;
+        background: linear-gradient(180deg, #ffffff 0%, #edf8f8 100%);
+      }
+
+      .brand-text h1 {
+        margin: 0;
+        font-size: 24px;
+        line-height: 1.1;
+        font-weight: 800;
+      }
+
+      .brand-text p {
+        margin: 5px 0 0;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .top-nav {
+        display: flex;
+        align-items: stretch;
+        gap: 30px;
+        height: 78px;
+      }
+
+      .nav-btn {
+        border: 0;
+        border-bottom: 3px solid transparent;
+        background: transparent;
+        padding: 0 4px;
+        color: #344054;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .nav-btn.active {
+        color: var(--teal-dark);
+        border-bottom-color: var(--teal);
+      }
+
+      .header-meta {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 18px;
+        color: var(--muted);
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .round-icon {
+        width: 38px;
+        height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        background: #fff;
+        color: #536476;
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .filters {
+        border-bottom: 1px solid var(--line);
+        background: var(--band);
+        padding: 20px 26px 18px;
+      }
+
+      .filters-inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 470px;
+        gap: 30px;
+        align-items: center;
+      }
+
+      .filter-stack {
+        display: grid;
+        gap: 12px;
+      }
+
+      .filter-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+      }
+
+      .filter-label,
+      .sort-label {
+        width: 56px;
+        flex: 0 0 auto;
+        color: #344054;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .chip-list {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .chip {
+        min-width: 88px;
+        min-height: 32px;
+        padding: 6px 14px;
+        border: 1px solid #cad8e4;
+        border-radius: 6px;
+        background: #fff;
+        color: #344054;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .chip.compact {
+        min-width: 74px;
+      }
+
+      .chip.active {
+        background: var(--teal);
+        border-color: var(--teal);
+        color: #fff;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+      }
+
+      .sort-row {
+        border-left: 1px solid #cdd8e2;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: flex-end;
+      }
+
+      .sort-btn {
+        min-width: 126px;
+        min-height: 36px;
+        padding: 6px 16px;
+        border: 1px solid #cad8e4;
+        border-radius: 6px;
+        background: #fff;
+        color: #344054;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .sort-btn.active {
+        border-color: var(--teal);
+        color: var(--teal-dark);
+        box-shadow: 0 0 0 1px rgba(8, 127, 140, 0.12);
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 410px;
+        gap: 18px;
+        padding: 18px 26px 26px;
+        background: #fff;
+      }
+
+      .feed {
+        min-width: 0;
+      }
+
+      .update-strip {
+        display: none;
+        margin-bottom: 14px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .paper-list {
+        display: grid;
+        gap: 8px;
+      }
+
+      .paper-card {
+        position: relative;
+        display: grid;
+        grid-template-columns: 30px minmax(0, 1fr) auto;
+        gap: 16px;
+        padding: 20px 20px 0;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: var(--panel);
+        box-shadow: 0 1px 0 rgba(16, 24, 40, 0.02);
+        overflow: hidden;
+      }
+
+      .paper-card.selected::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 5px;
+        background: var(--teal);
+      }
+
+      .paper-card.read {
+        opacity: 0.68;
+      }
+
+      .read-toggle {
+        width: 18px;
+        height: 18px;
+        margin-top: 4px;
+        border: 1.5px solid #778395;
+        border-radius: 4px;
+        background: #fff;
+      }
+
+      .read-toggle.checked {
+        border-color: var(--teal);
+        background: var(--teal);
+        position: relative;
+      }
+
+      .read-toggle.checked::after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 2px;
+        width: 5px;
+        height: 9px;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+
+      .paper-main {
+        min-width: 0;
+      }
+
+      .paper-title {
+        margin: 0 0 7px;
+        font-size: 17px;
+        line-height: 1.35;
+        font-weight: 800;
+        color: #101828;
+      }
+
+      .paper-meta {
+        margin-bottom: 12px;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.4;
+      }
+
+      .summary-lines {
+        display: grid;
+        gap: 6px;
+        margin-bottom: 14px;
+      }
+
+      .summary-line {
+        display: grid;
+        grid-template-columns: 68px minmax(0, 1fr);
+        gap: 10px;
+        align-items: baseline;
+        font-size: 13px;
+        line-height: 1.55;
+        color: #344054;
+      }
+
+      .line-label {
+        justify-self: start;
+        padding: 2px 8px;
+        border-radius: 4px;
+        background: #eef7f8;
+        color: #0d6d77;
+        font-size: 11px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .paper-tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        min-width: 270px;
+      }
+
+      .tag {
+        height: 27px;
+        padding: 4px 12px;
+        border: 1px solid #7ebdc4;
+        border-radius: 4px;
+        color: #0a6974;
+        background: #fff;
+        font-size: 12px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .tag.priority {
+        border-color: #e6ae55;
+        background: #fffaf1;
+        color: var(--amber);
+      }
+
+      .tag.muted {
+        border-color: var(--line);
+        color: #536476;
+      }
+
+      .bookmark-btn {
+        width: 26px;
+        height: 32px;
+        border: 0;
+        background: transparent;
+        color: #526170;
+        align-self: start;
+        margin-left: 4px;
+      }
+
+      .bookmark-btn.saved {
+        color: var(--teal);
+      }
+
+      .paper-actions {
+        grid-column: 2 / -1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+        border-top: 1px solid var(--line);
+        min-height: 42px;
+      }
+
+      .action-btn,
+      .action-link {
+        border: 0;
+        background: transparent;
+        color: #475467;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: flex-start;
+        padding: 0;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .action-btn.center {
+        justify-content: center;
+      }
+
+      .action-btn.end {
+        justify-content: flex-end;
+      }
+
+      .action-btn:hover,
+      .action-link:hover {
+        color: var(--teal-dark);
+      }
+
+      .detail {
+        grid-column: 2 / -1;
+        margin: 0 0 16px;
+        padding: 16px;
+        border: 1px solid var(--line-soft);
+        border-radius: 6px;
+        background: #fbfdfe;
+        display: none;
+      }
+
+      .detail.open {
+        display: block;
+      }
+
+      .detail-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+
+      .detail h3 {
+        margin: 0 0 8px;
+        font-size: 13px;
+      }
+
+      .detail p {
+        margin: 0;
+        color: #344054;
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .pico-grid {
+        display: grid;
+        gap: 7px;
+      }
+
+      .pico-row {
+        display: grid;
+        grid-template-columns: 24px minmax(0, 1fr);
+        gap: 8px;
+        font-size: 13px;
+        color: #344054;
+      }
+
+      .pico-key {
+        display: inline-grid;
+        place-items: center;
+        width: 24px;
+        height: 24px;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        background: #fff;
+        font-weight: 800;
+        color: #344054;
+      }
+
+      .sidebar {
+        display: grid;
+        gap: 14px;
+        align-content: start;
+        min-width: 0;
+      }
+
+      .side-panel {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: #fff;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .side-head {
+        min-height: 50px;
+        padding: 16px 18px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .side-head h2 {
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.2;
+      }
+
+      .link-btn {
+        border: 0;
+        background: transparent;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .shortlist {
+        display: grid;
+        padding: 0 18px 12px;
+      }
+
+      .short-row {
+        display: grid;
+        grid-template-columns: 36px minmax(0, 1fr) auto;
+        gap: 12px;
+        align-items: center;
+        min-height: 46px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .rank {
+        width: 34px;
+        height: 31px;
+        display: grid;
+        place-items: center;
+        border-radius: 4px;
+        background: #eef7f8;
+        color: #0d6d77;
+        font-weight: 800;
+        font-size: 13px;
+      }
+
+      .short-title {
+        min-width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .mini-tags {
+        display: flex;
+        gap: 5px;
+      }
+
+      .mini-tag {
+        padding: 2px 6px;
+        border: 1px solid #7ebdc4;
+        border-radius: 4px;
+        color: #0a6974;
+        font-size: 10px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .read-summary {
+        padding: 10px 18px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .small-action {
+        min-height: 34px;
+        padding: 6px 14px;
+        border: 1px solid #aebdca;
+        border-radius: 5px;
+        background: #fff;
+        color: #344054;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .memo-body {
+        padding: 14px 18px 16px;
+        display: grid;
+        gap: 8px;
+      }
+
+      .memo-row {
+        display: grid;
+        grid-template-columns: 32px minmax(0, 1fr);
+        gap: 10px;
+        align-items: center;
+      }
+
+      .memo-row input {
+        height: 30px;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: #344054;
+        font-size: 12px;
+      }
+
+      .memo-row input::placeholder {
+        color: #b3bfca;
+      }
+
+      .memo-save {
+        margin-top: 4px;
+        width: 150px;
+        min-height: 34px;
+        border: 0;
+        border-radius: 5px;
+        background: #e9eef3;
+        color: #7a8794;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .memo-save.ready {
+        background: var(--teal);
+        color: #fff;
+      }
+
+      .bookmark-summary {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .summary-stat {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .stat-icon {
+        width: 40px;
+        height: 52px;
+        color: #526170;
+      }
+
+      .stat-label {
+        color: #344054;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .stat-number {
+        margin-top: 4px;
+        font-size: 28px;
+        line-height: 1;
+        font-weight: 800;
+      }
+
+      .empty-state,
+      .error-state {
+        min-height: 260px;
+        border: 1px dashed var(--line);
+        border-radius: 7px;
+        display: grid;
+        place-items: center;
+        padding: 30px;
+        color: var(--muted);
+        text-align: center;
+        background: #fbfdfe;
+      }
+
+      .source-note {
+        padding: 16px 26px 30px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.6;
+        background: var(--band);
+      }
+
+      @media (max-width: 1080px) {
+        .header-inner {
+          grid-template-columns: 1fr;
+          gap: 10px;
+          padding: 16px 20px;
+        }
+
+        .top-nav {
+          height: auto;
+          gap: 18px;
+          overflow-x: auto;
+        }
+
+        .nav-btn {
+          min-height: 38px;
+          white-space: nowrap;
+        }
+
+        .header-meta {
+          justify-content: flex-start;
+          white-space: normal;
+        }
+
+        .filters-inner,
+        .layout {
+          grid-template-columns: 1fr;
+        }
+
+        .sort-row {
+          border-left: 0;
+          padding-left: 0;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .filters,
+        .layout,
+        .source-note {
+          padding-left: 14px;
+          padding-right: 14px;
+        }
+
+        .brand-text h1 {
+          font-size: 21px;
+        }
+
+        .filter-row {
+          align-items: flex-start;
+        }
+
+        .filter-label,
+        .sort-label {
+          width: 48px;
+          padding-top: 7px;
+        }
+
+        .chip,
+        .sort-btn {
+          min-width: auto;
+          font-size: 12px;
+        }
+
+        .paper-card {
+          grid-template-columns: 24px minmax(0, 1fr);
+          padding: 16px 14px 0;
+        }
+
+        .paper-tags {
+          grid-column: 2;
+          justify-content: flex-start;
+          min-width: 0;
+          margin-bottom: 8px;
+        }
+
+        .bookmark-btn {
+          position: absolute;
+          top: 14px;
+          right: 10px;
+        }
+
+        .paper-actions,
+        .detail {
+          grid-column: 1 / -1;
+        }
+
+        .paper-actions {
+          grid-template-columns: 1fr;
+          padding: 8px 0;
+          gap: 8px;
+        }
+
+        .action-btn,
+        .action-link,
+        .action-btn.center,
+        .action-btn.end {
+          justify-content: flex-start;
+        }
+
+        .detail-grid,
+        .bookmark-summary {
+          grid-template-columns: 1fr;
+        }
+
+        .summary-line {
+          grid-template-columns: 1fr;
+          gap: 4px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <svg width="29" height="29" viewBox="0 0 32 32" fill="none">
+              <path d="M7 25c6.5-1.8 11-6.5 13.8-14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M13 11c-3.8-.7-6.5.8-8 4.4 3.8.8 6.5-.7 8-4.4Z" fill="currentColor" opacity=".88"/>
+              <path d="M21.5 7.2c-1-3.5.1-6 3.2-7.2 1.1 3.5 0 5.9-3.2 7.2Z" fill="currentColor" opacity=".78"/>
+              <path d="M20 17.5c3.7-.9 6.6.3 8.6 3.5-3.6 1.1-6.4-.1-8.6-3.5Z" fill="currentColor" opacity=".6"/>
+              <path d="M4.5 27.3c6.8 2.1 14 2.1 21.6 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <h1>오늘의 한의학 근거</h1>
+            <p>한의사를 위한 최신 임상 논문 큐레이션</p>
+          </div>
+        </div>
+
+        <nav class="top-nav" aria-label="주요 메뉴">
+          <button class="nav-btn active" type="button">최신논문</button>
+          <button class="nav-btn" type="button">주간브리핑</button>
+          <button class="nav-btn" type="button">저널클럽</button>
+          <button class="nav-btn" type="button">근거맵</button>
+        </nav>
+
+        <div class="header-meta">
+          <span id="updateLine">마지막 업데이트 확인 중 · PubMed 기반</span>
+          <button class="round-icon" type="button" title="북마크 보기" aria-label="북마크 보기">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 4.75c0-.69.56-1.25 1.25-1.25h7.5c.69 0 1.25.56 1.25 1.25v15l-5-3.25-5 3.25v-15Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <button class="round-icon" type="button" title="읽음 요약" aria-label="읽음 요약">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M20 21a8 8 0 0 0-16 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="filters" aria-label="논문 필터">
+      <div class="filters-inner">
+        <div class="filter-stack">
+          <div class="filter-row">
+            <div class="filter-label">분야</div>
+            <div class="chip-list" id="categoryFilters"></div>
+          </div>
+          <div class="filter-row">
+            <div class="filter-label">근거 유형</div>
+            <div class="chip-list" id="evidenceFilters"></div>
+          </div>
+        </div>
+        <div class="sort-row">
+          <div class="sort-label">정렬</div>
+          <button class="sort-btn active" type="button" data-sort="latest">최신순</button>
+          <button class="sort-btn" type="button" data-sort="clinical">임상적용도순</button>
+          <button class="sort-btn" type="button" data-sort="evidence">근거수준순</button>
+        </div>
+      </div>
+    </section>
+
+    <main class="layout">
+      <section class="feed" aria-label="최신 논문 목록">
+        <div class="update-strip" id="mobileUpdateLine"></div>
+        <div class="paper-list" id="paperList">
+          <div class="empty-state">논문 데이터를 불러오는 중입니다.</div>
+        </div>
+      </section>
+
+      <aside class="sidebar" aria-label="저널클럽 도구">
+        <section class="side-panel">
+          <div class="side-head">
+            <h2>이번 주 읽을 논문 5편</h2>
+            <button class="link-btn" type="button" id="showAllBtn">전체 보기</button>
+          </div>
+          <div class="shortlist" id="shortlist"></div>
+          <div class="read-summary">
+            <div id="readProgress">읽기 완료 0/0편</div>
+            <button class="small-action" type="button" id="markAllReadBtn">모두 읽음으로 표시</button>
+          </div>
+        </section>
+
+        <section class="side-panel">
+          <div class="side-head">
+            <h2>근거 메모</h2>
+            <button class="link-btn" type="button" id="newMemoBtn">새 메모</button>
+          </div>
+          <div class="memo-body">
+            <label class="memo-row">
+              <span class="pico-key">P</span>
+              <input id="memoP" type="text" placeholder="예: 만성 경부통 환자">
+            </label>
+            <label class="memo-row">
+              <span class="pico-key">I</span>
+              <input id="memoI" type="text" placeholder="예: 전침 치료">
+            </label>
+            <label class="memo-row">
+              <span class="pico-key">C</span>
+              <input id="memoC" type="text" placeholder="예: 위약 침 또는 대기">
+            </label>
+            <label class="memo-row">
+              <span class="pico-key">O</span>
+              <input id="memoO" type="text" placeholder="예: 통증 감소, 기능 개선">
+            </label>
+            <button class="memo-save" type="button" id="saveMemoBtn">메모 저장</button>
+          </div>
+        </section>
+
+        <section class="side-panel">
+          <div class="side-head">
+            <h2>내 북마크/읽음 요약</h2>
+          </div>
+          <div class="bookmark-summary">
+            <div class="summary-stat">
+              <svg class="stat-icon" viewBox="0 0 32 42" fill="none" aria-hidden="true">
+                <path d="M7 3.5h18c1.1 0 2 .9 2 2v32l-11-6.5-11 6.5v-32c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.7"/>
+                <path d="M11 12h10M11 18h10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="stat-label">북마크한 논문</div>
+                <div class="stat-number" id="bookmarkCount">0</div>
+              </div>
+            </div>
+            <div class="summary-stat">
+              <svg class="stat-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.8"/>
+                <path d="m16 24 5 5 11-12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <div class="stat-label">읽기 완료</div>
+                <div class="stat-number" id="readCount">0</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="source-note">
+      데이터 출처: PubMed (NCBI). 이 페이지의 한글 요약은 논문 학습을 돕기 위한 보조 정보이며, 진단이나 치료 지시가 아닙니다. 실제 진료 적용 전 원문, 연구 설계, 대상자, 안전성, 병용 치료 가능성을 확인하세요.
+    </footer>
+
+    <script>
+      const CATEGORY_FILTERS = ["전체", "침구/전침", "한약/본초", "근골격", "여성질환", "대사/비만", "수면/정신"];
+      const EVIDENCE_FILTERS = ["전체", "RCT", "Meta-analysis", "Cohort", "Case report", "Safety"];
+      const state = {
+        papers: [],
+        category: "전체",
+        evidence: "전체",
+        sort: "latest",
+        selectedId: null,
+        openSummaryId: null,
+        readSet: new Set(JSON.parse(localStorage.getItem("kmedReadPapers") || "[]")),
+        bookmarkSet: new Set(JSON.parse(localStorage.getItem("kmedBookmarkedPapers") || "[]")),
+      };
+
+      const levelScore = { "높음": 3, "중간": 2, "낮음": 1 };
+      const applicabilityScore = { "높음": 3, "보통": 2, "중간": 2, "낮음": 1 };
+      const priorityScore = { "필독": 3, "참고": 2, "보류": 1 };
+
+      const icons = {
+        external: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 5h5v5M19 5l-9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 6H6.5A1.5 1.5 0 0 0 5 7.5v10A1.5 1.5 0 0 0 6.5 19h10a1.5 1.5 0 0 0 1.5-1.5V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+        note: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 4h6l4 4v12H8a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7"/><path d="M14 4v5h5M9 13h6M9 16h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+        bookmark: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 4.75c0-.69.56-1.25 1.25-1.25h7.5c.69 0 1.25.56 1.25 1.25v15l-5-3.25-5 3.25v-15Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>',
+        bookmarkFill: '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.75c0-.69.56-1.25 1.25-1.25h7.5c.69 0 1.25.56 1.25 1.25v15l-5-3.25-5 3.25v-15Z"/></svg>',
+      };
+
+      function saveSets() {
+        localStorage.setItem("kmedReadPapers", JSON.stringify([...state.readSet]));
+        localStorage.setItem("kmedBookmarkedPapers", JSON.stringify([...state.bookmarkSet]));
+      }
+
+      function formatDate(date) {
+        if (!date) return "";
+        return date.replaceAll("-", ".");
+      }
+
+      function compactTitle(title) {
+        return title.length > 54 ? title.slice(0, 52) + "..." : title;
+      }
+
+      function firstCategory(paper) {
+        return (paper.categories || []).find((category) => CATEGORY_FILTERS.includes(category) && category !== "전체") || (paper.categories || [])[0] || "기타";
+      }
+
+      function clinicalLabel(value) {
+        return `임상적용 ${value || "미정"}`;
+      }
+
+      function summaryFallback(paper, key) {
+        const labels = {
+          question: "초록 기반 요약이 아직 생성되지 않았습니다.",
+          clinical_takeaway: "원문과 초록을 확인해 진료 적용 가능성을 판단하세요.",
+          limitations: "연구 설계, 표본수, 대조군, 추적 기간을 확인하세요.",
+        };
+        return paper.summary?.[key] || labels[key] || "";
+      }
+
+      function sortedPapers(papers) {
+        const copy = [...papers];
+        if (state.sort === "clinical") {
+          copy.sort((a, b) => (applicabilityScore[b.clinical_applicability] || 0) - (applicabilityScore[a.clinical_applicability] || 0) || (b.pub_date || "").localeCompare(a.pub_date || ""));
+          return copy;
+        }
+        if (state.sort === "evidence") {
+          copy.sort((a, b) => (levelScore[b.evidence_level] || 0) - (levelScore[a.evidence_level] || 0) || (b.pub_date || "").localeCompare(a.pub_date || ""));
+          return copy;
+        }
+        copy.sort((a, b) => (b.pub_date || "").localeCompare(a.pub_date || ""));
+        return copy;
+      }
+
+      function filteredPapers() {
+        return sortedPapers(state.papers.filter((paper) => {
+          const categoryOK = state.category === "전체" || (paper.categories || []).includes(state.category);
+          const evidenceOK = state.evidence === "전체" || paper.evidence_type === state.evidence || (state.evidence === "Safety" && (paper.safety_flags || []).length > 0);
+          return categoryOK && evidenceOK;
+        }));
+      }
+
+      function renderFilterGroup(containerId, items, active, onClick) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = items.map((item) => `<button class="chip ${item === active ? "active" : ""} ${item.length <= 4 ? "compact" : ""}" type="button" data-value="${item}">${item}</button>`).join("");
+        container.querySelectorAll("button").forEach((button) => {
+          button.addEventListener("click", () => onClick(button.dataset.value));
+        });
+      }
+
+      function renderFilters() {
+        renderFilterGroup("categoryFilters", CATEGORY_FILTERS, state.category, (value) => {
+          state.category = value;
+          render();
+        });
+        renderFilterGroup("evidenceFilters", EVIDENCE_FILTERS, state.evidence, (value) => {
+          state.evidence = value;
+          render();
+        });
+        document.querySelectorAll(".sort-btn").forEach((button) => {
+          button.classList.toggle("active", button.dataset.sort === state.sort);
+          button.onclick = () => {
+            state.sort = button.dataset.sort;
+            render();
+          };
+        });
+      }
+
+      function renderPaperCard(paper, index) {
+        const isRead = state.readSet.has(paper.id);
+        const isSaved = state.bookmarkSet.has(paper.id);
+        const isSelected = state.selectedId === paper.id || (!state.selectedId && index === 0);
+        const isOpen = state.openSummaryId === paper.id;
+        const summary = paper.summary || {};
+        const pico = summary.pico || {};
+        return `
+          <article class="paper-card ${isSelected ? "selected" : ""} ${isRead ? "read" : ""}" data-id="${paper.id}">
+            <button class="read-toggle ${isRead ? "checked" : ""}" type="button" aria-label="읽음 표시" data-action="read" data-id="${paper.id}"></button>
+            <div class="paper-main">
+              <h2 class="paper-title">${escapeHTML(paper.title || "Untitled")}</h2>
+              <div class="paper-meta">${escapeHTML(paper.journal || "Journal")} · ${formatDate(paper.pub_date)}${paper.doi ? ` · doi: ${escapeHTML(paper.doi)}` : ""}</div>
+              <div class="summary-lines">
+                <div class="summary-line"><span class="line-label">핵심 질문</span><span>${escapeHTML(summaryFallback(paper, "question"))}</span></div>
+                <div class="summary-line"><span class="line-label">진료 적용</span><span>${escapeHTML(summaryFallback(paper, "clinical_takeaway"))}</span></div>
+                <div class="summary-line"><span class="line-label">주의점</span><span>${escapeHTML(summaryFallback(paper, "limitations"))}</span></div>
+              </div>
+            </div>
+            <div class="paper-tags">
+              <span class="tag">${escapeHTML(paper.evidence_type || "Type")}</span>
+              <span class="tag">${escapeHTML(firstCategory(paper))}</span>
+              <span class="tag priority">${escapeHTML(clinicalLabel(paper.clinical_applicability))}</span>
+              <button class="bookmark-btn ${isSaved ? "saved" : ""}" type="button" aria-label="저널클럽 저장" data-action="bookmark" data-id="${paper.id}">${isSaved ? icons.bookmarkFill : icons.bookmark}</button>
+            </div>
+            <div class="detail ${isOpen ? "open" : ""}">
+              <div class="detail-grid">
+                <div>
+                  <h3>연구 방법</h3>
+                  <p>${escapeHTML(summary.methods || "요약이 아직 없습니다.")}</p>
+                </div>
+                <div>
+                  <h3>주요 결과</h3>
+                  <p>${escapeHTML(summary.results || "요약이 아직 없습니다.")}</p>
+                </div>
+                <div>
+                  <h3>PICO</h3>
+                  <div class="pico-grid">
+                    <div class="pico-row"><span class="pico-key">P</span><span>${escapeHTML(pico.p || "초록에서 명확하지 않음")}</span></div>
+                    <div class="pico-row"><span class="pico-key">I</span><span>${escapeHTML(pico.i || "초록에서 명확하지 않음")}</span></div>
+                    <div class="pico-row"><span class="pico-key">C</span><span>${escapeHTML(pico.c || "초록에서 명확하지 않음")}</span></div>
+                    <div class="pico-row"><span class="pico-key">O</span><span>${escapeHTML(pico.o || "초록에서 명확하지 않음")}</span></div>
+                  </div>
+                </div>
+                <div>
+                  <h3>초록</h3>
+                  <p>${escapeHTML(paper.abstract || "초록 정보가 없습니다.")}</p>
+                </div>
+              </div>
+            </div>
+            <div class="paper-actions">
+              <a class="action-link" href="${escapeAttr(paper.url || "#")}" target="_blank" rel="noopener" data-action="pubmed" data-id="${paper.id}">${icons.external} PubMed</a>
+              <button class="action-btn center" type="button" data-action="summary" data-id="${paper.id}">${icons.note} ${isOpen ? "요약 닫기" : "요약"}</button>
+              <button class="action-btn end" type="button" data-action="bookmark" data-id="${paper.id}">${icons.bookmark} ${isSaved ? "저장됨" : "저널클럽 저장"}</button>
+            </div>
+          </article>
+        `;
+      }
+
+      function renderPapers() {
+        const list = document.getElementById("paperList");
+        const papers = filteredPapers();
+        if (!papers.length) {
+          list.innerHTML = '<div class="empty-state">현재 필터에 맞는 논문이 없습니다.</div>';
+          return;
+        }
+        list.innerHTML = papers.map(renderPaperCard).join("");
+      }
+
+      function shortlistPapers() {
+        return [...state.papers]
+          .sort((a, b) =>
+            (priorityScore[b.priority] || 0) - (priorityScore[a.priority] || 0) ||
+            (applicabilityScore[b.clinical_applicability] || 0) - (applicabilityScore[a.clinical_applicability] || 0) ||
+            (levelScore[b.evidence_level] || 0) - (levelScore[a.evidence_level] || 0) ||
+            (b.pub_date || "").localeCompare(a.pub_date || "")
+          )
+          .slice(0, 5);
+      }
+
+      function renderSidebar() {
+        const shortlist = shortlistPapers();
+        document.getElementById("shortlist").innerHTML = shortlist.length
+          ? shortlist.map((paper, index) => `
+              <button class="short-row link-btn" type="button" data-short-id="${paper.id}">
+                <span class="rank">${index + 1}</span>
+                <span class="short-title">${escapeHTML(compactTitle(paper.title || ""))}</span>
+                <span class="mini-tags">
+                  <span class="mini-tag">${escapeHTML(paper.evidence_type || "")}</span>
+                  <span class="mini-tag">${escapeHTML(firstCategory(paper))}</span>
+                </span>
+              </button>
+            `).join("")
+          : '<div class="empty-state">추천 논문이 없습니다.</div>';
+
+        document.getElementById("readProgress").textContent = `읽기 완료 ${state.readSet.size}/${state.papers.length}편`;
+        document.getElementById("bookmarkCount").textContent = state.bookmarkSet.size;
+        document.getElementById("readCount").textContent = state.readSet.size;
+        document.querySelectorAll("[data-short-id]").forEach((row) => {
+          row.addEventListener("click", () => {
+            state.selectedId = row.dataset.shortId;
+            state.openSummaryId = row.dataset.shortId;
+            state.category = "전체";
+            state.evidence = "전체";
+            render();
+            document.querySelector(`[data-id="${state.selectedId}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+          });
+        });
+      }
+
+      function bindListActions() {
+        document.querySelectorAll("[data-action]").forEach((node) => {
+          node.addEventListener("click", (event) => {
+            const action = node.dataset.action;
+            const id = node.dataset.id;
+            if (!id) return;
+            state.selectedId = id;
+            if (action === "read" || action === "pubmed") {
+              state.readSet.has(id) ? state.readSet.delete(id) : state.readSet.add(id);
+            }
+            if (action === "summary") {
+              state.openSummaryId = state.openSummaryId === id ? null : id;
+            }
+            if (action === "bookmark") {
+              event.preventDefault();
+              state.bookmarkSet.has(id) ? state.bookmarkSet.delete(id) : state.bookmarkSet.add(id);
+            }
+            saveSets();
+            render();
+          });
+        });
+      }
+
+      function render() {
+        renderFilters();
+        renderPapers();
+        renderSidebar();
+        bindListActions();
+      }
+
+      function escapeHTML(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function escapeAttr(value) {
+        return escapeHTML(value).replaceAll("`", "&#096;");
+      }
+
+      function setupMemo() {
+        const fields = ["memoP", "memoI", "memoC", "memoO"];
+        const saved = JSON.parse(localStorage.getItem("kmedEvidenceMemo") || "{}");
+        fields.forEach((id) => {
+          const input = document.getElementById(id);
+          input.value = saved[id] || "";
+          input.addEventListener("input", () => document.getElementById("saveMemoBtn").classList.add("ready"));
+        });
+        document.getElementById("saveMemoBtn").addEventListener("click", () => {
+          const memo = Object.fromEntries(fields.map((id) => [id, document.getElementById(id).value]));
+          localStorage.setItem("kmedEvidenceMemo", JSON.stringify(memo));
+          document.getElementById("saveMemoBtn").classList.remove("ready");
+        });
+        document.getElementById("newMemoBtn").addEventListener("click", () => {
+          fields.forEach((id) => {
+            document.getElementById(id).value = "";
+          });
+          localStorage.removeItem("kmedEvidenceMemo");
+          document.getElementById("saveMemoBtn").classList.remove("ready");
+        });
+      }
+
+      function bindGlobalActions() {
+        document.getElementById("showAllBtn").addEventListener("click", () => {
+          state.category = "전체";
+          state.evidence = "전체";
+          state.sort = "latest";
+          render();
+        });
+        document.getElementById("markAllReadBtn").addEventListener("click", () => {
+          state.papers.forEach((paper) => state.readSet.add(paper.id));
+          saveSets();
+          render();
+        });
+      }
+
+      async function init() {
+        setupMemo();
+        bindGlobalActions();
+        try {
+          const response = await fetch("papers.json", { cache: "no-store" });
+          if (!response.ok) throw new Error("papers.json을 불러오지 못했습니다.");
+          const data = await response.json();
+          state.papers = Array.isArray(data.papers) ? data.papers : [];
+          state.selectedId = state.papers[0]?.id || null;
+          const updateText = `마지막 업데이트 ${formatDate(String(data.updated || "").slice(0, 10)) || "정보 없음"} · PubMed 기반`;
+          document.getElementById("updateLine").textContent = updateText;
+          document.getElementById("mobileUpdateLine").textContent = `${updateText} · 총 ${data.total || state.papers.length}편`;
+          render();
+        } catch (error) {
+          document.getElementById("paperList").innerHTML = '<div class="error-state">논문 데이터를 불러올 수 없습니다.<br>papers.json 파일이 같은 폴더에 있는지 확인하세요.</div>';
+          console.error(error);
+        }
+      }
+
+      init();
+    </script>
+  </body>
+</html>
