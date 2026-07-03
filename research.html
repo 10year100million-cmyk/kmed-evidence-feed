@@ -119,6 +119,16 @@
         border-bottom-color: var(--teal);
       }
 
+      .nav-btn:focus-visible,
+      .chip:focus-visible,
+      .sort-btn:focus-visible,
+      .action-btn:focus-visible,
+      .link-btn:focus-visible,
+      .small-action:focus-visible {
+        outline: 3px solid rgba(8, 127, 140, 0.18);
+        outline-offset: 2px;
+      }
+
       .header-meta {
         display: flex;
         align-items: center;
@@ -144,6 +154,10 @@
         border-bottom: 1px solid var(--line);
         background: var(--band);
         padding: 20px 26px 18px;
+      }
+
+      .filters.hidden {
+        display: none;
       }
 
       .filters-inner {
@@ -238,6 +252,14 @@
         background: #fff;
       }
 
+      .layout.focused {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .layout.focused .sidebar {
+        display: none;
+      }
+
       .feed {
         min-width: 0;
       }
@@ -252,6 +274,241 @@
       .paper-list {
         display: grid;
         gap: 8px;
+      }
+
+      .view-shell {
+        display: grid;
+        gap: 14px;
+      }
+
+      .view-head {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: var(--panel);
+        padding: 20px;
+        box-shadow: var(--shadow);
+      }
+
+      .view-head h2 {
+        margin: 0;
+        font-size: 22px;
+        line-height: 1.2;
+      }
+
+      .view-head p {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .metric-card,
+      .brief-card,
+      .map-card {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: #fff;
+        box-shadow: 0 1px 0 rgba(16, 24, 40, 0.02);
+      }
+
+      .metric-card {
+        padding: 16px;
+      }
+
+      .metric-label {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .metric-value {
+        margin-top: 6px;
+        font-size: 27px;
+        line-height: 1;
+        font-weight: 800;
+      }
+
+      .metric-note {
+        margin-top: 8px;
+        color: #536476;
+        font-size: 12px;
+        line-height: 1.45;
+      }
+
+      .brief-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .brief-card {
+        padding: 18px;
+        display: grid;
+        gap: 12px;
+        align-content: start;
+      }
+
+      .brief-card.wide {
+        grid-column: 1 / -1;
+      }
+
+      .brief-card h3,
+      .map-card h3 {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.25;
+      }
+
+      .brief-list,
+      .saved-list,
+      .map-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .brief-item,
+      .saved-item,
+      .map-row {
+        border: 1px solid var(--line-soft);
+        border-radius: 6px;
+        background: #fbfdfe;
+        padding: 12px;
+        text-align: left;
+        color: inherit;
+      }
+
+      button.brief-item,
+      button.saved-item,
+      button.map-row {
+        width: 100%;
+      }
+
+      .brief-item:hover,
+      .saved-item:hover,
+      .map-row:hover {
+        border-color: #9fced3;
+      }
+
+      .item-title {
+        display: block;
+        color: #101828;
+        font-size: 13px;
+        font-weight: 800;
+        line-height: 1.45;
+      }
+
+      .item-title-ko {
+        display: block;
+        margin-top: 4px;
+        color: #0d6d77;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.45;
+      }
+
+      .item-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .item-copy {
+        margin: 8px 0 0;
+        color: #344054;
+        font-size: 12px;
+        line-height: 1.55;
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+      }
+
+      .plain-pill {
+        padding: 4px 8px;
+        border: 1px solid var(--line);
+        border-radius: 5px;
+        color: #344054;
+        background: #fff;
+        font-size: 11px;
+        font-weight: 800;
+      }
+
+      .journal-tools {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .copy-box {
+        width: 100%;
+        min-height: 180px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 12px;
+        color: #344054;
+        background: #fbfdfe;
+        font-size: 12px;
+        line-height: 1.55;
+        resize: vertical;
+      }
+
+      .map-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .map-card {
+        padding: 16px;
+        display: grid;
+        gap: 12px;
+      }
+
+      .map-count {
+        color: var(--teal-dark);
+        font-size: 28px;
+        line-height: 1;
+        font-weight: 800;
+      }
+
+      .bar-stack {
+        display: grid;
+        gap: 7px;
+      }
+
+      .bar-row {
+        display: grid;
+        grid-template-columns: 94px minmax(0, 1fr) 30px;
+        gap: 8px;
+        align-items: center;
+        color: #344054;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .bar-track {
+        height: 8px;
+        border-radius: 999px;
+        background: #eef2f6;
+        overflow: hidden;
+      }
+
+      .bar-fill {
+        height: 100%;
+        border-radius: inherit;
+        background: var(--teal);
       }
 
       .paper-card {
@@ -734,6 +991,15 @@
           grid-template-columns: 1fr;
         }
 
+        .metric-grid,
+        .map-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .brief-grid {
+          grid-template-columns: 1fr;
+        }
+
         .sort-row {
           border-left: 0;
           padding-left: 0;
@@ -807,8 +1073,27 @@
         }
 
         .detail-grid,
-        .bookmark-summary {
+        .bookmark-summary,
+        .metric-grid,
+        .map-grid {
           grid-template-columns: 1fr;
+        }
+
+        .view-head {
+          padding: 16px;
+        }
+
+        .view-head h2 {
+          font-size: 19px;
+        }
+
+        .brief-card,
+        .map-card {
+          padding: 14px;
+        }
+
+        .bar-row {
+          grid-template-columns: 82px minmax(0, 1fr) 24px;
         }
 
         .summary-line {
@@ -838,20 +1123,20 @@
         </div>
 
         <nav class="top-nav" aria-label="주요 메뉴">
-          <button class="nav-btn active" type="button">최신논문</button>
-          <button class="nav-btn" type="button">주간브리핑</button>
-          <button class="nav-btn" type="button">저널클럽</button>
-          <button class="nav-btn" type="button">근거맵</button>
+          <button class="nav-btn active" type="button" data-view="latest">최신논문</button>
+          <button class="nav-btn" type="button" data-view="weekly">주간브리핑</button>
+          <button class="nav-btn" type="button" data-view="journal">저널클럽</button>
+          <button class="nav-btn" type="button" data-view="map">근거맵</button>
         </nav>
 
         <div class="header-meta">
           <span id="updateLine">마지막 업데이트 확인 중 · PubMed 기반</span>
-          <button class="round-icon" type="button" title="북마크 보기" aria-label="북마크 보기">
+          <button class="round-icon" type="button" title="북마크 보기" aria-label="북마크 보기" data-view-shortcut="journal">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M7 4.75c0-.69.56-1.25 1.25-1.25h7.5c.69 0 1.25.56 1.25 1.25v15l-5-3.25-5 3.25v-15Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
             </svg>
           </button>
-          <button class="round-icon" type="button" title="읽음 요약" aria-label="읽음 요약">
+          <button class="round-icon" type="button" title="읽음 요약" aria-label="읽음 요약" data-view-shortcut="weekly">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M20 21a8 8 0 0 0-16 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
               <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.7"/>
@@ -861,7 +1146,7 @@
       </div>
     </header>
 
-    <section class="filters" aria-label="논문 필터">
+    <section class="filters" id="filtersBar" aria-label="논문 필터">
       <div class="filters-inner">
         <div class="filter-stack">
           <div class="filter-row">
@@ -882,7 +1167,7 @@
       </div>
     </section>
 
-    <main class="layout">
+    <main class="layout" id="mainLayout">
       <section class="feed" aria-label="최신 논문 목록">
         <div class="update-strip" id="mobileUpdateLine"></div>
         <div class="paper-list" id="paperList">
@@ -966,8 +1251,15 @@
     <script>
       const CATEGORY_FILTERS = ["전체", "침구/전침", "한약/본초", "근골격", "여성질환", "대사/비만", "수면/정신"];
       const EVIDENCE_FILTERS = ["전체", "RCT", "Meta-analysis", "Cohort", "Case report", "Safety"];
+      const VIEWS = {
+        latest: "최신논문",
+        weekly: "주간브리핑",
+        journal: "저널클럽",
+        map: "근거맵",
+      };
       const state = {
         papers: [],
+        view: normalizedView(location.hash.replace("#", "")),
         category: "전체",
         evidence: "전체",
         sort: "latest",
@@ -1000,6 +1292,10 @@
 
       function compactTitle(title) {
         return title.length > 54 ? title.slice(0, 52) + "..." : title;
+      }
+
+      function normalizedView(view) {
+        return Object.prototype.hasOwnProperty.call(VIEWS, view) ? view : "latest";
       }
 
       function firstCategory(paper) {
@@ -1061,6 +1357,34 @@
           const evidenceOK = state.evidence === "전체" || paper.evidence_type === state.evidence || (state.evidence === "Safety" && (paper.safety_flags || []).length > 0);
           return categoryOK && evidenceOK;
         }));
+      }
+
+      function rankedPapers(papers = state.papers) {
+        return [...papers].sort((a, b) =>
+          (priorityScore[b.priority] || 0) - (priorityScore[a.priority] || 0) ||
+          (applicabilityScore[b.clinical_applicability] || 0) - (applicabilityScore[a.clinical_applicability] || 0) ||
+          (levelScore[b.evidence_level] || 0) - (levelScore[a.evidence_level] || 0) ||
+          (b.pub_date || "").localeCompare(a.pub_date || "")
+        );
+      }
+
+      function countBy(items, getKey) {
+        return items.reduce((counts, item) => {
+          const key = getKey(item);
+          if (!key) return counts;
+          counts[key] = (counts[key] || 0) + 1;
+          return counts;
+        }, {});
+      }
+
+      function categoryCounts() {
+        const counts = {};
+        state.papers.forEach((paper) => {
+          (paper.categories || []).forEach((category) => {
+            if (category !== "전체") counts[category] = (counts[category] || 0) + 1;
+          });
+        });
+        return counts;
       }
 
       function renderFilterGroup(containerId, items, active, onClick) {
@@ -1160,14 +1484,205 @@
       }
 
       function shortlistPapers() {
-        return [...state.papers]
-          .sort((a, b) =>
-            (priorityScore[b.priority] || 0) - (priorityScore[a.priority] || 0) ||
-            (applicabilityScore[b.clinical_applicability] || 0) - (applicabilityScore[a.clinical_applicability] || 0) ||
-            (levelScore[b.evidence_level] || 0) - (levelScore[a.evidence_level] || 0) ||
-            (b.pub_date || "").localeCompare(a.pub_date || "")
-          )
-          .slice(0, 5);
+        return rankedPapers().slice(0, 5);
+      }
+
+      function renderViewHead(title, description) {
+        return `
+          <div class="view-head">
+            <h2>${escapeHTML(title)}</h2>
+            <p>${escapeHTML(description)}</p>
+          </div>
+        `;
+      }
+
+      function renderMetric(label, value, note) {
+        return `
+          <div class="metric-card">
+            <div class="metric-label">${escapeHTML(label)}</div>
+            <div class="metric-value">${escapeHTML(value)}</div>
+            <div class="metric-note">${escapeHTML(note)}</div>
+          </div>
+        `;
+      }
+
+      function renderCompactPaper(paper, options = {}) {
+        const copyKey = options.copyKey || "clinical_takeaway";
+        const copy = summaryFallback(paper, copyKey);
+        return `
+          <button class="brief-item" type="button" data-open-paper="${paper.id}">
+            <span class="item-title">${escapeHTML(paper.title || "Untitled")}</span>
+            ${paper.title_ko ? `<span class="item-title-ko">${escapeHTML(paper.title_ko)}</span>` : ""}
+            <span class="item-meta">
+              <span>${escapeHTML(paper.evidence_type || "근거 유형 미정")}</span>
+              <span>${escapeHTML(firstCategory(paper))}</span>
+              <span>${escapeHTML(clinicalLabel(paper.clinical_applicability))}</span>
+              <span>${formatDate(paper.pub_date)}</span>
+            </span>
+            <p class="item-copy">${escapeHTML(copy)}</p>
+          </button>
+        `;
+      }
+
+      function renderWeeklyView() {
+        const featured = shortlistPapers();
+        const safety = rankedPapers(state.papers.filter((paper) => (paper.safety_flags || []).length > 0 || paper.evidence_type === "Safety")).slice(0, 4);
+        const completeCount = state.papers.filter((paper) => paper.summary_status === "complete").length;
+        const highClinical = state.papers.filter((paper) => paper.clinical_applicability === "높음").length;
+        const evidenceCounts = countBy(state.papers, (paper) => paper.evidence_type || "기타");
+        const categoryTotal = Object.keys(categoryCounts()).length;
+        const categoryText = Object.entries(categoryCounts())
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 4)
+          .map(([name, count]) => `${name} ${count}편`)
+          .join(" · ") || "분야 정보 없음";
+
+        const evidenceHighlights = ["RCT", "Meta-analysis", "Cohort", "Case report"]
+          .map((type) => state.papers.find((paper) => paper.evidence_type === type))
+          .filter(Boolean);
+
+        document.getElementById("paperList").innerHTML = `
+          <div class="view-shell">
+            ${renderViewHead("주간브리핑", "이번 업데이트에서 먼저 읽을 논문과 임상적으로 확인할 지점을 자동으로 묶었습니다.")}
+            <div class="metric-grid">
+              ${renderMetric("전체 논문", `${state.papers.length}편`, "현재 데이터셋 기준")}
+              ${renderMetric("AI 요약 완료", `${completeCount}편`, "제목 번역과 임상 요약 포함")}
+              ${renderMetric("임상 적용 높음", `${highClinical}편`, "진료 적용도 높은 논문")}
+              ${renderMetric("분야 분포", `${categoryTotal}개`, categoryText)}
+            </div>
+            <div class="brief-grid">
+              <section class="brief-card wide">
+                <h3>이번 주 먼저 읽을 5편</h3>
+                <div class="brief-list">${featured.map((paper) => renderCompactPaper(paper)).join("") || '<div class="empty-state">추천 논문이 없습니다.</div>'}</div>
+              </section>
+              <section class="brief-card">
+                <h3>근거 유형별 대표 논문</h3>
+                <div class="brief-list">${evidenceHighlights.map((paper) => renderCompactPaper(paper, { copyKey: "question" })).join("") || '<div class="empty-state">대표 논문이 없습니다.</div>'}</div>
+              </section>
+              <section class="brief-card">
+                <h3>안전성 확인</h3>
+                <div class="brief-list">${safety.map((paper) => renderCompactPaper(paper, { copyKey: "limitations" })).join("") || '<div class="empty-state">안전성 플래그가 있는 논문이 없습니다.</div>'}</div>
+              </section>
+              <section class="brief-card wide">
+                <h3>이번 데이터의 근거 유형</h3>
+                <div class="pill-row">
+                  ${Object.entries(evidenceCounts).sort((a, b) => b[1] - a[1]).map(([type, count]) => `<span class="plain-pill">${escapeHTML(type)} ${count}편</span>`).join("")}
+                </div>
+              </section>
+            </div>
+          </div>
+        `;
+      }
+
+      function journalClubMarkdown(savedPapers) {
+        if (!savedPapers.length) return "저널클럽 저장 논문이 없습니다.";
+        return savedPapers.map((paper, index) => {
+          return [
+            `## ${index + 1}. ${paper.title_ko || paper.title || "Untitled"}`,
+            paper.title_ko ? `원제: ${paper.title || ""}` : "",
+            `- PMID: ${paper.pmid || ""}`,
+            `- 근거 유형: ${paper.evidence_type || ""} / ${firstCategory(paper)}`,
+            `- 핵심 질문: ${summaryFallback(paper, "question")}`,
+            `- 연구 방법: ${detailFallback(paper, "methods")}`,
+            `- 주요 결과: ${detailFallback(paper, "results")}`,
+            `- 진료 적용: ${summaryFallback(paper, "clinical_takeaway")}`,
+            `- 주의점: ${summaryFallback(paper, "limitations")}`,
+            `- PubMed: ${paper.url || ""}`,
+          ].filter(Boolean).join("\n");
+        }).join("\n\n");
+      }
+
+      function renderJournalView() {
+        const savedPapers = rankedPapers(state.papers.filter((paper) => state.bookmarkSet.has(paper.id)));
+        const readSaved = savedPapers.filter((paper) => state.readSet.has(paper.id)).length;
+        document.getElementById("paperList").innerHTML = `
+          <div class="view-shell">
+            ${renderViewHead("저널클럽", "저장한 논문을 토론용 목록으로 모았습니다. 핵심 질문, PICO, 진료 적용을 빠르게 확인하고 메모로 옮길 수 있습니다.")}
+            <div class="metric-grid">
+              ${renderMetric("저장 논문", `${savedPapers.length}편`, "저널클럽 저장 기준")}
+              ${renderMetric("읽음 완료", `${readSaved}편`, "저장 논문 중 읽은 논문")}
+              ${renderMetric("미독", `${Math.max(savedPapers.length - readSaved, 0)}편`, "아직 확인할 논문")}
+              ${renderMetric("토론 주제", `${new Set(savedPapers.map(firstCategory)).size}개`, "분야 기준")}
+            </div>
+            <section class="brief-card">
+              <h3>토론 준비</h3>
+              <div class="journal-tools">
+                <button class="small-action" type="button" id="copyJournalBtn">마크다운 복사</button>
+                <button class="small-action" type="button" data-view-button="latest">최신논문에서 더 저장</button>
+              </div>
+              <textarea class="copy-box" id="journalMarkdown" readonly>${escapeHTML(journalClubMarkdown(savedPapers))}</textarea>
+            </section>
+            <section class="brief-card">
+              <h3>저장한 논문</h3>
+              <div class="paper-list">
+                ${savedPapers.length ? savedPapers.map(renderPaperCard).join("") : '<div class="empty-state">저널클럽 저장한 논문이 없습니다.<br>최신논문에서 저장 버튼을 누르면 여기에 모입니다.</div>'}
+              </div>
+            </section>
+          </div>
+        `;
+      }
+
+      function renderBar(label, value, total) {
+        const width = total ? Math.max(4, Math.round((value / total) * 100)) : 0;
+        return `
+          <div class="bar-row">
+            <span>${escapeHTML(label)}</span>
+            <span class="bar-track"><span class="bar-fill" style="width: ${width}%"></span></span>
+            <span>${value}</span>
+          </div>
+        `;
+      }
+
+      function renderMapView() {
+        const counts = categoryCounts();
+        const cards = CATEGORY_FILTERS.filter((category) => category !== "전체").map((category) => {
+          const papers = state.papers.filter((paper) => (paper.categories || []).includes(category));
+          const evidenceCounts = countBy(papers, (paper) => paper.evidence_type || "기타");
+          const levelCounts = countBy(papers, (paper) => paper.evidence_level || "미정");
+          const topPaper = rankedPapers(papers)[0];
+          return `
+            <section class="map-card">
+              <h3>${escapeHTML(category)}</h3>
+              <div class="map-count">${counts[category] || 0}편</div>
+              <div class="bar-stack">
+                ${["RCT", "Meta-analysis", "Cohort", "Case report", "Safety"].map((type) => renderBar(type, evidenceCounts[type] || 0, papers.length)).join("")}
+              </div>
+              <div class="pill-row">
+                ${Object.entries(levelCounts).map(([level, count]) => `<span class="plain-pill">근거 ${escapeHTML(level)} ${count}편</span>`).join("") || '<span class="plain-pill">근거 정보 없음</span>'}
+              </div>
+              ${topPaper ? `
+                <button class="map-row" type="button" data-open-paper="${topPaper.id}">
+                  <span class="item-title">${escapeHTML(topPaper.title_ko || topPaper.title || "대표 논문")}</span>
+                  <span class="item-meta"><span>${escapeHTML(topPaper.evidence_type || "")}</span><span>${escapeHTML(clinicalLabel(topPaper.clinical_applicability))}</span></span>
+                </button>
+              ` : '<div class="empty-state">아직 논문이 없습니다.</div>'}
+              <button class="small-action" type="button" data-filter-category="${escapeAttr(category)}">이 분야 보기</button>
+            </section>
+          `;
+        }).join("");
+
+        document.getElementById("paperList").innerHTML = `
+          <div class="view-shell">
+            ${renderViewHead("근거맵", "분야별 논문 수와 근거 유형 분포를 한눈에 봅니다. 분야를 누르면 최신논문 필터로 바로 이동합니다.")}
+            <div class="map-grid">${cards}</div>
+          </div>
+        `;
+      }
+
+      function renderActiveView() {
+        if (state.view === "weekly") {
+          renderWeeklyView();
+          return;
+        }
+        if (state.view === "journal") {
+          renderJournalView();
+          return;
+        }
+        if (state.view === "map") {
+          renderMapView();
+          return;
+        }
+        renderPapers();
       }
 
       function renderSidebar() {
@@ -1190,14 +1705,76 @@
         document.getElementById("readCount").textContent = state.readSet.size;
         document.querySelectorAll("[data-short-id]").forEach((row) => {
           row.addEventListener("click", () => {
+            state.view = "latest";
             state.selectedId = row.dataset.shortId;
             state.openSummaryId = row.dataset.shortId;
             state.category = "전체";
             state.evidence = "전체";
+            updateHash("latest");
             render();
             document.querySelector(`[data-id="${state.selectedId}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
           });
         });
+      }
+
+      function updateChrome() {
+        document.querySelectorAll(".nav-btn").forEach((button) => {
+          button.classList.toggle("active", button.dataset.view === state.view);
+        });
+        document.getElementById("filtersBar").classList.toggle("hidden", state.view !== "latest");
+        document.getElementById("mainLayout").classList.toggle("focused", state.view !== "latest");
+      }
+
+      function updateHash(view) {
+        const nextHash = `#${view}`;
+        if (location.hash !== nextHash) history.replaceState(null, "", nextHash);
+      }
+
+      function setView(view) {
+        state.view = normalizedView(view);
+        updateHash(state.view);
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      function openPaperInLatest(id) {
+        state.view = "latest";
+        state.selectedId = id;
+        state.openSummaryId = id;
+        state.category = "전체";
+        state.evidence = "전체";
+        updateHash("latest");
+        render();
+        setTimeout(() => document.querySelector(`[data-id="${id}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" }), 0);
+      }
+
+      function bindViewActions() {
+        document.querySelectorAll("[data-open-paper]").forEach((node) => {
+          node.addEventListener("click", () => openPaperInLatest(node.dataset.openPaper));
+        });
+        document.querySelectorAll("[data-filter-category]").forEach((node) => {
+          node.addEventListener("click", () => {
+            state.category = node.dataset.filterCategory;
+            state.evidence = "전체";
+            setView("latest");
+          });
+        });
+        document.querySelectorAll("[data-view-button]").forEach((node) => {
+          node.addEventListener("click", () => setView(node.dataset.viewButton));
+        });
+        const copyButton = document.getElementById("copyJournalBtn");
+        if (copyButton) {
+          copyButton.addEventListener("click", async () => {
+            const text = document.getElementById("journalMarkdown")?.value || "";
+            try {
+              await navigator.clipboard.writeText(text);
+              copyButton.textContent = "복사 완료";
+            } catch {
+              document.getElementById("journalMarkdown")?.select();
+              copyButton.textContent = "선택 완료";
+            }
+          });
+        }
       }
 
       function bindListActions() {
@@ -1208,7 +1785,11 @@
             if (!id) return;
             state.selectedId = id;
             if (action === "read" || action === "pubmed") {
-              state.readSet.has(id) ? state.readSet.delete(id) : state.readSet.add(id);
+              if (action === "read") {
+                state.readSet.has(id) ? state.readSet.delete(id) : state.readSet.add(id);
+              } else {
+                state.readSet.add(id);
+              }
             }
             if (action === "summary") {
               state.openSummaryId = state.openSummaryId === id ? null : id;
@@ -1224,9 +1805,11 @@
       }
 
       function render() {
+        updateChrome();
         renderFilters();
-        renderPapers();
+        renderActiveView();
         renderSidebar();
+        bindViewActions();
         bindListActions();
       }
 
@@ -1266,10 +1849,22 @@
       }
 
       function bindGlobalActions() {
+        document.querySelectorAll("[data-view]").forEach((button) => {
+          button.addEventListener("click", () => setView(button.dataset.view));
+        });
+        document.querySelectorAll("[data-view-shortcut]").forEach((button) => {
+          button.addEventListener("click", () => setView(button.dataset.viewShortcut));
+        });
+        window.addEventListener("hashchange", () => {
+          state.view = normalizedView(location.hash.replace("#", ""));
+          render();
+        });
         document.getElementById("showAllBtn").addEventListener("click", () => {
           state.category = "전체";
           state.evidence = "전체";
           state.sort = "latest";
+          state.view = "latest";
+          updateHash("latest");
           render();
         });
         document.getElementById("markAllReadBtn").addEventListener("click", () => {
