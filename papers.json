@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03 23:58:46 KST",
+  "updated": "2026-07-03 15:02:43 UTC",
   "total": 50,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
@@ -52,7 +52,7 @@
       "authors": "Ghoneim MM, Fahmy EK, Nael M, El-Sherbiny M, Al-Serwi RH, Hossain S et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42234803/",
       "abstract": "Folk medicine remains an important component of health practices in Saudi Arabia and continues to attract growing scholarly attention. This study maps the scholarly landscape of folk medicine research related to Saudi Arabia by examining publication trends, author keywords, collaboration among institutions and countries, and the impact of authors and sources. Publications were retrieved from the Scopus and Web of Science databases using Saudi Arabia as the country affiliation. After PRISMA-guided identification, screening, deduplication, and eligibility assessment, 2527 publications published between 1989 and 2024 were retained for analysis. Bibliometrix was used for bibliometric computation and visualization, and VOSviewer was used to map country co-authorship and keyword co-occurrence networks. The results show sustained growth in publication output, strong participation by Saudi institutions, and broad international collaboration. The most prominent research themes were antioxidant activity, antimicrobial properties, herbal medicine, and traditional medicine. These findings provide a bibliometric overview of knowledge production in this area and may inform future systematic, clinical, and policy-oriented research on traditional medicine in Saudi Arabia.",
-      "title_ko": "",
+      "title_ko": "사우디아라비아 관련 민간의학 연구의 학술 지형도: 서지계량학 연구",
       "publication_types": [
         "Journal Article"
       ],
@@ -61,18 +61,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "사우디아라비아 관련 민간의학 연구의 출판 동향과 협력 구조, 주요 연구 주제는 어떠한가?",
+        "methods": "Scopus와 Web of Science에서 사우디아라비아 소속 논문을 수집해 PRISMA 기준으로 선별한 뒤, 서지계량학 분석과 네트워크 시각화를 시행한 연구이다.",
+        "results": "1989년부터 2024년까지의 문헌에서 출판이 지속적으로 증가했고, 사우디 기관과 국제협력이 활발했으며 항산화, 항균, 한약, 전통의학이 주요 주제로 나타났다.",
+        "clinical_takeaway": "사우디아라비아 전통의학 연구는 한약과 본초의 국제 협력 및 주제 흐름을 파악하는 데 참고가 될 수 있으나, 임상 효과를 직접 입증한 연구는 아니다.",
+        "limitations": "서지계량학 연구로서 출판물의 특성과 네트워크만 분석했으며 개별 중재의 임상적 유효성은 평가하지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "사우디아라비아 관련 민간의학 연구 문헌",
+          "i": "Scopus와 Web of Science 기반 서지계량학 분석",
+          "c": "명확한 정보 없음",
+          "o": "출판 동향, 협력 구조, 주요 연구 주제"
         }
       },
       "categories": [
@@ -129,7 +129,7 @@
       "authors": "Li S, Wen ZQ, Yan P",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42295113/",
       "abstract": "Zexie Decoction (ZXD) is a classical traditional Chinese medicine prescription that has long been used for the treatment of hyperlipidemia. However, its material basis and underlying mechanisms remain unclear.\nThis research aims to explore the effective compounds and lipid-lowering mechanism of ZXD in the treatment of hyperlipidemia by integrating serum pharmacochemistry, network pharmacology and targeted lipidomics.\nA high-fat diet-induced hyperlipidemia mouse model was established for evaluating the therapeutic efficacy of ZXD. The absorbed components of ZXD in serum were identified using ultra-high performance liquid chromatography quadrupole time-of-flight mass spectrometry (UHPLC-QTOF-MS/MS). Network pharmacology analysis based on in vivo absorbed components was subsequently performed to construct molecular networks and predict potential mechanisms. Furthermore, targeted lipidomics was employed to characterize lysophospholipid metabolic changes associated with ZXD treatment for hyperlipidemia.\nPharmacodynamic evaluation demonstrated that ZXD exerted significant lipid-lowering effects on hyperlipidemic mice. Serum pharmacochemistry analysis identified twelve absorbed constituents, including 3 prototype compounds and 9 metabolites. Network pharmacology analysis demonstrated that ZXD primarily modulated lipid metabolism-associated pathways, particularly the peroxisome proliferator-activated receptor (PPAR) signaling pathway and the lipid and atherosclerosis pathways. Molecular docking further revealed strong binding affinities between the major bioactive compounds of ZXD and key targets PPARA and PPARG. In addition, targeted lipidomics identified 36 lysophospholipid biomarkers associated with ZXD-mediated amelioration of hyperlipidemia.\nIntegrated analysis indicates that ZXD alleviates hyperlipidemia in association with modulation of the PPAR signaling pathway and lysophospholipid metabolism, highlighting a potential lysophospholipid-PPAR regulatory mechanism.",
-      "title_ko": "",
+      "title_ko": "택사탕이 PPAR 신호경로와 리소인지질 대사 조절을 통해 고지혈증을 완화함",
       "publication_types": [
         "Journal Article"
       ],
@@ -138,18 +138,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "택사탕이 고지혈증에서 어떤 유효 성분과 기전을 통해 지질저하 효과를 보이는지 평가했다.",
+        "methods": "고지방식이 유도 고지혈증 마우스에서 효능을 평가하고, 혈청 약물화학·네트워크 약리학·표적 리피도믹스를 통합한 전임상 연구였다.",
+        "results": "택사탕은 고지혈증 마우스에서 지질저하 효과를 보였고, PPAR 신호경로와 리소인지질 대사 및 관련 생체표지자 변화가 관찰되었다.",
+        "clinical_takeaway": "고전 한약 처방의 고지혈증 개선 가능성을 시사하지만, 임상 적용 전에는 사람 대상 근거와 작용기전의 추가 검증이 필요하다.",
+        "limitations": "마우스 전임상 연구이므로 임상적 유효성과 안전성을 직접 판단하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "고지방식이 유도 고지혈증 마우스",
+          "i": "택사탕(Zexie Decoction)",
+          "c": "명확한 정보 없음",
+          "o": "지질저하 효과와 PPAR 신호경로 및 리소인지질 대사 변화"
         }
       },
       "categories": [
@@ -166,7 +166,7 @@
       "authors": "Yao D, Du Y, Yuan X, Qian Z, Fang Y, You M et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42314809/",
       "abstract": "Traditional Chinese medicine (TCM) is a time-honored and holistic practice that is used to treat various diseases. The extensive medicinal properties of TCM, particularly Chinese herbal medicines (CHMs), are well-established in the context of asthma treatment. The emerging concept of medicinal food homology (MFH) has focused considerable attention on the therapeutic efficacy and mechanisms of TCM in asthma treatment.\nThis review summarizes the role of programmed cell death (PCD) in asthma pathogenesis. It delineates the mechanisms and benefits of TCM in asthma treatment and presents a theoretical basis for asthma management via PCD modulation. Additionally, it offers insights into future research directions and challenges.\nPubmed, CNKI, Scopus and Web of Science databases were searched using the following keywords: \"apoptosis,\" \"autophagy,\" \"ferroptosis,\" \"pyroptosis,\" \"necroptosis,\" \"asthma,\" and \"TCM\". Articles on in vitro and in vivo studies and clinical trials from inception to March 2026 were selected for inclusion. Plant taxonomy was verified using the Medicinal Plant Names Services, Chinese Pharmacopoeia, and Plant List databases in March 2026. Contemporary research evidence integrated with TCM theory was used to summarize the mechanisms by which TCM active components suppress PCD and help manage asthma.\nTCM mitigates asthma-related symptoms such as airway inflammation and remodeling via PCD modulation by regulating the expression of key proteins and signaling pathways. Mechanistically, in asthma, TCM compounds regulate apoptosis via the Bax/Bcl-2/caspase-3 and PI3K/Akt signaling axes, suppress autophagy by inhibiting the PI3K/Akt/mTOR pathway, alleviate ferroptosis via the GPX4/SLC7A11 axis, and block pyroptosis by targeting the NLRP3/caspase-1/GSDMD inflammasome. However, research on TCM-based regulation of necroptosis asthma remains limited. The therapeutic effects of TCM interventions for asthma are deeply rooted in TCM theories on lung, spleen, and kidney dysfunction and ethnopharmacological foundations, including MFH.\nThis review summarizes the role of PCD in asthma, furnishes a theoretical foundation for TCM-based interventions for asthma via PCD modulation, delineates the molecular mechanisms of the factors in the five primary PCD pathways, synopsizes the intervention mechanism and application of TCM in asthma treatment via PCD modulation, and presents reference concepts for the advancement of TCM interventions for asthma. The review concludes by identifying future research directions and limitations.",
-      "title_ko": "",
+      "title_ko": "세포사멸 관점에서 본 천식에 대한 전통중의학 치료",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -176,18 +176,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "전통중의학이 프로그램된 세포사멸 조절을 통해 천식에 어떤 기전을 보이는지 검토한 논문이다.",
+        "methods": "PubMed 등 여러 डेट베이스에서 2026년 3월까지의 in vitro, in vivo, 임상시험 문헌을 검색해 서술적으로 종합한 리뷰이다.",
+        "results": "전통중의학은 apoptosis, autophagy, ferroptosis, pyroptosis 관련 경로를 조절해 천식의 기도 염증과 재형성에 관여할 수 있다고 정리되었다.",
+        "clinical_takeaway": "한약 및 관련 복합중재의 천식 기전은 세포사멸 조절과 연관될 수 있으나, 임상 적용 근거는 기전 연구 중심이므로 신중한 해석이 필요하다.",
+        "limitations": "대부분의 근거가 전임상과 기전 연구에 기반하고, necroptosis 관련 천식 연구는 제한적이다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "천식 환자 및 관련 전임상/임상 연구",
+          "i": "전통중의학 및 중국 약초 성분",
+          "c": "명확한 정보 없음",
+          "o": "기도 염증, 기도 재형성, 세포사멸 경로 조절"
         }
       },
       "categories": [
@@ -204,7 +204,7 @@
       "authors": "Du H, Zheng K, Duan X, Lin L, Yuan Y, Li G et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302950/",
       "abstract": "Liparis nervosa (Thunb.) Lindl. (L. nervosa), a species belonging to the genus Liparis within the Orchidaceae family, is known as \"Jian-Xueqing\" or \"Jian-Xueqin\" in traditional Chinese medicine (TCM). This plant has a long history of medicinal use in TCM, valued for its diverse therapeutic properties for treating hemoptysis, hematemesis, cough due to lung heat, rheumatic arthralgia, infantile convulsions, and abscesses. Externally, it is applied for traumatic bleeding, boils, contusions, dermatitis, and snakebites. However, no systematic review of L. nervosa has been reported so far.\nThis paper aims to provide a comprehensive review of the research progress on L. nervosa regarding its botany, traditional uses, phytochemistry, pharmacological activities, toxicology, and clinical applications. By bridging traditional knowledge with modern scientific evidence, this review seeks to offer new perspectives for future research of L. nervosa.\nThis paper uses \"Liparis nervosa\", \"Jian-Xueqing\" and \"Jian-Xueqin\" as the keywords to conduct all the relevant information from PubMed, Web of Science, SciFinder, CNKI, China Master's Doctoral Thesis, Wanfang, Google Scholar, and ancient books. We retrieved all literature (in Chinese and English) from the establishment date of the database up to February 2026, including articles, reviews, master's thesis, doctoral thesis, and technical reports, while excluding literature unrelated to L. nervosa.\nIn total, 150 compounds have been isolated and identified from L. nervosa, including 36 benzoic acid derivatives, 27 alkaloids and their derivatives, 24 phenanthrenes, 21 phenylpropanoids, 7 flavonoids, 7 steroids and triterpenoids, 11 fatty acid derivatives, and 17 other compounds so far. Pharmacological studies have demonstrated that extracts and compounds derived from L. nervosa exhibit a broad range of bioactivities, such as hemostatic, anti-inflammatory, antinociceptive, antitumor, antioxidant, antibacterial, hypolipidemic, and immunosuppressive effects. In safety evaluations, no adverse effects or toxic activities were observed in acute toxicity studies.\nThis review summarizes the recent advances in the phytochemistry, pharmacology, and clinical potentials of L. nervosa, and systematically categorizes its structure-activity-mechanism relationship. As a valuable traditional herb, L. nervosa contains diverse chemical constituents and exhibits various bioactivities. Several of its traditional uses have been supported by modern pharmacological research. However, most studies have been conducted only at the cellular and animal model levels, lacking more robust evidence from clinical studies. Furthermore, systematic safety data on L. nervosa are severely lacking. Further research is needed to elucidate the pharmacological mechanisms and ensure safe clinical applications. Moreover, as a valuable and endangered species, future investigations should focus on the cultivation techniques, product development, and sustainable utilization.",
-      "title_ko": "",
+      "title_ko": "리파리스 네르보사(Liparis nervosa)의 식물학, 민족약리, 화학성분, 약리 및 임상적 가능성에 대한 체계적 문헌고찰",
       "publication_types": [
         "Journal Article",
         "Systematic Review",
@@ -219,18 +219,18 @@
         "safety",
         "toxicity"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "리파리스 네르보사의 전통적 용도와 현대적 근거를 식물학·화학·약리·안전성 측면에서 종합할 수 있는가?",
+        "methods": "PubMed 등 여러 데이터베이스와 고문헌에서 L. nervosa 관련 중·영문 문헌을 2026년 2월까지 전수 검색해 체계적으로 고찰한 문헌연구이다.",
+        "results": "총 150종의 화합물이 보고되었고, 추출물과 성분은 지혈·항염·진통·항종양·항산화 등 다양한 약리활성을 보였으며 일부 전통적 용도는 현대 연구로 뒷받침되었다.",
+        "clinical_takeaway": "L. nervosa는 한약 자원으로서 잠재력이 있으나, 임상근거와 체계적 안전성 자료가 부족해 해석에 주의가 필요하다.",
+        "limitations": "세포·동물연구 중심이며 임상연구와 안전성 데이터가 매우 부족하다는 점이 주요 한계이다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "리파리스 네르보사 관련 문헌 및 전통적·현대적 연구",
+          "i": "L. nervosa 추출물 또는 분리 성분",
+          "c": "명확한 정보 없음",
+          "o": "약리활성, 독성/안전성, 임상적 가능성"
         }
       },
       "categories": [
@@ -247,7 +247,7 @@
       "authors": "Zhang X, Li H, Zhang K, Shi Y, Huang Q, Guo D et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302945/",
       "abstract": "Xinxue Granules (XXGR) is a traditional Chinese medicine formula derived from the classical prescription Zixue Powder, one of the three treasured formulas in traditional Chinese medicine. Based on the principle of heat-clearing and detoxification, it has long been used to treat respiratory diseases associated with heat-toxin accumulation. Owing to its multi-component nature, XXGR has been reported to modulate inflammatory responses and alleviate pulmonary injury. However, its protective effects and underlying mechanisms in pulmonary fibrosis-like injury remain unclear.\nTo investigate the protective effects and mechanisms of XXGR in pulmonary fibrosis. A bleomycin-induced pulmonary fibrosis-like injury mice model was established after random grouping. The therapeutic effects were assessed by histopathological and biochemical analyses. Network pharmacology, metabolomics, and transcriptomics were integrated to identify potential pathways. Additional in vitro experiments using TGF-β1-induced MLE-12 cells, including EPAC inhibition with ESI-09, were performed to further explore the underlying mechanism.\nA bleomycin (BLM)-induced pulmonary fibrosis (PF) mouse model was established to evaluate the antifibrotic effects of XXGR. Ultra-performance liquid chromatography coupled with quadrupole time-of-flight mass spectrometry (UPLC-Q-TOF/MS) was used to characterize the chemical constituents and serum-absorbed components of XXGR. Network pharmacology, transcriptomics, and non-targeted metabolomics were integrated to identify potential targets and pathways. In vivo experiments, including histopathology, biochemical assays, quantitative real-time PCR (qRT-PCR), and Western blotting (WB), were performed to validate key molecular mechanisms. In vitro experiments using TGF-β1-stimulated MLE-12 cells with EPAC inhibition (ESI-09) were performed to explore mechanisms. Molecular docking was conducted to evaluate compound-target interactions. All botanical names were verified according to the World Flora Online.\nUPLC-Q-TOF/MS identified 20 blood-absorbed components of XXGR, and network pharmacology revealed 222 potential targets, highlighting the cyclic adenosine monophosphate (cAMP) signaling pathway. XXGR reduced lung injury, inflammatory cytokine levels, fibroblast activation, and extracellular matrix deposition in BLM-induced mice. Mechanistically, XXGR increased EPAC expression and CREB phosphorylation while decreasing GLI3 expression in vivo and in vitro, consistent with activation of cAMP signaling. EPAC inhibition with ESI-09 partially reversed the effects of XXGR on fibrosis- and EMT-related markers.\nXXGR attenuated bleomycin-induced pulmonary fibrosis-like injury by suppressing inflammation and fibroblast activation. Its protective effects may be partially mediated via the cAMP/EPAC/CREB signaling pathway. These findings suggest that XXGR represents a promising multi-target therapeutic candidate for pulmonary fibrosis.",
-      "title_ko": "",
+      "title_ko": "신쉐 과립이 특발성 폐섬유증에 미치는 효과와 기전: cAMP/EPAC/CREB 축 활성화에 대한 다중오믹스 분석",
       "publication_types": [
         "Journal Article"
       ],
@@ -258,18 +258,18 @@
       "safety_flags": [
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "신쉐 과립이 폐섬유화 유사 손상을 완화하는지와 그 기전이 무엇인지 평가했다.",
+        "methods": "블레오마이신 유도 폐섬유증 마우스와 TGF-β1 자극 MLE-12 세포에서 조직학·생화학 분석, 네트워크 약리학, 전사체/대사체 분석, qRT-PCR, Western blot, 그리고 EPAC 억제 실험을 수행했다.",
+        "results": "신쉐 과립은 염증, 섬유아세포 활성화, 세포외기질 침착을 줄였고 EPAC와 CREB 인산화를 증가시켜 cAMP/EPAC/CREB 신호축 활성화와 연관된 항섬유화 효과를 보였다.",
+        "clinical_takeaway": "한약 복합제의 폐섬유화 억제 가능성이 전임상에서 제시되었으나, 임상 적용 가능성은 추가 검증이 필요하다.",
+        "limitations": "동물·세포 기반 전임상 연구로 사람의 특발성 폐섬유증에 대한 효능과 안전성은 직접 입증되지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "블레오마이신 유도 폐섬유증 마우스와 TGF-β1 자극 MLE-12 세포.",
+          "i": "신쉐 과립.",
+          "c": "대조군 또는 EPAC 억제제 ESI-09.",
+          "o": "폐손상, 염증, 섬유아세포 활성화, 세포외기질 침착 및 관련 신호전달 변화."
         }
       },
       "categories": [
@@ -286,7 +286,7 @@
       "authors": "Xu J, Chen S, Xie S, Zhou F, Zhou M, Ye X et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302943/",
       "abstract": "Cordyceps sinensis (Berk.) Sacc., a traditional Chinese medicine known for treating pulmonary diseases, contains vital bioactive polysaccharides. However, their specific therapeutic efficacy and underlying mechanisms in alleviating pulmonary inflammatory injury remain unclear.\nThis study aims to clarify the therapeutic effects of Cordyceps sinensis polysaccharide (CSP) on lipopolysaccharide (LPS)-induced acute lung injury (ALI) in mice and explored its underlying mechanism, focusing on the macrophage pyroptosis-neutrophil extracellular traps (NETs) signaling axis, to identify a potential ALI treatment.\nThe mouse model of ALI was established via intratracheal instillation of LPS. CSP was administered via nebulization for intervention, with dexamethasone (DEX) serving as the positive control. Lung histopathology, immune cell infiltration, and inflammatory mediators were assessed by H&E, IHC, flow cytometry, Western blot, and qRT-PCR. Transcriptomic analysis was conducted to screen the core signaling pathways regulated by CSP. In vitro, a bone marrow-derived macrophage (BMDM) pyroptosis model and a pyroptotic extracellular vesicle (EV)-induced NETs formation system were utilized to verify the direct effects and molecular mechanism of CSP.\nCSP significantly ameliorated ALI lung damage, restored lung barrier function, reduced pulmonary immune-inflammatory cell infiltration and systemic inflammation, and downregulated pro-inflammatory cytokines (IL-6, TNF-α). Transcriptomic analysis linked its effects to the NOD-like receptor and NETs formation pathways. Mechanistically, CSP inhibited macrophage NLRP3 inflammasome activation and pyroptosis. Crucially, CSP suppressed neutrophil NETs formation induced by pyroptotic macrophage-derived EVs, blocking the macrophage-neutrophil inflammatory cascade.\nTargeting the macrophage pyroptosis-NETs signaling axis, CSP exerts multi-level inhibitory effects on excessive pulmonary inflammatory responses, providing significant therapeutic protection against ALI. These findings suggest CSP is a promising natural candidate drug for ALI treatment.",
-      "title_ko": "",
+      "title_ko": "동충하초 다당이 대식세포 파이롭토시스-호중구 세포외덫 축을 차단해 급성 폐손상을 완화한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -295,18 +295,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "동충하초 다당이 LPS 유도 급성 폐손상에서 치료 효과를 보이는지와 그 기전이 무엇인지 평가하였다.",
+        "methods": "LPS로 유도한 마우스 급성 폐손상 모델에 동충하초 다당을 분무 투여하고, 덱사메타손을 양성대조로 두어 조직학·염증표지자·전사체 분석과 대식세포/호중구 in vitro 실험으로 기전을 확인하였다.",
+        "results": "동충하초 다당은 폐손상과 염증세포 침윤, 염증성 사이토카인을 감소시켰고 NLRP3 인플라마좀 관련 대식세포 파이롭토시스와 pyroptotic 대식세포 유래 EV에 의한 NETs 형성을 억제하였다.",
+        "clinical_takeaway": "이 연구는 동충하초 다당이 급성 폐손상에서 염증 증폭 축을 낮출 가능성을 시사하지만, 전임상 결과이므로 임상 적용 전 추가 검증이 필요하다.",
+        "limitations": "마우스와 세포 실험 중심의 전임상 연구라 사람에게의 효과와 안전성을 바로 일반화할 수 없다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "LPS 유도 급성 폐손상 마우스와 관련 세포 모델",
+          "i": "Cordyceps sinensis polysaccharide 분무 투여",
+          "c": "덱사메타손 또는 무처치 대조",
+          "o": "폐손상, 염증세포 침윤, 염증성 사이토카인, 파이롭토시스와 NETs 형성"
         }
       },
       "categories": [
@@ -323,7 +323,7 @@
       "authors": "Zhang A, Wen R, Zheng H, Liu Z, Wang J, Xue J et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302942/",
       "abstract": "Atractylodes Macrocephala Rhizome (AMR), the dried rhizome of Atractylodes macrocephala Koidz (family Asteraceae), is a commonly used Chinese herbal medicine for treating ulcerative colitis (UC) and has extensive applications in both Traditional Chinese Medicine (TCM) and modern medicine. The therapeutic effects of its distinctive processed variety, rice-washed water processed Atractylodis Macrocephalae Rhizoma (Migan Shui Piao Baizhu, R-AMR), have yet to be reported, and its potential mechanisms of action require further exploration.\nThis study aims to compare the therapeutic effects of R-AMR and raw AMR on UC mice and further explore their mechanisms of action, thereby providing insights into the processing mechanism of AMR using rice-washed water.\nFirstly, a DSS-induced mouse UC model was established in vivo. The efficacy of treatment with rice-washed water processed AMR in improving UC was evaluated by DAI scores, histopathological changes, serum inflammatory cytokines, tight junction proteins (ZO-1, Claudin-1), and mucin (MUC2) levels. Then, bioinformatics, machine learning, and molecular docking were integrated to identify core disease targets and explore the mechanism of R-AMR in treating UC. Nextly, an LPS-induced UC cell model was established using NCM460 cells, and LCN2 siRNA-transfected cell experiments were conducted. The biological effects and mechanisms of action of key targets were validated in vitro through immunofluorescence, WB, and RT-qPCR techniques. Finally, we validated the roles of the above-identified pathways in the treatment of UC with AMR through in vivo experiments.\nIn in vivo efficacy experiments, both R-AMR and raw AMR effectively reduced DAI scores and histopathological scores in UC mice. They downregulated proinflammatory factors and upregulated anti-inflammatory factors while increasing tight junction protein expression (ZO-1, Claudin-1) to restore damaged intestinal epithelial mucosal barriers. R-AMR demonstrated superior therapeutic effects compared to raw AMR. Bioinformatics and machine learning results indicate that Lipocalin 2 (LCN2) and Tissue inhibitor of metalloproteinase 1 (TIMP1) is a key target in UC, with the NOD-like receptor signaling pathway being one of its representative pathways. Molecular docking results reveal that Atractylenolide I (Atr I) has a strong affinity for LCN2 and is one of the active components enhancing the efficacy of R-AMR. In vitro experiments demonstrate that Atr I restores tight junctions between LPS-induced NCM460 cells. Targeted inhibition of LCN2 reduces NLRP3 inflammasome, Caspase 1 activation, and GSDMD-N expression, decreases proinflammatory factor release (IL-1β, IL-18, TNF-α, IL-6), and alleviates UC inflammatory responses. In vivo experiments verified that the therapeutic effect of AMR on UC is associated with the LCN2/NLRP3/Caspase 1/GSDMD pyroptosis pathway.\nBoth raw AMR and R-AMR exhibit protective effects against UC, with R-AMR displaying superior therapeutic outcomes. Its bioactive constituent Atr I attenuates pyroptosis through targeted inhibition of LCN2, leading to preservation of the intestinal epithelial mucosal barrier and subsequent amelioration of UC symptoms.",
-      "title_ko": "",
+      "title_ko": "전통 가공으로 LCN2 매개 파이롭토시스를 억제해 궤양성 대장염 치료 효능을 높이기: 백출을 예로 하여",
       "publication_types": [
         "Journal Article"
       ],
@@ -332,18 +332,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "전통 가공한 백출이 원생품보다 궤양성 대장염에 더 효과적인지와 그 기전을 규명하는 것이었다.",
+        "methods": "DSS 유도 마우스 UC 모델과 LPS 유도 NCM460 세포 모델에서 가공 백출과 원생품의 효능을 비교하고, 생물정보학·분자도킹·siRNA 및 단백질/유전자 발현 분석으로 기전을 검증했다.",
+        "results": "가공 백출은 원생품보다 UC 관련 염증과 장 장벽 손상을 더 잘 완화했으며, Atr I의 LCN2 억제를 통해 NLRP3/Caspase-1/GSDMD 매개 파이롭토시스를 감소시키는 것으로 나타났다.",
+        "clinical_takeaway": "백출의 전통 가공이 궤양성 대장염 관련 항염·장장벽 보호 효능을 강화할 가능성을 시사하지만, 임상 적용은 추가 검증이 필요하다.",
+        "limitations": "동물 및 세포 기반 연구이므로 실제 환자에서의 유효성과 안전성을 직접 추정하기는 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "궤양성 대장염 마우스 및 LPS 유도 NCM460 세포",
+          "i": "rice-washed water processed Atractylodes macrocephala rhizome 또는 그 성분 Atractylenolide I",
+          "c": "원생 백출 및 대조 조건",
+          "o": "DAI, 조직학적 손상, 염증성 사이토카인, 장장벽 표지자, 파이롭토시스 관련 단백질 변화"
         }
       },
       "categories": [
@@ -360,7 +360,7 @@
       "authors": "Tian L, Ma Q, Wu Y, Wang D, Wang Y, Xu H et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302941/",
       "abstract": "Placenta has historically been utilized as a therapeutic agent in traditional medicine, notably as \"Ziheche\" in traditional Chinese medicine. Similarly, Camelus bactrianus placenta (CBP), known as \"Haliyasu\" in Mongolian medicine, has been traditionally used to promote health, reduce wrinkles, and alleviate signs of aging. However, its anti-skin aging efficacy and underlying molecular mechanisms lack scientific validation, which this study aims to address.\nThis study aimed to evaluate the anti-skin-aging potential of Camelus bactrianus placenta enzymatic hydrolysates (CBPHs), identify their active peptides, and clarify the related molecular-target mechanisms.\nEleven CBPHs were prepared and screened based on hydrolysis efficiency, antioxidant activity, and extracellular matrix (ECM) degrading enzyme inhibition. The appropriate hydrolysate was confirmed in D-galactose (D-Gal)-induced senescent human skin fibroblasts (HSFs) and aging C57BL/6 mice. Network pharmacology analysis, molecular docking, combined with molecular dynamics simulations identified core therapeutic targets and active peptides, which were further validated in HSFs.\nCBPH-Flavourzyme exhibited potent antioxidant activity, effectively scavenging ABTS+ and DPPH radicals; inhibited ECM-degrading enzymes, including collagenase, elastase, and matrix metalloproteinase-1 (MMP-1); alleviated HSF senescence by significantly reducing the levels of senescence-associated β-galactosidase (SA-β-gal), IL-6, and IL-18, while increasing Collagen Type I synthesis. Meanwhile, in the D-Gal-induced aging mouse model, CBPH-Flavourzyme significantly elevated superoxide dismutase (SOD) and hyaluronic acid (HA) levels, reduced malondialdehyde (MDA) content, promoted Collagen Type I production in dorsal skin tissue, improved disordered collagen fiber arrangement, and increased skin thickness, thereby exerting anti-skin-aging effects. Network pharmacology analysis suggested that CBPH-Flavourzyme can regulate collagen degradation and suppress the expression of key enzymes involved in collagen degradation in the skin tissue of D-Gal-induced aging mice. In vitro enzymatic inhibition assays, combined with molecular docking and molecular dynamics simulations, identified seven peptides (FRCQ, AADW, PGSPP, PSSPF, PGFGAG, PAF, and QGVGF) from CBPH-Flavourzyme as potent MMP-1 inhibitors. Among these, FRCQ demonstrated the strongest MMP-1 inhibitory activity. Subsequent cellular validation demonstrated that FRCQ significantly reduced SA-β-gal activity and increased type I collagen content. These effects were accompanied by decreased levels of AP-1-related proteins (p-c-Fos and p-c-Jun), suggesting that modulation of AP-1 signaling may contribute to the observed anti-senescence effects.\nThese findings suggest that Camelus bactrianus placenta-derived peptides may serve as candidates for further development in functional foods, nutricosmetics, or pharmaceutical products, pending additional studies on skin penetration, safety, and formulation stability.",
-      "title_ko": "",
+      "title_ko": "낙타태반 유래 항피부노화 펩타이드의 표적 발굴: 다중 활성 스크리닝, 네트워크 약리학 및 MMP-1 억제 중심의 세포 검증",
       "publication_types": [
         "Journal Article"
       ],
@@ -371,18 +371,18 @@
       "safety_flags": [
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "낙타태반 효소 가수분해물이 피부 노화 억제에 효과가 있는지와 그 활성 펩타이드 및 기전을 규명하고자 하였다.",
+        "methods": "여러 효소 가수분해물을 항산화 및 ECM 분해효소 억제능으로 선별하고, D-gal 유도 노화 HSF와 노화 마우스에서 검증했으며 네트워크 약리학, 분자도킹, 분자동역학과 세포 실험으로 기전을 확인하였다.",
+        "results": "Flavourzyme 처리 낙타태반 가수분해물이 항산화 및 MMP-1 억제 효과와 함께 세포·동물 모델에서 노화 지표를 개선했으며, 그중 FRCQ가 가장 강한 MMP-1 억제 펩타이드로 확인되었다.",
+        "clinical_takeaway": "낙타태반 유래 펩타이드는 항피부노화 후보로서 가능성이 있으나, 실제 적용 전에는 피부 침투, 안전성, 제형 안정성에 대한 추가 검증이 필요하다.",
+        "limitations": "세포와 동물 기반의 전임상 연구로, 인체 유효성과 안전성은 아직 확인되지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "D-gal 유도 노화 인간 피부 섬유아세포와 C57BL/6 노화 마우스",
+          "i": "Camelus bactrianus placenta enzymatic hydrolysate 및 유래 펩타이드",
+          "c": "명확한 정보 없음",
+          "o": "MMP-1 억제, 산화스트레스 및 노화 지표 감소, 콜라겐 I 증가"
         }
       },
       "categories": [
@@ -399,7 +399,7 @@
       "authors": "Pang W, Zhang YH, Cheng XX, Chen J, Li XQ",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302939/",
       "abstract": "Buyiniuxi pill (BYNX) is a classical traditional Chinese medicine (TCM) formula first recorded in Taiping Shenghui Fang (AD 992) and has been traditionally prescribed for hair loss and premature hair greying. Its constituent herbs remain relevant in contemporary ethnopharmacological practice for hair regeneration.\nThis study aimed to evaluate the hair regrowth-promoting effects of BYNX in a dihydrotestosterone (DHT)-induced murine model of androgenetic alopecia (AGA) and to explore its potential molecular mechanisms.\nThe chemical profile of the BYNX aqueous extract was characterized using UHPLC-Orbitrap-MS. Network pharmacology was used to explore potential targets and pathways associated with AGA. In vivo efficacy was assessed in a DHT-induced murine model following oral administration of BYNX at low or high doses. Hair regrowth was evaluated by hair length and hair coverage percentage, while histopathology, immunohistochemistry, ELISA, and RT-qPCR were performed to investigate underlying mechanisms.\nUHPLC-Orbitrap-MS analysis revealed a chemically complex profile of BYNX, and representative constituents were selected for subsequent network pharmacology analysis. Predicted targets were mainly enriched in inflammation-related biological processes and the PI3K-AKT signaling pathway. In vivo, BYNX significantly alleviated DHT-induced hair growth inhibition, as evidenced by increased hair length, improved hair coverage, and restoration of hair follicle morphology. These changes were accompanied by reduced IL-6 and IL-4 expression, enhanced activation of the AKT/BCL-2 signaling pathway, and increased Cyclin D1 and β-catenin expression in dorsal skin tissue.\nBYNX significantly promotes hair regrowth in a DHT-induced murine model of AGA. The hair-regenerative effects of BYNX were associated with modulation of inflammatory responses and activation of AKT/BCL-2-related survival signaling, suggesting a multi-target regulatory pattern consistent with its traditional ethnopharmacological use.",
-      "title_ko": "",
+      "title_ko": "Buyiniuxi 환이 DHT 유도 생쥐 안드로겐성 탈모 모델에서 모발 재성장을 촉진한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -408,18 +408,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "Buyiniuxi 환이 DHT 유도 안드로겐성 탈모 생쥐 모델에서 모발 재성장을 촉진하는지 평가했다.",
+        "methods": "DHT 유도 생쥐 모델에서 Buyiniuxi 환을 경구 투여하고, 모발 길이·피복률, 조직학, 면역염색, ELISA, RT-qPCR로 효과와 기전을 평가한 전임상 연구이다.",
+        "results": "Buyiniuxi 환은 모발 길이와 피복률을 높이고 모낭 형태를 회복했으며, IL-6·IL-4 감소와 AKT/BCL-2 및 β-catenin 관련 신호 활성 증가와 연관되었다.",
+        "clinical_takeaway": "한약 복합처방이 염증 조절과 생존 신호 경로를 통해 탈모 관련 전임상 효과를 보였으나, 사람 대상 효능은 이 자료만으로 판단할 수 없다.",
+        "limitations": "생쥐 전임상 연구라 임상 일반화가 제한되고, 사람에서의 안전성·유효성은 확인되지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "DHT 유도 안드로겐성 탈모 생쥐",
+          "i": "Buyiniuxi 환 경구 투여",
+          "c": "명확한 정보 없음",
+          "o": "모발 재성장, 모발 길이, 피복률, 모낭 형태"
         }
       },
       "categories": [
@@ -436,7 +436,7 @@
       "authors": "Zhang R, Chen Y, Qian Y, Zhu C, Yang J, Zhang J",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42302937/",
       "abstract": "Parkinson's disease is a common neurodegenerative disorder with a complex pathogenesis, which limits the application of single-target inhibitors. At present, the main Western therapeutic drugs for Parkinson's disease include dopamine precursors, dopamine receptor agonists, monoamine oxidase inhibitors (MAO-B), catechol-O-methyltransferase (COMT) inhibitors and anticholinergic drugs. These treatments have limited efficacy and obvious toxic and side effects. In recent years, with the deepening of research on Parkinson's disease, traditional Chinese medicine (TCM) and its active components have played an increasingly important role in clinical treatment. A large number of studies have shown that TCM and its active components exert anti-Parkinsonian effects by inhibiting ferroptosis, regulating autophagy and apoptosis, exerting anti-inflammatory and antioxidant effects, and enhancing neuronal protection.\nTo show that traditional medicine is a promising strategy for the treatment of Parkinson's disease, and to lay a foundation for exploring the specific mechanisms of traditional Chinese medicine in the prevention and treatment of this disease.\nThis study conducted a bibliometric analysis of Chinese and foreign databases to screen the core traditional Chinese medicines currently used clinically for Parkinson's disease, and further analyzed the specific mechanisms of action of the selected core herbs in the treatment of Parkinson's disease.\nBibliometric analysis identified core TCM herbs clinically used for Parkinson's disease. The specific mechanisms of these core herbs against Parkinson's disease were clarified at the molecular level, involving inhibition of ferroptosis, regulation of autophagy and apoptosis, anti-inflammatory and antioxidant effects, and enhancement of neuroprotection.\nThis study provides data support for the subsequent research and clinical application of traditional Chinese medicine in Parkinson's disease, and deepens the molecular understanding of the efficacy of traditional Chinese medicine, verifying that traditional medicine is a promising therapeutic strategy for Parkinson's disease.",
-      "title_ko": "",
+      "title_ko": "파킨슨병에 대한 중국 약초와 천연 화합물: 신화인가 진실인가",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -446,18 +446,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "중국 전통약재와 활성 성분이 파킨슨병에 어떤 기전으로 작용하는지 확인하고자 했다.",
+        "methods": "중국 및 해외 데이터베이스를 대상으로 서지분석을 시행해 임상적으로 사용되는 핵심 한약을 선별하고, 그 작용기전을 추가 분석했다.",
+        "results": "핵심 한약은 ferroptosis 억제, 자가포식·세포자멸사 조절, 항염·항산화 작용, 신경보호 강화와 연관된 것으로 정리되었다.",
+        "clinical_takeaway": "파킨슨병에서 한약의 잠재적 기전을 정리한 기초·문헌근거로서 의미가 있으나, 실제 임상효과는 별도의 임상연구로 확인이 필요하다.",
+        "limitations": "서지분석 중심의 연구로 임상적 유효성과 안전성을 직접 입증하지는 못한다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "파킨슨병 환자 또는 관련 문헌",
+          "i": "임상적으로 사용되는 중국 전통약재 및 활성 성분",
+          "c": "명확한 정보 없음",
+          "o": "파킨슨병 관련 분자기전과 잠재적 치료 연관성"
         }
       },
       "categories": [
@@ -474,7 +474,7 @@
       "authors": "Xia X, Niu T, Pan L, Wang G, Li S, Shao Y et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42297342/",
       "abstract": "The nine steaming and nine sun-drying method, a classic representative of traditional Chinese medicine (TCM) processing, is primarily used for processing precious tonic herbs. Its core value lies in its multi-faceted regulation of herbal properties, thereby providing a material basis for TCM syndrome differentiation and treatment.\nThis review aims to systematically summarize the historical evolution and technical characteristics of this processing method, integrate representative herbs under a unified analytical framework, and interpret this traditional processing method from the perspectives of coordinated chemical transformation, bioactivity remodeling, and modernization potential.\nAvailable literature related to the nine steaming and nine sun-drying process was collected by searching PubMed, ScienceDirect, Web of Science, Scopus, and CNKI.\nThrough repeated steaming and sun-drying, this process markedly alters the chemical composition of selected medicinal materials, such as Heshouwu, Huangjing, rhubarb, and Rehmanniae Radix. These transformations, mediated by mechanisms including pyrolysis and hydrolysis, oxidation-reduction, and Maillard reactions, may optimize the component profile and contribute to enhanced pharmacological activities (e.g., immunomodulation, neuroprotection, and hematinic effects), while attenuating toxicity-related or irritant effects in specific herbs, such as hepatotoxicity-related constituents in Heshouwu and gastrointestinal irritation in Huangjing or rhubarb.\nThe nine steaming and nine sun-drying process achieves the optimization of herbal properties and potentiation of therapeutic effects, but challenges such as low production efficiency and difficulties in quality control persist in its modern application. In-depth research is expected to promote its inheritance and innovation.",
-      "title_ko": "",
+      "title_ko": "한약의 생물활성에 대한 전통적 구증구포의 영향",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -487,18 +487,18 @@
         "toxicity",
         "hepatotoxicity"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "구증구포가 대표적인 한약재의 화학성분과 생물활성, 독성 관련 특성을 어떻게 변화시키는지 살펴본 문헌고찰이다.",
+        "methods": "PubMed 등 여러 데이터베이스에서 구증구포 관련 문헌을 수집해 역사적 변천, 기술적 특성, 성분 변화와 생물활성을 통합적으로 검토한 서술적 고찰이다.",
+        "results": "반복적인 찌기와 말리기는 일부 약재의 성분구성을 바꾸어 면역조절·신경보호·보혈 효과를 높이고 특정 독성이나 자극성을 줄일 가능성이 있다고 정리되었다.",
+        "clinical_takeaway": "구증구포는 약재의 성질과 약리활성을 달리할 수 있는 전통 가공법으로 이해하되, 실제 적용에서는 품질관리와 재현성에 대한 근거를 함께 확인할 필요가 있다.",
+        "limitations": "문헌고찰이므로 근거의 이질성과 현대적 품질관리 한계가 남아 있어 임상적 효과를 일반화하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "구증구포로 가공되는 대표적인 한약재 및 관련 문헌",
+          "i": "구증구포(아홉 번 찌고 아홉 번 햇볕에 말리는 가공)",
+          "c": "명확한 정보 없음",
+          "o": "화학성분 변화, 생물활성 변화, 독성/자극성 감소"
         }
       },
       "categories": [
@@ -515,7 +515,7 @@
       "authors": "Guo M, Zeng J, Peng K, Liu Y, Wu N, Jiang X et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42297341/",
       "abstract": "Chemotherapy-induced myelosuppression is a common and severe complication in clinical oncology treatment. Chemotherapeutic agents trigger this condition by damaging bone marrow mesenchymal stem cells (BMSCs) and disrupting hematopoietic microenvironment homeostasis. Danggui Jixueteng Decoction (DJD), a classical blood-tonifying and blood-activating formula, has been confirmed to alleviate post-chemotherapy myelosuppression, but its specific molecular mechanisms in protecting BMSCs remain unclear.\nThis study aims to clarify the molecular mechanisms whereby DJD-containing serum alleviates chemotherapy-induced BMSCs injury, identify key signaling pathways and targets for its myeloprotection, and provide evidence supporting DJD for treating chemotherapy-induced myelosuppression.\nUHPLC-Orbitrap-MS analyzed DJD's chemical constituents, including blood-entry prototypes and metabolites. A carboplatin (CBP) -induced cell injury model was established. Different concentrations of DJD-containing serum were applied. Functional, proteomic, Western blot, molecular docking, cellular thermal shift assay (CETSA) and molecular dynamics simulation (MD) were used for detection and verification.\n107 chemical components and 38 blood-entry components of DJD were identified. DJD-containing serum concentration-dependently reversed the aforementioned damaging effects of CBP, significantly improved mitochondrial function, suppressed excessive mitophagy and ferroptosis, and effectively restored AKT/FOXO3a pathway signaling function. Molecular docking, CETSA and MD validated that tanshinol B stably binds to FOXO3a and enhances its thermal stability.\nThis study demonstrates that DJD-containing serum protects BMSCs and maintains hematopoietic microenvironment homeostasis by targeting the AKT/FOXO3a signaling pathway, thereby repairing its abnormally inhibited state, suppressing CBP-induced excessive mitophagy, and inhibiting subsequent ferroptosis. This study provides novel insights and experimental evidence for targeted intervention of chemotherapy-induced bone marrow injury using traditional Chinese medicine.",
-      "title_ko": "",
+      "title_ko": "당귀계혈등탕이 AKT/FOXO3a 경로를 통해 과도한 미토파지와 페롭토시스를 억제하여 HS-5 세포의 항암화학요법 유발 손상을 보호한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -524,18 +524,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "당귀계혈등탕이 항암화학요법으로 유발된 골수기질세포 손상을 어떤 분자기전으로 완화하는지 확인하고자 하였다.",
+        "methods": "카보플라틴으로 유도한 HS-5 세포 손상 모델에서 DJD 함유 혈청을 처리하고, 기능 분석·단백체학·Western blot·분자도킹·CETSA·분자동역학으로 기전을 검증하였다.",
+        "results": "DJD 함유 혈청은 카보플라틴에 의한 세포 손상을 농도의존적으로 완화하고 미토콘드리아 기능을 개선했으며, AKT/FOXO3a 신호를 회복시키면서 과도한 미토파지와 페롭토시스를 억제하였다.",
+        "clinical_takeaway": "항암화학요법 관련 골수억제에서 당귀계혈등탕의 잠재적 보호기전으로 AKT/FOXO3a-미토파지-페롭토시스 축이 제시되었으나, 임상 적용 전에는 추가 검증이 필요하다.",
+        "limitations": "세포 및 기초실험 중심의 연구로 실제 환자에서의 유효성과 안전성을 직접 보여주지 못한다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "카보플라틴으로 손상된 HS-5 세포/골수기질세포",
+          "i": "당귀계혈등탕 함유 혈청",
+          "c": "명확한 정보 없음",
+          "o": "세포손상, 미토콘드리아 기능, 미토파지, 페롭토시스, AKT/FOXO3a 신호"
         }
       },
       "categories": [
@@ -552,7 +552,7 @@
       "authors": "Shafqat A, Shafqat MB, Zakirullah, Xu S, Tong Y",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42288166/",
       "abstract": "Jinhua Qinggan Granules (JHQG) is a traditional Chinese medicine formulation widely used for the treatment of viral respiratory infections. Traditional herbal formulations contain multiple phytochemical constituents that may act individually or synergistically to produce therapeutic effects. Although its clinical applications have been reported, the bioactive constituents underlying its antiviral activity and their mechanisms of action remain to be clarified.\nThis study aimed to identify representative bioactive constituents of JHQG with antiviral activity against Zika virus (ZIKV) and to investigate their potential mechanisms of action.\nA panel of representative phytochemical constituents reported in JHQG was screened for antiviral activity against ZIKV in vitro. Antiviral efficacy and cytotoxicity were evaluated by determining EC50 and CC50 values. Viral replication was assessed using plaque assay, RT-qPCR, immunofluorescence, and Western blot analysis. Time-of-addition experiments were performed to explore stage-specific effects. Transcriptome analysis and quantitative PCR were conducted to examine host inflammatory gene expression. Intracellular reactive oxygen species (ROS) levels and NF-κB activation were evaluated in stimulated cells. In vivo antiviral efficacy was assessed in a ZIKV infection model using A129 mice. Molecular docking and molecular dynamics simulations were performed to explore potential interactions with the viral NS3 protease.\nAmong the screened compounds, chlorogenic acid (CGA) exhibited notable antiviral activity and was selected for further investigation. CGA treatment was associated with reduced ZIKV replication, decreased viral protein expression, and lower production of infectious viral particles under the tested conditions. Time-of-addition experiments indicated that CGA exerted inhibitory effects during early stages and throughout the infection period. ZIKV infection induced the expression of inflammatory genes including CXCL8, CXCL10, and TNFAIP3, whereas treatment with JHQG or CGA was associated with reduced expression of these genes. CGA treatment also corresponded with decreased intracellular ROS levels and attenuation of NF-κB activation. In A129 mice, CGA administration was associated with improved survival, reduced viral RNA levels in brain and liver tissues, and partial preservation of tissue morphology. Computational analyses suggested potential interactions between CGA and the NS3 protease.\nThese findings identify CGA as a representative bioactive constituent selected from the screened phytochemical components of JHQG that may contribute to its antiviral activity. The antiviral effects observed in this study, together with the modulation of host inflammatory responses, provide experimental evidence supporting further investigation of CGA as a candidate compound for the development of therapeutic strategies against ZIKV infection.",
-      "title_ko": "",
+      "title_ko": "지카바이러스 감염 및 관련 염증 반응에 대한 금화청간과립의 잠재적 기전과 물질적 기초",
       "publication_types": [
         "Journal Article"
       ],
@@ -564,18 +564,18 @@
         "toxicity",
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "금화청간과립의 대표 성분이 지카바이러스 감염에 대해 항바이러스 작용과 염증 조절 효과를 보이는지 평가했다.",
+        "methods": "JHQG 유래 대표 화합물을 in vitro와 A129 마우스 ZIKV 감염 모델에서 선별·평가하고, 분자도킹과 전사체 분석으로 기전을 탐색했다.",
+        "results": "선별 성분 중 chlorogenic acid가 ZIKV 복제와 바이러스 단백질 발현을 줄이고 염증성 유전자, ROS, NF-κB 활성화를 낮추었으며 마우스에서도 생존과 조직 손상 지표를 개선하는 연관성을 보였다.",
+        "clinical_takeaway": "이 연구는 JHQG의 항바이러스 효과와 관련해 chlorogenic acid가 유력한 후보 성분일 수 있음을 시사하지만, 임상 적용 가능성은 추가 검증이 필요하다.",
+        "limitations": "세포·동물실험과 계산분석 중심의 연구로, 사람에서의 유효성과 안전성은 확인되지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "지카바이러스 감염 세포 및 A129 마우스",
+          "i": "금화청간과립 유래 성분, 특히 chlorogenic acid",
+          "c": "무처치 또는 감염 대조군",
+          "o": "바이러스 복제와 염증성 반응, 생존 및 조직 바이러스량"
         }
       },
       "categories": [
@@ -592,7 +592,7 @@
       "authors": "Jin J, Li P, Yu X, Ding Z, Peng J, Liu C et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42288165/",
       "abstract": "Polycystic ovary syndrome (PCOS) is a multifactorial endocrine disorder characterized by ovulation disorders. Zishen Qingre Lishi Huayu Recipe (ZQLHR), a traditional Chinese medicine (TCM) formula, has shown clinical efficacy by effectively increasing the ovulation rate and menstrual cycle regularity in patients with PCOS and is widely used in practice; however, its underlying pharmacological mechanism has not been fully elucidated.\nAim of the study: This study aimed to elucidate how ZQLHR modulates the proliferation-apoptosis balance of ovarian granulosa cells (GCs) in PCOS via the C/EBPβ/STAT3 signaling axis.\nHuman granulosa cells (hGCs) from PCOS and non-PCOS patients were analyzed for proliferation, apoptosis, and C/EBPβ/STAT3 expression. In vivo, letrozole-induced PCOS mice were subjected to scAAV-mediated C/EBPβ knockdown, followed by administration of ZQLHR to evaluate treatment outcomes. In vitro, C/EBPβ or STAT3 was silenced in Human granulosa-like tumor cell line (KGN) cells to explore their regulatory relationship and roles in proliferation and apoptosis. Additionally, ZQLHR effects were evaluated in a dose- and time-dependent manner. Notably, CETSA was employed to confirm for the first time direct binding of ZQLHR to C/EBPβ, and C/EBPβ-silenced cells were subsequently treated with ZQLHR to examine whether its effects involve C/EBPβ-dependent STAT3. The pharmacological mechanism of ZQLHR was further evaluated through histological and molecular biology experiments.\nPCOS patient-derived GCs exhibited reduced proliferation, elevated apoptosis, and decreased C/EBPβ/STAT3 expression. In LET-induced PCOS mice, ZQLHR treatment significantly improved estrous cycle regularity, hormonal balance, follicular development, and GC apoptosis, accompanied by modulation of the C/EBPβ/STAT3 pathway. C/EBPβ knockdown exacerbated ovarian dysfunction and KGN apoptosis, whereas ZQLHR attenuated these effects and partially restored pathway activity. In vitro, C/EBPβ and STAT3 influenced each other and CFTR expression, associated with changes in proliferation and apoptosis. ZQLHR increased proliferation markers (PCNA, cyclin D1) and decreased apoptosis markers (Caspase-3, PARP) in a dose- and time-dependent manner, with CETSA confirming direct binding to C/EBPβ. Notably, despite C/EBPβ knockdown, ZQLHR partially restored KGN cell proliferation and modestly modulated the C/EBPβ/STAT3 signaling pathway.\nZQLHR improves GC homeostasis and promotes follicular development in PCOS by modulating the C/EBPβ/STAT3 pathway.",
-      "title_ko": "",
+      "title_ko": "자신 청열 이습 화어 처방이 C/EBPβ/STAT3 신호를 통해 PCOS를 개선한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -601,18 +601,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "자신 청열 이습 화어 처방이 PCOS에서 과립막세포 항상성을 C/EBPβ/STAT3 축으로 조절하는지 평가했다.",
+        "methods": "PCOS 환자 유래 과립막세포, letrozole 유도 PCOS 마우스, KGN 세포에서 증식·사멸과 C/EBPβ/STAT3 변화를 분석한 실험 연구이다.",
+        "results": "자신 청열 이습 화어 처방은 과립막세포 증식을 높이고 사멸을 줄이며, 동물모델에서 난포 발달과 호르몬 균형을 개선했고 C/EBPβ/STAT3 경로 조절과 연관되었다.",
+        "clinical_takeaway": "PCOS에서 이 처방의 작용은 과립막세포 항상성 회복과 관련될 수 있으나, 전임상 및 세포실험 중심 결과이므로 임상 적용 해석에는 주의가 필요하다.",
+        "limitations": "주로 환자 유래 세포와 동물모델 및 세포주 기반 연구로, 임상적 유효성과 안전성을 직접 입증하지는 못했다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "PCOS 환자 유래 과립막세포, letrozole 유도 PCOS 마우스, KGN 세포",
+          "i": "Zishen Qingre Lishi Huayu recipe",
+          "c": "비PCOS 대조, 무처치 또는 C/EBPβ/STAT3 억제 조건",
+          "o": "과립막세포 증식과 사멸, 난포 발달, 호르몬 균형, C/EBPβ/STAT3 발현"
         }
       },
       "categories": [
@@ -630,7 +630,7 @@
       "authors": "Guo J, Yue Z, Guo Y, Guo Z, Huang Q, Li X et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42288160/",
       "abstract": "Lindera aggregata (Kosterm.) is a traditional Chinese medicine used for soothing the liver and regulating qi, as documented in classic formulas such as Tiantai Wuyao San and Simo Decoction. However, the active compounds and molecular mechanisms underlying its hepatoprotective effects remain poorly understood.\nThis study aimed to evaluate the therapeutic potential of linderane (LDR), a furanosesquiterpene from L. aggregata, in metabolic dysfunction-associated steatotic liver disease (MASLD) and to explore its mechanisms, with a focus on STAT3-mediated immunometabolic pathways.\nMASLD was induced in C57BL/6J mice by feeding a high-fat diet (HFD). LDR was administered orally, and metabolic, inflammatory and histological parameters were assessed. Mechanistic studies were performed in primary hepatocytes and macrophages using Western blotting, RT-qPCR, immunofluorescence, transcriptomics, and cellular thermal shift assays (CETSA).\nLDR significantly improved fasting and postprandial glucose levels, enhanced insulin sensitivity, and restored GLUT2/GLUT4 expression. It activated the IRS2/Akt/FoxO1 signaling axis, suppressed gluconeogenic gene expression, and improved hepatic lipid metabolism via modulation of SREBP-1c and PPARα/γ. In macrophages, LDR inhibited M1 polarization and pro-inflammatory cytokine production by suppressing STAT3 phosphorylation, without affecting JAK2 expression. CETSA confirmed a direct interaction between LDR and STAT3 protein.\nThis study demonstrates that STAT3 activation suppresses IRS2-FoxO1 signaling. Linderane targets STAT3 to relieve this suppression while also directly activating the IRS2-FoxO1 axis, thereby ameliorating MASLD. These findings support linderane as a promising natural agent that targets STAT3 and modulates immunometabolic pathways to alleviate MASLD.",
-      "title_ko": "",
+      "title_ko": "린데라 애그리게이터 유래 푸란세스퀴테르펜 린데라네가 STAT3를 표적해 MASLD의 대사·염증 특성을 개선한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -641,18 +641,18 @@
       "safety_flags": [
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "린데라네가 MASLD의 대사 이상과 염증을 STAT3 매개 기전을 통해 개선하는지 평가하였다.",
+        "methods": "고지방식이로 MASLD를 유도한 C57BL/6J 마우스와 1차 간세포·대식세포에서 경구 린데라네를 투여하고 생화학, 조직학, 전사체 및 CETSA로 기전을 분석하였다.",
+        "results": "린데라네는 혈당과 인슐린 감수성, 간 지질대사와 염증 지표를 개선했으며 STAT3 인산화를 억제하고 IRS2/Akt/FoxO1 축을 활성화하는 것으로 나타났다.",
+        "clinical_takeaway": "본 연구는 린데라네가 MASLD 관련 면역대사 경로의 후보 천연물일 수 있음을 시사하지만, 전임상 결과이므로 임상적 적용은 추가 검증이 필요하다.",
+        "limitations": "동물과 세포 기반 전임상 연구이므로 사람에서의 유효성·안전성과 실제 임상적 의미는 아직 명확하지 않다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "고지방식이로 MASLD를 유도한 C57BL/6J 마우스와 1차 간세포·대식세포",
+          "i": "린데라네 경구 투여",
+          "c": "명확한 정보 없음",
+          "o": "대사 이상, 염증, 간 조직학 및 STAT3/IRS2-FoxO1 관련 신호 변화"
         }
       },
       "categories": [
@@ -669,7 +669,7 @@
       "authors": "Meng S, Zhang D, Baokan J, Xu C, Tan J, Lai Y et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42276393/",
       "abstract": "The Xianlian Jiedu Decoction (XLJDD) is a traditional Chinese medicinal formulation commonly used in the clinical treatment of colorectal cancer (CRC). However, the underlying mechanisms of its therapeutic effects remain to be fully elucidated.\nThis study aimed to investigate the molecular targets and signaling pathways by which the traditional Chinese medicine compound XLJDD exerted therapeutic effects on CRC.\nXLJDD drug-containing serum was prepared and applied to CRC cell lines (HCT116 and HT29), and the optimal concentration was determined using the CCK-8 assay. Apoptosis was evaluated using Hoechst 33342 staining, TUNEL assay, JC-1 assay, and Annexin V-FITC/PI flow cytometry respectively. S1P secretion levels in cell culture supernatants were measured by ELISA. Subcutaneous CT26 mouse tumor models were established and intragastrically administered with the prepared XLJDD decoction. Tumor growth curves were monitored, and final tumor weights were assessed. The tumor tissues were stained with hematoxylin and eosin (H&E) to observe the histopathological changes, while protein expression of Ki-67, Bcl-2, and Caspase-3 was evaluated by immunohistochemistry (IHC). Bulk RNA-seq coupled with transcriptome and GO/KEGG enrichment analyses revealed alterations in key signaling pathways, which were further validated at the protein level by Western blotting. Collectively, these experiments elucidated that XLJDD exerted anti-colorectal cancer effects by regulating MAPK and related apoptotic signaling pathways.\nXLJDD drug-containing serum significantly suppressed CRC cell viability and promoted apoptosis in a dose-dependent manner. ELISA results showed that XLJDD drug-containing serum reduced sphingosine-1-phosphate (S1P) levels in CRC cell culture supernatants. In vivo experiments demonstrated that XLJDD-treated tumor-bearing mice exhibited delayed tumor growth, reduced tumor weight, and improved tumor tissue morphology. Moreover, XLJDD suppressed pro-tumorigenic activity of S1P in a dose-dependent manner. Immunohistochemistry and western blot analysis indicated that XLJDD downregulated Ki-67 and Bcl-2 expression, promoted Caspase-3 activation, and inhibited the JNK/p38 MAPK signaling pathway. Bulk RNA-seq transcriptome and pathway enrichment analyses further confirmed that XLJDD suppressed tumor progression by regulating the S1P-mediated JNK/p38 MAPK pathway, providing experimental evidence to support its clinical application.\nThe XLJDD suppresses the development and progression of CRC by downregulating S1P levels, modulating the JNK/p38 MAPK signaling pathway, enhancing tumor cell apoptosis.",
-      "title_ko": "",
+      "title_ko": "선련해독탕이 스핑고신-1-인산 의존성 JNK/p38 MAPK 신호 조절을 통해 대장암 세포의 아폽토시스를 유도한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -678,18 +678,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "선련해독탕이 대장암에서 어떤 분자기전으로 항종양 효과를 보이는지 평가하였다.",
+        "methods": "대장암 세포주와 CT26 이식종 마우스 모델에서 선련해독탕 처리 후 세포생존, 아폽토시스, S1P 분비, 종양 성장 및 관련 신호단백질을 분석한 실험연구이다.",
+        "results": "선련해독탕은 S1P를 감소시키고 JNK/p38 MAPK 경로를 억제하면서 종양세포 아폽토시스를 증가시켜 대장암 진행을 억제하였다.",
+        "clinical_takeaway": "한약 처방의 대장암 관련 기전 근거를 제시하지만, 본 연구는 전임상 실험이므로 임상 적용 전 사람 대상 근거가 추가로 필요하다.",
+        "limitations": "세포 및 동물모델 기반 연구로 임상적 유효성과 안전성을 직접 판단할 수 없다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "대장암 세포주(HCT116, HT29)와 CT26 이식종 마우스",
+          "i": "선련해독탕(Xianlian Jiedu Decoction)",
+          "c": "명확한 정보 없음",
+          "o": "세포생존, 아폽토시스, S1P 수준, 종양 성장과 종양 무게"
         }
       },
       "categories": [
@@ -707,7 +707,7 @@
       "authors": "Fan W, Zhou F, Song Q, Liu L, Huang S, Pan J et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42276391/",
       "abstract": "Metabolic dysfunction-associated steatohepatitis (MASH) is characterized by hepatic steatosis accompanied by persistent inflammation and early fibrotic remodeling. In traditional Chinese medicine, Huanglian Wendan Decoction (HLWDD) is prescribed for phlegm-heat and damp-heat syndromes affecting the gallbladder and stomach and is traditionally used to clear heat, dry dampness, and resolve phlegm. It is commonly applied in the treatment of phlegm-heat-related metabolic disorders, including fatty liver disease. However, the therapeutic effects of HLWDD and the contributions of its key constituents to MASH remain to be further elucidated.\nThis study aimed to evaluate the anti-inflammatory and lipid-regulatory effects of HLWDD and its key components in MASH and to explore the underlying molecular mechanisms.\nMale C57BL/6 J mice were given a methionine-choline-deficient (MCD) diet and received HLWDD in either low or high doses through oral gavage, with fenofibrate serving as a positive control. Body weight, liver index, serum levels of alanine aminotransferase and aspartate aminotransferase, serum lipid profiles, and hepatic triglyceride and total cholesterol contents were among the evaluated parameters. H&E, Oil Red O, and Masson's trichrome staining were used to evaluate histopathological changes. Hepatic macrophage infiltration was examined by immunofluorescence, inflammatory cytokines were measured by ELISA, and key signaling and lipid metabolism-related proteins were analyzed by western blotting. UPLC‒MS/MS was used to characterize the chemical profile of the HLWDD granules and identify their major constituents. Network pharmacology analysis integrating multiple databases, together with GO and KEGG enrichment analyses, was performed to predict potential targets and pathways. Molecular docking and molecular dynamics simulations were further used to investigate compound‒target interactions. Cell viability in vitro was measured with CCK-8 assays, protein levels were confirmed through western blotting, and intracellular lipid buildup was assessed using Oil Red O staining.\nUPLC‒MS/MS analysis revealed that berberine (BBR), an isoquinoline alkaloid, is a major bioactive component of HLWDD. Network pharmacology analysis suggested that HLWDD and BBR may exert anti-MASH effects by modulating multiple targets and pathways, including IL-6, PPARα, and the NF-κB/HDAC1/SREBP-1c axis. These predictions were supported by in vivo experiments, which confirmed the protective effects of HLWDD against MASH. Both in vivo and in vitro studies further revealed that BBR markedly ameliorated MASH-related phenotypes by suppressing the NF-κB/HDAC1/SREBP-1c axis. Additionally, simulations of molecular docking and dynamics revealed stable interactions between BBR and important proteins within this axis. Microscale thermophoresis (MST) assays further demonstrated direct binding of BBR to HDAC1. Collectively, these findings suggest that HLWDD and its key active constituent BBR alleviate MASH, at least in part, by inhibiting the NF-κB/HDAC1/SREBP-1c axis, which is closely associated with inflammatory responses and dysregulated lipogenesis.\nHLWDD markedly ameliorated the MASH phenotype by attenuating hepatic inflammation and lipogenesis, with the NF-κB/HDAC1/SREBP-1c axis emerging as a key mechanism linking inflammatory signaling to aberrant lipid synthesis. BBR, identified by UPLC‒MS/MS as a major active constituent of HLWDD, largely recapitulated these effects and directly bound to HDAC1, supporting its important contribution to the protective effects of HLWDD against MASH.",
-      "title_ko": "",
+      "title_ko": "황련온담탕이 NF-κB/HDAC1/SREBP-1c 축 억제를 통해 간 염증과 지질합성을 완화한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -718,18 +718,18 @@
       "safety_flags": [
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "황련온담탕과 주요 성분이 MASH의 간 염증 및 지질 축적을 개선하는지와 그 기전을 확인하고자 했다.",
+        "methods": "MCD 식이 마우스와 세포 모델에서 황련온담탕과 베르베린을 투여·처리하고, 조직학·생화학·단백질 분석과 네트워크 약리, 도킹 및 결합실험으로 기전을 평가했다.",
+        "results": "황련온담탕은 MASH 관련 간 염증과 지질합성을 완화했으며, 주요 성분 베르베린이 HDAC1에 직접 결합하면서 NF-κB/HDAC1/SREBP-1c 축 억제와 관련된 효과를 재현했다.",
+        "clinical_takeaway": "한약 복합처방의 항염·지질조절 효과가 전임상에서 관찰되었지만, 임상 적용 가능성은 사람 대상 근거로 추가 확인이 필요하다.",
+        "limitations": "마우스와 세포를 이용한 전임상 연구이므로 사람 MASH에 대한 효능과 안전성을 직접 추론하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "MCD 식이로 유도한 MASH 마우스와 관련 세포 모델",
+          "i": "황련온담탕 및 베르베린",
+          "c": "대조군 및 페노피브레이트",
+          "o": "간 염증, 지방축적, 간손상 지표, NF-κB/HDAC1/SREBP-1c 축"
         }
       },
       "categories": [
@@ -747,7 +747,7 @@
       "authors": "Liu Z, Gong Y, Liu P, Wei X, Liu J, Yang R et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42276390/",
       "abstract": "Rheum officinale Baill. (Dahuang, DH) was first documented in the Shennong Bencaojing (Shennong's Classic of Materia Medica), and used in traditional Chinese medicine to purge accumulation, clear heat, and detoxify. Modern research confirms the anti-inflammatory, antioxidant, and anti-tumor properties. However, the anti-tumor mechanisms remained unclear in hepatocellular carcinoma.\nTo investigate the mechanism by which DH inhibits the growth of liver cancer.\nYinchenhao Decoction (YCHD) contains DH, Artemisia capillaris Thunb. (Yinchen, YC), and Gardenia jasminoides Ellis (Zhizi, ZZ). A subcutaneous Hepa1-6 tumor xenograft model was established. Mice were gavaged with YCHD, DH, or YZ (YCHD without DH), and the tumor-suppressive effects were evaluated. Oil Red O staining was performed to detect lipid droplet (LD) accumulation in tumor. 16S rRNA and Internal transcribed spacer region (ITS) sequencing were used to analyze the structures and compositions of bacteria and fungi in the gut, respectively. Periodic acid-schiff (PAS) staining was applied to quantify goblet cell numbers, and immunohistochemistry was conducted to determine the expression levels of Zonula occludens-1 (ZO-1) and Occludin in colon. A pseudo-germ-free model induced by antibiotics water (ATB) was established to investigate whether DH inhibits liver cancer growth through modulation of the gut bacteria. Finally, ultra performance liquid chromatography-mass spectrometry (UPLC/MS) was used to characterize the water extracts of DH, YZ, and YCHD.\nDH suppressed liver tumor growth in mice, which LD accumulation was decreased in tumor and the structures and compositions of bacteria and fungi were reshaped in gut. Further, DH increased goblet cell numbers and ZO-1 expression level. In a pseudo-germ-free model induced by ATB, DH inhibited liver tumor growth potentially via gut bacteria remodeling.\nDH inhibited liver tumor growth in mice, potentially via gut microbiota remodeling, intestinal barrier improvement, and reduced LD accumulation.",
-      "title_ko": "",
+      "title_ko": "대황(Rheum officinale Baill.) 처리 중 마우스 간종양 성장에 대한 장내 세균의 억제 효과",
       "publication_types": [
         "Journal Article"
       ],
@@ -756,18 +756,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "대황이 마우스 간암 성장 억제를 어떤 기전으로 매개하는지 평가하였다.",
+        "methods": "Hepa1-6 피하 종양 이식 마우스 모델과 항생제 유도 가성 무균 모델에서 대황 또는 관련 처방을 투여하고, 종양, 장내 미생물, 장 장벽, 지질 축적 변화를 분석하였다.",
+        "results": "대황은 마우스 간종양 성장을 억제했으며, 장내 미생물 재구성과 장 장벽 개선 및 종양 내 지질방울 감소와 연관되었고 가성 무균 모델에서도 이 효과가 관찰되었다.",
+        "clinical_takeaway": "이 결과는 대황의 항종양 효과가 장내 미생물과 장 장벽 변화와 연관될 수 있음을 시사하지만, 동물실험이므로 임상 적용은 신중해야 한다.",
+        "limitations": "마우스와 가성 무균 모델 기반 연구로, 사람 대상 유효성과 기전은 직접 확인되지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "Hepa1-6 종양을 이식한 마우스 및 항생제 처리 마우스",
+          "i": "Rheum officinale Baill. 또는 대황 포함 처방 투여",
+          "c": "무처치 또는 대황이 없는 관련 처방",
+          "o": "간종양 성장, 장내 미생물 변화, 장 장벽 지표, 종양 내 지질 축적"
         }
       },
       "categories": [
@@ -784,7 +784,7 @@
       "authors": "Ye Z, Jia M, Tian X, Zhou B, Wang C, Lin H et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42276388/",
       "abstract": "Advanced renal cell carcinoma (RCC) often stops responding to targeted drugs, and those drugs can be toxic. Traditional Chinese Medicine (TCM) works differently: it hits many targets at once and tries to rebalance the whole body. That makes TCM a plausible add-on, not a replacement.\nThis review aims to comprehensively summarize and critically appraise the molecular mechanisms by which TCM components and formulas exert anti-RCC activities, focusing on key signaling pathways, non-apoptotic cell death, reversal of drug resistance, and potential synergy with conventional treatments.\nWe searched PubMed, Web of Science, Embase, Scopus, and CNKI, covering studies published from January 2015 to January 2026. Search terms included \"renal cell carcinoma\" (MeSH/title/abstract), \"traditional Chinese medicine\", \"natural product\", \"phytochemical\", and \"signaling pathway\", applied in Boolean combination. Studies were included if they reported molecular-level mechanistic data for TCM-derived compounds or formulas in RCC cell lines, animal models, or clinical settings; studies reporting only descriptive ethnobotanical data without mechanistic investigation, conference abstracts without full data, or non-peer-reviewed sources were excluded. Due to the heterogeneity of study designs across the included literature, this work is framed as a comprehensive narrative review rather than a formal systematic review, and findings should be interpreted accordingly.\nTCM-derived compounds inhibit RCC proliferation by modulating the PI3K/AKT/mTOR, MAPK/ERK, and NF-κB pathways. They also induce ferroptosis and necroptosis, reverse sunitinib resistance, and enhance anti-PD-L1 immunotherapy. TCM formulas target hub genes such as CCND1, PTGS2, and ABCG2. However, most studies lack pharmacokinetic data and rigorous clinical validation.\nTCM acts as a multi-target network modulator against RCC. That could help overcome drug resistance and improve current therapies. Future research should focus on chemical standardization, pharmacokinetic profiling, and biomarker-driven clinical trials.",
-      "title_ko": "",
+      "title_ko": "신세포암에서 전통중의약 화합물의 분자 기전과 치료 표적: 종합 서술적 고찰",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -794,18 +794,18 @@
       "clinical_applicability": "낮음",
       "priority": "보류",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "전통중의약 성분과 처방이 신세포암에서 어떤 분자 기전으로 항암 효과를 보이는지 평가한 고찰이다.",
+        "methods": "2015년부터 2026년까지의 문헌을 여러 데이터베이스에서 검색해 RCC의 분자 기전을 보고한 TCM 화합물·처방 연구를 종합한 서술적 고찰이다.",
+        "results": "TCM 유래 성분은 PI3K/AKT/mTOR, MAPK/ERK, NF-κB 경로를 조절하고 ferroptosis·necroptosis를 유도하며 sunitinib 저항성과 항-PD-L1 치료 반응을 조절하는 것으로 요약되었다.",
+        "clinical_takeaway": "TCM은 RCC에서 다표적 보조 전략의 가능성을 시사하지만, 현재 근거는 전임상 중심이어서 임상 적용 전 표준화와 검증이 필요하다.",
+        "limitations": "연구 설계가 이질적이고 약동학 자료와 엄격한 임상 검증이 부족해 결론 해석에 주의가 필요하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "신세포암 환자 또는 RCC 세포·동물 모델",
+          "i": "전통중의약 유래 화합물과 처방",
+          "c": "명확한 정보 없음",
+          "o": "증식 억제, 약물저항성 역전, 면역치료 보조 효과와 관련 분자 경로 변화"
         }
       },
       "categories": [
@@ -822,7 +822,7 @@
       "authors": "Guo YF, Liu Y, Zhang H, Wang MY, Yang D, Liu W",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42264444/",
       "abstract": "Hepatic fibrosis (HF) is a common pathological feature of chronic liver disease, which can progress to cirrhosis and hepatocellular carcinoma. Conventional drugs typically target a single gene or protein, which may limit their efficacy against the complex, multifactorial nature of HF. Transforming growth factor-β1 (TGF-β1) and its downstream Smad signaling pathway play a central role in HF pathogenesis. Traditional Chinese medicine (TCM) polysaccharides, characterized by structural diversity and multi-target actions, have been shown to effectively modulate the TGF-β1/Smad pathway among other targets. Consequently, they offer a distinct advantage over single-molecule drugs and represent a promising therapeutic strategy for targeted intervention in HF.\nThis review synthesizes the latest advances in TCM polysaccharides in the field of HF, focusing on their application in treating HF through targeting the TGF-β1/Smad pathway, and summarizes the intervention strategies of TCM polysaccharides in HF.\nThrough searches of databases such as PubMed, Web of Science, and ScienceDirect, relevant studies were systematically retrieved. The retrieval time range was from the establishment of the databases to January 2026. The search keywords adopted include \"HF\", \"TCM polysaccharides\", \"TGF-β1/Smad pathway\" and \"targeted delivery\", as well as their keyword combinations. By comprehensively analyzing the data from dozens of in vivo and in vitro experimental studies published in recent years, the mechanism of action is evaluated.\nCurrently, therapeutic agents for HF mainly focus on regulating lipid metabolism, inflammatory responses and abnormal cell death. The transforming growth factor-β1/Smad pathway represents a key pathogenic mechanism in HF. Smad2 and Smad3 are two major downstream regulatory factors promoting TGF-β1-mediated tissue fibrosis, while Smad7 is a negative feedback regulatory factor of the TGF-β1/Smad pathway, inhibiting TGF-β1-mediated HF. Its specific anti-fibrotic mechanisms are closely associated with suppressing hepatic inflammation, inhibiting hepatic stellate cell (HSC) activation and proliferation, regulating the synthesis and secretion of pro-fibrotic factors, and modulating extracellular matrix (ECM) synthesis and degradation.\nThis review primarily focuses on the molecular regulatory mechanisms of the TGF-β1/Smad signaling pathway in HF. It also summarizes TCM polysaccharides that target and modulate the TGF-β1/Smad pathway, aiming to provide reference and insights for the treatment of HF.",
-      "title_ko": "",
+      "title_ko": "간 섬유화 치료 전략과 전망: TGF-β1/Smad 경로 조절에서의 전통중의약 다당류의 적용",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -832,18 +832,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "전통중의약 다당류가 간 섬유화에서 TGF-β1/Smad 경로를 어떻게 조절할 수 있는지 검토하였다.",
+        "methods": "PubMed 등에서 관련 문헌을 체계적으로 검색해 최근 in vivo 및 in vitro 실험연구를 종합한 서술적 리뷰이다.",
+        "results": "전통중의약 다당류는 TGF-β1/Smad 경로를 조절해 염증, 간성상세포 활성화, 섬유화 인자 및 ECM 대사를 완화하는 다표적 항섬유화 잠재력을 보였다.",
+        "clinical_takeaway": "한약 다당류는 간 섬유화의 복합 병태에 대응할 가능성이 있으나, 임상 적용 전에는 표준화와 임상 근거 축적이 필요하다.",
+        "limitations": "실험연구 중심의 문헌고찰로, 임상적 유효성과 안전성에 대한 직접 근거는 제한적이다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "간 섬유화 환자 또는 관련 실험모델",
+          "i": "전통중의약 다당류",
+          "c": "명확한 정보 없음",
+          "o": "TGF-β1/Smad 경로 조절과 항섬유화 효과"
         }
       },
       "categories": [
