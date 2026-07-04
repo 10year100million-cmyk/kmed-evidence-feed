@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03 20:34:45 UTC",
+  "updated": "2026-07-04 20:18:16 UTC",
   "total": 50,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
@@ -1240,6 +1240,83 @@
       ]
     },
     {
+      "id": "pmid-42349187",
+      "pmid": "42349187",
+      "doi": "10.1016/j.chroma.2026.467197",
+      "title": "AI‑assisted screening and chemical derivatization to comprehensive analysis of chemical composition of Shuxuening injection.",
+      "journal": "Journal of chromatography. A",
+      "pub_date": "2026-08-30",
+      "authors": "Li Y, Guo Y, Han R, Xu H, Gao Y, Li Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42349187/",
+      "abstract": "This study established a strategy integrating biosynthesis-guided theoretical library construction and targeted chemical derivatization to characterize various classes of chemical constituents in the Shuxuening injection (SXNI), including flavonoids, ginkgolides, amines, and carboxylic acids. A total of 284 compounds were putatively identified, of which 88 were reported for the first time in SXNI or in Ginkgo biloba. For flavonoids, the expanded theoretical library enabled the putative identification of 88 compounds, including 30 newly discovered structures. These novel flavonoids encompass novel aglycones, glycosyl moieties, and ten new acyl-glycosyl combinations, as well as three types of fatty acyl modification patterns were reported for the first time. Additionally, 68 potential flavonoid analogues were putatively characterized based on fragmentation patterns. For ginkgolides, we first identified 12 known ginkgolides, and then putatively characterized 21 potential ginkgolide analogues based on their fragmentation patterns. For primary metabolites that are difficult to identify by conventional methods, a derivatization strategy employing 5-(dimethylamino)-naphthalene-1-sulfonyl chloride (DNS-Cl) and 5-(dimethylamino) naphthalene-1-sulfonyl piperazine (DNS-PP) probes was utilized, and 35 compounds were putatively identified, including amino acids, organic amines, and carboxylic acids, with 25 of them being reported for the first time. This research comprehensively elucidates the overall chemical profile of SXNI. It provides a systematic methodological reference for in-depth material basis research of complex traditional Chinese medicine preparations and lays a solid chemical foundation for subsequent quality control and pharmacological activity studies.",
+      "title_ko": "쑥수닝 주사제의 화학 성분을 AI 보조 선별과 화학 유도체화를 통해 종합 분석한 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "쑥수닝 주사제의 다양한 화학 성분을 보다 포괄적으로 동정할 수 있는 분석 전략은 무엇인지 평가하였다.",
+        "methods": "생합성 기반 이론 라이브러리 구축과 표적 화학 유도체화를 결합해 쑥수닝 주사제의 성분을 질량분석 중심으로 분석한 연구이다.",
+        "results": "총 284개 화합물이 추정 동정되었고, 이 중 88개는 쑥수닝 주사제 또는 Ginkgo biloba에서 처음 보고되었다.",
+        "clinical_takeaway": "복합 한약 주사제의 성분 규명과 향후 품질관리·약리연구를 위한 분석 전략으로 참고할 수 있다.",
+        "limitations": "추정 동정 위주의 화학 분석 연구로, 임상 유효성이나 안전성은 평가하지 않았다.",
+        "pico": {
+          "p": "쑥수닝 주사제(SXNI)",
+          "i": "생합성 기반 이론 라이브러리와 표적 화학 유도체화를 결합한 화학 성분 분석",
+          "c": "명확한 정보 없음",
+          "o": "화학 성분의 포괄적 동정 및 신규 성분 보고"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42289176",
+      "pmid": "42289176",
+      "doi": "10.1016/j.bbrc.2026.154116",
+      "title": "Mechanism of berberine in the treatment of polycystic ovary syndrome revealed by network pharmacology analysis: Focusing on ferroptosis, ROS, immunity and inflammation.",
+      "journal": "Biochemical and biophysical research communications",
+      "pub_date": "2026-08-27",
+      "authors": "Ye K, Liu L, Fang J, Tian M, Han X, Chen X et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42289176/",
+      "abstract": "Berberine, a bioactive component isolated from traditional Chinese medicine, functions as a multitarget regulator and has been proven to ameliorate reproductive endocrine disorders and metabolic abnormalities in patients with polycystic ovary syndrome (PCOS). Nevertheless, the exact molecular mechanisms underlying its therapeutic effects remain to be fully elucidated. In this study, we integrated multi-omics data analysis with in vitro experimental validation. Differentially expressed genes associated with PCOS were screened from the Gene Expression Omnibus (GEO) database, and berberine-targeted genes were retrieved from public databases to construct a protein-protein interaction (PPI) network. KGN and Ishikawa cell models were employed to verify the regulatory effects of berberine on cell proliferation, oxidative stress and nuclear receptor signaling. Finally, molecular docking and molecular dynamics simulations were performed to analyze the binding patterns, so as to comprehensively decipher the molecular mechanism of berberine against PCOS. A total of 32 common targets were identified via network pharmacology analysis, which were mainly enriched in metabolism-, reproduction- and inflammation-related signaling pathways. Further screening identified 8 hub genes that constituted a nuclear receptor-kinase interaction module. Enrichment analysis indicated that these hub genes were cell-specifically correlated with N6-methyladenosine (m6A) modification, ferroptosis and immune inflammation. In vitro cellular assays demonstrated that berberine suppressed cell proliferation, elevated reactive oxygen species (ROS) levels and reduced intracellular iron concentrations. Molecular simulation results revealed the favorable binding energy of berberine to target receptors and stable RMSD values of the ligand-receptor complexes, uncovering a multi-axis network regulatory mechanism of berberine. Collectively, this study adopts an integrated multi-method strategy and confirms that berberine targets the nuclear receptor-kinase interaction module. It exerts multi-axis regulatory effects on PCOS by modulating m6A modification, ferroptosis, ROS accumulation and immune inflammatory responses.",
+      "title_ko": "페로토시스, ROS, 면역 및 염증에 초점을 맞춘 네트워크 약리학 분석으로 본 베르베린의 다낭성난소증후군 치료 기전",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "interaction"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "베르베린이 다낭성난소증후군(PCOS)에 작용하는 분자기전을 규명할 수 있는가?",
+        "methods": "GEO와 공공 DB의 유전자 자료를 이용한 네트워크 약리학과 KGN/Ishikawa 세포 실험, 분자도킹 및 분자동역학을 결합한 기전 연구이다.",
+        "results": "베르베린은 핵수용체-키나아제 상호작용 모듈과 관련된 표적을 통해 m6A 수정, 페로토시스, ROS 축적, 면역염증 반응을 조절하는 다축 기전을 보였다.",
+        "clinical_takeaway": "본 연구는 베르베린의 PCOS 관련 기전을 제시하지만, 세포 및 계산 기반 결과이므로 임상적 유효성은 별도 검증이 필요하다.",
+        "limitations": "세포 실험과 in silico 분석 중심의 기전 연구로, 실제 환자에서의 효과와 안전성을 직접 평가하지는 않았다.",
+        "pico": {
+          "p": "다낭성난소증후군(PCOS) 관련 유전자 및 세포 모델",
+          "i": "베르베린",
+          "c": "명확한 정보 없음",
+          "o": "세포 증식, 산화스트레스, 세포내 철 농도 및 관련 신호축 변화"
+        }
+      },
+      "categories": [
+        "여성질환",
+        "한약/본초"
+      ]
+    },
+    {
       "id": "pmid-42379695",
       "pmid": "42379695",
       "doi": "10.1016/j.pmr.2026.03.008",
@@ -1388,6 +1465,81 @@
       },
       "categories": [
         "수면/정신",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42400291",
+      "pmid": "42400291",
+      "doi": "10.1177/09645284261458401",
+      "title": "Precision acupuncture: Moving from art to evidence-based science.",
+      "journal": "Acupuncture in medicine : journal of the British Medical Acupuncture Society",
+      "pub_date": "2026-07-04",
+      "authors": "Tang WC, Yoon DE, Chae Y",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400291/",
+      "abstract": "",
+      "title_ko": "",
+      "publication_types": [
+        "Letter"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42399811",
+      "pmid": "42399811",
+      "doi": "10.1186/s12879-026-13772-y",
+      "title": "A case of Kocuria varians-induced cervical spondylodiscitis with suspected acupuncture-related infection: review and discussion.",
+      "journal": "BMC infectious diseases",
+      "pub_date": "2026-07-03",
+      "authors": "Chen L, Zhang T, Chen XY, Wang YZ, Li SK",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399811/",
+      "abstract": "In this article, a case of cervical spondylitis caused by Kocuria varians is reported, which has not been previously documented in clinical literature regarding cervical infections attributed to this bacterium. A review of the patient's medical history revealed prior acupuncture treatment in the cervical and shoulder regions before symptom onset. Despite this, there is no conclusive evidence linking the acupuncture to the infection. The patient ultimately required surgical intervention due to exacerbation of the condition and the manifestation of spinal cord injury symptoms.",
+      "title_ko": "Kocuria varians에 의한 경추 척추염성 디스크염과 침 관련 감염이 의심된 증례: 고찰과 논의",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "경추 및 어깨 부위 침 치료력이 있는 환자에서 Kocuria varians에 의한 경추 척추염성 디스크염이 발생할 수 있는지 살펴본 증례이다.",
+        "methods": "Kocuria varians로 인한 경추 감염 증례를 보고하고, 병력 검토와 문헌 고찰을 함께 수행한 증례보고이다.",
+        "results": "환자는 증상 악화와 척수 손상 증상으로 결국 수술적 치료가 필요했으며, 침 치료와 감염의 인과관계는 확정되지 않았다.",
+        "clinical_takeaway": "침 치료 후 경추 부위 감염이 의심되는 경우가 드물게 보고될 수 있으나, 본 증례만으로 인과관계를 단정하기는 어렵다.",
+        "limitations": "단일 증례보고이며 침 치료와 감염의 연관성이 결론적으로 입증되지 않았다.",
+        "pico": {
+          "p": "침 치료력이 있는 경추 감염 의심 환자",
+          "i": "경추 및 어깨 부위의 침 치료 병력",
+          "c": "명확한 정보 없음",
+          "o": "Kocuria varians에 의한 경추 척추염성 디스크염 및 수술 필요 여부"
+        }
+      },
+      "categories": [
+        "근골격",
         "침구/전침"
       ]
     },
@@ -1774,157 +1926,6 @@
       "categories": [
         "여성질환",
         "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42269639",
-      "pmid": "42269639",
-      "doi": "10.1088/1361-6528/ae7b3d",
-      "title": "Carbon nanotube fiber electrode-based implantable electroacupuncture ameliorates myocardial ischemia in rats via the FXR/SHP pathway.",
-      "journal": "Nanotechnology",
-      "pub_date": "2026-07-02",
-      "authors": "Fu Q, Ning S, Yu A, Liu Q, Guo Y, He J et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42269639/",
-      "abstract": "Myocardial ischemia (MI) remains a major clinical challenge, and the therapeutic potential of electroacupuncture (EA) is constrained in practice by repeated needle insertion, poor repeatability of acupoint localization, and limited long-term patient compliance. To overcome these barriers, we developed a minimally invasive implantable EA (IEA) system based on carbon nanotube fiber (CNTF) electrodes via a minimally invasive, ultrasound-guided procedure to establish a 'single-implantation, long-term stimulation' strategy, delivering both sustained mild stimulation and conventional EA at the Neiguan (PC6) acupoint. Results demonstrated that CNTFs with a diameter of 20-30μm, a conductivity of (2.64 ± 0.95) × 105S m-1, a charge storage capacity of 13.09 ± 2.79 mC cm-2, and an impedance of 133.48 ± 69.88 Ω at 1 kHz represented the balanced trade-off for performance. Within the 14 d observation period, CNTF implantation at PC6 did not induce obvious local inflammatory infiltration or pathological tissue alterations. In a rat model of isoproterenol-induced MI, the IEA system markedly improved cardiac electrophysiology attenuated cardiac remodeling and reduced serum cTnT levels demonstrating superior therapeutic effects compared with conventional EA. Kinetic analysis of electrophysiological data revealed that daily IEA facilitated faster effect accumulation and consolidation, favoring acute- or subacute-phase management, whereas alternate-day IEA achieved a higher therapeutic ceiling, suggesting its superiority for maximizing long-term functional recovery. These results provided a rationale for session-frequency-personalized therapy. Furthermore, the cardioprotective effect was mediated through the downregulation of the FXR/SHP apoptotic pathway, validated by pharmacological inhibition. This work established a safe, effective, and stable platform that merged advanced bioelectronic materials with traditional acupuncture theory, providing a promising translational solution for the chronic, home-based rehabilitation of heart disease or other diseases, particular for elderly, paralyzed, or those with limited mobility and access to clinical care.",
-      "title_ko": "탄소나노튜브 섬유 전극 기반 이식형 전침이 FXR/SHP 경로를 통해 쥐의 심근허혈을 완화한다",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "탄소나노튜브 섬유 전극 기반 이식형 전침이 심근허혈을 개선할 수 있는지 평가했다.",
-        "methods": "이소프로테레놀 유도 심근허혈 쥐에서 초음파 유도 최소침습 이식형 전침을 적용하고 전기생리학, 심장리모델링, 혈청 cTnT와 FXR/SHP 경로를 분석했다.",
-        "results": "이식형 전침은 국소 뚜렷한 염증 없이 심장 전기생리와 심장리모델링, cTnT를 개선했고, 그 효과는 FXR/SHP 세포사멸 경로 억제로 설명되었다.",
-        "clinical_takeaway": "침구 임상에서는 이 연구가 장기·반복 자극이 필요한 상황에서 이식형 전침의 가능성을 시사하지만, 동물실험 결과이므로 임상 적용 전 안전성과 유효성 검증이 더 필요하다.",
-        "limitations": "쥐 모델과 전임상 수준의 연구이며, 사람 대상 효과와 안전성은 초록에서 확인되지 않는다.",
-        "pico": {
-          "p": "이소프로테레놀 유도 심근허혈 쥐",
-          "i": "탄소나노튜브 섬유 전극 기반 이식형 전침",
-          "c": "기존 전침 또는 비교 자극 조건",
-          "o": "심장 전기생리, 심장리모델링, 혈청 cTnT 및 FXR/SHP 경로 변화"
-        }
-      },
-      "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42393879",
-      "pmid": "42393879",
-      "doi": "10.2174/0115733998431771260403053100",
-      "title": "Herbal Medicine and Metabolic Syndrome: Phytochemicals Targeting the Molecular Causes of Insulin Resistance and Related Comorbidities.",
-      "journal": "Current diabetes reviews",
-      "pub_date": "2026-07-01",
-      "authors": "Al-Rajaibi H, Elsamanoudy SA, Elsamanoudy AZ, Sakr HF",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42393879/",
-      "abstract": "Metabolic Syndrome (MetS) is a global health concern characterized by a cluster of interrelated metabolic abnormalities, including insulin resistance, central obesity, dyslipidemia, hypertension, and chronic low-grade inflammation. These factors significantly increase the risk of developing Type 2 Diabetes Mellitus (T2DM), Cardiovascular Disease (CVD), and other complications. In recent years, plant-derived natural products and herbal medicines have garnered increasing attention for their potential to modulate the underlying mechanisms of Metabolic Syndrome (MetS) safely and cost-effectively. This review explores the therapeutic role and molecular mechanisms of several key botanicals, including berberine, Cinnamomum cassia (Cinnamon), Zingiber officinale (ginger), Trigonella foenum-graecum (Fenugreek), Nigella sativa (black seed), Curcuma longa (Curcumin), Artemisia dracunculus (Russian tarragon), Momordica charantia (bitter melon), and Vaccinium angustifolium (lowbush blueberry). These agents exert multifaceted effects, including the activation of AMPK, enhancement of insulin receptor signaling, increased GLUT4 translocation, anti-inflammatory and antioxidant activities, and modulation of lipid metabolism and gut microbiota. While preclinical data strongly support their efficacy, human clinical trials have shown mixed results due to factors such as inconsistent formulations, poor bioavailability, and individual variability. Despite these challenges, the evidence suggests that plant-based therapies may serve as effective adjuncts to conventional treatment, particularly in the early or preventive stages of MetS. The review highlights the importance of standardized formulations, enhanced delivery systems, and well-controlled clinical trials to validate their efficacy and integrate them into evidence-based therapeutic protocols. These findings support the growing role of natural products in the holistic management of metabolic syndrome.",
-      "title_ko": "",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Protocol",
-      "evidence_level": "낮음",
-      "clinical_applicability": "낮음",
-      "priority": "보류",
-      "safety_flags": [],
-      "summary_status": "missing",
-      "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
-        "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
-        }
-      },
-      "categories": [
-        "대사/비만",
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42387810",
-      "pmid": "42387810",
-      "doi": "10.1111/dom.71060",
-      "title": "A Gut-Protective TRPV1-Neuroepithelial Axis: Electroacupuncture Reverses Intestinal Damage in Diet-Induced Obesity.",
-      "journal": "Diabetes, obesity & metabolism",
-      "pub_date": "2026-07-01",
-      "authors": "Yang X, Zhang L, Li X, Wu Y, Yu Z, Jing X et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42387810/",
-      "abstract": "Obesity impairs the colonic mucus layer and disrupts intestinal barrier function, leading to chronic inflammation. This study explores whether electroacupuncture can restore intestinal barrier integrity and alleviate chronic intestinal inflammation by promoting goblet cell mucus secretion via the TRPV1-CGRP-RAMP1 axis. It also examines the underlying mechanisms of sensory neuron. Epithelial cell crosstalk in this process, with the goal of providing a new interventional strategy for treating obesity-related intestinal barrier damage and metabolic inflammation.\nIn a high-fat diet (HFD)-induced obesity model using C57BL/6J mice, we employed tissue-clearing techniques to examine the expression of TRPV1 and CGRP in intact colon tissue. The expression of RAMP1 in goblet cells was assessed by immunohistochemistry. Colon pathology was evaluated using immunofluorescence, haematoxylin and eosin (H&E) staining, and Alcian blue-periodic acid-Schiff (AB-PAS) staining. Furthermore, western blot analysis was performed to measure the expression levels of tight junction proteins and proinflammatory cytokines in the colon tissue.\nHFD feeding resulted in increased intestinal permeability and aggravation of intestinal inflammation. Notably, electroacupuncture intervention reversed HFD-induced intestinal pathologies. Through targeted ablation of TRPV1 and administration of the RAMP1 antagonist BIBN4096, we further established the essential roles of TRPV1 signalling and the CGRP receptor RAMP1 in maintaining mucus layer thickness and intestinal homeostasis. Under these conditions, the therapeutic efficacy of electroacupuncture was abolished.\nWe demonstrated that electroacupuncture may promote mucus secretion from goblet cells via the TRPV1-CGRP-RAMP1 axis, thereby suppressing intestinal inflammation. This provides a feasible interventional strategy for treating obesity-related intestinal barrier damage.",
-      "title_ko": "장 보호성 TRPV1-신경상피 축: 전침이 식이 유도 비만의 장 손상을 되돌린다",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "전침이 비만으로 인한 장 장벽 손상과 만성 장염증을 TRPV1-CGRP-RAMP1 축을 통해 완화하는지 평가했다.",
-        "methods": "C57BL/6J 생쥐의 고지방식이 비만 모델에서 전침을 적용하고, 조직투명화·면역조직화학·면역형광·H&E·AB-PAS·웨스턴블롯으로 점액층, 장벽 및 염증 변화를 분석했다.",
-        "results": "고지방식이는 장 투과성과 염증을 악화시켰고, 전침은 이를 개선했으나 TRPV1 제거 또는 RAMP1 길항제 투여 시 이러한 효과가 소실되었다.",
-        "clinical_takeaway": "이 연구는 전침이 비만 관련 장 장벽 손상에 대한 잠재적 조절 전략이 될 수 있음을 시사하지만, 근거는 동물실험이므로 임상 적용은 신중히 해석해야 한다.",
-        "limitations": "생쥐 비만 모델의 전임상 연구로, 사람 대상의 임상적 유효성과 안전성은 초록에서 확인되지 않는다.",
-        "pico": {
-          "p": "고지방식이로 유도된 비만 C57BL/6J 생쥐",
-          "i": "전침",
-          "c": "비전침 또는 TRPV1 제거, RAMP1 길항제 BIBN4096 조건",
-          "o": "장 점액층 두께, 장 투과성, 장 염증 및 장벽 단백질 변화"
-        }
-      },
-      "categories": [
-        "대사/비만",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42387278",
-      "pmid": "42387278",
-      "doi": "10.1002/cns.70920",
-      "title": "EEG Functional Connectivity Associated With Antidepressant Response to Transcutaneous Electrical Cranial-Auricular Acupoint Stimulation.",
-      "journal": "CNS neuroscience & therapeutics",
-      "pub_date": "2026-07-01",
-      "authors": "Zhao Y, Yin Z, Zhang Y, Wang X, Liu C, Wu W et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42387278/",
-      "abstract": "Transcutaneous electrical cranial-auricular acupoint stimulation (TECAS) is an emerging neuromodulation therapy that integrates principles of acupuncture with noninvasive electrical stimulation. While TECAS has demonstrated efficacy in treating major depressive disorder (MDD), patient responses vary considerably, and the neurophysiological mechanisms remain poorly understood. This clinical study aimed to investigate electroencephalography (EEG)-based functional connectivity (FC) as a potential predictor of clinical response to TECAS in patients with MDD.\nResting-state EEG was recorded from 50 MDD patients before and after 8 weeks of TECAS treatment, and from 37 healthy controls (HCs). We compared baseline FC between MDD patients and HCs, pre-to-posttreatment changes in patients, and baseline features between treatment responders and nonresponders. Correlations between FC features and clinical symptom improvements were also assessed.\nAfter treatment, frontoparietal θ-band connectivity strength was significantly reduced in MDD. Crucially, pretreatment frontoparietal δ-band connectivity was negatively correlated with posttreatment reductions in depression and anxiety scores. Furthermore, responders demonstrated significantly higher pretreatment β-band FC than nonresponders.\nOur findings indicate that TECAS modulates frontoparietal θ connectivity in MDD. More importantly, pretreatment δ- and β-band FC patterns are associated with therapeutic outcome. These features may serve as potential biomarkers for predicting response to TECAS, facilitating the development of personalized therapeutic strategies for MDD.",
-      "title_ko": "두개-이개 경혈 경피 전기자극에 대한 항우울 반응과 연관된 EEG 기능적 연결성",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "TECAS에 대한 주요우울장애 환자의 치료 반응을 예측할 수 있는 EEG 기능적 연결성이 있는지 평가했다.",
-        "methods": "주요우울장애 환자와 건강대조군에서 휴지기 EEG를 측정하고 8주 TECAS 전후 및 반응자/비반응자 간 기능적 연결성을 비교한 임상연구이다.",
-        "results": "TECAS 후 MDD에서 전두-두정 θ대 연결성이 감소했고, 치료 전 δ대 연결성과 β대 연결성은 각각 증상 호전 및 치료 반응과 연관되었다.",
-        "clinical_takeaway": "TECAS의 항우울 반응은 특정 EEG 기능적 연결성 패턴과 연관되어 있어, 향후 반응 예측 바이오마커 후보로 고려될 수 있다.",
-        "limitations": "초록 수준의 단일 임상연구로, 예측 바이오마커의 임상 적용 가능성은 추가 검증이 필요하다.",
-        "pico": {
-          "p": "주요우울장애 환자와 건강대조군",
-          "i": "두개-이개 경혈 경피 전기자극(TECAS)",
-          "c": "건강대조군 및 치료 전후/반응자-비반응자 비교",
-          "o": "EEG 기능적 연결성과 우울·불안 증상 변화"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
       ]
     }
   ]

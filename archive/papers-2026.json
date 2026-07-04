@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-03 20:34:45 UTC",
+  "updated": "2026-07-04 20:18:16 UTC",
   "year": "2026",
-  "total": 126,
+  "total": 130,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
     {
@@ -1241,6 +1241,83 @@
       ]
     },
     {
+      "id": "pmid-42349187",
+      "pmid": "42349187",
+      "doi": "10.1016/j.chroma.2026.467197",
+      "title": "AI‑assisted screening and chemical derivatization to comprehensive analysis of chemical composition of Shuxuening injection.",
+      "journal": "Journal of chromatography. A",
+      "pub_date": "2026-08-30",
+      "authors": "Li Y, Guo Y, Han R, Xu H, Gao Y, Li Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42349187/",
+      "abstract": "This study established a strategy integrating biosynthesis-guided theoretical library construction and targeted chemical derivatization to characterize various classes of chemical constituents in the Shuxuening injection (SXNI), including flavonoids, ginkgolides, amines, and carboxylic acids. A total of 284 compounds were putatively identified, of which 88 were reported for the first time in SXNI or in Ginkgo biloba. For flavonoids, the expanded theoretical library enabled the putative identification of 88 compounds, including 30 newly discovered structures. These novel flavonoids encompass novel aglycones, glycosyl moieties, and ten new acyl-glycosyl combinations, as well as three types of fatty acyl modification patterns were reported for the first time. Additionally, 68 potential flavonoid analogues were putatively characterized based on fragmentation patterns. For ginkgolides, we first identified 12 known ginkgolides, and then putatively characterized 21 potential ginkgolide analogues based on their fragmentation patterns. For primary metabolites that are difficult to identify by conventional methods, a derivatization strategy employing 5-(dimethylamino)-naphthalene-1-sulfonyl chloride (DNS-Cl) and 5-(dimethylamino) naphthalene-1-sulfonyl piperazine (DNS-PP) probes was utilized, and 35 compounds were putatively identified, including amino acids, organic amines, and carboxylic acids, with 25 of them being reported for the first time. This research comprehensively elucidates the overall chemical profile of SXNI. It provides a systematic methodological reference for in-depth material basis research of complex traditional Chinese medicine preparations and lays a solid chemical foundation for subsequent quality control and pharmacological activity studies.",
+      "title_ko": "쑥수닝 주사제의 화학 성분을 AI 보조 선별과 화학 유도체화를 통해 종합 분석한 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "쑥수닝 주사제의 다양한 화학 성분을 보다 포괄적으로 동정할 수 있는 분석 전략은 무엇인지 평가하였다.",
+        "methods": "생합성 기반 이론 라이브러리 구축과 표적 화학 유도체화를 결합해 쑥수닝 주사제의 성분을 질량분석 중심으로 분석한 연구이다.",
+        "results": "총 284개 화합물이 추정 동정되었고, 이 중 88개는 쑥수닝 주사제 또는 Ginkgo biloba에서 처음 보고되었다.",
+        "clinical_takeaway": "복합 한약 주사제의 성분 규명과 향후 품질관리·약리연구를 위한 분석 전략으로 참고할 수 있다.",
+        "limitations": "추정 동정 위주의 화학 분석 연구로, 임상 유효성이나 안전성은 평가하지 않았다.",
+        "pico": {
+          "p": "쑥수닝 주사제(SXNI)",
+          "i": "생합성 기반 이론 라이브러리와 표적 화학 유도체화를 결합한 화학 성분 분석",
+          "c": "명확한 정보 없음",
+          "o": "화학 성분의 포괄적 동정 및 신규 성분 보고"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42289176",
+      "pmid": "42289176",
+      "doi": "10.1016/j.bbrc.2026.154116",
+      "title": "Mechanism of berberine in the treatment of polycystic ovary syndrome revealed by network pharmacology analysis: Focusing on ferroptosis, ROS, immunity and inflammation.",
+      "journal": "Biochemical and biophysical research communications",
+      "pub_date": "2026-08-27",
+      "authors": "Ye K, Liu L, Fang J, Tian M, Han X, Chen X et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42289176/",
+      "abstract": "Berberine, a bioactive component isolated from traditional Chinese medicine, functions as a multitarget regulator and has been proven to ameliorate reproductive endocrine disorders and metabolic abnormalities in patients with polycystic ovary syndrome (PCOS). Nevertheless, the exact molecular mechanisms underlying its therapeutic effects remain to be fully elucidated. In this study, we integrated multi-omics data analysis with in vitro experimental validation. Differentially expressed genes associated with PCOS were screened from the Gene Expression Omnibus (GEO) database, and berberine-targeted genes were retrieved from public databases to construct a protein-protein interaction (PPI) network. KGN and Ishikawa cell models were employed to verify the regulatory effects of berberine on cell proliferation, oxidative stress and nuclear receptor signaling. Finally, molecular docking and molecular dynamics simulations were performed to analyze the binding patterns, so as to comprehensively decipher the molecular mechanism of berberine against PCOS. A total of 32 common targets were identified via network pharmacology analysis, which were mainly enriched in metabolism-, reproduction- and inflammation-related signaling pathways. Further screening identified 8 hub genes that constituted a nuclear receptor-kinase interaction module. Enrichment analysis indicated that these hub genes were cell-specifically correlated with N6-methyladenosine (m6A) modification, ferroptosis and immune inflammation. In vitro cellular assays demonstrated that berberine suppressed cell proliferation, elevated reactive oxygen species (ROS) levels and reduced intracellular iron concentrations. Molecular simulation results revealed the favorable binding energy of berberine to target receptors and stable RMSD values of the ligand-receptor complexes, uncovering a multi-axis network regulatory mechanism of berberine. Collectively, this study adopts an integrated multi-method strategy and confirms that berberine targets the nuclear receptor-kinase interaction module. It exerts multi-axis regulatory effects on PCOS by modulating m6A modification, ferroptosis, ROS accumulation and immune inflammatory responses.",
+      "title_ko": "페로토시스, ROS, 면역 및 염증에 초점을 맞춘 네트워크 약리학 분석으로 본 베르베린의 다낭성난소증후군 치료 기전",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "interaction"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "베르베린이 다낭성난소증후군(PCOS)에 작용하는 분자기전을 규명할 수 있는가?",
+        "methods": "GEO와 공공 DB의 유전자 자료를 이용한 네트워크 약리학과 KGN/Ishikawa 세포 실험, 분자도킹 및 분자동역학을 결합한 기전 연구이다.",
+        "results": "베르베린은 핵수용체-키나아제 상호작용 모듈과 관련된 표적을 통해 m6A 수정, 페로토시스, ROS 축적, 면역염증 반응을 조절하는 다축 기전을 보였다.",
+        "clinical_takeaway": "본 연구는 베르베린의 PCOS 관련 기전을 제시하지만, 세포 및 계산 기반 결과이므로 임상적 유효성은 별도 검증이 필요하다.",
+        "limitations": "세포 실험과 in silico 분석 중심의 기전 연구로, 실제 환자에서의 효과와 안전성을 직접 평가하지는 않았다.",
+        "pico": {
+          "p": "다낭성난소증후군(PCOS) 관련 유전자 및 세포 모델",
+          "i": "베르베린",
+          "c": "명확한 정보 없음",
+          "o": "세포 증식, 산화스트레스, 세포내 철 농도 및 관련 신호축 변화"
+        }
+      },
+      "categories": [
+        "여성질환",
+        "한약/본초"
+      ]
+    },
+    {
       "id": "pmid-42379695",
       "pmid": "42379695",
       "doi": "10.1016/j.pmr.2026.03.008",
@@ -1389,6 +1466,81 @@
       },
       "categories": [
         "수면/정신",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42400291",
+      "pmid": "42400291",
+      "doi": "10.1177/09645284261458401",
+      "title": "Precision acupuncture: Moving from art to evidence-based science.",
+      "journal": "Acupuncture in medicine : journal of the British Medical Acupuncture Society",
+      "pub_date": "2026-07-04",
+      "authors": "Tang WC, Yoon DE, Chae Y",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400291/",
+      "abstract": "",
+      "title_ko": "",
+      "publication_types": [
+        "Letter"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42399811",
+      "pmid": "42399811",
+      "doi": "10.1186/s12879-026-13772-y",
+      "title": "A case of Kocuria varians-induced cervical spondylodiscitis with suspected acupuncture-related infection: review and discussion.",
+      "journal": "BMC infectious diseases",
+      "pub_date": "2026-07-03",
+      "authors": "Chen L, Zhang T, Chen XY, Wang YZ, Li SK",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399811/",
+      "abstract": "In this article, a case of cervical spondylitis caused by Kocuria varians is reported, which has not been previously documented in clinical literature regarding cervical infections attributed to this bacterium. A review of the patient's medical history revealed prior acupuncture treatment in the cervical and shoulder regions before symptom onset. Despite this, there is no conclusive evidence linking the acupuncture to the infection. The patient ultimately required surgical intervention due to exacerbation of the condition and the manifestation of spinal cord injury symptoms.",
+      "title_ko": "Kocuria varians에 의한 경추 척추염성 디스크염과 침 관련 감염이 의심된 증례: 고찰과 논의",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "경추 및 어깨 부위 침 치료력이 있는 환자에서 Kocuria varians에 의한 경추 척추염성 디스크염이 발생할 수 있는지 살펴본 증례이다.",
+        "methods": "Kocuria varians로 인한 경추 감염 증례를 보고하고, 병력 검토와 문헌 고찰을 함께 수행한 증례보고이다.",
+        "results": "환자는 증상 악화와 척수 손상 증상으로 결국 수술적 치료가 필요했으며, 침 치료와 감염의 인과관계는 확정되지 않았다.",
+        "clinical_takeaway": "침 치료 후 경추 부위 감염이 의심되는 경우가 드물게 보고될 수 있으나, 본 증례만으로 인과관계를 단정하기는 어렵다.",
+        "limitations": "단일 증례보고이며 침 치료와 감염의 연관성이 결론적으로 입증되지 않았다.",
+        "pico": {
+          "p": "침 치료력이 있는 경추 감염 의심 환자",
+          "i": "경추 및 어깨 부위의 침 치료 병력",
+          "c": "명확한 정보 없음",
+          "o": "Kocuria varians에 의한 경추 척추염성 디스크염 및 수술 필요 여부"
+        }
+      },
+      "categories": [
+        "근골격",
         "침구/전침"
       ]
     },
@@ -1824,7 +1976,7 @@
       "authors": "Al-Rajaibi H, Elsamanoudy SA, Elsamanoudy AZ, Sakr HF",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42393879/",
       "abstract": "Metabolic Syndrome (MetS) is a global health concern characterized by a cluster of interrelated metabolic abnormalities, including insulin resistance, central obesity, dyslipidemia, hypertension, and chronic low-grade inflammation. These factors significantly increase the risk of developing Type 2 Diabetes Mellitus (T2DM), Cardiovascular Disease (CVD), and other complications. In recent years, plant-derived natural products and herbal medicines have garnered increasing attention for their potential to modulate the underlying mechanisms of Metabolic Syndrome (MetS) safely and cost-effectively. This review explores the therapeutic role and molecular mechanisms of several key botanicals, including berberine, Cinnamomum cassia (Cinnamon), Zingiber officinale (ginger), Trigonella foenum-graecum (Fenugreek), Nigella sativa (black seed), Curcuma longa (Curcumin), Artemisia dracunculus (Russian tarragon), Momordica charantia (bitter melon), and Vaccinium angustifolium (lowbush blueberry). These agents exert multifaceted effects, including the activation of AMPK, enhancement of insulin receptor signaling, increased GLUT4 translocation, anti-inflammatory and antioxidant activities, and modulation of lipid metabolism and gut microbiota. While preclinical data strongly support their efficacy, human clinical trials have shown mixed results due to factors such as inconsistent formulations, poor bioavailability, and individual variability. Despite these challenges, the evidence suggests that plant-based therapies may serve as effective adjuncts to conventional treatment, particularly in the early or preventive stages of MetS. The review highlights the importance of standardized formulations, enhanced delivery systems, and well-controlled clinical trials to validate their efficacy and integrate them into evidence-based therapeutic protocols. These findings support the growing role of natural products in the holistic management of metabolic syndrome.",
-      "title_ko": "",
+      "title_ko": "한약과 대사증후군: 인슐린 저항성과 관련 합병증의 분자적 원인을 표적으로 하는 식물화학물질",
       "publication_types": [
         "Journal Article"
       ],
@@ -1833,18 +1985,18 @@
       "clinical_applicability": "낮음",
       "priority": "보류",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "대사증후군에서 특정 식물 유래 한약 성분들이 인슐린 저항성과 관련 대사 이상을 어떻게 조절하는지 검토한 문헌이다.",
+        "methods": "대사증후군 관련 여러 약용식물과 주요 생리활성 성분의 작용기전을 정리한 서술형 리뷰 프로토콜이다.",
+        "results": "전임상에서는 AMPK 활성화, 인슐린 신호 강화, GLUT4 이동 증가, 항염·항산화 및 지질대사 조절 효과가 일관되었으나, 인체 연구 결과는 제형과 생체이용률 등의 영향으로 혼재되었다.",
+        "clinical_takeaway": "표준화된 제형과 근거가 더 필요한 단계이지만, 초기 또는 예방적 맥락에서 보조적 가능성을 시사한다.",
+        "limitations": "프로토콜 성격의 리뷰이며, 인체 근거가 일관되지 않고 제형·생체이용률·개인차의 영향을 크게 받는다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "대사증후군 환자 또는 관련 대사 이상 상태",
+          "i": "Berberine, 계피, 생강, 호로파, 블랙시드, 커큐민, 러시안 타라곤, 여주, 블루베리 등 식물 유래 성분",
+          "c": "명확한 정보 없음",
+          "o": "인슐린 저항성, 혈당·지질대사, 염증 및 산화스트레스 관련 지표"
         }
       },
       "categories": [
@@ -1976,7 +2128,7 @@
       "authors": "Chang WH, Chuang YF, Li PC, Hsu HT, Fang WY, Yu SY et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42382061/",
       "abstract": "Skeletal muscle is the largest organ of the human body. It affects body metabolism and cooperates with other organs to maintain various physiological functions. Gan-Mai-Da-Zao-Tang (, gān mài dà zǎo tāng, GMDZ) is a traditional Chinese medicine consisting of licorice, wheat, and jujube. GMDZ is commonly used to treat anxiety and depression. Increasing evidence shows a correlation exists between sarcopenia and depression. Muscle wasting, particularly in older individuals, increases the risk of depressive symptoms. The study aims to explore the effects of GMDZ water extract (WE) on age-induced muscle wasting and mitochondrial dysfunction in 25-week-old and 82-week-old mice.\nExercise capacity was assessed through locomotor activity, rotarod performance, and grid-hanging tests. Grip strength was measured to assess muscle strength, while histological analysis and immunofluorescence staining were used to evaluate muscle mass and myofiber cross-sectional area. Protein expression, mRNA, and ATP levels were determined using western blots, real-time PCR, and ATP bioluminescence assays.\nGMDZ-WE significantly improved motor performance, grip strength, muscle mass, and myofiber cross-sectional area in aging mice. These enhancements were associated with increased MyHC expression and the IGF-1R/Akt protein synthesis pathway in skeletal muscle. In addition, GMDZ-WE decreased age-related protein degradation and inflammatory signaling, enhanced mitochondrial biogenesis signaling, increased GSH levels, SOD activity, and reduced lipid oxidation in the skeletal muscle of aging mice. In conclusion, GMDZ-WE reduces age-related skeletal muscle wasting, motor impairment, oxidative stress, inflammation, and mitochondrial dysfunction, demonstrating anti-aging potential on skeletal muscles.",
-      "title_ko": "",
+      "title_ko": "감맥대조탕이 노화 유발 골격근 소실을 완화하고 미토콘드리아 기능을 개선한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -1985,18 +2137,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "감맥대조탕 물추출물이 노화 유발 근감소와 미토콘드리아 기능 이상에 효과가 있는지 평가하였다.",
+        "methods": "25주령과 82주령 생쥐에서 운동능, 악력, 근육조직, 단백질·mRNA 발현, ATP 수준을 측정한 실험 연구이다.",
+        "results": "감맥대조탕 물추출물은 노화 생쥐에서 운동기능, 악력, 근육량과 근섬유 단면적을 개선하고 단백질 합성, 항산화, 미토콘드리아 관련 지표를 향상시켰다.",
+        "clinical_takeaway": "노화 관련 근감소와 피로감이 동반된 경우 한약의 기전적 가능성을 시사하지만, 사람 대상 근거는 별도로 확인해야 한다.",
+        "limitations": "생쥐 실험 결과이므로 사람에게의 효과와 안전성을 직접 추정하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "노화 유발 골격근 소실과 미토콘드리아 기능 저하가 있는 생쥐",
+          "i": "감맥대조탕 물추출물",
+          "c": "명확한 정보 없음",
+          "o": "운동능, 악력, 근육량, 근섬유 단면적, 미토콘드리아 및 산화스트레스 지표"
         }
       },
       "categories": [
@@ -2014,7 +2166,7 @@
       "authors": "Jang JH, Song Y, Han SH, Choi BR, Lee YJ, Ha IH",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42382059/",
       "abstract": "Osteoarthritis is characterized by cartilage degeneration and joint pain, and celecoxib is widely used to treat osteoarthritis, but it has the risk of side effects. We investigated the effect of Shinbaro, a herbal medicine, combined with celecoxib in osteoarthritis. In vitro, primary chondrocytes treated with Shinbaro (200 μg/mL) or celecoxib (0.5 or 1 μM) in the presence of interleukin (IL)-1β (1 ng/mL) for 24 and 48 h were analyzed for cell viability, gene expression, and protein levels. In vivo, mice with osteoarthritis induced via destabilization of the medial meniscus (DMM) surgery were treated with Shinbaro (100 mg/kg) and/or celecoxib (15 or 30 mg/kg) five times weekly for 8 weeks (n = 7/groups; total n = 42). Cartilage degradation and inflammation were evaluated through behavioral tests, Osteoarthritis Research Society International (OARSI) scoring, and immunofluorescence. The combined treatment did not affect cell viability but reduced the IL-1β-induced expression of extracellular matrix (ECM)-degrading enzymes (matrix metallopeptidase 13 and a disintegrin and metalloproteinase with thrombospondin motifs 5) in chondrocytes. It also inhibited IL-1β-induced mitogen-activated protein kinase pathway activation, showing a synergistic reduction in pro-inflammatory markers compared to single treatments. In a DMM-induced osteoarthritis mouse model, the combined treatment improved weight distribution, reduced mechanical allodynia, and protected against cartilage degradation, evidenced by lower OARSI scores and preserved ECM components (COL2A1, aggrecan). The combined treatment with Shinbaro and celecoxib may offer superior therapeutic benefits in reducing joint pain and degeneration in osteoarthritis by targeting inflammation and preserving cartilage, potentially addressing the limitations of long-term celecoxib use.",
-      "title_ko": "",
+      "title_ko": "신바로와 셀레콕시브 병용요법이 골관절염 마우스 모델에서 관절통과 연골 분해를 개선한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -2023,18 +2175,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "신바로와 셀레콕시브 병용이 골관절염에서 통증과 연골 퇴행을 더 잘 줄일 수 있는지 평가했다.",
+        "methods": "IL-1β 처리 연골세포와 DMM 유도 골관절염 마우스에서 신바로와 셀레콕시브 단독 및 병용 효과를 비교한 전임상 연구이다.",
+        "results": "병용치료는 연골세포 생존율을 해치지 않으면서 염증과 ECM 분해 관련 지표를 더 줄였고, 마우스에서 통증과 연골 손상을 함께 개선했다.",
+        "clinical_takeaway": "신바로와 셀레콕시브 병용은 염증 억제와 연골 보호 측면에서 가능성을 보였지만, 동물 및 세포 실험 결과이므로 임상 적용 해석에는 주의가 필요하다.",
+        "limitations": "세포와 마우스 전임상 연구로서 사람 대상 임상적 유효성과 안전성은 확인되지 않았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "IL-1β 처리 연골세포와 DMM 유도 골관절염 마우스",
+          "i": "신바로와 셀레콕시브 병용",
+          "c": "단독 치료 또는 대조 조건",
+          "o": "연골 분해, 염증 지표, 체중 분포, 기계적 통각 과민, OARSI 점수"
         }
       },
       "categories": [
@@ -2053,7 +2205,7 @@
       "authors": "Yoon HJ, Lee NK, Paik HD",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42333096/",
       "abstract": "Inula britannica, a yellow flower belonging to the Asteraceae family, has traditionally been used, with its young shoots being edible and the flowers being used as tea. In addition, it has been used traditional medicine for centuries, due to the physiological activities, including anti-inflammatory, anti-tumor, and antioxidant activities. Furthermore, it exhibits various other bioactivities, including neuroprotective, anti-obesity, and antibacterial effects. The bioactivities of I. britannica are thought to be primarily due to the sesquiterpene components. It consists of three isoprene units, with variations reported depending on origin and isolation methods. Although sesquiterpenes are effective, they are toxic, and independent safety studies are lacking. Furthermore, research on the applications of I. britannica is limited, except for some studies on cosmetics and food. Therefore, this review summarizes the bioactivities, components, and safety of I. britannica, discusses its potential as a functional food material, and presents its overall characteristics.",
-      "title_ko": "",
+      "title_ko": "인울라 브리타니카의 생리활성, 성분, 안전성 및 응용",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -2065,18 +2217,18 @@
       "safety_flags": [
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "Inula britannica의 생리활성, 주요 성분, 안전성 및 기능성 식품 소재로서의 가능성을 정리하는 것이 목적이다.",
+        "methods": "Inula britannica의 생리활성, 성분, 안전성 및 응용 연구를 종합한 문헌고찰이다.",
+        "results": "이 식물은 항염, 항종양, 항산화, 신경보호, 항비만, 항균 등의 활성이 보고되었고, 생리활성은 주로 세스퀴테르펜 성분과 관련된 것으로 제시되었다.",
+        "clinical_takeaway": "한약재 및 기능성 소재 관점에서 잠재력이 있으나, 세스퀴테르펜의 독성 가능성과 독립적 안전성 근거 부족을 함께 고려해야 한다.",
+        "limitations": "독립적인 안전성 연구가 부족하고 응용 연구도 제한적이어서 근거의 일반화에 주의가 필요하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "Inula britannica 및 그 유래 성분",
+          "i": "명확한 정보 없음",
+          "c": "명확한 정보 없음",
+          "o": "생리활성, 안전성, 기능성 식품으로서의 응용 가능성"
         }
       },
       "categories": [
@@ -2483,7 +2635,7 @@
       "authors": "Zhang Y, Zhao J, Huang E, Li Y, Yin X, Zhang J et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42236253/",
       "abstract": "Diabetic foot ulcers (DFUs) constitute an increasing clinical challenge, driven by the escalating prevalence of diabetes and the paucity of effective therapies. This multicentre, randomised, open-label, blinded-endpoint trial investigated the efficacy and safety of Yunnan Baiyao (YNBY), a traditional Chinese medicine, as an adjunctive therapy for DFUs. Patients with DFUs (Wagner Grade 3 or 4) from three hospitals were randomised 2:2:1 to YNBY powder, YNBY ointment and control groups, all receiving standard of care. A total of 117 patients completed the trial. The 2-week percentage of wound area reduction (PWAR) was significantly higher in YNBY powder (61.5%) and YNBY ointment (70.0%) groups than that in the control group (46.4%, p < 0.01). The 1-week PWAR was almost doubled in the YNBY powder group (36.1%) and the YNBY ointment group (42.9%) relative to the control group (19.5%, p < 0.05). The percentage of complete healing within 8 weeks (control group, 25.0%; powder group, 54.2%; ointment group, 61.9%) did not reach statistical significance. No significant differences were observed between the YNBY powder and ointment groups. The adjunctive use of YNBY powder or ointment with standard therapy significantly accelerates wound closure. This effective, inexpensive, easy-to-apply traditional medicine can serve as an effective adjunct to standard DFUs care. Trial registration: https://clinicaltrials.gov/, NCT06197412 (Registration Date: 12/17/2023).",
-      "title_ko": "",
+      "title_ko": "당뇨발궤양 치료에서 운남백약의 유효성과 안전성: 다기관 무작위 임상시험",
       "publication_types": [
         "Clinical Trial, Phase IV",
         "Journal Article",
@@ -2497,18 +2649,18 @@
       "safety_flags": [
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "운남백약을 표준치료에 보조적으로 사용하면 당뇨발궤양의 상처 치유를 개선할 수 있는지 평가했다.",
+        "methods": "3개 병원에서 Wagner 3~4등급 당뇨발궤양 환자를 대상으로 운남백약 분말, 연고, 대조군으로 무작위 배정한 다기관 공개표지·평가자 눈가림 임상시험이다.",
+        "results": "운남백약 분말과 연고는 1주 및 2주 상처면적 감소율을 대조군보다 유의하게 높였지만 8주 완전치유율 차이는 통계적으로 유의하지 않았다.",
+        "clinical_takeaway": "표준치료에 운남백약 분말 또는 연고를 병용하면 상처 폐쇄 속도를 높일 가능성이 있으나, 완전치유 이점과 안전성은 더 확인이 필요하다.",
+        "limitations": "완전치유율의 유의성 부족과 공개표지 설계로 인해 임상적 해석에 주의가 필요하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "Wagner 3~4등급 당뇨발궤양 환자",
+          "i": "운남백약 분말 또는 연고를 표준치료에 병용",
+          "c": "표준치료 단독",
+          "o": "상처 면적 감소율과 8주 완전치유율"
         }
       },
       "categories": [
@@ -2600,7 +2752,7 @@
       "authors": "Zhai SY, Yang SR, Zhang ZY, Zhou H",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42161771/",
       "abstract": "Insomnia significantly impacts mental health and is linked to a range of other health issues, including cardiovascular diseases, depression and anxiety. Acupuncture, a traditional non-pharmacological intervention, enhances sleep quality by modulating neural circuits and neurotransmitter systems within the brain, particularly in regions such as the hypothalamus, brainstem, and limbic system. It can regulate circadian rhythms, facilitate the equilibrium of neurohormones and neurotransmitters, including melatonin, 5-hydroxytryptamine and γ-aminobutyric acid, and mitigate stress responses through the modulation of the hypothalamic-pituitary-adrenal axis. Acupuncture has demonstrated efficacy in alleviating insomnia symptoms with minimal adverse effects. This review highlights the need for a deeper understanding of how acupuncture modulates brain circuits, particularly in the context of personalized treatments and gender-specific responses. Such research offers valuable insights into the neurobiological mechanisms of acupuncture and supports the development of more targeted clinical strategies. Please cite this article as: Zhai SY, Yang SR, Zhang ZY, Zhou H. Current state and future prospects of acupuncture for insomnia: From central mechanisms to peripheral effects. J Integr Med. 2026; 24(4):481-492.",
-      "title_ko": "",
+      "title_ko": "불면증에 대한 침 치료의 현황과 미래 전망: 중추 기전에서 말초 효과까지",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -2612,18 +2764,18 @@
       "safety_flags": [
         "adverse"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "침 치료가 불면증 개선에 어떤 기전을 통해 작용하는지와 향후 연구 방향은 무엇인지 평가하였다.",
+        "methods": "불면증에 대한 침 치료의 중추·말초 기전과 임상적 유용성을 서술한 문헌고찰이다.",
+        "results": "침 치료는 뇌 회로와 신경전달물질, 일주기 리듬 및 HPA 축을 조절해 불면 증상 완화에 도움을 줄 수 있으며 이상반응은 적다고 보고되었다.",
+        "clinical_takeaway": "침 치료는 불면증의 비약물적 선택지로 고려될 수 있으나, 개인맞춤 및 성별 차이를 포함한 기전과 임상근거는 추가 검증이 필요하다.",
+        "limitations": "서술적 고찰로서 효과 크기나 안전성을 정량적으로 확정하기 어렵고, 개인맞춤 및 성별 반응에 대한 근거가 부족하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "불면증 환자",
+          "i": "침 치료",
+          "c": "명확한 정보 없음",
+          "o": "수면의 질 개선 및 불면 증상 완화"
         }
       },
       "categories": [
@@ -2641,7 +2793,7 @@
       "authors": "Mu X, Tian W, Song S, Huang Y, Wei C, Hu Y et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42150732/",
       "abstract": "Bupleuri Radix is a widely used herbal medicine in Asia. Experimental studies suggest it may modulate Cytochrome P450 3A4 (CYP3A4), the primary metabolic pathway of quetiapine, which is a first-line medication for psychosis, potentially altering drug exposure and raising concerns about pharmacokinetic interactions. We examined the risk of acute adverse events associated with concomitant use of Bupleuri Radix-containing formulations and quetiapine.\nWe conducted a retrospective cohort study using a Japanese claims database. Individuals aged 18-75 years initiating quetiapine between 2014 and 2023 were eligible. Exposure was defined as dispensing of Bupleuri Radix-containing formulations during quetiapine use. Risk-set matching (1:4) was performed on age, sex, calendar time, duration of quetiapine exposure. The primary outcome was a composite of acute adverse events, including central nervous system (CNS) depression, orthostatic hypotension, tachycardia. Cox models with inverse probability of treatment weighting estimated hazard ratios (HRs) and 95% confidence intervals (CIs).\nThe matched cohort included 7552 exposed individuals and 30,091 controls. Weighted incidence rate of the composite outcome was 50.59 vs 32.21 per 1000 person-years in the concomitant-use and quetiapine-only groups. Concomitant use was associated with a statistically significant increased risk of the composite outcome (weighted HR 1.28, 95% CI 1.04-1.57) and CNS depression (HR 1.35, 95% CI 1.05-1.74).\nConcomitant use of Bupleuri Radix-containing formulations with quetiapine was associated with increased risk of acute adverse events, the absolute rate difference approached 2 additional events per 100 person-years, entailing clinical significance. Clinicians should consider this potential risk alongside expected treatment benefits.",
-      "title_ko": "",
+      "title_ko": "시호(부수리 라딕스)와 쿠에티아핀 병용 시 이상반응 위험: 인구기반 코호트 연구",
       "publication_types": [
         "Journal Article",
         "Research Support, Non-U.S. Gov't"
@@ -2654,18 +2806,18 @@
         "adverse",
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "시호 함유 처방과 쿠에티아핀의 병용이 급성 이상반응 위험을 높이는지 평가했다.",
+        "methods": "일본 청구자료를 이용한 후향적 코호트 연구에서 쿠에티아핀 신규 사용자에게 시호 함유 제제 병용 여부를 비교하고 위험비를 추정했다.",
+        "results": "병용군은 쿠에티아핀 단독군보다 급성 이상반응 복합지표와 중추신경계 억제 위험이 유의하게 높았다.",
+        "clinical_takeaway": "시호 함유 제제와 쿠에티아핀의 병용은 약물상호작용 가능성을 시사하므로 한의 임상에서 병용 약재 확인과 이상반응 관찰을 신중히 고려해야 한다.",
+        "limitations": "청구자료 기반 관찰연구이므로 교란과 실제 복약 노출의 정확성에 대한 제한이 있다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "18~75세 쿠에티아핀 신규 사용자.",
+          "i": "쿠에티아핀 사용 중 시호 함유 제제 병용.",
+          "c": "쿠에티아핀 단독 사용.",
+          "o": "급성 이상반응 복합지표 및 중추신경계 억제."
         }
       },
       "categories": [
@@ -2723,7 +2875,7 @@
       "authors": "Xi HZ, Tan XX, Fu JH, Chen H, He S, Du B et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42025466/",
       "abstract": "Acupuncture is a commonly used alternative therapy for the treatment of knee osteoarthritis (KOA). Modern modifications to acupuncture needles may enhance their efficacy in treating KOA. In this study, a curcumin-polydopamine (Cur-PDA) film was used to modify the acupuncture needle to improve the efficacy of acupuncture in the treatment of KOA and the anti-inflammatory properties were evaluated in in vivo and in vitro analyses.\nLow-power electron beam deposition technology was used to produce the Cur-PDA film-loaded needle. The characterization and the cytotoxicity of the needles were tested. Then, lipopolysaccharide (LPS)-treated mouse RAW264.7 cells were treated with acupuncture needles and irradiated with near-infrared (NIR) light to test the anti-inflammatory properties in vitro. In in vivo studies, six-week-old male Sprague-Dawley rats were randomly divided into five groups (n = 10): control group, KOA model group, and three groups that received acupuncture with standard needles (Acu group), curcumin-coated needles (Cur group), and curcumin-polydopamine film-loaded needles followed by NIR irradiation (Cur-PDA + NIR group), respectively. Acupuncture was administered at the bilateral Dubi and Neixiyan acupoints for 30 min per session, and photothermal treatment was applied concurrently in the Cur-PDA + NIR group. The therapeutic effect of acupuncture was evaluated by assessing changes in the synovial tissue. Pathological alterations were detected using hematoxylin and eosin staining and Masson staining, and the levels of key inflammatory factors, including interleukin-1β (IL-1β) and tumor necrosis factor-α (TNF-α), were quantified by enzyme-linked immunosorbent assay.\nBoth curcumin-coated and Cur-PDA-film-loaded needles showed excellent structure and adhesion after coating. The Cur-PDA group demonstrated stronger photothermal performance compared to the Cur group, with more release of curcumin (P < 0.0001). In vitro studies demonstrated that both needles showed no significant cytotoxicity and did not affect the proliferation of bone marrow mesenchymal stem cells and L6 cells, even under NIR light. In addition, the Cur-PDA + NIR group exhibited the most significantly reduced M1 polarization ratio and inhibited the expression of IL-1β and TNF-α in LPS-stimulated RAW264.7 cells. In the papain-induced KOA rat model, the Cur-PDA + NIR needle also exhibited favorable synovial pathological outcomes with the lowest degree of fibrosis.\nCur-PDA film-loaded acupuncture needle can attenuate papain-induced KOA in rats by responding to NIR irradiation. Please cite this article as: Xi HZ, Tan XX, Fu JH, Chen H, He S, Du B, Liu X, Sun GQ. Acupuncture with near-infrared irradiation using needles loaded with curcumin-polydopamine film attenuates papain-induced knee osteoarthritis in rats. J Integr Med. 2026; 24(4):585-599.",
-      "title_ko": "",
+      "title_ko": "커큐민-폴리도파민 필름을 적재한 침의 근적외선 조사 침치료가 파파인 유도 흰쥐 무릎골관절염을 완화한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -2734,18 +2886,18 @@
       "safety_flags": [
         "toxicity"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "커큐민-폴리도파민 필름을 입힌 침과 근적외선 조사가 파파인 유도 무릎골관절염에서 항염 및 조직학적 개선을 보이는지 평가했다.",
+        "methods": "LPS 처리 세포와 파파인 유도 무릎골관절염 흰쥐에서 일반 침, 커큐민 코팅 침, 커큐민-폴리도파민 필름 침+근적외선 조사를 비교한 실험연구이다.",
+        "results": "커큐민-폴리도파민 필름 침+근적외선 조사군에서 염증성 사이토카인과 M1 분화가 가장 감소했고, 활막 섬유화도 가장 적었다.",
+        "clinical_takeaway": "동물실험 수준에서 근적외선과 결합한 변형 침이 무릎골관절염의 항염 효과를 높일 가능성을 시사하지만, 임상 적용 전에는 사람 대상 근거가 필요하다.",
+        "limitations": "세포 및 흰쥐 모델 연구로 인간 무릎골관절염에 대한 유효성과 안전성을 직접 판단하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "파파인 유도 무릎골관절염 흰쥐 및 LPS 처리 대식세포",
+          "i": "커큐민-폴리도파민 필름 적재 침과 근적외선 조사",
+          "c": "일반 침 또는 커큐민 코팅 침",
+          "o": "염증성 사이토카인, M1 분화, 활막 병리 및 섬유화"
         }
       },
       "categories": [
@@ -2763,7 +2915,7 @@
       "authors": "Wang JY, Xu JB, Chen XL, Liu T, Shi D, Li WJ",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41864833/",
       "abstract": "Acupuncture therapy has garnered significant attention for its potential role in enhancing the quantity and quality of oocytes retrieved and the number of embryos formed during in vitro fertilization (IVF) with controlled ovarian stimulation (COS).\nThis systematic review and meta-analysis evaluated the effectiveness of acupuncture for improving oocyte and embryo quality in IVF patients undergoing COS.\nPubMed, Embase, Web of Science, Cochrane Library, China National Knowledge Infrastructure, Wanfang Data, Chinese Science and Technology Journal Database and SinoMed were searched, from inception to 30 June 2025.\nRandomized controlled trials (RCTs) comparing IVF (with or without intracytoplasmic sperm injection) combined with acupuncture (manual acupuncture or electroacupuncture) to IVF alone or IVF with sham/placebo acupuncture in female infertility patients were included, without restrictions on race, age or nationality. Outcome variables included high-quality embryo rate (HQER), high-quality oocyte rate (HQOR), fertilization rate (FR) and the number of retrieved oocytes (ROs).\nData were analyzed using Review Manager 5.4.0. The primary outcome was HQER, and secondary outcomes comprised ROs, HQOR and FR.\nEighteen studies were analyzed. Six studies showed that acupuncture significantly improved HQER (odds ratio [OR] = 1.76, 95% confidence interval [CI] [1.30, 2.39], P = 0.0003; moderate-certainty evidence) with moderate heterogeneity (I2 = 49%). Two RCTs indicated that IVF combined with acupuncture was better than IVF alone for HQOR (OR = 2.39, 95% CI [1.42, 4.02], P = 0.001; low-certainty evidence) with substantial heterogeneity (I2 = 69%). Four RCTs showed significant improvement in FR in the acupuncture group (OR = 1.47, 95% CI [1.19, 1.82], P = 0.0003; I2 = 0%; moderate-certainty evidence). Subgroup analyses revealed that acupuncture increased oocytes retrieved in the follicle-stimulating hormone (FSH) ≥ 25 mIU/mL group (mean difference [MD] = 0.55, 95% CI [0.29, 0.82], P < 0.0001; I2 = 38%; low-certainty evidence) and within 12-24 sessions (MD = 1.44, 95% CI [0.12, 2.76], P = 0.03; I2 = 0%; low-certainty evidence).\nAcupuncture is an effective adjunct therapy for improving embryo quality in assisted reproductive technology, which is supported by moderate-certainty evidence. Its efficacy is not uniform but follows two key principles: first, a patient-stratified effect, where increased oocyte yield is exclusive to women with high FSH (≥ 25 mIU/mL); and second, an outcome-dependent dosing, where embryo quality benefits from brief courses (5-8 sessions), while oocyte number requires longer regimens (≥ 12 sessions). This recommended a personalized acupuncture treatment regime for IVF, moving beyond a one-size-fits-all approach. Please cite this article as: Wang JY, Xu JB, Chen XL, Liu T, Shi D, Li WJ. Acupuncture to ensure high-quality embryos in women undergoing in vitro fertilization: A systematic review and meta-analysis. J Integr Med. 2026; 24(4):529-541.",
-      "title_ko": "",
+      "title_ko": "체외수정 중인 여성에서 고품질 배아 확보를 위한 침 치료: 체계적 문헌고찰 및 메타분석",
       "publication_types": [
         "Journal Article",
         "Systematic Review",
@@ -2775,18 +2927,18 @@
       "clinical_applicability": "높음",
       "priority": "필독",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "보조생식술에서 침 치료가 IVF 환자의 난자와 배아의 질을 향상시키는지 평가했다.",
+        "methods": "IVF 단독 또는 sham/placebo 침과 비교한 무작위대조시험들을 대상으로 한 체계적 문헌고찰 및 메타분석이다.",
+        "results": "침 치료는 고품질 배아율과 수정률을 개선했으며, 고FSH군과 일정한 횟수의 치료군에서 일부 난자 관련 지표도 향상됐다.",
+        "clinical_takeaway": "침 치료는 IVF의 보조요법으로 배아 질 개선과 연관될 수 있으나, 효과가 지표와 환자군에 따라 달라질 수 있어 근거를 신중히 해석해야 한다.",
+        "limitations": "난자 관련 일부 결과는 연구 수가 적고 이질성이 있어 확실성이 낮았다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "체외수정을 받는 여성 불임 환자",
+          "i": "수기침 또는 전침",
+          "c": "IVF 단독 또는 sham/placebo 침",
+          "o": "고품질 배아율, 고품질 난자율, 수정률, 채취 난자 수"
         }
       },
       "categories": [
@@ -2804,7 +2956,7 @@
       "authors": "Conradi HSW, Petersson JN, Deleemans JM, Schuman HDM, Savard C, Irving E et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41861455/",
       "abstract": "Many people with cancer (PWC) continue to experience persistent biopsychosocial and existential challenges across the cancer care continuum. Symptoms such as anxiety, depression, cancer-related fatigue and pain, sleep disturbance, fear of cancer recurrence, cognitive impairment, and reduced quality of life remain highly prevalent during and after treatment, underscoring the need for interventions that address both psychological and physiological dimensions of distress. Mind-body interventions encompass a diverse group of practices that explicitly target the bidirectional relationship between mental and physical processes and are increasingly incorporated into integrative oncology as adjuncts to standard care. This narrative review synthesizes current evidence on mind-body interventions for improving biopsychosocial outcomes in adult PWC. We review guideline-recommended interventions including mindfulness-based interventions, yoga, tai chi and qigong, relaxation therapies, hypnosis, music therapy, acupuncture, acupressure, massage, reflexology, and aromatherapy; as well as emerging modalities such as psychedelic-assisted therapy, biofield therapies, nature-based interventions, and mindfulness-based approaches for sexual dysfunction. For each intervention, we summarize target symptoms, treatment-phase considerations, and the quality and limitations of the supporting evidence. Finally, we discuss future directions with an emphasis on improving methodological rigor, elucidating mechanisms of action, expanding implementation and access, and extending research across diverse populations and all stages of cancer care, including survivorship and end-of-life contexts.",
-      "title_ko": "",
+      "title_ko": "암 환자를 위한 심신중재: 근거, 혁신, 그리고 실행",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -2814,18 +2966,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "성인 암 환자의 생물심리사회적 증상을 개선하기 위해 심신중재가 어떤 근거를 가지는지 검토한 연구이다.",
+        "methods": "성인 암 환자를 대상으로 한 심신중재 관련 근거를 종합한 서술적 문헌고찰이다.",
+        "results": "마음챙김, 요가, 태극권·기공, 이완요법, 최면, 음악치료, 침·지압, 마사지, 반사요법, 아로마테라피 등이 일부 증상과 삶의 질에 대해 검토되었다.",
+        "clinical_takeaway": "암 치료 전 과정에서 심신중재는 보조적 접근으로 고려될 수 있으나, 근거의 질과 적용 가능성은 중재별로 다르므로 해석에 주의가 필요하다.",
+        "limitations": "서술적 종설이어서 중재별 근거의 질과 실제 효과를 일관되게 비교하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "성인 암 환자",
+          "i": "마음챙김, 요가, 태극권·기공, 이완요법, 최면, 음악치료, 침·지압, 마사지, 반사요법, 아로마테라피 등 심신중재",
+          "c": "명확한 정보 없음",
+          "o": "불안, 우울, 암 관련 피로, 통증, 수면장애, 재발공포, 인지기능, 삶의 질"
         }
       },
       "categories": [
@@ -2843,7 +2995,7 @@
       "authors": "Neves ML, Coutinho BD, Speretta GFF, Kraus SI, Ferreira JB, Amaral PAH et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41619761/",
       "abstract": "Auricular vagus nerve stimulation (aVNS) has emerged as a noninvasive neuromodulatory strategy with the potential to modulate central sensitization and inflammatory pathways. However, its role in fibromyalgia (FM) remains insufficiently explored.\nTo investigate whether stimulation laterality (left vs right auricular branch of the vagus nerve) differentially influences clinical and biological outcomes in women with FM.\nIn this randomized, double-blind, sham-controlled trial, 51 women with FM were allocated to sham stimulation, right-sided aVNS (aVNS-R), or left-sided aVNS (aVNS-L). Participants underwent weekly sessions for 4 weeks and were followed for 12 weeks. Pain intensity was the primary outcome. Secondary outcomes included psychological symptoms, sleep, functional status, quality of life, and circulating biomarkers (pro- and anti-inflammatory cytokines, brain-derived neurotrophic factor [BDNF]).\nWhile no significant between-group differences were observed in pain intensity, left-sided stimulation (aVNS-L) was associated with a modest but significant reduction in global symptom severity. Importantly, aVNS-L produced consistent immunomodulatory effects, including decreased IL-1β and TNF-α levels, and increased IL-4, IL-10, and BDNF concentrations.\nThis exploratory trial suggests that stimulation laterality may shape the biological response to aVNS in FM. Although clinical pain relief was not superior to sham, left-sided stimulation promoted an anti-inflammatory profile and enhanced neuroplasticity markers. These findings support further investigation of aVNS laterality as a targeted neuromodulatory approach for FM.\nBrazilian Clinical Trials Registry RBR-10d3crcf.",
-      "title_ko": "",
+      "title_ko": "섬유근통 여성에서 수기 침을 이용한 귀 미주신경 자극의 좌우측성에 따른 생물학적 효과: 무작위 가짜침 대조시험",
       "publication_types": [
         "Journal Article",
         "Randomized Controlled Trial"
@@ -2853,18 +3005,18 @@
       "clinical_applicability": "높음",
       "priority": "필독",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "섬유근통 여성에서 귀 미주신경 자극의 좌우 위치가 임상 및 생물학적 결과에 다르게 영향을 주는지 평가하였다.",
+        "methods": "섬유근통 여성 51명을 대상으로 가짜자극, 우측 aVNS, 좌측 aVNS로 무작위 배정한 이중눈가림 가짜대조 임상시험을 시행하였다.",
+        "results": "통증 강도는 군 간 유의한 차이가 없었으나, 좌측 aVNS는 전반적 증상 중증도 감소와 함께 염증성 사이토카인 감소 및 IL-4, IL-10, BDNF 증가를 보였다.",
+        "clinical_takeaway": "귀 미주신경 자극은 섬유근통에서 통증 개선보다 생물학적 반응이 좌우측에 따라 달라질 수 있어, 좌측 자극의 가능성을 탐색적으로 고려할 근거가 있다.",
+        "limitations": "탐색적 연구로 표본이 작고 임상 통증 효과가 가짜자극보다 우수하지 않아 결과 해석에 주의가 필요하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "섬유근통 여성",
+          "i": "귀 미주신경의 좌측 또는 우측 수기 침 자극",
+          "c": "가짜 자극",
+          "o": "통증 강도, 심리 증상, 수면, 기능 상태, 삶의 질, 염증/신경영양 바이오마커"
         }
       },
       "categories": [
@@ -2882,7 +3034,7 @@
       "authors": "Albuquerque ER, Braga FA, Martins GB, Silva EP, Negrini KS, Yoshitani CME et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41151096/",
       "abstract": "Pereskia grandifolia, Cactaceae, is a plant native to temperate and tropical regions. Its leaves and fruits are utilized in food and traditional medicine due to their therapeutic and nutritional properties, which have garnered interest in both pharmaceutical and food industries. This review provides an overview of the current biomedical research on P. grandifolia, encompassing botanical and phytochemical aspects, traditional uses, nutritional evidence, in vitro and in vivo preclinical pharmacological studies, and toxicological evaluation. Scientific articles were sourced from databases such as PubMed, Science Direct, SciELO, and Web of Science. Saponins, phenolic compounds, and alkaloids emerge as the main bioactive substances within P. grandifolia. Nutritionally, its leaves and fruits are valued for their high protein and fiber content. In traditional medicine, its leaves are employed to address various ailments, including headache, gastric pain, hemorrhoids, atopic dermatitis, inflammation, hypertension, diabetes, and cancer. In vitro studies on the species have demonstrated antioxidant, cytotoxic, and antimicrobial activity, along with the ability to inhibit the enzyme acetylcholinesterase. In vivo research corroborates its diuretic, antihypertensive, antiobesity, and molluscicidal effects. However, there is limited investigation into its toxicity, and notably, no reports of clinical studies with the species were found. In conclusion, while promising effects of P. grandifolia have been reported, further research is warranted to substantiate its efficacy in folk medicine as an anticancer, antidiabetic, and antihypertensive agent.",
-      "title_ko": "",
+      "title_ko": "페레스키아 그란디폴리아의 생의학적 잠재력: 식물학·식물화학·약리학적 측면에 대한 종합 리뷰",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -2894,18 +3046,18 @@
       "safety_flags": [
         "toxicity"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "Pereskia grandifolia의 영양성분, 전임상 약리작용, 안전성 정보는 무엇인가?",
+        "methods": "PubMed 등 여러 데이터베이스 문헌을 바탕으로 식물학, 식물화학, 전통적 사용, 영양, 전임상 약리 및 독성 자료를 종합한 서술적 리뷰이다.",
+        "results": "사포닌, 페놀성 화합물, 알칼로이드가 주요 생리활성 성분으로 제시되었고, 전임상에서 항산화·항균·이뇨·항고혈압·항비만 효과가 보고되었으나 임상연구는 확인되지 않았다.",
+        "clinical_takeaway": "민간요법에서의 대사 관련 활용 가능성은 있으나, 현재 근거는 전임상 중심이므로 한의사는 임상 적용 전 추가 검증과 안전성 자료가 필요함을 유의해야 한다.",
+        "limitations": "독성 평가와 임상연구가 매우 제한적이어서 효능과 안전성을 확정하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "Pereskia grandifolia 및 이를 전통의학과 식품으로 사용하는 상황",
+          "i": "Pereskia grandifolia 노출 또는 추출물",
+          "c": "명확한 정보 없음",
+          "o": "항비만, 항고혈압, 항당뇨, 항산화 및 독성/안전성 관련 결과"
         }
       },
       "categories": [
@@ -2916,13 +3068,13 @@
       "id": "pmid-42379469",
       "pmid": "42379469",
       "doi": "10.1016/j.neuropharm.2026.111088",
-      "title": "Acupuncture Improves Depressive Symptoms and Prefrontal Cortical Function in Mild to Moderate Depressive Disorder: A Randomized Sham-Controlled Trial and fNIRS study.",
+      "title": "Acupuncture improves depressive symptoms and prefrontal cortical function in mild to moderate depressive disorder: A randomized sham-controlled trial and fNIRS study.",
       "journal": "Neuropharmacology",
       "pub_date": "2026-06-30",
       "authors": "Yang B, Wang T, Zhu F, Liu Y, Li Z, Luo L et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42379469/",
       "abstract": "Depressive disorder is a common mental illness associated with substantial functional impairment. Although pharmacotherapy is widely used, its effectiveness is often limited by adverse effects and poor adherence. Acupuncture has been increasingly applied as a complementary treatment for depression, and its neurobiological characteristics remain unclear.\nThis randomized, sham-controlled trial aimed to evaluate the clinical efficacy of acupuncture for mild to moderate depressive disorder and to investigate its effects on prefrontal cortical function using functional near-infrared spectroscopy (fNIRS).\nPatients with mild to moderate depressive disorder were randomly assigned to a real acupuncture (RA) group or a sham acupuncture (SA) group and received standardized treatment for 8 weeks. Clinical outcomes were assessed using the Self-Rating Depression Scale (SDS), Self-Rating Anxiety Scale (SAS), Short Form-36 Health Survey (SF-36), and a traditional Chinese medicine syndrome score. A subset of participants underwent fNIRS assessment during resting-state and task-based conditions to evaluate prefrontal cortical activation and functional connectivity.\nCompared with baseline, the RA group showed significant reductions in SDS and SAS scores and significant improvements in SF-36 emotional domains, with effects emerging at Week 4 and persisting up to 12 weeks after treatment. Improvements were greater and more stable in the RA group than in the SA group. fNIRS analyses revealed enhanced activation in dorsolateral and medial prefrontal regions and strengthened prefrontal functional connectivity following acupuncture, whereas neural changes in the SA group were limited.\nAcupuncture is effective for improving depressive and anxiety symptoms and quality of life in patients with mild to moderate depressive disorder. Modulation of prefrontal cortical activation and connectivity may underlie its antidepressant effects.",
-      "title_ko": "",
+      "title_ko": "경도에서 중등도 우울장애에서 침치료가 우울 증상과 전전두엽 피질 기능을 개선한다: 무작위 가짜침 대조 시험 및 fNIRS 연구",
       "publication_types": [
         "Journal Article"
       ],
@@ -2933,18 +3085,18 @@
       "safety_flags": [
         "adverse"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "경도에서 중등도 우울장애 환자에서 침치료가 증상과 전전두엽 기능을 개선하는지 평가하였다.",
+        "methods": "경도에서 중등도 우울장애 환자를 실제침군과 가짜침군으로 무작위 배정한 뒤 8주간 치료하고, 임상척도와 일부 대상의 fNIRS를 평가한 무작위 가짜침 대조시험이다.",
+        "results": "실제침군은 우울·불안 점수와 삶의 질이 개선되었고 가짜침군보다 효과가 더 크고 안정적이었으며, fNIRS에서 전전두엽 활성과 기능적 연결성이 증가하였다.",
+        "clinical_takeaway": "이 연구는 침치료가 경도에서 중등도 우울장애의 증상 및 전전두엽 기능과 연관될 수 있음을 시사하지만, 보조적 근거로 해석하는 것이 적절하다.",
+        "limitations": "fNIRS는 일부 참가자에서만 시행되었고, 연구 결과는 특정 평가도구와 단기 추적에 기반하므로 일반화에 주의가 필요하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "경도에서 중등도 우울장애 환자",
+          "i": "실제 침치료",
+          "c": "가짜 침치료",
+          "o": "우울·불안 증상, 삶의 질, 전전두엽 피질 활성과 기능적 연결성"
         }
       },
       "categories": [
@@ -2963,7 +3115,7 @@
       "authors": "Chen ZM, Li J, Huang Z, Zhao G, Hou X, Liu C et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42372807/",
       "abstract": "Xiangsu Tongjiang Hewei Granules are an herbal preparation that has shown potential for controlling symptoms of nonerosive gastroesophageal reflux disease (NERD) in preliminary studies. However, high-quality randomized controlled evidence for its use in NERD remains lacking.\nTo verify the efficacy and safety of Xiangsu Tongjiang Hewei Granules in treating NERD with liver stomach stagnation heat syndrome.\nThis randomized, double-blind, placebo-controlled, multicentre phase III trial included 480 patients (aged 18-65 years) with confirmed NERD (GerdQ≥8; negative H. pylori) and traditional Chinese medicine (TCM) liver stomach stagnation heat syndrome. Patients were randomized 3:1 to receive either Xiangsu Tongjiang Hewei Granules or placebo, thrice daily for 8 weeks. The primary outcomes were the effective rate of the response based on visual analog scale (VAS) scores for heartburn and acid regurgitation at week 8. The secondary outcomes included reductions in the TCM syndrome score, etc. RESULTS: 479 participants (mean age 48.5 years, SD10.2; 54.3% female) entered the full analysis set and safety set (360 tests group; 119 control group, 1 participant in the control group withdrawing before medication). At week 8, compared with the control group, the test group demonstrated significantly better effective rate of VAS score response for heartburn(76.39% vs 21.01%, 95% CI 55.38 (45.98, 62.94) %, p <0.01),acid regurgitation (79.72% vs 23.53 %, 95% CI56.39 (46.90, 64.12) %, p <0.01), and TCM syndrome score (69.23% vs 30.13%, p < 0.01) at week 8.\nIn this selected population of NERD patients with liver-stomach stagnation heat syndrome (e.g., negative H. pylori, no pH-impedance phenotype, and low anxiety/depression scores), Xiangsu Tongjiang Hewei Granules demonstrated efficacy and safety in improving heartburn, acid regurgitation, and TCM syndrome scores. However, generalizability to the broader NERD population and its comparative effectiveness against standard proton pump inhibitor therapy require further investigation.",
-      "title_ko": "",
+      "title_ko": "비미란성 위식도역류질환의 간위울열 증후에서 향소통강화위 과립의 효과와 안전성: 다기관 무작위 이중눈가림 위약대조 시험",
       "publication_types": [
         "Journal Article"
       ],
@@ -2974,18 +3126,18 @@
       "safety_flags": [
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "비미란성 위식도역류질환에서 향소통강화위 과립이 간위울열 증후 환자의 증상을 개선하는지 평가하였다.",
+        "methods": "비미란성 위식도역류질환과 간위울열 증후가 확인된 환자를 대상으로 한 다기관 무작위 이중눈가림 위약대조 3상 시험이다.",
+        "results": "8주 후 향소통강화위 과립군은 위약군보다 가슴쓰림, 산역류 및 한의학 증후 점수의 호전 비율이 유의하게 높았다.",
+        "clinical_takeaway": "선별된 NERD 환자군에서 이 한약 처방은 증상 및 TCM 증상 점수 개선과 안전성이 보고되었으나, 일반 NERD 환자나 표준 PPI 치료와의 비교 해석에는 주의가 필요하다.",
+        "limitations": "특정 TCM 증후와 제한된 임상 표현형의 환자에 국한되어 일반화 가능성이 낮다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "GerdQ≥8, H. pylori 음성인 비미란성 위식도역류질환과 간위울열 증후 환자",
+          "i": "향소통강화위 과립을 8주간 하루 3회 복용",
+          "c": "위약",
+          "o": "8주 시점의 가슴쓰림 및 산역류 VAS 반응률과 TCM 증후 점수 개선"
         }
       },
       "categories": [
@@ -3003,7 +3155,7 @@
       "authors": "Wu J, Wang H, Fu M, Zhang M, Zhao G, Yu B",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42366306/",
       "abstract": "This review aims to synthesize recent evidence to clarify the causal and mechanistic roles of lipid metabolism disorders as core drivers of type 2 diabetes mellitus (T2DM), and to summarize emerging therapeutic advances targeting key nodes within pathophysiological cascade, thereby providing an integrated, translational framework for the precision management of T2DM.\nNormoglycemic obese individuals with insulin resistance (IR) frequently exhibit elevated plasma free fatty acids (FFAs), triglycerides (TGs), and low-density lipoprotein cholesterol (LDL-C), alongside reduced high-density lipoprotein cholesterol (HDL-C). These observations indicate that dyslipidemia is not merely a comorbidity but an important early driver of T2DM progression. Lipid metabolism disorders initiate a unifying pathological cascade: ectopic lipid spillover induces systemic IR in the liver and skeletal muscle; lipotoxic stress directly compromises pancreatic β-cell function; and progressive disruption of inter-organ axes, including the gut-adipose-liver axis and brain-periphery axis, further exacerbates systemic metabolic deterioration. Recent evidence supports emerging therapeutic strategies, including traditional medicine-based approaches and interventions targeting lipotoxicity and the gut-brain-liver-fat axis to restore metabolic health. Lipid metabolism disorders are not merely complications of T2DM, but critical drivers of disease progression. Adipose dysfunction acts as the initiating event, triggering a pathological cascade that induces systemic IR, impairs pancreatic β-cell function via lipotoxic intermediates, and disrupts inter-organ communication networks. Targeted interventions along this axis therefore represent a promising strategy for precision therapy.",
-      "title_ko": "",
+      "title_ko": "지질 대사 이상: 제2형 당뇨병 발병의 핵심 동인",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -3015,18 +3167,18 @@
       "safety_flags": [
         "toxicity"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "지질 대사 이상이 제2형 당뇨병의 발생과 진행에서 어떤 인과적·기전적 역할을 하는가?",
+        "methods": "지질 대사 이상과 제2형 당뇨병의 기전 및 치료 동향을 종합한 서술적 문헌고찰이다.",
+        "results": "지질 이상증은 단순한 동반질환이 아니라 인슐린 저항성, 췌장 베타세포 기능장애, 장-지방-간 및 뇌-말초 축 교란을 통해 제2형 당뇨병 진행을 촉진하는 핵심 동인으로 정리되었다.",
+        "clinical_takeaway": "한의사에게는 비만·인슐린 저항성 환자에서 지질 대사 이상을 질병 진행의 초기 신호로 함께 고려해야 한다는 점을 시사한다.",
+        "limitations": "서술적 종설이므로 개별 치료의 효과와 안전성을 직접 입증하지 못하며, 제시된 전략의 임상적 근거 수준은 다양하다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "비만 및 인슐린 저항성이 있는 정상혈당 성인과 제2형 당뇨병 관련 대상",
+          "i": "지질 대사 이상, 지질독성 및 관련 축을 표적하는 중재",
+          "c": "명확한 정보 없음",
+          "o": "제2형 당뇨병의 발생·진행, 인슐린 저항성, 베타세포 기능"
         }
       },
       "categories": [
@@ -3043,7 +3195,7 @@
       "authors": "Zhang H, Ren K, Wang S",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42049276/",
       "abstract": "Breast cancer-related insomnia (BCRI) is a common and burdensome sequela. Acupuncture is frequently used, but robust evidence is limited, and previous systematic reviews included few trials yielding imprecise estimates. This updated systematic review and meta-analysis evaluated the efficacy and safety of acupuncture for BCRI. We systematically searched eight databases for randomized controlled trials (RCTs) up to July 1, 2025. RCTs comparing acupuncture with any control for BCRI were eligible. Methodological quality was assessed using the Cochrane Risk of Bias tool (RoB 2.0) and the modified Jadad scale. Meta-analyses employed a random-effects model. Subgroup analyses explored heterogeneity sources, and the GRADE framework rated evidence certainty. Twenty-seven RCTs (n=2,025) were included. Acupuncture significantly reduced Pittsburgh Sleep Quality Index (PSQI) scores (MD= -2.74, 95% CI [-3.92, -1.55], P<0.00001) and increased the overall efficacy rate (RR=1.51, 95% CI [1.27, 1.81], P<0.00001) compared to control, but did not significantly improve Insomnia Severity Index (ISI) scores. Subgroup analyses identified control intervention type and treatment frequency as significant sources of heterogeneity. Adverse events were infrequent and typically mild. GRADE assessments rated the certainty of evidence as low or very low, primarily due to risk of bias and substantial heterogeneity. Current evidence suggests acupuncture may improve sleep in patients with BCRI, with effects moderated by comparator type and treatment frequency. However, conclusions are limited by methodological weaknesses and heterogeneity. Future rigorous RCTs using validated sham controls, standardized protocols, and objective outcomes are needed to confirm efficacy and guide practice. PROSPERO Registration number (ID: CRD42024559828).",
-      "title_ko": "",
+      "title_ko": "유방암 관련 불면증에 대한 침 치료의 유효성과 안전성: 체계적 문헌고찰 및 메타분석",
       "publication_types": [
         "Journal Article",
         "Systematic Review",
@@ -3057,18 +3209,18 @@
         "adverse",
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "침 치료가 유방암 관련 불면증의 수면 개선과 안전성에 효과가 있는지 평가하였다.",
+        "methods": "2025년 7월 1일까지 8개 데이터베이스의 무작위대조시험을 체계적으로 검색해 침 치료를 대조군과 비교한 연구를 메타분석했다.",
+        "results": "침 치료는 PSQI를 유의하게 낮추고 전체 유효율을 높였지만 ISI는 유의하게 개선하지 않았으며, 이상반응은 드물고 대체로 경미했다.",
+        "clinical_takeaway": "유방암 관련 불면증에서 침 치료가 수면 개선에 도움될 가능성은 있으나, 비교군 종류와 치료 빈도에 따라 결과가 달라져 근거 해석에 주의가 필요하다.",
+        "limitations": "비뚤림 위험과 이질성이 크고 근거 확실성이 낮거나 매우 낮아 결론의 신뢰도가 제한된다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "유방암 관련 불면증 환자",
+          "i": "침 치료",
+          "c": "모든 대조군",
+          "o": "수면지표 개선, 전체 유효율, 이상반응"
         }
       },
       "categories": [
@@ -3086,7 +3238,7 @@
       "authors": "De la Cerna-Luna R, Arnillas Brigneti P, Zeta-Ruiz N, Lopez-Mesia J, Huaroto-Ramirez F, Taype-Rondan A",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42366508/",
       "abstract": "Osteoarthritis (OA) is a leading cause of disability worldwide. To standardize management, Peru's Social Health Insurance (EsSalud) approved its Clinical Practice Guideline (CPG) for OA in 2018, updated in 2024. However, adherence to these recommendations among physiatrists and physical medicine and rehabilitation (PM&R) residents is unknown.\nTo assess adherence and perceptions regarding the Peruvian OA CPG among physiatrists and PM&R residents.\nA cross-sectional survey (May-July 2025) was conducted via two national WhatsApp groups. Sociodemographic and professional data were collected, along with agreement levels for 10 CPG recommendations using a 5-point Likert scale. For five prioritized recommendations, stages of implementation were assessed using the transtheoretical model. Factors associated with agreement on ≥6 recommendations were analyzed with Poisson regression and robust variance.\nEighty-eight participants completed the survey; 55.7% were physiatrists and 44.3% residents. Awareness of the OA CPG was reported by 42.1%, and only 3.4% had received prior training. Agreement was highest for oral nonsteroidal anti-inflammatory drugs and avoidance of tramadol and lowest for avoidance of hyaluronic acid, prolotherapy, and acupuncture. Most respondents were in early stages of implementation. Employment in national specialized institutes was significantly associated with higher agreement (prevalence ratio, 2.53; 95% confidence interval: 1.20-5.36). Main reasons for disagreement included perceived clinical effectiveness and positive experience. Suggested strategies to improve adherence were workshops and educational meetings.\nAwareness and training on the Peruvian OA CPG are limited, with heterogeneous adherence across recommendations. Educational strategies are needed to enhance evidence-based OA management in Peru.",
-      "title_ko": "",
+      "title_ko": "페루 골관절염 임상진료지침에 대한 재활의학과 전문의와 전공의의 이행도와 인식",
       "publication_types": [
         "Journal Article"
       ],
@@ -3095,18 +3247,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "페루 골관절염 임상진료지침에 대한 재활의학과 전문의와 전공의의 준수도와 인식은 어떠한가?",
+        "methods": "2025년 5~7월 전국 WhatsApp 그룹을 통해 시행한 단면 설문연구로, 지침 10개 권고에 대한 동의도와 일부 권고의 이행 단계를 평가하였다.",
+        "results": "지침 인지도와 사전 교육은 낮았고 권고별 동의도는 차이가 있었으며, 국립 전문기관 근무가 더 높은 동의와 관련되었다.",
+        "clinical_takeaway": "골관절염 지침의 적용은 권고별 수용성이 달라 교육과 근거기반 진료 강화 전략이 필요하다는 점을 시사한다.",
+        "limitations": "자기보고식 단면 조사이므로 실제 임상 이행이나 인과관계를 판단하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "페루의 재활의학과 전문의와 전공의",
+          "i": "페루 골관절염 임상진료지침",
+          "c": "명확한 정보 없음",
+          "o": "지침 인지도, 권고별 동의도, 이행 단계"
         }
       },
       "categories": [
