@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05 20:32:48 UTC",
+  "updated": "2026-07-06 21:03:29 UTC",
   "total": 50,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
@@ -1509,6 +1509,43 @@
       ]
     },
     {
+      "id": "pmid-42308762",
+      "pmid": "42308762",
+      "doi": "10.1016/j.phymed.2026.158412",
+      "title": "Clinopodium chinense extract alleviates ferroptosis of endometrial epithelial cells via regulating TLR4/SLC7A11 signaling pathway in lipopolysaccharide-induced endometritis.",
+      "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+      "pub_date": "2026-08-01",
+      "authors": "Tao H, Liu Y, Su Q, Tang R, Wang J, Li L et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42308762/",
+      "abstract": "Clinopodium chinense (Benth.) O. Kuntze (C. chinense) is one of the traditional Chinese medicine that has been used in treating gynecological bleeding. Recent research showed that total extract of C. chinense (TEC) played an important role in the treatment of endometritis, but the mechanism of which need to be further revealed. Ferroptosis has served as a pathogenic mechanism in endometritis. The aim of this experiment was to clarify whether TEC ameliorates endometritis by attenuating ferroptosis and to elucidate its underlying mechanism.\nThe purpose of this research is to investigate the therapeutic effect and underlying mechanism of TEC suppressing ferroptosis of endometrial epithelial cells in endometritis.\nThe mouse model of endometritis was established via intrauterine injection of lipopolysaccharide (LPS, 5 mg/ml) into female mice. Primary mouse endometrial epithelial cells (MEECs) were isolated from pregnant female mice and subjected to in vitro experiments. High-resolution mass spectrometry (HRMS) identified the bioactive ingredients in TEC. Transcriptomic and proteomic analyses revealed the potential targets of TEC against endometritis. Specifically, HE staining evaluated the pathological changes in the uterus. Immunohistochemistry staining assayed the expression of CD138, SLC7A11 and GPX4. The mitochondrial morphology was observed by transmission electron microscope (TEM). Prussian blue staining and Ferro orange staining evaluated the content of Fe2+. The contents of ROS, Fe2+, LDH, GSH, MPO and pro-inflammatory cytokine levels including IL-1β, IL-6, TNF-α were detected using kits. Molecular docking evaluated the binding activities between active compounds of TEC and potential targets. Mechanistically, the expression of TLR4, p-p53, SLC7A11, ACSL4 and GPX4 were evaluated using western blotting or immunofluorescence staining.\nThe nine active compounds in TEC were detected. Transcriptomic and proteomic analyses showed that TEC may alleviate endometritis by attenuating ferroptosis. The pharmacological results demonstrated that TEC alleviated endometrial pathological damage, decreased CD138 expression, reduced MPO activity and pro-inflammatory cytokine levels. TEC also diminished mitochondrial shrinkage and increased membrane integrity in uterine tissue. And, TEC decreased ROS, Fe2+, GSH contents, and suppressed ferroptosis of endometrial epithelial cells. Furthermore, the molecular docking technique revealed that hesperidin, didymin and quercetin, which were the major active components of TEC could bind to TLR4 and SLC7A11. Western blotting analysis further verified that TEC down-regulated TLR4, p-p53 and ACSL4 expression, up-regulated SLC7A11 and GPX4 expression.\nTEC alleviates LPS-induced inflammatory damage in both mouse uterine tissues and MEECs by suppressing ferroptosis, the underlying mechanisms of which were related to inhibiting TLR4/SLC7A11 signaling pathway.",
+      "title_ko": "Clinopodium chinense 추출물이 LPS 유발 자궁내막염에서 TLR4/SLC7A11 신호를 조절해 자궁내막 상피세포의 페롭토시스를 완화한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "Clinopodium chinense 총추출물이 리포폴리사카라이드 유발 자궁내막염에서 페롭토시스를 억제해 염증 손상을 줄이는지 확인하려는 연구이다.",
+        "methods": "LPS로 유도한 마우스 자궁내막염 모델과 분리한 일차 자궁내막 상피세포에서 병리, 염증, 철 관련 지표, 전자현미경, 전사체·단백체 분석, 분자도킹과 Western blot 등을 사용한 실험 연구이다.",
+        "results": "TEC는 자궁 조직 손상과 염증 지표를 줄이고 철 축적과 ROS를 감소시켰으며, TLR4/p-p53/ACSL4를 낮추고 SLC7A11/GPX4를 높여 페롭토시스를 억제했다.",
+        "clinical_takeaway": "한약 추출물이 자궁내막염의 염증성 손상과 연관된 페롭토시스 경로를 조절할 가능성을 시사하지만, 전임상 결과이므로 임상적 효용은 추가 검증이 필요하다.",
+        "limitations": "동물과 세포 기반의 전임상 연구로, 사람 대상의 유효성과 안전성은 확인되지 않았다.",
+        "pico": {
+          "p": "LPS로 유도된 마우스 자궁내막염 및 일차 자궁내막 상피세포",
+          "i": "Clinopodium chinense 총추출물(TEC)",
+          "c": "명확한 정보 없음",
+          "o": "자궁내막 손상, 염증, 철 축적 및 페롭토시스 관련 지표"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
       "id": "pmid-42246157",
       "pmid": "42246157",
       "doi": "10.3892/mmr.2026.13930",
@@ -1580,6 +1617,43 @@
       },
       "categories": [
         "수면/정신",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42405462",
+      "pmid": "42405462",
+      "doi": "10.1177/09645284261454388",
+      "title": "Electroacupuncture ameliorates ovariectomy-induced osteoporosis by modulating ferroptosis via the SLC7A11/GPX4 axis.",
+      "journal": "Acupuncture in medicine : journal of the British Medical Acupuncture Society",
+      "pub_date": "2026-07-06",
+      "authors": "Zhang C, Ouyang G",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42405462/",
+      "abstract": "This aim of the study was to investigate whether electroacupuncture (EA) can mitigate osteoporosis (OP) in an ovariectomy (OVX)-induced rat model by affecting the ferroptosis-related pathway.\nThirty-two 12-week-old female Sprague-Dawley rats were randomly allocated into four groups: CONTROL, SHAM, OVX and EA. We examined the effects of OVX and EA on markers of bone resorption and formation, iron content, malondialdehyde (MDA) levels, and the expression of ferritin heavy chain 1 (FTH1), solute carrier family 7 member 11 (SLC7A11) and glutathione peroxidase 4 (GPX4). In addition, femoral morphology and immunofluorescence were analysed.\nThe OVX group exhibited a significant increase in bone resorption markers, iron and MDA levels, with a notable decrease in alkaline phosphatase (ALP) levels, FTH1, SLC7A11 and GPX4 expression, and impaired trabecular architecture. EA significantly reduced bone resorption markers, iron and MDA content while substantially elevating ALP levels and FTH1, SLC7A11 and GPX4 expression. At the same time, EA improved trabecular architecture.\nEA ameliorated OVX-induced OP by decreasing iron accumulation and activating the SLC7A11/GPX4 axis.",
+      "title_ko": "전침이 SLC7A11/GPX4 축을 통해 철사멸을 조절하여 난소절제 유발 골다공증을 완화한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "전침이 난소절제 유발 골다공증에서 철사멸 관련 경로를 통해 골손실을 완화하는지 평가했다.",
+        "methods": "난소절제 유발 골다공증 랫드 모델에서 대조군, sham, OVX군, 전침군을 비교한 실험연구이다.",
+        "results": "전침은 철 축적과 MDA를 감소시키고 ALP와 FTH1, SLC7A11, GPX4 발현을 증가시키며 해면골 구조를 개선했다.",
+        "clinical_takeaway": "전침이 실험동물 골다공증에서 산화스트레스 및 철사멸 관련 지표와 연관된 보호효과를 보였으나, 임상 적용 가능성은 추가 연구가 필요하다.",
+        "limitations": "동물모델 연구이므로 사람 대상 임상효과로 직접 일반화하기 어렵다.",
+        "pico": {
+          "p": "난소절제 유발 골다공증 랫드",
+          "i": "전침",
+          "c": "대조군 및 sham, OVX",
+          "o": "골흡수·골형성 지표, 철 및 MDA, SLC7A11/GPX4 발현, 해면골 구조"
+        }
+      },
+      "categories": [
         "침구/전침"
       ]
     },
@@ -1736,6 +1810,43 @@
       ]
     },
     {
+      "id": "pmid-42402897",
+      "pmid": "42402897",
+      "doi": "10.1093/jnci/djag187",
+      "title": "RE：Electroacupuncture improves cognitive function and neuropsychiatric symptoms in breast cancer survivors: a pilot randomized controlled trial.",
+      "journal": "Journal of the National Cancer Institute",
+      "pub_date": "2026-07-03",
+      "authors": "Shen P, Chen X, Wang C, Xu F",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402897/",
+      "abstract": "",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
       "id": "pmid-42399811",
       "pmid": "42399811",
       "doi": "10.1186/s12879-026-13772-y",
@@ -1807,123 +1918,6 @@
         }
       },
       "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42394157",
-      "pmid": "42394157",
-      "doi": "10.12659/MSM.951574",
-      "title": "Clinical Study of Clay Pot Combined With Thunder Fire Moxibustion in the Treatment of Chronic Refractory Wounds in Department of Orthopedics.",
-      "journal": "Medical science monitor : international medical journal of experimental and clinical research",
-      "pub_date": "2026-07-03",
-      "authors": "Zhang G, Li FS, Lin M, Huang JS",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42394157/",
-      "abstract": "BACKGROUND Chronic refractory wounds in orthopedic patients not only impede physical recovery but also cause sleep disturbances due to treatment-related anxiety. This study aims to investigate the effects of combining clay pot therapy with thunder-fire moxibustion on the wound healing and sleep quality of patients with chronic refractory wounds. MATERIAL AND METHODS From June 2022 to December 2024, 60 patients in the department of orthopedics of a class III hospital in Guangdong Province were randomly divided into an observation group (n=30) and control group (n=30). The control group received conventional treatment, including anti-infective therapy for chronic wounds, debridement, measures to improve microcirculation, and neurotrophic support. The observation group received clay pot therapy combined with thunder-fire moxibustion in addition to the treatments administered to the control group. Wound healing rate, local symptom scores, pain scores, and Pittsburgh Sleep Quality Index scores were compared between the 2 groups. RESULTS After the intervention, the observation group achieved a significantly higher cure rate (26.67% vs 3.33%), lower local symptom scores (5.08±1.60 vs 7.02±1.89), lower pain scores (1.89±2.06 vs 2.97±1.98), and better Pittsburgh Sleep Quality Index scores (9.58±1.56 vs 11.30±2.15), compared with the control group (all P<0.05). CONCLUSIONS Clay pot combined with thunder-fire moxibustion in the treatment of chronic refractory wounds in the orthopedics department can promote wound healing, improve sleep quality, and improve the clinical curative effect.",
-      "title_ko": "정형외과 만성 난치성 창상 치료에서 도자기 항아리 요법과 뇌화(雷火) 뜸 병용의 임상연구",
-      "publication_types": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "만성 난치성 창상 환자에서 도자기 항아리 요법과 뇌화 뜸 병용이 창상 치유와 수면의 질을 개선하는지 평가했다.",
-        "methods": "광둥성 3급 병원 정형외과 환자 60명을 무작위로 배정해 대조군은 기존 치료를, 관찰군은 기존 치료에 도자기 항아리 요법과 뇌화 뜸을 추가한 RCT이다.",
-        "results": "병용군은 대조군보다 치유율이 높고 국소 증상, 통증, PSQI 점수가 더 낮아 유의한 개선을 보였다.",
-        "clinical_takeaway": "이 연구는 보조적 침구/열자극 기반 중재가 만성 난치성 창상 환자의 치유와 수면 관련 지표에 긍정적 신호를 보일 수 있음을 시사하지만, 단일기관 소규모 결과로 해석에 주의가 필요하다.",
-        "limitations": "단일 기관의 소규모 연구이며 추적 기간과 맹검 여부가 명확하지 않아 일반화에 제한이 있다.",
-        "pico": {
-          "p": "정형외과의 만성 난치성 창상 환자",
-          "i": "도자기 항아리 요법과 뇌화 뜸 병용",
-          "c": "기존 치료만 시행",
-          "o": "창상 치유율, 국소 증상 점수, 통증 점수, PSQI"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-41999935",
-      "pmid": "41999935",
-      "doi": "10.1016/j.neuroscience.2026.04.008",
-      "title": "Dynamic brain set among the limbic-paralimbic-neocortical network during acupuncture.",
-      "journal": "Neuroscience",
-      "pub_date": "2026-07-03",
-      "authors": "Wang Z, Liu H, Wang Y, Lang Y, Yao ZA, Zhang S et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41999935/",
-      "abstract": "The limbic-paralimbic-neocortical network (LPNN) is one of the most important bases for the Deqi sensation. Deqi evokes widespread limbic-paralimbic deactivation coupled with somatosensory cortex activation, accompanied by autonomic rebalancing toward parasympathetic dominance. Some brain regions among the network drive dynamic changes in others. These patterns are likely related to needle retention, Deqi and therapeutic effects. However, conventional task-state and resting-state fMRI designs have limited capacity to fully capture the dynamic evolution of LPNN activity during needle retention. The LPNN response to acupuncture is inherently time-varying, necessitating dynamic analysis methods such as sliding-window approaches to fully capture its temporal trajectory. In this review, we first examine the limitations of current fMRI paradigms in characterizing acupuncture effects, then review the methodological framework and existing findings of dynamic functional connectivity analysis, and present converging evidence confirming that Deqi-related brain modulation evolves continuously throughout needle stimulation. We propose a new viewpoint in which the dynamic changes in the LPNN induced by acupuncture manifest the sensitivity of acupuncture. Furthermore, dynamic brain states during needle retention may serve as potential biomarkers for predicting treatment response in chronic pain disorders and could guide individualized decisions on needle retention duration. The dynamic characteristics of the brain aroused by acupuncture should be considered, and a better understanding of the basis of Deqi may be obtained.",
-      "title_ko": "침 자극 중 변연계-준변연계-신피질 네트워크의 동적 뇌 상태",
-      "publication_types": [
-        "Journal Article",
-        "Review",
-        "Research Support, Non-U.S. Gov't"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "침 자극과 침 유침 동안 변연계-준변연계-신피질 네트워크의 시간적 변화가 어떻게 나타나는지 검토한 논문이다.",
-        "methods": "침구 자극의 fMRI 연구 한계를 검토하고, 동적 기능적 연결성 분석과 관련 근거를 종합한 서술적 고찰이다.",
-        "results": "데기와 관련된 뇌 조절은 침 자극 동안 연속적으로 변화하며, 유침 중 동적 뇌 상태가 치료 반응의 잠재적 생체표지자가 될 수 있다고 제안했다.",
-        "clinical_takeaway": "침 효과를 볼 때 고정된 시점보다 유침 기간의 동적 뇌 반응과 데기 변화를 함께 해석해야 한다는 관점을 제공한다.",
-        "limitations": "원저 연구가 아니라 서술적 고찰이어서 실제 임상 예측력이나 최적 유침 시간은 초록만으로 확정할 수 없다.",
-        "pico": {
-          "p": "침 자극을 받는 대상자와 만성 통증 환자 관련 문헌",
-          "i": "침 자극 및 유침 동안의 동적 기능적 뇌 연결성 관찰",
-          "c": "명확한 정보 없음",
-          "o": "데기 관련 뇌 변화, 치료 반응 예측 가능성, 유침 기간의 생체표지자 가능성"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42394258",
-      "pmid": "42394258",
-      "doi": "10.1177/27683605261461176",
-      "title": "Influence of Emotional Disorders on the Efficacy of Acupuncture in Refractory Diarrhea-Predominant Irritable Bowel Syndrome: A Secondary Analysis of a Randomized Controlled Trial.",
-      "journal": "Journal of integrative and complementary medicine",
-      "pub_date": "2026-07-02",
-      "authors": "Zhao J, Li X, Dong JX, Yang JY, Li ZG, Zhu L",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42394258/",
-      "abstract": "Acupuncture is an effective method for alleviating abdominal pain and diarrhea in patients, but the impact of emotional disorders (anxiety or depression) on the efficacy of acupuncture for refractory diarrhea-predominant irritable bowel syndrome (RIBS-D) remains unknown.\nOne hundred seventy patients with RIBS were randomly equally divided into acupuncture and sham acupuncture groups. The primary outcome was the response rate, measured by the change in the IBS-Symptom Severity Score (IBS-SSS) from baseline at week 4. The secondary outcomes included stool frequency, stool consistency, work and social adaptability, and quality of life (QOL).\nEighty-five patients with RIBS (80 with RIBS-D) received 4 weeks of acupuncture therapy. According to the psychological state assessment, 27 of the 80 patients were anxiety patients, 53 were nonanxiety patients, 21 were depressive patients, and 59 were nondepressive patients. The IBS-SSS response rate at week 4 was 92.6% in anxiety patients and 88.7% in nonanxiety patients (p = 0.581). In terms of secondary outcomes, there was no significant intergroup difference in stool frequency or stool consistency between the anxiety group and the nonanxiety group (p = 0.730, p = 0.418). After adjusting for baseline covariates, no statistically significant differences were detected between the anxiety and nonanxiety groups in the Work and Social Adjustment Scale (WSAS) scores and IBS-QOL scores at week 4 (p = 0.398, p = 0.207). Similarly, no significant difference was noted in the IBS-SSS response rate at week 4 between depressive and nondepressive patients (p = 0.932). However, regardless of baseline covariate correction, there was no significant intergroup difference between the depression group and the nondepressive group in terms of stool frequency, stool consistency, WSAS score, or IBS-QOL score at the fourth week (p = 0.054, p = 0.491, p = 0.873, p = 0.940). In addition, correlation analysis revealed that depression scores at week 4 were positively correlated with the IBS-SSS subscale scores for frequency of abdominal pain and disruption of QOL (β = 0.254, p = 0.012; β = 0.231, p = 0.028), whereas there was no significant relationship between anxiety and depression and the severity of abdominal pain, bloating, or bowel satisfaction score.\nNo statistically significant differences were detected between patients with and without emotional disorders in terms of IBS-SSS response rate, stool frequency, stool consistency, and work and social adaptability following acupuncture treatment. However, depression had a negative effect on the IBS-related abdominal pain frequency scores and IBS-related QOL, suggesting that acupuncture might be an effective nonpharmacological therapy for IBS with comorbid depression.\nAmerican Clinical Trial Registry (https://clinicaltrials.gov/) NCT04276961. Registered on February 19, 2020.",
-      "title_ko": "치료저항성 설사 우세 과민성장증후군에서 정서장애가 침 치료 효과에 미치는 영향: 무작위대조시험의 이차 분석",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "불안 또는 우울이 치료저항성 설사 우세 과민성장증후군에서 침 치료의 효과를 달라지게 하는지 평가했다.",
-        "methods": "무작위대조시험의 이차 분석으로, 4주 침 치료 후 불안·우울 유무에 따라 IBS-SSS 반응률과 배변 및 삶의 질 지표를 비교했다.",
-        "results": "불안이나 우울 유무에 따른 IBS-SSS 반응률, 배변 빈도·변의 형태, 일상 적응도, 삶의 질의 유의한 차이는 없었고, 우울 점수는 복통 빈도와 삶의 질 저하와 양의 상관을 보였다.",
-        "clinical_takeaway": "정서장애가 있어도 침 치료 후 전반적 반응은 크게 달라지지 않았지만, 우울이 동반된 경우 IBS 관련 통증과 삶의 질 지표를 함께 해석할 필요가 있다.",
-        "limitations": "정서 상태에 따른 이차 분석이어서 표본 수와 군 분류의 영향이 있을 수 있고, 초록만으로는 일반화 가능성을 판단하기 어렵다.",
-        "pico": {
-          "p": "치료저항성 설사 우세 과민성장증후군 환자",
-          "i": "4주 침 치료",
-          "c": "명확한 정보 없음",
-          "o": "IBS-SSS 반응률, 배변 빈도·변의 형태, 일상 적응도, 삶의 질"
-        }
-      },
-      "categories": [
-        "수면/정신",
         "침구/전침"
       ]
     }

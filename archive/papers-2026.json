@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-05 20:32:48 UTC",
+  "updated": "2026-07-06 21:03:29 UTC",
   "year": "2026",
-  "total": 136,
+  "total": 142,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
     {
@@ -1510,6 +1510,43 @@
       ]
     },
     {
+      "id": "pmid-42308762",
+      "pmid": "42308762",
+      "doi": "10.1016/j.phymed.2026.158412",
+      "title": "Clinopodium chinense extract alleviates ferroptosis of endometrial epithelial cells via regulating TLR4/SLC7A11 signaling pathway in lipopolysaccharide-induced endometritis.",
+      "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+      "pub_date": "2026-08-01",
+      "authors": "Tao H, Liu Y, Su Q, Tang R, Wang J, Li L et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42308762/",
+      "abstract": "Clinopodium chinense (Benth.) O. Kuntze (C. chinense) is one of the traditional Chinese medicine that has been used in treating gynecological bleeding. Recent research showed that total extract of C. chinense (TEC) played an important role in the treatment of endometritis, but the mechanism of which need to be further revealed. Ferroptosis has served as a pathogenic mechanism in endometritis. The aim of this experiment was to clarify whether TEC ameliorates endometritis by attenuating ferroptosis and to elucidate its underlying mechanism.\nThe purpose of this research is to investigate the therapeutic effect and underlying mechanism of TEC suppressing ferroptosis of endometrial epithelial cells in endometritis.\nThe mouse model of endometritis was established via intrauterine injection of lipopolysaccharide (LPS, 5 mg/ml) into female mice. Primary mouse endometrial epithelial cells (MEECs) were isolated from pregnant female mice and subjected to in vitro experiments. High-resolution mass spectrometry (HRMS) identified the bioactive ingredients in TEC. Transcriptomic and proteomic analyses revealed the potential targets of TEC against endometritis. Specifically, HE staining evaluated the pathological changes in the uterus. Immunohistochemistry staining assayed the expression of CD138, SLC7A11 and GPX4. The mitochondrial morphology was observed by transmission electron microscope (TEM). Prussian blue staining and Ferro orange staining evaluated the content of Fe2+. The contents of ROS, Fe2+, LDH, GSH, MPO and pro-inflammatory cytokine levels including IL-1β, IL-6, TNF-α were detected using kits. Molecular docking evaluated the binding activities between active compounds of TEC and potential targets. Mechanistically, the expression of TLR4, p-p53, SLC7A11, ACSL4 and GPX4 were evaluated using western blotting or immunofluorescence staining.\nThe nine active compounds in TEC were detected. Transcriptomic and proteomic analyses showed that TEC may alleviate endometritis by attenuating ferroptosis. The pharmacological results demonstrated that TEC alleviated endometrial pathological damage, decreased CD138 expression, reduced MPO activity and pro-inflammatory cytokine levels. TEC also diminished mitochondrial shrinkage and increased membrane integrity in uterine tissue. And, TEC decreased ROS, Fe2+, GSH contents, and suppressed ferroptosis of endometrial epithelial cells. Furthermore, the molecular docking technique revealed that hesperidin, didymin and quercetin, which were the major active components of TEC could bind to TLR4 and SLC7A11. Western blotting analysis further verified that TEC down-regulated TLR4, p-p53 and ACSL4 expression, up-regulated SLC7A11 and GPX4 expression.\nTEC alleviates LPS-induced inflammatory damage in both mouse uterine tissues and MEECs by suppressing ferroptosis, the underlying mechanisms of which were related to inhibiting TLR4/SLC7A11 signaling pathway.",
+      "title_ko": "Clinopodium chinense 추출물이 LPS 유발 자궁내막염에서 TLR4/SLC7A11 신호를 조절해 자궁내막 상피세포의 페롭토시스를 완화한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "Clinopodium chinense 총추출물이 리포폴리사카라이드 유발 자궁내막염에서 페롭토시스를 억제해 염증 손상을 줄이는지 확인하려는 연구이다.",
+        "methods": "LPS로 유도한 마우스 자궁내막염 모델과 분리한 일차 자궁내막 상피세포에서 병리, 염증, 철 관련 지표, 전자현미경, 전사체·단백체 분석, 분자도킹과 Western blot 등을 사용한 실험 연구이다.",
+        "results": "TEC는 자궁 조직 손상과 염증 지표를 줄이고 철 축적과 ROS를 감소시켰으며, TLR4/p-p53/ACSL4를 낮추고 SLC7A11/GPX4를 높여 페롭토시스를 억제했다.",
+        "clinical_takeaway": "한약 추출물이 자궁내막염의 염증성 손상과 연관된 페롭토시스 경로를 조절할 가능성을 시사하지만, 전임상 결과이므로 임상적 효용은 추가 검증이 필요하다.",
+        "limitations": "동물과 세포 기반의 전임상 연구로, 사람 대상의 유효성과 안전성은 확인되지 않았다.",
+        "pico": {
+          "p": "LPS로 유도된 마우스 자궁내막염 및 일차 자궁내막 상피세포",
+          "i": "Clinopodium chinense 총추출물(TEC)",
+          "c": "명확한 정보 없음",
+          "o": "자궁내막 손상, 염증, 철 축적 및 페롭토시스 관련 지표"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
       "id": "pmid-42246157",
       "pmid": "42246157",
       "doi": "10.3892/mmr.2026.13930",
@@ -1581,6 +1618,43 @@
       },
       "categories": [
         "수면/정신",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42405462",
+      "pmid": "42405462",
+      "doi": "10.1177/09645284261454388",
+      "title": "Electroacupuncture ameliorates ovariectomy-induced osteoporosis by modulating ferroptosis via the SLC7A11/GPX4 axis.",
+      "journal": "Acupuncture in medicine : journal of the British Medical Acupuncture Society",
+      "pub_date": "2026-07-06",
+      "authors": "Zhang C, Ouyang G",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42405462/",
+      "abstract": "This aim of the study was to investigate whether electroacupuncture (EA) can mitigate osteoporosis (OP) in an ovariectomy (OVX)-induced rat model by affecting the ferroptosis-related pathway.\nThirty-two 12-week-old female Sprague-Dawley rats were randomly allocated into four groups: CONTROL, SHAM, OVX and EA. We examined the effects of OVX and EA on markers of bone resorption and formation, iron content, malondialdehyde (MDA) levels, and the expression of ferritin heavy chain 1 (FTH1), solute carrier family 7 member 11 (SLC7A11) and glutathione peroxidase 4 (GPX4). In addition, femoral morphology and immunofluorescence were analysed.\nThe OVX group exhibited a significant increase in bone resorption markers, iron and MDA levels, with a notable decrease in alkaline phosphatase (ALP) levels, FTH1, SLC7A11 and GPX4 expression, and impaired trabecular architecture. EA significantly reduced bone resorption markers, iron and MDA content while substantially elevating ALP levels and FTH1, SLC7A11 and GPX4 expression. At the same time, EA improved trabecular architecture.\nEA ameliorated OVX-induced OP by decreasing iron accumulation and activating the SLC7A11/GPX4 axis.",
+      "title_ko": "전침이 SLC7A11/GPX4 축을 통해 철사멸을 조절하여 난소절제 유발 골다공증을 완화한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "전침이 난소절제 유발 골다공증에서 철사멸 관련 경로를 통해 골손실을 완화하는지 평가했다.",
+        "methods": "난소절제 유발 골다공증 랫드 모델에서 대조군, sham, OVX군, 전침군을 비교한 실험연구이다.",
+        "results": "전침은 철 축적과 MDA를 감소시키고 ALP와 FTH1, SLC7A11, GPX4 발현을 증가시키며 해면골 구조를 개선했다.",
+        "clinical_takeaway": "전침이 실험동물 골다공증에서 산화스트레스 및 철사멸 관련 지표와 연관된 보호효과를 보였으나, 임상 적용 가능성은 추가 연구가 필요하다.",
+        "limitations": "동물모델 연구이므로 사람 대상 임상효과로 직접 일반화하기 어렵다.",
+        "pico": {
+          "p": "난소절제 유발 골다공증 랫드",
+          "i": "전침",
+          "c": "대조군 및 sham, OVX",
+          "o": "골흡수·골형성 지표, 철 및 MDA, SLC7A11/GPX4 발현, 해면골 구조"
+        }
+      },
+      "categories": [
         "침구/전침"
       ]
     },
@@ -1717,6 +1791,43 @@
       "evidence_level": "중간",
       "clinical_applicability": "보통",
       "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42402897",
+      "pmid": "42402897",
+      "doi": "10.1093/jnci/djag187",
+      "title": "RE：Electroacupuncture improves cognitive function and neuropsychiatric symptoms in breast cancer survivors: a pilot randomized controlled trial.",
+      "journal": "Journal of the National Cancer Institute",
+      "pub_date": "2026-07-03",
+      "authors": "Shen P, Chen X, Wang C, Xu F",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402897/",
+      "abstract": "",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
       "safety_flags": [],
       "summary_status": "missing",
       "summary": {
@@ -4064,7 +4175,7 @@
       "authors": "Yayla M, Binnetoglu D, Toktay E, Gul HF, Akgun S, Gozcu S et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42353234/",
       "abstract": "We aimed to investigate the potential antidiabetic effects of an ethanol extract derived from the fruit of Malus floribunda (MF) on insulin resistance, oxidative stress, inflammation, and apoptosis associated with diabetes. In our study, diabetes was induced through the administration of a 10% fructose solution and 40 mg/kg Streptozotocin (STZ). Once diabetes had been induced, metformin (Met) 300 mg/kg and the MF extract (250 mg/kg and 500 mg/kg) were administered orally once daily for 30 days. At the end of the experiment, markers of insulin resistance, oxidative stress, inflammation and apoptosis were evaluated in the serum, muscle and liver tissues of the different groups. The MF extract significantly improved the levels of HOMA-IR, insulin receptor (InR), insulin receptor substrate 1 (IRS-1) and glucose transporter 4 (GLUT4)-key components of peripheral insulin resistance associated with type 2 diabetes. Fructose/streptozotocin induced oxidative stress, inflammation, and apoptosis were mitigated by increasing Nuclear factor erythroid 2-related factor 2 (NRF2) expression, which restored antioxidant levels (Superoxide dismutase (SOD) and Glutathione (GSH)), significantly improved cytokine levels (Tumor necrosis factor alpha (TNF-α) and Interleukin-1 beta (IL-1β)), and downregulated apoptotic proteins (caspase-3 and caspase-9). We demonstrated the antidiabetic effect of MF extract using a fructose/streptozotocin-induced type 2 diabetes model. MF extract shows promise for future use in herbal medicine.",
-      "title_ko": "",
+      "title_ko": "말루스 플로리분다(Siebold ex Van Houtte) 열매 추출물의 과당/스트렙토조토신 유도 제2형 당뇨병 억제 효과",
       "publication_types": [
         "Journal Article"
       ],
@@ -4073,18 +4184,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "말루스 플로리분다 열매 에탄올 추출물이 제2형 당뇨병 관련 인슐린 저항성, 산화스트레스, 염증, 세포사멸을 완화하는지 평가하였다.",
+        "methods": "과당 용액과 streptozotocin으로 유도한 당뇨 랫드에 메트포르민 또는 말루스 플로리분다 열매 추출물을 30일간 경구 투여한 동물실험이다.",
+        "results": "추출물은 HOMA-IR, InR, IRS-1, GLUT4를 개선하고 NRF2, SOD, GSH를 높였으며 TNF-α, IL-1β와 caspase-3/9를 낮추어 대사 이상과 염증·세포사멸을 완화했다.",
+        "clinical_takeaway": "본 연구는 동물모델에서의 전임상 근거로, 한약 소재의 항당뇨 가능성을 시사하지만 임상 적용 근거로는 부족하다.",
+        "limitations": "랫드 동물실험 결과이므로 사람 대상 유효성과 안전성을 직접 추정하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "과당/streptozotocin으로 제2형 당뇨가 유도된 랫드",
+          "i": "Malus floribunda 열매 에탄올 추출물 경구 투여",
+          "c": "메트포르민 또는 무처치 대조",
+          "o": "인슐린 저항성, 산화스트레스, 염증, 세포사멸 관련 지표"
         }
       },
       "categories": [
@@ -4102,7 +4213,7 @@
       "authors": "Mena-González A, Leirós-Rodríguez R, Hernandez-Lucas P",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42308873/",
       "abstract": "Endometriosis is a benign and chronic disease characterized by inflammation of the endometrial tissue outside the uterus. Numerous physical therapy interventions have been studied to alleviate the related symptoms.\nTo evaluate the effectiveness of different physical therapy methods and techniques in improving the symptoms triggered by endometriosis.\nSystematic review of articles exclusively including women with endometriosis, quantitative studies, and interventions that included some form of physical therapy techniques. Difference in mean differences and their 95% confidence interval were calculated. The I² statistic was used to determine the degree of heterogeneity, and the GRADE approach was used to assess the certainty of the evidence.\nThe interventions analyzed included manual therapy, education, electrotherapy, exercise, relaxation techniques, and acupuncture. Dyspareunia (p = 0.001; I2 = 95.6%) and pelvic pain (p = 0.012; I2 = 90.1%) were significantly reduced. Quality of life was significantly increased (p < 0.001; I2 = 94.9%). The certainty of the evidence obtained was moderate.\nMassage therapy combined with perineal stretching, electrotherapy, acupuncture, exercise, and patient education are effective in improving chronic pelvic pain, dyspareunia, dysmenorrhea, non-menstrual pain, the basic and modular domains of quality of life, mental and physical health, and functional well-being in endometriosis. Healthcare professionals must recognize the importance of evaluating each case individually and tailoring treatments to the specific needs of each patient.",
-      "title_ko": "",
+      "title_ko": "자궁내막증 증상 관리에서 물리치료 기법과 방법의 효과: 메타분석을 포함한 체계적 문헌고찰",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -4112,18 +4223,18 @@
       "clinical_applicability": "높음",
       "priority": "필독",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "자궁내막증 여성에서 여러 물리치료 중재가 증상을 개선하는지 평가하였다.",
+        "methods": "자궁내막증 여성만 포함한 정량 연구를 대상으로 물리치료 중재의 효과를 체계적 문헌고찰과 메타분석으로 분석하고 GRADE로 근거수준을 평가하였다.",
+        "results": "물리치료 중재는 성교통, 골반통, 삶의 질을 유의하게 개선했으며 근거수준은 중등도였다.",
+        "clinical_takeaway": "자궁내막증 관련 통증과 삶의 질에 대해 침, 전기치료, 운동, 교육, 이완 및 수기치료가 도움이 될 수 있으나, 연구 간 이질성이 커서 개별 환자에 맞춘 해석이 필요하다.",
+        "limitations": "중재와 결과의 이질성이 매우 컸고(I²가 높음) 포함 연구의 근거 확실성도 중등도에 그쳤다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "자궁내막증 여성",
+          "i": "수기치료, 교육, 전기치료, 운동, 이완요법, 침구치료 등 물리치료 중재",
+          "c": "명확한 정보 없음",
+          "o": "성교통, 골반통, 삶의 질, 월경통 및 비월경성 통증"
         }
       },
       "categories": [
@@ -4141,7 +4252,7 @@
       "authors": "Chen Y, He F, Liu A, Shi Y",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42297965/",
       "abstract": "This study aimed to investigate the knowledge, attitudes, and practices (KAP) of patients with knee osteoarthritis (KOA) regarding acupuncture. This multicenter cross-sectional study was conducted in multiple hospitals in Beijing between March and April 2025. Patients diagnosed with KOA completed a structured questionnaire. KAP scores were analyzed, and path analysis was used to examine their interrelationships. A total of 532 valid questionnaires were collected. Participants had a mean age of 49.24 ± 10.53 years, with 50.19% male. Most were married (96.62%), urban residents (82.52%), and had at least an associate degree (66.35%). The KAP scores were 6.21 ± 1.45 (possible range: 0-12), 29.05 ± 3.08 (possible range: 7-35), and 27.46 ± 3.06 (possible range: 7-35), respectively. Path analysis revealed that knowledge was directly associated with attitude (β = 0.315, P = 0.026) and practice (β = 0.125, P = 0.009), while attitude was directly associated with practice (β = 0.623, P = 0.009). Knowledge was also indirectly associated with practice through attitude (β = 0.196, P = 0.023), supporting the mediating role of attitude within the model. Patients with KOA exhibited moderate knowledge, generally positive attitudes, and relatively high engagement in acupuncture practices. Given that knowledge was associated with practice both directly and indirectly through attitude, integrating structured patient education and expectation management into routine KOA care may strengthen shared decision-making, enhance treatment adherence, and optimize real-world therapeutic outcomes.",
-      "title_ko": "",
+      "title_ko": "무릎골관절염 환자의 침 치료에 대한 지식, 태도, 실천: 경로분석",
       "publication_types": [
         "Journal Article"
       ],
@@ -4150,18 +4261,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "무릎골관절염 환자에서 침 치료에 대한 지식, 태도, 실천의 수준과 상호관계를 알아보고자 했다.",
+        "methods": "베이징의 여러 병원에서 시행한 다기관 단면조사로, 무릎골관절염 환자 설문을 통해 KAP 점수를 수집하고 경로분석으로 관계를 평가했다.",
+        "results": "지식은 태도와 실천에 직접 연관되었고, 태도는 실천과 강하게 연관되었으며, 지식은 태도를 매개로 실천과도 간접적으로 연관되었다.",
+        "clinical_takeaway": "무릎골관절염 환자의 침 치료 수용과 실천은 지식뿐 아니라 태도와도 연결되므로, 임상에서는 교육과 기대 조율이 중요할 수 있다.",
+        "limitations": "단면 설계와 자기보고 설문이어서 인과관계를 확정하기 어렵고, 특정 지역 병원 환자에 국한된 결과다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "무릎골관절염 환자",
+          "i": "침 치료에 대한 지식·태도·실천의 평가",
+          "c": "명확한 정보 없음",
+          "o": "지식, 태도, 실천의 수준 및 상호관계"
         }
       },
       "categories": [
@@ -4179,7 +4290,7 @@
       "authors": "Cashin AG, Chou R, Weimer MB, McAuley JH",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42295944/",
       "abstract": "Low back pain is defined as pain localized below the costal margin and above the inferior gluteal fold, with or without leg pain. Low back pain affects approximately 619 million people worldwide and is the leading cause of years lived with disability worldwide.\nApproximately 90% of patients presenting for care with low back pain have nonspecific low back pain, which is defined as low back pain that is not associated with specific spinal disorders (such as lumbar radiculopathy, lumbar spinal stenosis, vertebral fracture, axial spondyloarthritis, infection, or malignancy). Low back pain is classified as acute if the duration is shorter than 6 weeks, subacute if the duration is 6 to 12 weeks, and chronic when the duration is longer than 12 weeks. The age-standardized prevalence of low back pain is higher in females (9330 per 100 000) than in males (5520 per 100 000). The prevalence of low back pain increases with age, peaking at approximately 85 years. Risk factors for low back pain include obesity, depressive symptoms, occupational exposures (eg, heavy lifting), tobacco use, chronic disease (eg, diabetes), and previous low back pain. Acute nonspecific low back pain is usually self-limited, and approximately 72% of individuals recover by 12 months. Prognosis is less favorable for chronic nonspecific low back pain, but 42% of patients recover within 12 months. Initial management of patients with low back pain of any duration includes reassurance that serious underlying disease is unlikely, discussion about the expected time course of recovery, and the recommendation to remain physically active. Patients should be encouraged to continue their usual activities (including work), avoid prolonged rest, and be advised to self-manage their condition, which consists of symptom-relief strategies (such as heat application) and activity pacing (maintaining or gradually increasing usual activities and work). For patients with acute nonspecific low back pain, first-line therapies include heat application, spinal manipulation, massage, and acupuncture (typically provided by physical therapists, chiropractors, acupuncturists, and massage therapists) as well as nonsteroidal anti-inflammatory drugs (NSAIDs; such as ibuprofen) and skeletal muscle relaxants (such as cyclobenzaprine). For chronic nonspecific low back pain, first-line therapies include exercise of any type, psychological therapies (eg, cognitive behavioral therapy), or combined multidisciplinary approaches (such as pain management programs and integrated exercise and psychological care) along with spinal manipulation, massage, and acupuncture. NSAIDs should be considered as second-line therapy for chronic nonspecific low back pain.\nLow back pain is a leading cause of disability worldwide. Acute nonspecific low back pain is often self-limited, whereas chronic nonspecific low back pain has a less favorable prognosis. For patients with acute nonspecific low back pain, first-line treatments include selected nonpharmacological therapies and medications (such as NSAIDs and skeletal muscle relaxants). For patients with chronic nonspecific low back pain, first-line treatment consists of exercise, psychological therapies (such as cognitive behavioral therapy), and combined multidisciplinary care.",
-      "title_ko": "",
+      "title_ko": "요통: 종설",
       "publication_types": [
         "Journal Article"
       ],
@@ -4188,18 +4299,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "요통의 역학, 위험인자, 예후와 초기 치료 전략은 무엇인가?",
+        "methods": "JAMA에 게재된 요통 관련 서술형 종설로, 제공된 문헌을 바탕으로 역학과 치료 권고를 요약했다.",
+        "results": "비특이적 요통이 대부분이며 급성은 대체로 저절로 호전되고, 급성에는 온열·척추교정·마사지·침·NSAIDs 등이, 만성에는 운동·심리치료·다학제 접근이 1차 치료로 제시되었다.",
+        "clinical_takeaway": "임상적으로는 중대한 기저질환 가능성이 낮음을 설명하고, 휴식보다 활동 유지와 자가관리, 그리고 급성·만성에 따라 비약물치료를 우선 고려하는 점이 중요하다.",
+        "limitations": "서술형 종설이므로 개별 중재의 효과 크기나 근거의 직접 비교를 확정적으로 해석하기는 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "요통 환자, 특히 비특이적 급성 또는 만성 요통 환자",
+          "i": "온열, 척추교정, 마사지, 침, NSAIDs, 운동, 심리치료, 다학제 접근",
+          "c": "명확한 정보 없음",
+          "o": "통증 및 기능 호전, 회복, 장애 감소"
         }
       },
       "categories": [
@@ -4218,7 +4329,7 @@
       "authors": "Li Y, Hu W, Liu C, Li X, Dai M, Wang F et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42371814/",
       "abstract": "Impaired endometrial receptivity is a major cause of infertility in polycystic ovary syndrome (PCOS). Qu's Formula 3 (QUF3) is a Chinese herbal medicine formula clinically used to improve endometrial receptivity in patients with PCOS. This study employed network pharmacology, molecular docking, and molecular dynamics (MD) simulations to investigate the underlying mechanisms. Active constituents of QUF3 were identified using the TCMSP database, and potential targets related to endometrial receptivity and PCOS were retrieved from DrugBank and other resources. A compound-target interaction network and a protein-protein interaction (PPI) network were constructed via Cytoscape to identify key targets. Core targets were subjected to GO and KEGG enrichment analyses. Molecular docking, MD simulations, principal component analysis (PCA), free energy landscape (FEL), and dynamic cross-correlation matrix (DCCM) were used to evaluate binding interactions. From 91 active ingredients and 294 potential drug targets, 60 disease-related targets were identified. Luteolin and sesamin were among the key pharmacodynamic components. Ten core targets were identified: AKT1, EGFR, TNF, TP53, IL6, BCL2, ESR1, IL1B, STAT3, and MMP9. KEGG enrichment revealed 132 signaling pathways, and GO analysis identified 678 entries. MD simulations indicated that the binding between the top five active constituents and their respective targets was stable. PCA, FEL, and DCCM further demonstrated high thermodynamic stability and structural rigidity of these complexes. In conclusion, QUF3 improves endometrial receptivity in PCOS through multicomponent, multitarget, and multipathway interactions. This study provides a theoretical basis, from a computational simulation perspective, for the development of targeted Chinese herbal medicine therapies for PCOS-related infertility, and may have positive implications for improving pregnancy outcomes in women with PCOS in the future.",
-      "title_ko": "",
+      "title_ko": "다낭성난소증후군에서 자궁내막 수용성을 개선하는 Qu’s Formula 3의 기전: 네트워크 약리학과 분자동역학 시뮬레이션",
       "publication_types": [
         "Journal Article",
         "Video-Audio Media"
@@ -4230,18 +4341,18 @@
       "safety_flags": [
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "Qu’s Formula 3가 PCOS 관련 자궁내막 수용성 저하에 어떤 분자적 기전을 가질 수 있는지 확인하고자 했다.",
+        "methods": "네트워크 약리학, 분자도킹, 분자동역학 시뮬레이션과 추가 계산분석으로 후보 성분·표적·신호경로를 탐색한 연구다.",
+        "results": "루테올린과 세사민을 포함한 여러 성분이 AKT1, EGFR, TNF 등 핵심 표적과 안정적으로 결합했으며, 다성분·다표적·다경로 작용 가능성이 제시되었다.",
+        "clinical_takeaway": "이 연구는 계산분석 기반의 기전 가설을 제공하지만, 실제 임상 효과나 안전성은 임상 연구로 확인이 필요하다.",
+        "limitations": "실험실 또는 임상 검증이 아닌 in silico 연구이므로 실제 환자에서의 효능과 안전성을 직접 입증하지 못했다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "PCOS로 인한 자궁내막 수용성 저하 환자 관련 문제",
+          "i": "Qu’s Formula 3",
+          "c": "명확한 정보 없음",
+          "o": "자궁내막 수용성 및 관련 표적/경로 변화"
         }
       },
       "categories": [
@@ -4259,7 +4370,7 @@
       "authors": "Park J, Shin S, Kim Y, Seo J, Kim B, Lee K",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42286047/",
       "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are widely prescribed for obesity management; however, adverse events (AEs) remain a clinical concern. This study presents a computational pharmacovigilance framework integrating real-world safety data with graph-based modeling to characterize AE patterns associated with GLP-1 RA therapy and to explore herb-AE associations in an exploratory manner. We conducted a cross-sectional analysis of AE reports from the food and drug administration adverse event reporting system (2015-2025). Clinical characteristics included outcomes, reporting frequency, demographics, time-to-onset, and subgroup distributions. Signal detection employed disproportionality metrics and Bayesian approaches. Herb-compound-target-AE networks were constructed using HERB 2.0 and the Comparative Toxicogenomics Database, incorporating drug-likeness and pharmacokinetic filtering. Graph convolutional networks were applied to model herb-AE associations, followed by literature-based contextual evaluation. Among 142,705 GLP-1 RA AE reports, 4,090 involved obesity indications. Gastrointestinal events predominated, with 76% of reports involving female patients and onset clustering within 0-30 days. Semaglutide demonstrated a distinct onset distribution, including a higher proportion of late-onset cases (≥ 360 days). Strong signals were detected for biliary, pancreatic, renal, and coagulation events, with semaglutide-associated pairs showing reporting odds ratios > 10, whereas tirzepatide exhibited negative log-transformed reporting odds ratios for several gastrointestinal events. Network analysis and graph convolutional network modeling prioritized established medicinal herbs including Liquorice Root, Mulberry Leaf, Dahurian Angelica Root, Danshen Root, and Ginkgo Leaf as top candidates following degree debiasing and exclusion of non-herbal database entries. The graph convolutional network achieved area under the receiver operating characteristic curve/area under the precision-recall curve values of 0.798/0.841 (validation) and 0.666/0.719 (test), indicating moderate predictive performance within a sparse pharmacovigilance context. These findings describe real-world AE reporting patterns associated with GLP-1 receptor agonists and present a hypothesis-generating computational framework for prioritizing herb-AE signal associations. The results are exploratory and should be interpreted in light of the inherent limitations of spontaneous reporting systems and computational modeling frameworks, and require independent experimental and clinical validation prior to any clinical application.",
-      "title_ko": "",
+      "title_ko": "비만 치료용 GLP-1 치료와 연관된 이상반응 양상에 대한 실제세계 및 계산적 본초 후보 탐색",
       "publication_types": [
         "Journal Article"
       ],
@@ -4271,18 +4382,18 @@
         "adverse",
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "비만에서 GLP-1 수용체 작용제의 이상반응 보고 양상과 연관될 수 있는 본초 후보를 탐색할 수 있는지 평가하였다.",
+        "methods": "FDA 이상반응 보고시스템의 자발보고자료를 단면 분석하고, 신호탐지와 HERB 2.0·CTD 기반 네트워크 및 그래프 합성곱 신경망으로 본초-이상반응 연관성을 탐색하였다.",
+        "results": "GLP-1 RA 관련 보고에서는 위장관 이상반응이 가장 흔했고, 담도·췌장·신장·응고 관련 신호가 두드러졌으며, 감초근·오디잎·강활·단삼근·은행잎이 우선 후보로 제시되었다.",
+        "clinical_takeaway": "이 연구는 본초-이상반응 연관성에 대한 가설생성적 단서를 제공하지만, 자발보고자료와 계산모델의 한계로 인해 임상 적용 전 독립적 검증이 필요하다.",
+        "limitations": "자발보고시스템의 내재적 편향과 희소한 데이터에 기반한 계산모델 결과라서 인과성을 판단할 수 없다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "비만에서 GLP-1 수용체 작용제 이상반응 보고.",
+          "i": "GLP-1 수용체 작용제와 본초-이상반응 계산적 연관 분석.",
+          "c": "명확한 정보 없음.",
+          "o": "이상반응 보고 양상, 신호탐지 결과, 우선 본초 후보."
         }
       },
       "categories": [
@@ -4300,7 +4411,7 @@
       "authors": "Chauhan P, Wadhwa K, Singh G",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41812935/",
       "abstract": "Rosa × damascena Herrm. has been widely employed in Iranian traditional medicine as a nerve tonic to treat anxiety, depression, headache, and other neurological disorders. Additionally, Commiphora wightii (Arn.) Bhandari. (Guggul) is also well recognized in both Ayurvedic and Unani systems, used to treat lipid disorders, obesity, facial paralysis, tremors, and memory loss.\nAlthough traditionally used individually, the combination represents a rational multi-target strategy to simultaneously address metabolic and neurodegenerative components associated with Alzheimer's disease (AD). Thus, the present study explored the neuroprotective, metabolic, and behavioral effects of R. damascena and C. wightii combination therapy in a streptozotocin (STZ)-induced rat model of AD.\nAdult Wistar rats were administered intracerebroventricular STZ to induce AD-like pathology. A dose-response and combination screening study was initially performed to identify an optimal R. damascena - C. wightii dose pair using normalized escape latency and interaction analysis. The best identified combination and its associated per se doses were then subsequently subjected to detailed behavioral and biochemical evaluations.\nThe interaction-guided analysis identified R. damascena 600 mg/kg + C. wightii 400 mg/kg as the most effective combination and utilized further. While both extracts alone exerted significant protective effects, their combined intervention was more effective in restoring metabolic homeostasis, enhancing motor coordination and exploratory activity, reducing anxiety-like behavior, and improving spatial learning and memory compared to monotherapy, primarily through attenuation of oxidative stress, inhibition of TNF-α-associated neuroinflammatory cascades, restoration of mitochondrial function, and normalization of glutamatergic and cholinergic neurotransmission.\nThe findings support this combination as a promising herbal strategy for further investigation in the management of metabolic and cognitive disturbances associated with AD.",
-      "title_ko": "",
+      "title_ko": "장미(Rosa × damascena)와 구굴(Commiphora wightii) 병용요법이 알츠하이머병 랫드 모델의 인지·행동·대사 이상을 개선한다",
       "publication_types": [
         "Journal Article"
       ],
@@ -4311,18 +4422,18 @@
       "safety_flags": [
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "이 조합 한약이 STZ 유도 알츠하이머병 랫드 모델의 인지, 신경행동, 대사 이상을 개선하는지 평가했다.",
+        "methods": "STZ로 알츠하이머병 유사 병태를 유도한 랫드에서 용량-반응 및 병용 선별 후 행동학적·생화학적 지표를 비교한 전임상 연구이다.",
+        "results": "R. damascena 600 mg/kg과 C. wightii 400 mg/kg 병용이 단독보다 산화스트레스, TNF-α 관련 염증, 미토콘드리아 기능, 신경전달 균형, 학습·기억과 대사 지표를 더 잘 개선했다.",
+        "clinical_takeaway": "이 조합은 알츠하이머병과 연관된 대사·인지 이상에 대한 다중표적 후보로 보이지만, 임상 적용 전 추가 검증이 필요하다.",
+        "limitations": "랫드 전임상 연구라 사람에서의 유효성과 안전성을 직접 판단할 수 없다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "STZ로 알츠하이머병 유사 병태를 유도한 성체 Wistar 랫드",
+          "i": "Rosa × damascena와 Commiphora wightii 병용 추출물",
+          "c": "명확한 정보 없음",
+          "o": "인지, 신경행동, 대사 및 생화학 지표의 개선"
         }
       },
       "categories": [
@@ -4381,7 +4492,7 @@
       "authors": "Kanubaddi KR, Yaung CL, Harn HJ, Chiou TW, Hsu SX, Wijaya I et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42353002/",
       "abstract": "Aging is associated with a rising burden of chronic metabolic, cardiovascular, musculoskeletal, and neurodegenerative diseases that share interconnected pathological mechanisms, including oxidative stress, chronic inflammation, mitochondrial dysfunction, metabolic imbalance, and immune dysregulation. Because these disorders arise from complex and overlapping biological disturbances, conventional single-target therapies often provide only limited benefit. In this context, traditional Chinese herbal medicines, characterized by multi-component and multi-target actions, are being re-evaluated using modern pharmacological and systems biology approaches. Among these, Astragalus membranaceus and Cordyceps species have attracted attention as representative tonic medicines with long-standing traditional use and growing biomedical relevance. Their principal bioactive constituents, including polysaccharides, saponins, flavonoids, sterols, and nucleoside derivatives such as cordycepin, exert pleiotropic effects on inflammatory signaling, redox homeostasis, mitochondrial function, metabolic regulation, and immune responses. This review summarizes current evidence on bioactive derivatives from Astragalus and Cordyceps in aging-related chronic and neurodegenerative disorders, including diabetes, cardiovascular dysfunction, osteoarthritis, cancer, Alzheimer's disease, and Parkinson's disease. It focuses on mechanistic findings from cellular and animal studies and critically discusses key translational challenges, such as compositional variability, poor bioavailability, lack of standardized preparation, limited clinical validation, and safety concerns related to toxicity and herb-drug interactions.",
-      "title_ko": "",
+      "title_ko": "황기와 동충하초 유래 성분의 노화 관련 만성질환 및 신경퇴행성 질환 치료",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -4396,18 +4507,18 @@
         "herb-drug",
         "interaction"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "황기와 동충하초 유래 생리활성 성분이 노화 관련 만성질환과 신경퇴행성 질환에서 어떤 기전과 번역적 의미를 갖는지 검토하였다.",
+        "methods": "황기와 동충하초 유래 성분에 대한 세포·동물 연구 중심의 기전적 문헌고찰로, 안전성과 번역적 한계도 함께 논의하였다.",
+        "results": "황기와 동충하초 성분은 산화스트레스, 염증, 미토콘드리아 기능, 대사, 면역 경로에 다면적으로 작용할 가능성이 보고되었으나 임상 검증은 제한적이었다.",
+        "clinical_takeaway": "한의 임상에서는 전통적 보익 약재의 근거가 주로 전임상에 기반하므로, 표준화와 안전성, 약물상호작용을 특히 신중히 봐야 한다.",
+        "limitations": "주요 근거가 세포·동물 연구이며, 조성 변이와 생체이용률 저하, 표준화 부족, 임상 및 안전성 자료의 한계가 크다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "노화 관련 만성질환 및 신경퇴행성 질환 환자 또는 질환 모델",
+          "i": "황기(Astragalus membranaceus)와 동충하초(Cordyceps) 유래 생리활성 성분",
+          "c": "명확한 정보 없음",
+          "o": "질환 관련 기전, 잠재적 유효성, 안전성 및 번역 가능성"
         }
       },
       "categories": [
@@ -4426,7 +4537,7 @@
       "authors": "Khurana M, Sharma S, Mahajan S, Lamba K, Chauhan S, Mehta S et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42300313/",
       "abstract": "Garcinia indica (Kokum), a tropical tree native to the Western Ghats of India, is an underutilized yet pharmacologically significant species in the family Clusiaceae. Traditionally used in food and folk medicine, Kokum has also attracted scientific interest due to its diverse therapeutic potential. The fruit of G. indica is rich in bioactive phytochemicals, including hydroxycitric acid (HCA), anthocyanins, and polyisoprenylated benzophenones such as garcinol, xanthochymol, and guttiferone isoforms. These compounds exhibit a wide range of biological activities, including antioxidant, anti-inflammatory, anti-obesity, anti-diabetic, cardioprotective, neuroprotective, and dermatoprotective effects. This review provides an overview of the phytochemical profile, pharmacological mechanisms, and potential health benefits of G. indica and its constituents. Particular focus is given to their roles in preventing oxidative stress, managing metabolic disorders, promoting cardiovascular and neurological health, and enhancing skin health. Given its widespread availability and multifaceted health benefits, G. indica represents a highly promising functional food and natural therapeutic agent. This article aims to compile existing knowledge and stimulate further research into the biomedical applications and market potential of this native botanical.",
-      "title_ko": "",
+      "title_ko": "가르시니아 인디카: 영양과 치료를 잇는 다면적 식물의약품",
       "publication_types": [
         "Journal Article"
       ],
@@ -4435,18 +4546,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "가르시니아 인디카와 그 성분이 대사질환 등 건강 영역에 어떤 잠재적 효능을 가지는지 검토했다.",
+        "methods": "가르시니아 인디카의 phytochemical profile과 약리기전, 건강효과를 종합한 서술적 문헌고찰이다.",
+        "results": "히드록시시트릭산, 안토시아닌, 가르시놀 등 성분이 항산화·항염증 및 항비만·항당뇨 등 다양한 생물학적 활성을 보인다고 정리되었다.",
+        "clinical_takeaway": "대사질환 관련 기능성 식품 후보로 주목되지만, 실제 임상 적용 근거는 문헌고찰 수준이므로 해석에 주의가 필요하다.",
+        "limitations": "임상시험 결과를 직접 제시한 연구가 아니라 전반적 가능성을 정리한 고찰이라는 점이 한계다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "명확한 정보 없음",
+          "i": "Garcinia indica 및 주요 생리활성 성분의 섭취 또는 노출",
+          "c": "명확한 정보 없음",
+          "o": "항산화, 항염증, 항비만, 항당뇨 등 건강 관련 효과"
         }
       },
       "categories": [
@@ -4463,7 +4574,7 @@
       "authors": "Candrea AR, Gavrilaș LI, Frumuzachi O, Mocan A, Babotă M, Crișan G",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42356246/",
       "abstract": "Background/Aim: Berberine, an isoquinoline alkaloid widely used in traditional medicine, has attracted considerable interest for its capacity to modulate the gut microbiota and improve cardiometabolic outcomes. Although preclinical evidence is promising, no systematic review has previously synthesised evidence from randomised controlled trials (RCTs) in humans. This review aimed to evaluate the effects of berberine supplementation on gut microbiota and to explore associated cardiometabolic, inflammatory, and immunological changes. Methods: Prospectively registered in PROSPERO (CRD42024524143) and conducted in accordance with PRISMA guidelines, this review searched PubMed, Web of Science, Scopus, and Embase from inception to 10 January 2026. Eligible studies were RCTs in adults reporting gut microbiota outcomes following berberine supplementation. Methodological quality was assessed using the Cochrane Risk of Bias tool. Microbiota assessment methods, including sequencing platforms and bioinformatic pipelines, were systematically characterised across the included studies. Results: Seven RCTs enrolling 34 to 446 participants per intervention arm were included across diverse clinical populations-type two diabetes mellitus (T2DM), hyperlipidaemia, colorectal adenoma, psychiatric disorders, and Parkinson's disease. Six of seven studies reported significant compositional shifts; the most extensively characterised changes-observed predominantly in T2DM populations-included enrichment of γ-Proteobacteria and depletion of butyrate-producing taxa, with specific taxa and the breadth of compositional changes varying considerably across clinical populations and sequencing methodologies. These shifts co-occurred with improvements in fasting glucose, lipid profiles, and inflammatory markers; however, causal inference cannot be established. Conclusions: Berberine consistently modulated gut microbial composition across heterogeneous clinical populations, with concurrent cardiometabolic and anti-inflammatory improvements. Compositional shifts were not uniformly favourable, and findings should be interpreted as hypothesis-generating. Geographically diverse, mechanistically focused RCTs are required to establish causality.",
-      "title_ko": "",
+      "title_ko": "장내 미생물 조절과 심대사 결과에서 베르베린의 통합적 역할: 무작위 임상시험 체계적 문헌고찰",
       "publication_types": [
         "Systematic Review",
         "Journal Article",
@@ -4474,18 +4585,18 @@
       "clinical_applicability": "높음",
       "priority": "필독",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "베르베린 보충이 성인에서 장내 미생물과 심대사·염증 지표에 어떤 영향을 주는지 평가하였다.",
+        "methods": "성인 대상 무작위대조시험 7편을 포함한 체계적 문헌고찰로, 장내 미생물과 관련 심대사 지표를 PRISMA에 따라 검토하였다.",
+        "results": "베르베린은 다양한 임상군에서 장내 미생물 조성을 일관되게 변화시켰고, 일부 연구에서 공복혈당·지질·염증 지표 개선이 함께 관찰되었다.",
+        "clinical_takeaway": "베르베린은 장내 미생물과 심대사 지표를 함께 변화시킬 가능성이 있으나, 균형 잡힌 유익성은 확정되지 않아 근거를 가설 생성 수준으로 해석해야 한다.",
+        "limitations": "대상 질환과 미생물 분석 방법이 이질적이어서 인과성과 일반화 가능성을 확정하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "성인 무작위대조시험 참여자(당뇨병, 고지혈증, 대장선종, 정신질환, 파킨슨병 포함)",
+          "i": "베르베린 보충",
+          "c": "명확한 정보 없음",
+          "o": "장내 미생물 조성 변화 및 심대사·염증 지표 변화"
         }
       },
       "categories": [
@@ -4502,7 +4613,7 @@
       "authors": "Sun Z, Liu R",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42296469/",
       "abstract": "To evaluate the efficacy of trigger point needling (TPN) for pain relief and improvement in WOMAC scores in patients with knee osteoarthritis (KOA).\nA systematic review with meta-analysis of randomized controlled trials (RCTs) from major databases up to June 2025. Pain intensity (measured by VAS/NRS) and WOMAC scores were the primary outcomes assessed. Data were pooled using a random-effects model.\nEighteen RCTs involving 875 participants were included. TPN resulted in significant improvements in both pain (MD=-1.42, P<0.0001) and WOMAC scores (SMD=-1.42, P<0.001) immediately post-treatment. However, these benefits were not sustained at one-, three-, or six-month follow-up. TPN was found to be superior to traditional Chinese acupuncture in terms of pain relief (MD=-2.11, P<0.0001) and WOMAC score improvement (SMD=-1.42, P=0.003), but its effects were similar to those of sham TPN (P>0.05).\nTPN may offer greater therapeutic benefits than traditional Chinese acupuncture in patients with KOA. Improvements in pain and WOMAC scores were primarily observed immediately after treatment, with no significant benefits at longer follow-up intervals. Additionally, the possibility of a placebo effect cannot be excluded, as the therapeutic effects of TPN were comparable to those of sham needling.",
-      "title_ko": "",
+      "title_ko": "무릎 골관절염 관리에서 트리거포인트 침자의 효과: 무작위 대조시험의 체계적 문헌고찰과 3수준 메타분석",
       "publication_types": [
         "Journal Article"
       ],
@@ -4511,18 +4622,18 @@
       "clinical_applicability": "높음",
       "priority": "필독",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "무릎 골관절염 환자에서 트리거포인트 침자가 통증과 WOMAC 점수를 개선하는지 평가했다.",
+        "methods": "2025년 6월까지의 무작위대조시험을 체계적 문헌고찰과 랜덤효과 3수준 메타분석으로 통합했다.",
+        "results": "트리거포인트 침자는 치료 직후 통증과 WOMAC 점수를 유의하게 개선했지만 1, 3, 6개월 추적에서는 효과가 유지되지 않았고, 가짜 침과는 차이가 없었다.",
+        "clinical_takeaway": "무릎 골관절염에서 트리거포인트 침자는 단기 증상 개선 가능성이 있으나, 장기 효과와 위약 가능성은 함께 고려해야 한다.",
+        "limitations": "치료 직후 효과 중심이며 장기 추적에서 유의한 이득이 없고, 가짜 침과 비슷해 비특이적 효과를 배제하기 어렵다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "무릎 골관절염 환자",
+          "i": "트리거포인트 침자",
+          "c": "가짜 침 또는 전통 중국 침",
+          "o": "통증과 WOMAC 점수"
         }
       },
       "categories": [
@@ -4540,7 +4651,7 @@
       "authors": "Demsie DG, Gebrie D, Siraj EA, Kebede SY, Tafere C, Bantie AT et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42265320/",
       "abstract": "Herbal medicine use is widespread among individuals with type 2 diabetes mellitus (T2DM), yet its influence on glycemic control remains uncertain. This study aimed to assess the prevalence of herbal medicine use and its association with glycemic control among adults with T2DM. A cross-sectional study was conducted from January to June 2025 among 420 adults with T2DM selected through systematic random sampling. Data were collected using structured interviews and medical record reviews. Glycemic control was assessed based on glycated hemoglobin (HbA1c) levels, with HbA1c < 7% considered good control. Descriptive statistics summarized sociodemographic and clinical characteristics. Associations between herbal use and glycemic control were examined using multivariable logistic regression analyses, with p < 0.05 denoting statistical significance. Of 420 participants, 223 (53.0%) were female, and the majority resided in urban areas (67.4%). Most (74.8%) had lived with diabetes for more than five years, and one-third (33.3%) had comorbidities. Herbal medicine use was reported by 219 (52.1%) participants, predominantly Moringa oleifera (61.6%), Trigonella foenum-graecum (45.7%), and Allium sativum (38.8%). Overall, 228 (54.3%) participants achieved good glycemic control (HbA1c < 7.0%), while the remaining 192 (45.7%) exhibited poor glycemic control (HbA1c ≥ 7.0%). In multivariable logistic regression, urban residence (AOR = 10.5, 95% CI 4.9-22.7), shorter diabetes duration (< 5 years) (AOR = 10.18, 95% CI 4.46-23.23), absence of comorbidity (AOR = 2.58, 95% CI 1.58-4.21), and non-users (AOR = 3.89, 95% CI 2.38-6.38) were independently associated with good glycemic control. Literacy and age above 40 years were also significant predictors (p < 0.05). In conclusion, the prevalence of herbal medicine use was high among individuals with T2DM but was significantly associated with poor glycemic control.",
-      "title_ko": "",
+      "title_ko": "제2형 당뇨병 환자에서 한약 사용이 HbA1c 수준에 미치는 영향",
       "publication_types": [
         "Journal Article"
       ],
@@ -4549,18 +4660,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "제2형 당뇨병 환자에서 한약 사용이 혈당 조절 상태와 관련이 있는지 평가했다.",
+        "methods": "에티오피아 북서부 성인 제2형 당뇨병 환자 420명을 대상으로 한 단면연구로, 설문과 의무기록을 통해 한약 사용과 HbA1c를 분석했다.",
+        "results": "한약 사용은 흔했으며, 한약 사용자는 비사용자보다 좋은 혈당 조절과 반대 방향의 연관을 보여 한약 사용이 전반적으로 불량한 혈당 조절과 관련되었다.",
+        "clinical_takeaway": "이 연구는 한약 사용이 제2형 당뇨병의 혈당 조절과 연관될 수 있음을 시사하지만, 관찰연구이므로 인과 해석은 주의해야 한다.",
+        "limitations": "단면연구라 시간적 선후와 인과성을 판단할 수 없고, 자가보고된 한약 사용의 정보편향 가능성이 있다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "에티오피아 북서부의 성인 제2형 당뇨병 환자",
+          "i": "한약 사용",
+          "c": "한약 비사용",
+          "o": "HbA1c 7% 미만의 좋은 혈당 조절"
         }
       },
       "categories": [
@@ -4578,7 +4689,7 @@
       "authors": "Shi R, Wang P, Sui L, Cao C, Zhang Z, Tan G et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42082135/",
       "abstract": "Osteoarthritis (OA) is a heterogeneous disorder with a rising global prevalence, largely driven by aging and obesity, and it imposes a significant worldwide health burden. Current therapeutic strategies, limited to transient lubrication or pain relief, are unable to halt disease progression due to their failure to repair cartilage. To address this challenge, we developed an integrated theranostic platform using a modified acupuncture needle with helical microgrooves. These grooves are loaded sequentially with three functional hydrogel segments. The degradation of each segment triggers the controlled release of a corresponding therapeutic agent: Batimastat, Etodolac, and Docetaxel. Each hydrogel is engineered to respond specifically to a key OA pathological pathway: matrix degradation (MMP13-responsive), inflammation (ADAMTS5-responsive), and fibrosis (TGF-β-responsive), and is labeled with a distinct fluorescent marker (Cy5, FITC, or Cy5). The core innovation of this system is its capacity for simultaneous diagnosis and treatment. After implantation, the needle can be retrieved, and the degradation status of each hydrogel segment assessed by fluorescence imaging, providing a post-treatment readout of the dominant OA molecular subtype. Collectively, this multifunctional platform, termed helical-groove acupuncture needle (HGN), represents a promising strategy to curtail OA progression by simultaneously promoting cartilage restoration and inhibiting fibrotic changes.",
-      "title_ko": "",
+      "title_ko": "나선형 미세홈 침침으로 골관절염의 분자 아형 진단과 맞춤 치료를 가능하게 하는 스마트 기능화",
       "publication_types": [
         "Journal Article"
       ],
@@ -4587,18 +4698,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "이 연구는 골관절염에서 분자 아형을 구분하고 맞춤 치료를 동시에 수행할 수 있는 침 기반 테라노스틱 플랫폼의 가능성을 평가했다.",
+        "methods": "나선형 미세홈이 있는 개량 침에 세 가지 기능성 하이드로겔 세그먼트를 순차적으로 적재해 병리 경로 반응형 약물 방출과 형광 영상 기반 분해 평가를 설계한 실험적 연구이다.",
+        "results": "HGN은 연골 기질 분해, 염증, 섬유화에 각각 반응하는 약물 방출과 형광 판독을 통해 치료와 분자 아형 평가를 동시에 수행할 수 있는 플랫폼으로 제시되었다.",
+        "clinical_takeaway": "이 결과는 침술 기반 전달체가 골관절염의 이질적인 병태를 분자 수준에서 구분하며 맞춤형 접근의 가능성을 보여주지만, 임상 적용 전 추가 검증이 필요하다.",
+        "limitations": "제공된 초록은 주로 플랫폼 설계와 개념적 유효성을 설명하며, 실제 임상 효능과 안전성에 대한 구체적 근거는 명확하지 않다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "골관절염 환자 또는 골관절염 병태 모델, 명확한 정보 없음",
+          "i": "헬리컬 미세홈 침침(HGN)과 기능성 하이드로겔 기반 약물 방출",
+          "c": "명확한 정보 없음",
+          "o": "분자 아형 판독, 연골 재생/섬유화 억제와 같은 치료 반응"
         }
       },
       "categories": [
@@ -4617,7 +4728,7 @@
       "authors": "Mosavat SH, Poor AK, Homayounfar R, Naghizadeh MM, Farjam M, Nayebi N et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42252134/",
       "abstract": "To determine the prevalence, patterns and correlates of medicinal herb use in a rural Iranian population and to evaluate demographic and clinical predictors using adjusted regression models.\nCross-sectional analysis of baseline data from the Fasa Prospective Epidemiological Research Studies in Iran Cohort Study.\nSheshdeh, a rural district in southern Iran.\n10 143 adults aged 35-70 years enrolled between 2017 and 2019.\nPrevalence of self-reported medicinal herb use during the past year and its associations with demographic variables and non-communicable diseases (NCDs).\nOverall, 84.7% of participants (95% CI 83.9% to 85.5%) reported herb use. In multivariable logistic regression, higher educational attainment was positively associated with herb use (university education vs. illiterate: adjusted OR 1.41, 95% CI 1.11 to 1.88). No significant adjusted associations were observed between herb use and major NCDs including diabetes, hypertension, ischaemic heart disease or depression. The most frequently used herbs were Zataria multiflora, Echium amoenum and Matricaria chamomilla, most commonly for anxiety/neurasthenia (81.6%), gastric pain (59.6%) and common cold (49.8%).\nMedicinal herb use is highly prevalent among adults in southern Iran. Educational level, but not chronic disease status, was associated with herb use. These findings highlight the need for integrated public health strategies regarding safe and evidence-based use of medicinal herbs.",
-      "title_ko": "",
+      "title_ko": "이란 인구에서의 약용허브 사용: Fasa PERSIAN 코호트 연구의 단면 결과",
       "publication_types": [
         "Journal Article"
       ],
@@ -4626,18 +4737,18 @@
       "clinical_applicability": "보통",
       "priority": "참고",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "이란 농촌 성인에서 약용허브 사용의 유병률과 관련 요인을 평가하고자 했다.",
+        "methods": "Fasa PERSIAN 코호트의 기저자료를 이용한 단면분석으로, 35~70세 성인에서 지난 1년간 약용허브 사용과 인구사회학적·비감염성질환 관련 요인을 조정 회귀모형으로 분석했다.",
+        "results": "전체 참가자의 84.7%가 약용허브 사용을 보고했으며, 교육수준은 사용과 양의 관련이 있었지만 당뇨, 고혈압, 허혈성심장질환, 우울증과의 유의한 조정 연관성은 없었다.",
+        "clinical_takeaway": "이 연구는 약용허브 사용이 매우 흔하고 교육수준과 관련될 수 있음을 보여주지만, 질환 유무와의 연관성은 확인되지 않아 안전성과 근거 기반 사용에 대한 주의가 필요함을 시사한다.",
+        "limitations": "단면연구이므로 인과성을 판단할 수 없고, 자기보고에 기반한 허브 사용 정보는 오차가 있을 수 있다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "이란 남부 농촌의 35~70세 성인",
+          "i": "지난 1년간의 약용허브 사용",
+          "c": "허브 비사용 또는 관련 비교집단 정보 없음",
+          "o": "약용허브 사용 유병률과 인구사회학적·비감염성질환 관련성"
         }
       },
       "categories": [
@@ -4735,7 +4846,7 @@
       "authors": "Hafizi L, Azizi H, Mahmoudinia M, Jafari M, Taghanaki HB, Esmaili H et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42327481/",
       "abstract": "There is evidence of the beneficial effects of acupuncture in the treatment of polycystic ovary syndrome (PCOS). This study aimed to compare acupuncture with clomiphene in ovulation induction among infertile women with PCOS.\nThis randomized clinical trial was conducted on infertile women with PCOS who were referred to the gynecology clinic of Imam Reza Hospital and Milad Infertility Center, Mashhad, Iran, from December 2015 to July 2016. Patients were randomly assigned to two groups; the intervention group (38 patients) received true acupuncture plus placebo clomiphene, whereas the control group (39 patients) received clomiphene plus sham acupuncture. Patients were compared in terms of folliculare growth, evidence of ovulation, and side effects of treatment.\nThere was no statistically significant difference between the two groups in terms of demographic characteristics and PCOS criteria. The ovulation rates were 31.5% and 41.6% in the intervention and control groups respectively, indicating no statistically significant difference(p = 0.36). Also, in terms of side effects, the statistical difference between the two groups was not significant, except for headache which was significantly more common in the intervention group (p = 0.001). The rate of folliculargrowth was significantly higher in the control group during the first and third cycles (p = 0.01), whereas no significant difference was observed in the second cycle (p = 0.93).\nAcupuncture can be as effective as clomiphene treatment in inducing ovulation in infertile women with PCOS. Moreover, considering the few side effects of acupuncture, its application can be considered a safe option. Trial Registration: IRCT201512057265N3.",
-      "title_ko": "",
+      "title_ko": "다낭성난소증후군 여성의 배란 유도를 위한 침 vs 클로미펜: 무작위 임상시험",
       "publication_types": [
         "Journal Article"
       ],
@@ -4743,6 +4854,122 @@
       "evidence_level": "높음",
       "clinical_applicability": "높음",
       "priority": "필독",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "불임을 동반한 다낭성난소증후군 여성에서 침이 클로미펜과 비교해 배란 유도에 효과적인지 평가했다.",
+        "methods": "불임의 PCOS 여성을 무작위로 배정해 진침+위약 클로미펜군과 클로미펜+가짜침군을 비교한 무작위 임상시험이다.",
+        "results": "배란율은 두 군 간 유의한 차이가 없었고, 여포 성장은 일부 주기에서 클로미펜군이 더 높았으며 두통은 침군에서 더 흔했다.",
+        "clinical_takeaway": "이 연구에서는 침이 클로미펜과 유사한 배란 유도 결과를 보였지만, 근거는 제한적이므로 PCOS 불임 환자에서 보조적 선택지로 신중히 해석해야 한다.",
+        "limitations": "단일 연구의 무작위시험 결과이며, 배란율과 부작용 일부에서만 차이가 보고되어 일반화에는 주의가 필요하다.",
+        "pico": {
+          "p": "불임을 동반한 다낭성난소증후군 여성",
+          "i": "진침",
+          "c": "클로미펜",
+          "o": "배란 유도, 여포 성장, 부작용"
+        }
+      },
+      "categories": [
+        "여성질환",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42404684",
+      "pmid": "42404684",
+      "doi": "10.2147/JPR.S622950",
+      "title": "Efficacy of Acupuncture for Pain in Parkinson's Disease: Study Protocol for a Randomized Controlled Trial.",
+      "journal": "Journal of pain research",
+      "pub_date": "2026-01-01",
+      "authors": "Wu Y, Zhang F, Xiao L, Wang Y, Lin S, Wu S et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42404684/",
+      "abstract": "Pain in Parkinson's disease (PD) is common and significantly reduces quality of life, yet it is often poorly managed. As current treatments have limitations, acupuncture may offer a non-pharmacological option. This trial aims to evaluate the efficacy and safety of acupuncture versus sham acupuncture for pain in PD.\nThis prospective, double-blind, randomized controlled trial will enroll 66 patients with Parkinson's disease-related pain at the First Affiliated Hospital of Guangzhou University of Chinese Medicine between April 2026 and June 2027. Participants will be allocated via block randomization to either an acupuncture group or a sham acupuncture group. Rigorous blinding of patients, practitioners, outcome assessors, and statisticians will be implemented. Both groups will receive 12 sessions (3 sessions per week for 4 weeks) of their assigned intervention while maintaining stable anti-PD medication. The primary outcome is the change in the King's Parkinson's Disease Pain Scale (KPPS) score. Secondary outcomes include the painDETECT Questionnaire (PD-Q), Unified Parkinson's Disease Rating Scale (UPDRS), 39-item Parkinson's Disease Questionnaire (PDQ-39), Hamilton Depression Rating Scale (HAMD), somatosensory evoked potentials (SSEPs), and serum levels of Tumor Necrosis Factor-alpha (TNF-α), S100 calcium-binding protein B (S100B), and Glial Fibrillary Acidic Protein (GFAP). All analyses will follow the intention-to-treat principle.\nPain in PD is prevalent but undertreated due to limited evidence, invasiveness, or high cost of current therapies. This study aims to determine if acupuncture significantly reduces pain scores compared to sham acupuncture, potentially offering an effective, safe, and cost-effective complementary option. By assessing changes in serum biomarkers, it will also explore whether acupuncture's effects involve modulating neuroinflammation. With its rigorous design, this trial is expected to provide high-level evidence for integrating acupuncture into PD pain management.\nInternational Traditional Medicine Clinical Trial Registry (ITMCTR2026000325).",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "낮음",
+      "priority": "보류",
+      "safety_flags": [
+        "safety"
+      ],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "수면/정신",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42404251",
+      "pmid": "42404251",
+      "doi": "10.1136/bmjmed-2025-001908",
+      "title": "Conservative treatments for chronic non-specific low back pain: time course network meta-analysis.",
+      "journal": "BMJ medicine",
+      "pub_date": "2026-01-01",
+      "authors": "Belavý DL, Saueressig T, Arora NK, Balasundaram AP, Chen X, Diwan AD et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42404251/",
+      "abstract": "To examine the efficacy of conservative (non-surgical) treatments, usual care, and no treatment for chronic radicular and non-specific back pain.\nTime course network meta-analysis.\nSix electronic databases (Medline, SPORTDiscus, CINAHL, PsycINFO, Embase, and CENTRAL), searched from inception to 24 July 2020, and 302 previous systematic reviews.\nFull peer reviewed publications in English or German of randomised controlled trials, randomised clinical trials, randomised controlled cluster trials, or randomised crossover trials in adults (aged ≥18 years) receiving common conservative treatments for non-specific and radicular chronic low back pain. Treatments examined were acupuncture, education or advice, electrotherapy (including heat and ice electrotherapeutic modalities applied non-invasively), exercise training, manual treatments or manipulation, massage, the McKenzie method, pharmacotherapy, psychological treatments, traction, physical therapy (otherwise not falling into specific treatment combinations), placebo, multidisciplinary pain management, usual care (eg, management by a doctor), and no treatment (true control).\nBack pain intensity, leg pain intensity, disability, and mental health outcomes were reported immediately (<1 day), and at short term (≥1 day and ≤3 months), intermediate term (>3 and <12 months), and long term (≥12 months) time points. 581 reports of 551 studies (71 126 patients) were included. 510 trials included people with non-specific chronic low back pain and 41 trials included those with radicular chronic low back pain. For back pain (0-100 scale), acupuncture (mean difference -20.91, 95% credible interval -24.00 to -11.95), electrotherapy (-18.98, -21.84 to-10.95), exercise (-15.59, -17.51 to -10.05), manual treatment (-19.48, -22.17 to -11.74), massage (-25.61, -30.42 to -10.91), and multidisciplinary pain management (-18.96, -22.26 to -9.58) exceeded the minimal clinically important difference (set at 0.5 standard deviation) in the short term. For disability (0-100 scale), acupuncture (mean difference -10.52, 95% credible intervals -11.84 to -6.59), massage (-9.95, -11.45 to -5.50), and multidisciplinary pain management (-12.56, -13.91 to -8.55) were clinically effective in the short term. In the immediate and intermediate term only, the McKenzie method and massage, respectively, exceeded the minimal clinically important difference. In the long term, although two of the 14 treatments for back pain and nine of 14 treatments for disability had statistically significant benefits compared with no treatment, the effects were not clinically significant. The certainty of the evidence based on the GRADE (Grading of Recommendations, Assessment, Development, and Evaluation) framework was low (1.4%) to very low (98.6%) across interventions and time points. Findings for massage and the McKenzie method were not stable in the sensitivity analyses. Treatment effects for radicular chronic low back pain did not seem to differ from those for non-specific chronic low back pain.\nSome treatments were effective for pain and function in non-specific chronic low back pain, but improvements did not persist long term. Most of the evidence was for non-specific chronic low back pain; the evidence base for radicular chronic low back pain was limited. Although sensitivity analyses did not provide evidence for a different response in radicular chronic low back pain, an evidence gap remains for this subpopulation. Future work should explore strategies to establish the long term efficacy of modifications to lifestyle and behaviour.\nPROSPERO CRD42020182039.",
+      "title_ko": "만성 비특이적 요통에 대한 보존적 치료: 시간경과 네트워크 메타분석",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Meta-analysis",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "만성 비특이적 및 신경근성 요통에서 보존적 치료가 통증과 기능을 언제, 얼마나 개선하는지 평가했다.",
+        "methods": "성인 만성 요통 환자를 대상으로 한 무작위배정 연구들을 모은 시간경과 네트워크 메타분석이다.",
+        "results": "침, 전기치료, 운동, 도수치료, 마사지, 다학제 통증관리 등은 단기적으로 일부 유의한 개선을 보였으나 장기 효과는 임상적으로 의미 있지 않았고 근거 수준은 전반적으로 낮았다.",
+        "clinical_takeaway": "한의 임상에서는 일부 보존적 중재가 단기 증상 완화와 기능 개선에 도움을 줄 수 있으나, 장기 지속 효과는 근거가 약하다는 점을 함께 고려해야 한다.",
+        "limitations": "대부분의 근거가 비특이적 만성 요통에 편중되어 있었고, 장기 효과와 신경근성 요통에 대한 근거는 제한적이었다.",
+        "pico": {
+          "p": "성인 만성 비특이적 요통 및 신경근성 요통 환자",
+          "i": "침, 교육/조언, 전기치료, 운동, 도수치료, 마사지, 맥켄지법 등 보존적 치료",
+          "c": "평소 치료, 무치료, 위약",
+          "o": "통증, 장애, 정신건강 결과의 즉시·단기·중기·장기 변화"
+        }
+      },
+      "categories": [
+        "근골격",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42404024",
+      "pmid": "42404024",
+      "doi": "10.1177/30495334261463010",
+      "title": "Understanding the Struggle: Older Adults' Experiences and Coping Approaches to Low Back Pain.",
+      "journal": "Sage open aging",
+      "pub_date": "2026-01-01",
+      "authors": "Kponton BY, Bonney RA, Marfo M, Boakye FN, Attafuah PYA, Avadu P et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42404024/",
+      "abstract": "Chronic Low back pain (CLBP) is a prevalent musculoskeletal disorder, especially among older adults, and a leading cause of global disability. CLBP impacts physical abilities, quality of life, and mental health, resulting in frailty, falls, depression, and anxiety. This study explores the experiences and coping mechanisms of older adults with CLBP in Ghana.\nUsing a qualitative approach, semi-structured interviews were conducted with older adults aged 60+ diagnosed with CLBP at Komfo Anokye Teaching Hospital. Sixteen participants were included. Thematic analysis identified recurring themes.\nFour main themes emerged: biological, psychological, social well-being, and coping strategies. Participants used pharmacological and non-pharmacological methods, including physical therapy, rest, and traditional medicine. Some benefited from strong support systems, while others faced challenges in accessing care, financial aid, and maintaining social connections.\nThe study highlights the diverse experiences of older adults with CLBP, emphasizing the need for tailored interventions and support networks to enhance their quality of life and well-being.",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
       "safety_flags": [],
       "summary_status": "missing",
       "summary": {
@@ -4759,8 +4986,8 @@
         }
       },
       "categories": [
-        "여성질환",
-        "침구/전침"
+        "근골격",
+        "수면/정신"
       ]
     },
     {
@@ -4850,7 +5077,7 @@
       "authors": "Kang Y, Shi B, Huang Q, Liu Y, Hu WG, Cai GQ et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42369078/",
       "abstract": "Knee osteoarthritis (KOA) is a prevalent chronic degenerative joint disorder and a major contributor to pain, disability, and impaired quality of life. Non-pharmacological complementary and alternative medicine (CAM) approaches are widely used in KOA care, but randomized controlled trial (RCT) evidence is distributed across diverse intervention types, settings, comparators, and outcome measures.\nFollowing the Arksey and O'Malley scoping review framework and the PRISMA-ScR reporting guideline, we searched PubMed, Web of Science, Embase, and the Cochrane Library for RCTs published from 1 January 2016 to 10 January 2026. Eligible studies enrolled adults with clinically or imaging-confirmed KOA and evaluated non-pharmacological, non-surgical CAM or related integrative interventions. The review question was structured according to the population-concept-context framework. Two reviewers independently screened records and charted study characteristics, intervention features, comparator types, outcomes, follow-up time points, and key design features. Evidence was summarized descriptively and narratively; no pooled treatment-effect estimates were calculated.\nFifty-three RCTs were included. The evidence base covered acupuncture-related therapies, manual and body-based therapies, exercise and mind-body programs, physical agent modalities, psychological and behavioral interventions, and other complementary or integrative approaches. Studies were geographically concentrated in China, the United States, Turkey, and several other countries. Protocols, intervention dose, provider background, comparator selection, and follow-up duration varied substantially. Pain and physical-function outcomes were the most frequently mapped domains, whereas quality of life, psychological outcomes, mechanistic biomarkers, neuroimaging indices, adherence, and implementation variables were reported less consistently.\nThis scoping review maps the breadth, distribution, and methodological features of RCT evidence on non-pharmacological CAM approaches for KOA. The findings identify a heterogeneous and expanding evidence base, but also reveal gaps in standardized intervention reporting, long-term follow-up, head-to-head comparisons, generalizability beyond TCM-centered Chinese settings, and design-characteristic reporting. These evidence-mapping findings can inform future systematic reviews, pragmatic trials, and implementation-focused research.",
-      "title_ko": "",
+      "title_ko": "무릎 골관절염에 대한 비약물적 보완대체요법: 무작위대조시험의 범위 문헌고찰",
       "publication_types": [
         "Journal Article",
         "Review"
@@ -4860,18 +5087,18 @@
       "clinical_applicability": "낮음",
       "priority": "보류",
       "safety_flags": [],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "무릎 골관절염에서 비약물적 보완대체요법 RCT 근거의 범위와 특성은 어떠한가?",
+        "methods": "2016년부터 2026년까지 발표된 RCT를 대상으로 Arksey와 O’Malley 틀 및 PRISMA-ScR에 따라 체계적으로 검색하고 서술적으로 정리한 범위 문헌고찰이다.",
+        "results": "53편의 RCT가 포함되었고, 침구 관련 치료·수기요법·운동/심신요법·물리인자치료·심리행동중재 등이 확인되었으나 중재와 비교군, 추적기간, 보고 양식이 매우 이질적이었다.",
+        "clinical_takeaway": "무릎 골관절염에서 비약물적 CAM 근거는 넓게 축적되고 있으나, 임상 적용 전에는 중재 표준화와 장기 추적, 비교연구의 한계를 함께 고려해야 한다.",
+        "limitations": "풀링 효과추정이 없고, 연구 간 이질성과 중국 중심의 설정으로 일반화 가능성에 제한이 있다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "임상적 또는 영상학적으로 확인된 성인 무릎 골관절염 환자",
+          "i": "비약물적·비수술적 보완대체요법 또는 통합중재",
+          "c": "명확한 정보 없음",
+          "o": "통증, 신체기능, 삶의 질, 심리·기전·순응도 및 시행 관련 지표"
         }
       },
       "categories": [
@@ -5130,7 +5357,7 @@
       "authors": "Kim JY, Lee SH, Lee SW, Lee YS, Lee YJ, Heo I et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42325815/",
       "abstract": "Chronic low back pain (CLBP) is associated with reduced quality of life and increased risk of physical and psychological comorbidities. Current pharmacological and non-pharmacological treatments offer limited symptom relief and are often associated with poor patient compliance. Herbal medicines (HMs) have been shown to improve pain and function in patients with LBP.\nGiven the wide variety of HMs used in practice, we designed a pragmatic clinical trial to evaluate the effectiveness and safety of an herbal medicine strategy (HMS) for CLBP.\nThis protocol describes a multicenter, pragmatic, parallel-group, assessor-blinded, non-inferiority randomized controlled trial with a 1:1 allocation ratio. A total of 150 participants with LBP (numeric rating scale [NRS] ≥ 5) persisting for at least 3 months will be enrolled. Participants in the HMS group will receive individualized HMS treatment for 30 days, while those in the non-pharmacological Korean medicine treatment (NPKM) group will receive NPKM, such as acupuncture, cupping, moxibustion, physiotherapy, twice weekly for 5 weeks. The primary outcomes will be the change in the NRS score for LBP and the Oswestry Disability Index from baseline to week 7. Secondary outcomes include NRS for radiating leg pain, visual analog scale for pain, Roland-Morris Disability Questionnaire-6, Patient Global Impression of Change, 5-Level EuroQol-5 Dimension, Health-related Quality of Life Instrument with 8 Items, and Patient Health Questionnaire-15. Cost data and adverse events will also be analyzed.\nThis pragmatic non-inferiority trial was designed to assess whether the HMS is not clinically inferior to routine NPKM, reflecting real-world clinical practice to enhance the external applicability.",
-      "title_ko": "",
+      "title_ko": "만성 요통에 대한 한약 전략의 효과와 안전성: 전향적 다기관 실용적 무작위 비열등성 시험 프로토콜",
       "publication_types": [
         "Journal Article"
       ],
@@ -5142,18 +5369,18 @@
         "adverse",
         "safety"
       ],
-      "summary_status": "missing",
+      "summary_status": "complete",
       "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
+        "question": "만성 요통에서 개별화 한약 전략이 통상적인 비약물 한의치료보다 임상적으로 열등하지 않은지 평가하고자 했다.",
+        "methods": "다기관, 실용적, 평행군, 평가자 눈가림, 1:1 배정의 비열등성 무작위대조시험 프로토콜이다.",
+        "results": "본 논문은 연구 프로토콜로, 한약 전략의 유효성과 안전성을 평가할 예정이며 아직 결과는 보고되지 않았다.",
+        "clinical_takeaway": "실제 진료환경을 반영해 만성 요통에서 한약 전략과 비약물 한의치료를 비교하려는 설계로, 향후 결과가 나오면 외적 타당성 측면에서 참고할 수 있다.",
+        "limitations": "중간 결과가 아닌 시험 프로토콜이어서 효과와 안전성에 대한 결론은 아직 낼 수 없다.",
         "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
+          "p": "NRS 5 이상이고 3개월 이상 지속된 만성 요통 환자",
+          "i": "30일간의 개별화 한약 전략",
+          "c": "침, 부항, 뜸, 물리치료 등 비약물 한의치료",
+          "o": "7주 시점 요통 NRS 변화와 Oswestry 장애지수 변화"
         }
       },
       "categories": [
