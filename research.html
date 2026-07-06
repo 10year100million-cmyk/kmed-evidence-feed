@@ -1358,6 +1358,38 @@
         return date.replaceAll("-", ".");
       }
 
+      function padDatePart(value) {
+        return String(value).padStart(2, "0");
+      }
+
+      function parseUpdatedAt(value) {
+        const text = String(value || "").trim();
+        const match = text.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})(?::(\d{2}))?\s*(UTC|KST)?$/i);
+        if (!match) return null;
+        const [, year, month, day, hour, minute, second = "0", zone = "UTC"] = match;
+        const offsetHours = zone.toUpperCase() === "KST" ? -9 : 0;
+        return new Date(Date.UTC(
+          Number(year),
+          Number(month) - 1,
+          Number(day),
+          Number(hour) + offsetHours,
+          Number(minute),
+          Number(second)
+        ));
+      }
+
+      function formatUpdatedAt(value) {
+        const date = parseUpdatedAt(value);
+        if (!date) return formatDate(String(value || "").slice(0, 10)) || "정보 없음";
+        const koreaTime = new Date(date.getTime() + 9 * 60 * 60 * 1000);
+        const year = koreaTime.getUTCFullYear();
+        const month = padDatePart(koreaTime.getUTCMonth() + 1);
+        const day = padDatePart(koreaTime.getUTCDate());
+        const hour = padDatePart(koreaTime.getUTCHours());
+        const minute = padDatePart(koreaTime.getUTCMinutes());
+        return `${year}.${month}.${day} ${hour}:${minute}`;
+      }
+
       function compactTitle(title) {
         return title.length > 54 ? title.slice(0, 52) + "..." : title;
       }
@@ -2117,7 +2149,7 @@
           const data = await response.json();
           state.papers = Array.isArray(data.papers) ? data.papers : [];
           state.selectedId = state.papers[0]?.id || null;
-          const updateText = `마지막 업데이트 ${formatDate(String(data.updated || "").slice(0, 10)) || "정보 없음"} · PubMed 기반`;
+          const updateText = `마지막 업데이트 ${formatUpdatedAt(data.updated)} KST · PubMed 기반`;
           document.getElementById("updateLine").textContent = updateText;
           document.getElementById("mobileUpdateLine").textContent = `${updateText} · 총 ${data.total || state.papers.length}편`;
           render();
