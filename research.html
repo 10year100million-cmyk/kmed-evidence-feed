@@ -692,6 +692,12 @@
         color: var(--amber);
       }
 
+      .tag.new {
+        border-color: var(--teal);
+        background: var(--teal);
+        color: #fff;
+      }
+
       .tag.muted {
         border-color: var(--line);
         color: #536476;
@@ -1216,7 +1222,7 @@
         </div>
         <div class="sort-row">
           <div class="sort-label">정렬</div>
-          <button class="sort-btn active" type="button" data-sort="latest">최신순</button>
+          <button class="sort-btn active" type="button" data-sort="latest">업데이트순</button>
           <button class="sort-btn" type="button" data-sort="clinical">임상적용도순</button>
           <button class="sort-btn" type="button" data-sort="evidence">근거수준순</button>
         </div>
@@ -1320,6 +1326,7 @@
         category: "전체",
         evidence: "전체",
         sort: "latest",
+        feedUpdatedAt: "",
         archivePapers: [],
         archiveIndex: null,
         archiveLoaded: false,
@@ -1390,6 +1397,15 @@
         return `${year}.${month}.${day} ${hour}:${minute}`;
       }
 
+      function formatSeenDate(value) {
+        const formatted = formatUpdatedAt(value);
+        return formatted.includes(" ") ? formatted.split(" ")[0] : formatted;
+      }
+
+      function isNewPaper(paper) {
+        return Boolean(state.feedUpdatedAt && paper.first_seen && formatSeenDate(paper.first_seen) === formatSeenDate(state.feedUpdatedAt));
+      }
+
       function compactTitle(title) {
         return title.length > 54 ? title.slice(0, 52) + "..." : title;
       }
@@ -1440,15 +1456,19 @@
       function sortedPapers(papers) {
         const copy = [...papers];
         if (state.sort === "clinical") {
-          copy.sort((a, b) => (applicabilityScore[b.clinical_applicability] || 0) - (applicabilityScore[a.clinical_applicability] || 0) || (b.pub_date || "").localeCompare(a.pub_date || ""));
+          copy.sort((a, b) => (applicabilityScore[b.clinical_applicability] || 0) - (applicabilityScore[a.clinical_applicability] || 0) || latestOrder(b).localeCompare(latestOrder(a)));
           return copy;
         }
         if (state.sort === "evidence") {
-          copy.sort((a, b) => (levelScore[b.evidence_level] || 0) - (levelScore[a.evidence_level] || 0) || (b.pub_date || "").localeCompare(a.pub_date || ""));
+          copy.sort((a, b) => (levelScore[b.evidence_level] || 0) - (levelScore[a.evidence_level] || 0) || latestOrder(b).localeCompare(latestOrder(a)));
           return copy;
         }
-        copy.sort((a, b) => (b.pub_date || "").localeCompare(a.pub_date || ""));
+        copy.sort((a, b) => latestOrder(b).localeCompare(latestOrder(a)));
         return copy;
+      }
+
+      function latestOrder(paper) {
+        return `${paper.first_seen || ""}|${paper.pub_date || ""}|${paper.pmid || ""}`;
       }
 
       function filteredPapers() {
@@ -1585,13 +1605,14 @@
         const isOpen = state.openSummaryId === paper.id;
         const summary = paper.summary || {};
         const pico = summary.pico || {};
+        const seenDate = paper.first_seen ? formatSeenDate(paper.first_seen) : "";
         return `
           <article class="paper-card ${isSelected ? "selected" : ""} ${isRead ? "read" : ""}" data-id="${paper.id}">
             <button class="read-toggle ${isRead ? "checked" : ""}" type="button" aria-label="읽음 표시" data-action="read" data-id="${paper.id}"></button>
             <div class="paper-main">
               <h2 class="paper-title">${escapeHTML(paper.title || "Untitled")}</h2>
               ${paper.title_ko ? `<div class="paper-title-ko">${escapeHTML(paper.title_ko)}</div>` : ""}
-              <div class="paper-meta">${escapeHTML(paper.journal || "Journal")} · ${formatDate(paper.pub_date)}${paper.doi ? ` · doi: ${escapeHTML(paper.doi)}` : ""}</div>
+              <div class="paper-meta">${escapeHTML(paper.journal || "Journal")} · 출판 ${formatDate(paper.pub_date)}${seenDate ? ` · 수집 ${escapeHTML(seenDate)}` : ""}${paper.doi ? ` · doi: ${escapeHTML(paper.doi)}` : ""}</div>
               <div class="summary-lines">
                 <div class="summary-line"><span class="line-label">핵심 질문</span><span>${escapeHTML(summaryFallback(paper, "question"))}</span></div>
                 <div class="summary-line"><span class="line-label">진료 적용</span><span>${escapeHTML(summaryFallback(paper, "clinical_takeaway"))}</span></div>
@@ -1599,6 +1620,7 @@
               </div>
             </div>
             <div class="paper-tags">
+              ${isNewPaper(paper) ? '<span class="tag new">오늘 추가</span>' : ""}
               <span class="tag">${escapeHTML(paper.evidence_type || "Type")}</span>
               <span class="tag">${escapeHTML(firstCategory(paper))}</span>
               <span class="tag priority">${escapeHTML(clinicalLabel(paper.clinical_applicability))}</span>
@@ -2148,6 +2170,7 @@
           if (!response.ok) throw new Error("papers.json을 불러오지 못했습니다.");
           const data = await response.json();
           state.papers = Array.isArray(data.papers) ? data.papers : [];
+          state.feedUpdatedAt = data.updated || "";
           state.selectedId = state.papers[0]?.id || null;
           const updateText = `마지막 업데이트 ${formatUpdatedAt(data.updated)} KST · PubMed 기반`;
           document.getElementById("updateLine").textContent = updateText;

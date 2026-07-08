@@ -357,6 +357,8 @@ def efetch(pmids: list[str], limiter: RateLimiter, ncbi_api_key: str | None, ema
                 "authors": parse_authors(article),
                 "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
                 "abstract": abstract,
+                "first_seen": "",
+                "last_seen": "",
                 "title_ko": "",
                 "publication_types": publication_types,
                 "evidence_type": evidence_type,
@@ -559,8 +561,12 @@ def load_existing(path: Path, archive_dir: Path | None = None) -> dict[str, dict
     return merged
 
 
-def paper_sort_key(paper: dict[str, Any]) -> tuple[str, str]:
-    return (str(paper.get("pub_date") or ""), str(paper.get("pmid") or ""))
+def paper_sort_key(paper: dict[str, Any]) -> tuple[str, str, str]:
+    return (
+        str(paper.get("first_seen") or paper.get("pub_date") or ""),
+        str(paper.get("pub_date") or ""),
+        str(paper.get("pmid") or ""),
+    )
 
 
 def paper_year(paper: dict[str, Any]) -> str:
@@ -629,16 +635,24 @@ def collect_papers(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, 
         if args.limit and len(papers) >= args.limit:
             break
 
+    updated = dt.datetime.now(dt.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %Z")
     papers.sort(key=lambda item: item.get("pub_date") or "", reverse=True)
     attach_summaries(papers, existing, args.max_summaries, args.no_ai)
-    merged = dict(existing)
+    merged = {}
+    for pmid, paper in existing.items():
+        normalized = dict(paper)
+        normalized["first_seen"] = normalized.get("first_seen") or normalized.get("last_seen") or updated
+        normalized["last_seen"] = normalized.get("last_seen") or normalized["first_seen"]
+        merged[pmid] = normalized
     for paper in papers:
+        old = existing.get(str(paper["pmid"]), {})
+        paper["first_seen"] = old.get("first_seen") or updated
+        paper["last_seen"] = updated
         merged[str(paper["pmid"])] = paper
 
     all_papers = sorted(merged.values(), key=paper_sort_key, reverse=True)
     latest_limit = args.latest_limit if args.latest_limit > 0 else len(all_papers)
     latest_papers = all_papers[:latest_limit]
-    updated = dt.datetime.now(dt.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %Z")
     latest_dataset = dataset_for_papers(latest_papers, updated)
     archive_index, archive_files = build_archive_outputs(all_papers, archive_dir, updated)
     return latest_dataset, archive_index, archive_files
@@ -656,6 +670,8 @@ def validate_dataset(dataset: dict[str, Any]) -> list[str]:
         "authors",
         "url",
         "abstract",
+        "first_seen",
+        "last_seen",
         "title_ko",
         "categories",
         "evidence_type",
