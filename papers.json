@@ -1,8 +1,333 @@
 {
-  "updated": "2026-07-10 20:44:25 UTC",
+  "updated": "2026-07-11 20:11:17 UTC",
   "total": 50,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42432962",
+      "pmid": "42432962",
+      "doi": "10.1097/MD.0000000000049703",
+      "title": "Press-needle therapy combined with sensory integration training in children with mild to moderate Tic disorders: A randomized controlled trial.",
+      "journal": "Medicine",
+      "pub_date": "2026-07-10",
+      "authors": "Ge SN, Hu WL, Wang CL, Xie HY, Wu T",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432962/",
+      "abstract": "This study aimed to evaluate the efficacy and safety of press-needle therapy (PNT) with sensory integration training (SIT) compared to SIT alone or standard pharmacological treatment with tiapride hydrochloride in children with mild to moderate tic disorders (TD).\nA prospective, three-arm, randomized controlled trial was conducted with 162 children aged 6 to 12 years meeting DSM-5 criteria for persistent TD (mild to moderate severity). Participants were randomly assigned in a 1:1:1 ratio to one of 3 groups: Group 1 (PNT plus SIT, n = 54); Group 2 (SIT alone, n = 54); or Group 3 (oral tiapride hydrochloride, n = 54). The intervention period lasted 12 weeks with a subsequent 12-week follow-up. Primary outcomes included changes in the Yale Global Tic Severity Scale (YGTSS) total score and the traditional Chinese medicine syndrome score. Secondary outcomes comprised of clinical response rate (≥30% YGTSS reduction) and adverse events.\nAll 3 groups showed statistically significant improvements from baseline in both YGTSS and traditional Chinese medicine syndrome scores at weeks 6 and 12 (all P < .05). Statistically significant between-group differences were observed at week 12 and at the 12-week posttreatment follow-up (all P < .01). All 3 groups achieved high overall response rates, with no statistically significant differences among them (P > .05). Group 2 showed a slightly lower response rate (92.59%) compared to Groups 1 and 3 (both 98.15%). No adverse events occurred in Group 1. One case (1.9%) was reported in Group 2, and 5 cases (9.3%) in Group 3. The incidence of adverse events differed significantly among the groups (P < .05).\nPNT combined SIT provides significant clinical benefits over SIT alone and offers tic reduction comparable to first-line pharmacological treatment, without associated side effects. These findings suggest that PNT combined SIT may serve as a safe and effective non-pharmacological alternative for managing pediatric TD.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "경피침 치료와 감각통합훈련 병행이 경증~중등도 틱장애 아동에서 효과와 안전성을 보인 무작위대조시험",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [
+        "adverse",
+        "safety"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "경증~중등도 틱장애 아동에서 경피침 치료와 감각통합훈련 병행이 감각통합훈련 단독 또는 티아프리드와 비교해 효과와 안전성이 더 나은지 평가했다.",
+        "methods": "6~12세 지속성 틱장애 아동 162명을 3군 무작위 배정하여 12주간 경피침+감각통합훈련, 감각통합훈련 단독, 또는 티아프리드 치료를 비교한 전향적 무작위대조시험이다.",
+        "results": "세 군 모두 YGTSS와 한의 변증 점수가 유의하게 호전되었고, 12주 시점과 추적관찰에서 군 간 차이가 있었으며, 이상반응은 경피침+감각통합훈련군에서 가장 적었다.",
+        "clinical_takeaway": "이 연구는 경피침과 감각통합훈련 병행이 소아 틱장애에서 비약물적 대안이 될 가능성을 시사하지만, 단일 연구 결과이므로 임상 적용 전 추가 근거가 필요하다.",
+        "limitations": "단일 연구의 비교시험 결과이며, 보고된 추적 기간이 제한적이라 장기 효과와 일반화 가능성에 주의가 필요하다.",
+        "pico": {
+          "p": "경증~중등도 지속성 틱장애를 가진 6~12세 아동",
+          "i": "경피침 치료와 감각통합훈련 병행",
+          "c": "감각통합훈련 단독 또는 경구 티아프리드 하이드로클로라이드",
+          "o": "YGTSS 총점, 한의 변증 점수, 반응률, 이상반응"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42432910",
+      "pmid": "42432910",
+      "doi": "10.1097/MD.0000000000049697",
+      "title": "Research trends of acupuncture for cancer: A bibliometric analysis (2014-2023).",
+      "journal": "Medicine",
+      "pub_date": "2026-07-10",
+      "authors": "Bao Y, Feng Y, Shen Z, Zhou M, Liang B, Wang R",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432910/",
+      "abstract": "Acupuncture has been widely investigated as a complementary therapy for symptom management in patients with cancer. This study conducted a bibliometric analysis to comprehend global research trends, hotspots, scientific frontiers, and output characteristics of acupuncture for cancer (2014-2023).\nPublications on the use of acupuncture for cancer from 2014 to 2023 were retrieved from the Web of Science Core Collection. CiteSpace 6.2.R4, VOSviewer 1.6.19, Scimago Graphica, and Microsoft Excel were used for bibliometric analysis. The main analyses included collaboration analyses of countries, institutions, authors, and journals, together with keyword co-occurrence, citation burst, and reference co-citation analyses.\nA total of 1427 publications were retrieved. Annual publication output generally increased during the study period, particularly for clinical studies. The most studies were published in China, and Memorial Sloan Kettering Cancer Center made the most significant contribution in this field. Furthermore, Mao had the most publications, whereas Molassiotis had the highest citation ranking. \"Evidence-based Complementary and Alternative Medicine\" and \"Journal of Ethnopharmacology\" were the most commonly and centrally referenced journals, respectively. Among the referenced studies, the article published by Hershman was the most cited and deliberated on. Common keywords included \"Vasomotor symptoms,\" \"Electroacupuncture,\" \"Quality of life,\" and \"Mechanism.\nThis bibliometric analysis maps the publication landscape, collaboration networks, and major research themes of acupuncture for cancer. Emerging work on acupuncture and cancer immunotherapy is gaining attention.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "암에 대한 침 치료 연구 동향: 계량서지학적 분석(2014–2023)",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "2014~2023년 암에 대한 침 치료 연구의 전반적 동향과 주요 연구 주제는 무엇인지 평가했다.",
+        "methods": "Web of Science Core Collection 자료를 대상으로 CiteSpace, VOSviewer 등을 이용해 국가·기관·저자·저널 협력과 키워드, 인용 폭주, 공인용 분석을 시행한 계량서지학적 연구이다.",
+        "results": "해당 기간 출판 수는 전반적으로 증가했으며, 중국의 논문 수가 가장 많았고 암 면역치료와 침의 연계가 새로운 관심 분야로 나타났다.",
+        "clinical_takeaway": "암 관련 침 치료 연구는 증상 관리 중심의 근거 축적이 확대되고 있어, 최신 문헌에서는 전기침·삶의 질·혈관운동 증상 및 면역치료 연계 주제를 함께 살펴볼 필요가 있다.",
+        "limitations": "계량서지학 분석이므로 임상적 유효성이나 안전성을 직접 평가한 연구는 아니다.",
+        "pico": {
+          "p": "2014~2023년 Web of Science에 등재된 암 관련 침 치료 문헌",
+          "i": "침 치료(전기침 포함)",
+          "c": "명확한 정보 없음",
+          "o": "출판량, 협력 네트워크, 주요 연구 주제 및 인용 특성"
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42432895",
+      "pmid": "42432895",
+      "doi": "10.1097/MD.0000000000049571",
+      "title": "Association between tongue ultrasonographic characteristics, Yin-deficiency constitution, and intrinsic capacity impairment in older adults: An exploratory cross-sectional study.",
+      "journal": "Medicine",
+      "pub_date": "2026-07-10",
+      "authors": "Chen KT, Chao CL, Hsieh MT, Hsieh TJ, Lin CT, Chiang PH et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432895/",
+      "abstract": "Population aging is accompanied by a progressive decline in intrinsic capacity, yet objective measures reflecting underlying physiological changes remain limited. Yin-deficiency constitution in traditional Chinese medicine has been associated with intrinsic capacity impairment, but its structural correlates remain unclear. This exploratory study investigated associations among tongue ultrasonographic characteristics, Yin-deficiency constitution, and intrinsic capacity impairment in older adults. In this exploratory cross-sectional study, community-dwelling older adults attending a traditional Chinese medicine outpatient clinic (n = 123; mean age 71.6 ± 4.6 years) completed the Constitution in Chinese Medicine Questionnaire-Elderly Edition. Tongue thickness and echo intensity were measured using standardized ultrasonographic protocols, and intrinsic capacity was assessed using the Integrated Care for Older People (ICOPE) framework. Higher tongue echo intensity was associated with lower tongue thickness and higher Yin-deficiency scores. In multivariable linear regression analyses, tongue thickness remained strongly associated with tongue echo intensity (β = -0.548, P < .001), whereas the association between Yin-deficiency scores and tongue echo intensity became attenuated and was no longer statistically significant after adjustment for tongue thickness (β = -0.135, P = .079). Yin-deficiency constitution was associated with cognitive impairment (odds ratio = 2.79, 95% confidence interval = 1.13-6.89, P = .026) and visual impairment (odds ratio = 3.74, 95% confidence interval = 1.57-8.96, P = .003), whereas tongue echo intensity alone was not independently associated with ICOPE-defined intrinsic capacity impairments. Thickness-adjusted sensitivity analyses showed attenuated but directionally consistent findings. Tongue echo intensity appears to reflect structural variation in tongue musculature rather than an independent constitution-specific characteristic. Yin-deficiency constitution was associated with cognitive and visual impairment, whereas tongue echo intensity was not independently associated with ICOPE-defined intrinsic capacity impairments. These findings are exploratory and require validation in larger multicenter cohorts.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "노인에서 설초음파 특성, 음허 체질, 그리고 내재적 기능 저하의 연관성: 탐색적 횡단면 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Cohort",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "노인에서 설초음파 지표와 음허 체질, 내재적 기능 저하가 서로 연관되는지 확인하고자 했다.",
+        "methods": "지역사회 거주 노인을 대상으로 한 탐색적 횡단면 연구에서 설문, 혀 초음파, ICOPE 평가를 이용해 연관성을 분석했다.",
+        "results": "혀 에코 강도는 혀 두께와는 관련되었으나 조정 후 음허 점수와의 독립적 연관성은 약해졌고, 음허 체질은 인지 및 시각 장애와 연관되었지만 혀 에코 강도 자체는 내재적 기능 저하와 독립적으로 연관되지 않았다.",
+        "clinical_takeaway": "설초음파의 에코 강도는 체질 특이 지표라기보다 혀 근육 구조 차이를 반영할 가능성이 있어, 한의 임상에서는 체질 및 기능평가와 함께 해석해야 한다.",
+        "limitations": "단일 외래 기반의 탐색적 횡단면 연구로 인과성을 판단할 수 없고, 더 큰 다기관 코호트에서 검증이 필요하다.",
+        "pico": {
+          "p": "한의 외래를 방문한 지역사회 거주 노인",
+          "i": "설초음파 측정과 음허 체질 평가",
+          "c": "명확한 정보 없음",
+          "o": "음허 체질, 인지·시각 장애, ICOPE 정의 내재적 기능 저하"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42432795",
+      "pmid": "42432795",
+      "doi": "10.1186/s42826-026-00288-4",
+      "title": "A comparative study on the pharmacological effects of Achyranthes root against atherosclerosis in ApoE-/- mice based on the spectrum-effect relationship.",
+      "journal": "Laboratory animal research",
+      "pub_date": "2026-07-10",
+      "authors": "Zou X, Su J, Gao B, Lei S, Li X, Li B",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432795/",
+      "abstract": "In traditional Chinese medicine, herbal processing is used to modify the effects of herbs. Achyranthes bidentata BL (Niu Xi) is commonly used to treat atherosclerosis and cardiovascular diseases, in both raw (RC) and salted (SRC) forms. Salting is known to enhance its effects, particularly on kidney function, but the differences in anti-atherosclerosis efficacy between RC and SRC have not been studied.\nA total of 491 and 501 chemical components were identified in RC and SRC, respectively, with 337 shared components. RC at a high dose (2.4 g/kg/d) was more effective against AS than the same dose of SRC over 12 weeks. Both RC and SRC increased SDF-1, SCF-1, and CXCR4 levels in the aorta of model mice compared to controls, suggesting these agents may protect the vascular endothelium through a related signaling axis. A gray relational analysis of 19 common components using UPLC-MS peak areas showed correlations (gray relational value > 0.6) with serum total cholesterol and bone marrow SDF-1 levels.\nBoth RC and SRC have anti-AS effects, but salt-processing does not improve this activity.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "스펙트럼-효과 관계에 기반한 ApoE-/- 마우스 죽상경화증에 대한 우슬근의 약리효과 비교 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "우슬근의 생약 처리, 특히 염처리가 죽상경화증 억제 효과를 더 높이는지 평가하였다.",
+        "methods": "ApoE-/- 마우스 죽상경화증 모델에서 생약 우슬근과 염우슬근을 비교하고, 성분 분석과 스펙트럼-효과 관계 분석으로 관련 지표를 평가하였다.",
+        "results": "생우슬근 고용량은 동일 용량의 염우슬근보다 12주 동안 죽상경화증 억제에 더 효과적이었고, 두 제형 모두 대조군보다 SDF-1, SCF-1, CXCR4를 증가시켰다.",
+        "clinical_takeaway": "우슬근의 염처리가 죽상경화증 효능을 높인다고 단정하기는 어렵고, 본초 가공에 따른 효과 차이는 비임상 자료를 바탕으로 신중히 해석해야 한다.",
+        "limitations": "동물실험 결과이며, 죽상경화증에 대한 임상적 유효성과 기전은 이 결과만으로 확정할 수 없다.",
+        "pico": {
+          "p": "ApoE-/- 마우스 죽상경화증 모델",
+          "i": "생우슬근과 염우슬근",
+          "c": "대조군 및 생우슬근과 염우슬근 간 비교",
+          "o": "죽상경화증 억제 효과와 SDF-1, SCF-1, CXCR4 변화"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42432719",
+      "pmid": "42432719",
+      "doi": "10.1186/s13002-026-00925-1",
+      "title": "Quantitative comparison of similarities and differences in medicinal materials used by Tibetan medicine and the three traditional medicines (6th-10th Century AD).",
+      "journal": "Journal of ethnobiology and ethnomedicine",
+      "pub_date": "2026-07-10",
+      "authors": "Zhang J, Li R, Sanzhi Z, Xu L, Li Y, Zhang T et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432719/",
+      "abstract": "Tibetan medicine has historically engaged in extensive exchanges with the three traditional medicines. These interactions peaked during the Tubo Dynasty (7th-9th century AD). Numerous scholars have acknowledged the close medical and cultural exchanges between Tibetan medicine and the three traditional medicines, but studies offering quantitative and objective comparative results are lacking.\nThis study quantitatively analyzes the above problems from the perspective of medicinal materials and discusses the general use of medicinal materials in Tibetan medicine, the three traditional medical systems, and the exchange of co-used medicinal materials among them. It provides a preliminary analysis of the source composition of Tibetan medicinal materials.\nFirstly, Data mining: Data were extracted from 20 classical texts on Tibetan medicine, traditional Chinese medicine, Ayurveda and Arabic medicine dating from the 6th century AD to the 10th century AD. Information on medical properties, namely, medicinal taste, distribution, medicinal parts, efficacy, therapeutic use, and usage and dosage of medicinal materials, were systematically compiled to establish the datasets. Secondly, Analysis and comparison: Similarities and differences among medicinal materials used in Tibetan medicine, traditional Chinese medicine, Ayurveda, and Arabic medicine between the 6th and 10th centuries AD were analyzed using the Mann-Whitney test (a non-parametric method) and an intuitive comparison method.\nThe total numbers of medicinal materials in Tibetan medicine, traditional Chinese medicine, Ayurveda, and Arabic medicine were 1229, 2184, 760, and 511, respectively. The overall comparison showed that Tibetan medicine, traditional Chinese Medicine, Ayurveda, and Arabic medicine all used plants as the main source of medicinal materials, accounting for 81.2%, 84.5%, 87.3%, and 79.8%, respectively. There were significant differences in medicinal parts, therapeutic uses, and medicinal taste among them (p < 0.05). In terms of medicinal parts, traditional Chinese medicine mostly used whole herbs and rhizomes, whereas Tibetan medicine, Ayurveda, and Arabic medicine were more inclined to use renewable fruits, seeds, and leaves. Regarding treatment, although the four traditional medicines were generally used to treat digestive diseases, traditional Chinese medicine was more commonly used to treat skin diseases, whereas Ayurveda and Arabic medicine were more commonly used to treat respiratory and urogenital diseases. The comparison of co-used medicinal materials showed that Tibetan medicine had 248 kinds of co-used medicinal materials with Traditional Chinese Medicine, 140 with Ayurveda, and 128 with Arabic medicine. These co-used medicinal materials exhibited similarities and differences in terms of medicinal parts, therapeutic applications, and dose specifications.\nThis study found differences and similarities in the use of medicinal materials across the four traditional medicines. Significant differences in medicinal parts, therapeutic uses, and dosage forms were found, which were attributed to the combined influence of multiple factors, such as medical theory and cultural customs. In addition, a partial overlap was found between the medicinal materials used in Tibetan medicine and the three medical systems. This finding indicates that although grounded in locally available resources, Tibetan medicine has incorporated medicinal material information from traditional Chinese medicine (20.18%), Ayurveda (11.19%), and Arabic medicine (10.41%). Overall, these findings provide an empirical basis for understanding similarities and differences between Tibetan medicine and the three major medical systems and offer a novel perspective for comparative research in traditional medicine.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "티베트의학과 3대 전통의학(6~10세기)에서 사용된 약재의 유사점과 차이점에 대한 정량 비교",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "interaction"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "티베트의학과 중국 전통의학, 아유르베다, 아랍의학의 약재 사용은 6~10세기에 어떻게 유사하고 달랐는가?",
+        "methods": "6~10세기 20개 고전 문헌의 약재 정보를 수집해 데이터셋을 구축하고, Mann-Whitney 검정과 비교 분석으로 약재 특성을 정량 비교했다.",
+        "results": "네 전통의학은 모두 식물성 약재를 주로 사용했으나 약재 부위, 치료 용도, 약미에서 유의한 차이가 있었고, 티베트의학은 세 의학체계와 부분적 약재 중복을 보였다.",
+        "clinical_takeaway": "전통의학 간 약재 공유와 차이는 문헌·문화·의학 이론의 영향을 함께 반영하므로, 본초 비교 연구에서 출처와 맥락을 함께 해석하는 점이 중요하다.",
+        "limitations": "문헌 기반의 후향적 비교연구로 실제 임상 사용이나 인과관계를 직접 입증하지는 못한다.",
+        "pico": {
+          "p": "6~10세기 티베트의학, 중국 전통의학, 아유르베다, 아랍의학의 고전 문헌",
+          "i": "티베트의학의 약재 사용과 다른 전통의학과의 비교",
+          "c": "중국 전통의학, 아유르베다, 아랍의학",
+          "o": "약재 원천, 약재 부위, 치료 용도, 약미 및 공통 사용 약재의 차이"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42430746",
+      "pmid": "42430746",
+      "doi": "10.1097/BRS.0000000000005737",
+      "title": "Response to the Letter to the Editor regarding \"Cost-effectiveness of acupuncture needling for older adults with chronic low back pain\".",
+      "journal": "Spine",
+      "pub_date": "2026-07-06",
+      "authors": "Herman PM, Mann S, DeBar LL",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42430746/",
+      "abstract": "",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "근골격",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42434742",
+      "pmid": "42434742",
+      "doi": "10.3389/fonc.2026.1860619",
+      "title": "Integrative oncology in colorectal cancer: evidence-based strategies from prevention through survivorship.",
+      "journal": "Frontiers in oncology",
+      "pub_date": "2026-01-01",
+      "authors": "Shen C, Lou R, Bai F, Zhang Y, Xu T, Huang Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42434742/",
+      "abstract": "Colorectal cancer (CRC) is a leading global malignancy, with approximately 1.9 million new cases and over 900,000 deaths recorded in 2022, yet evidence-based integrative oncology strategies remain inconsistently incorporated into routine care. This narrative review synthesizes current evidence across the full CRC care continuum, from primary prevention through long-term survivorship. High-fiber diets, Mediterranean dietary patterns, calcium supplementation, regular physical activity, healthy weight maintenance, and berberine each demonstrate reproducible CRC risk reduction in large prospective cohorts and multicenter randomized controlled trials. The CHALLENGE trial (NEJM 2025) provides the first randomized phase 3 evidence that structured exercise after adjuvant chemotherapy reduces disease recurrence (HR 0.72) and death (HR 0.63) in colon cancer. Aspirin chemoprevention requires individualized risk-benefit assessment per 2022 US Preventive Services Task Force guidelines; preliminary CaPP3 trial data (conference presentation, June 2025; not yet peer-reviewed) suggest non-inferiority of low-dose aspirin (75-100 mg/day) to 600 mg/day in Lynch syndrome, pending formal publication. Fusobacterium nucleatum promotes colorectal carcinogenesis through five mechanistically distinct pathways: FadA-mediated Wnt/β-catenin activation, Fap2- and CbpF-mediated immune evasion via TIGIT and CEACAM1, succinate-HIF-1α-EZH2-mediated immune suppression, Hippo pathway-mediated suppression of pyroptosis, and autophagy-induced chemoresistance. Perioperative multi-strain probiotics significantly reduce postoperative infectious complications, and fecal microbiota transplantation shows preliminary promise for sensitizing microsatellite-stable CRC to immunotherapy. The 2022-2024 SIO-ASCO and ASCO-SIO clinical practice guidelines endorse mindfulness-based interventions, yoga, and acupuncture for anxiety, depression, fatigue, and cancer-related pain. Systematic integration of these interventions into multidisciplinary CRC care requires standardized implementation frameworks, CRC-specific clinical trials for mind-body modalities, and bioavailability-optimized phytochemical formulations.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "대장암의 통합종양학: 예방부터 생존기까지의 근거기반 전략",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "대장암의 예방부터 생존기까지 통합종양학 전략의 근거는 무엇인지 평가하였다.",
+        "methods": "대장암 전주기에 대한 최신 근거를 종합한 서술적 문헌고찰이다.",
+        "results": "고식이섬유식, 지중해식, 칼슘, 규칙적 신체활동, 체중 유지, 베르베린, 수술 전 프로바이오틱스, 마음챙김·요가·침이 일부 임상결과 개선과 연관되었다고 정리하였다.",
+        "clinical_takeaway": "대장암에서는 식이·운동·장내미생물·마음몸중재와 침 치료가 일부 근거를 갖지만, 적용 전에는 지침과 환자별 위험-편익을 함께 고려해야 한다.",
+        "limitations": "서술적 고찰이며, 일부 내용은 예비자료나 가이드라인 인용에 기반해 근거 강도가 균일하지 않다.",
+        "pico": {
+          "p": "대장암 환자 및 대장암 위험군",
+          "i": "식이, 운동, 보충제, 프로바이오틱스, 마음챙김, 요가, 침, 베르베린",
+          "c": "명확한 정보 없음",
+          "o": "재발, 사망, 발병위험, 수술 후 감염, 불안, 우울, 피로, 통증"
+        }
+      },
+      "categories": [
+        "대사/비만",
+        "수면/정신",
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42433722",
+      "pmid": "42433722",
+      "doi": "10.1155/da/1262387",
+      "title": "Integrative Management of Premenstrual Dysphoric Disorder: The Role of Traditional Chinese Medicine.",
+      "journal": "Depression and anxiety",
+      "pub_date": "2026-01-01",
+      "authors": "Xu M, Chen J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42433722/",
+      "abstract": "Premenstrual dysphoric disorder (PMDD) is a severe form of premenstrual syndrome (PMS), affecting 3%-8% of women of reproductive age. It is characterized by emotional, behavioral, and physical symptoms during the luteal phase, primarily driven by neuroendocrine sensitivity to hormonal fluctuations and dysregulation of central neurotransmitter systems. Genetic predisposition and environmental stressors contribute to its onset. Although conventional treatments such as selective serotonin reuptake inhibitors (SSRIs) and hormonal therapies offer symptom relief, they are often accompanied by adverse effects and limited long-term efficacy. Traditional Chinese medicine (TCM) posits that the core pathogenesis of PMDD lies in the dysfunction of liver's conveyance and dispersion, which may consistent with modern biological research evidence. TCM approaches, represented by Chinese herbal medicine and acupuncture, may alleviate symptoms of PMDD by targeting and modulating its core modern pathogenic mechanisms. With its few side effects and the unique advantage of individualized treatment based on syndrome differentiation, TCM holds the potential to become a mainstream therapeutic option for PMDD. This narrative review synthesizes evidence from clinical trials, animal and pharmacological studies to explore the efficacy and underlying mechanisms of TCM in the treatment of PMDD and compares these approaches with conventional therapies. Nonetheless, the integration of TCM into mainstream practice for PMDD is still hampered by challenges such as insufficient evidence-based medical data. Research in TCM focusing on biomarker identification, establishment of standardized treatment protocols, and refinement of efficacy evaluation systems is expected to drive its evolution into a mainstream treatment option for PMDD.",
+      "first_seen": "2026-07-11 20:11:17 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
+      "title_ko": "전통중의학의 월경전 불쾌장애 통합 관리에서의 역할",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "adverse"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "월경전 불쾌장애에서 전통중의학이 증상 완화와 기전 조절에 도움이 되는지 평가하였다.",
+        "methods": "월경전 불쾌장애에 대한 임상시험, 동물연구, 약리연구를 종합한 서술적 문헌고찰이다.",
+        "results": "전통중의학의 한약과 침은 월경전 불쾌장애의 증상과 병태기전에 잠재적 이점이 있을 수 있다고 정리하였다.",
+        "clinical_takeaway": "침구와 한약은 PMDD에서 보완적 선택지로 논의될 수 있으나, 근거 수준과 표준화가 부족해 신중한 해석이 필요하다.",
+        "limitations": "서술적 리뷰이며, 근거 기반 자료가 충분하지 않아 효과와 안전성을 확정하기 어렵다.",
+        "pico": {
+          "p": "가임기 여성의 월경전 불쾌장애",
+          "i": "중의학 기반 한약과 침구",
+          "c": "기존의 선택적 세로토닌 재흡수 억제제와 호르몬 치료",
+          "o": "증상 완화 및 관련 병태기전 조절"
+        }
+      },
+      "categories": [
+        "침구/전침",
+        "한약/본초"
+      ]
+    },
     {
       "id": "pmid-42349942",
       "pmid": "42349942",
@@ -14,7 +339,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349942/",
       "abstract": "Electroacupuncture, a therapeutic modality integrating electrical stimulation with traditional acupuncture, has emerged as a promising intervention for intracerebral hemorrhage (ICH). This study aimed to elucidate the potential mechanisms underlying electroacupuncture's therapeutic effects in a mouse model of ICH.\nThe mice were injected autologous blood into basal ganglia region of brain to establish an ICH model. The study comprised two parts. First, we evaluated the therapeutic efficacy of electroacupuncture at Baihui (GV20) and Dazhui (GV14) points using the ICH model by neurological deficit score, Fluoro-Jade C (FJC) staining, and ELISA. Subsequently, based on the observed therapeutic benefits, we further explored the underlying mechanisms via neurological deficit and adhesive removal score, immunofluorescence staining, immunohistochemical staining, ELISA, and Western blot assays.\nThe first part of the study showed that electroacupuncture treatment alleviated the expression of proinflammatory cytokines [tumor necrosis factor-alpha (TNF-α) and interleukin-1 beta (IL-1β)], neuronal degeneration, and neurological deficits. The second part of the study showed that electroacupuncture treatment upregulated the expression of the α7 nicotinic acetylcholine receptor (α7nAChR), downregulated Janus kinase-2 (JAK2) and signal transducer and activator of transcription 3 (STAT3) phosphorylation, promoted M2 microglia/macrophage polarization, and reduced IL-1β and TNF-α expression, contributing to improved neurobehavioral function.\nElectroacupuncture treatment can alleviate neuroinflammation and improve neurobehavioral function in ICH mice, which might be modulated by the α7nAChR/JAK2/STAT3 pathway, providing a new molecular mechanism of electroacupuncture treatment on ICH.",
       "first_seen": "2026-07-10 20:44:25 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "전침은 α7nAChR/JAK2/STAT3 신호경로를 조절해 뇌내출혈 후 신경염증을 완화하고 신경기능 회복을 촉진한다",
       "publication_types": [
         "Journal Article"
@@ -53,7 +378,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42430011/",
       "abstract": "The purpose of this study was to compare the effectiveness of Low-Level Laser Acupuncture with Dry Needling along with Routine Physical Therapy on clinical and functional outcomes in patients with Chronic Cervical Myofascial Pain Syndrome. An Assessor-blind Randomized Controlled trial was conducted at the Physical Therapy department of Rawal General & Dental Hospital, Pakistan. The study duration was June 2023 to November 2024. A non-probability convenience sampling technique was employed to produce a study sample of 100 individuals with Chronic Cervical Myofascial Pain Syndrome. The 100 eligible participants, with a mean age of 34 ± 7.21 years, were randomly allocated into two equal groups (n = 50 per group). Group A received Low-Level Laser Acupuncture and Routine Physical Therapy, while Group B underwent Dry Needling and Routine Physical Therapy. The outcomes of the study were pain intensity, neck disability, cervical range of motion, and health-related quality of life measured by the Numeric Pain Rating Scale, Neck Disability Index, Goniometer, and SF-36 health survey questionnaire, respectively. The outcome measures were evaluated at three temporal points: the pre, mid, and post-treatment sessions. Each participant received a total of 18 treatment sessions. The IBM SPSS Statistics version 26.0 was used to analyze and interpret the results. The Mann-Whitney U test, Friedman test, and subsequent Wilcoxon signed-rank post hoc analyses with Bonferroni adjustment demonstrated statistically significant differences (p < 0.05 in all cases), both intergroup and intragroup over time. The Low-Level Laser Acupuncture and Dry Needling both proved to be efficient adjunct therapies to routine physical therapy for Chronic Cervical Myofascial Pain Syndrome for different durations of improvement.",
       "first_seen": "2026-07-10 20:44:25 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "만성 경부 근막통증증후군 환자에서 저준위 레이저 침과 건침의 임상 및 기능적 결과 비교: 무작위 대조시험",
       "publication_types": [
         "Journal Article",
@@ -94,7 +419,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42429950/",
       "abstract": "Pain is a debilitating complication of sickle cell disease (SCD), driven by recurrent vaso-occlusive crises and chronic pain syndromes involving central sensitization and neuropathic mechanisms. Although opioid medications remain first-line therapy for acute pain, there are limitations that highlight the need for effective adjunctive approaches. Available data support non-opioid pharmacologic therapies including acetaminophen and nonsteroidal anti-inflammatory drugs as components of multimodal analgesia, with emerging evidence for therapies targeting neuropathic and centralized pain. Non-pharmacologic interventions such as cognitive behavioral therapy have also demonstrated potential benefits as adjunctive strategies in SCD pain management. This literature review examines evidence supporting non-opioid pharmacologic and non-pharmacologic therapies for pain management in SCD and is based on structured searches of PubMed, MEDLINE, and Cochrane databases.",
       "first_seen": "2026-07-10 20:44:25 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "겸상적혈구질환 통증 관리에서 비오피오이드 치료의 평가: 문헌 기반 고찰",
       "publication_types": [
         "Journal Article",
@@ -251,7 +576,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42426555/",
       "abstract": "",
       "first_seen": "2026-07-10 20:44:25 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "",
       "publication_types": [
         "Journal Article"
@@ -413,7 +738,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42428317/",
       "abstract": "Metabolic diseases-including obesity, type 2 diabetes mellitus (T2DM), and non-alcoholic fatty liver disease (NAFLD)-affect over 1 billion individuals globally and are characterized by insulin resistance, chronic inflammation, and gut microbiota dysbiosis. Herbal medicines offer multi-component therapeutic potential through microbiota modulation, but mechanistic insights remain fragmented.\nThis review synthesizes recent advances in herbal medicine-mediated gut microbiota regulation in metabolic diseases and delineates underlying molecular mechanisms.\nA comprehensive literature search was conducted across PubMed and Web of Science. Search strategies employed MeSH terms and free-text keywords encompassing herbal medicines, gut microbiota, and metabolic diseases. Two authors performed study selection and data extraction. Evidence synthesis was structured according to intervention type and metabolic disease category.\nHerbal polysaccharides and other compounds consistently increased beneficial bacteria and promoted short-chain fatty acids (SCFAs) production, improving intestinal barrier integrity via ZO-1/Occludin upregulation and attenuating TLR4/NF-κB-mediated inflammation. Herbal formulations exerted synergistic effects by remodeling microbial community structure, correcting SCFA/bile acid imbalances, and activating IRS1/PI3K/AKT insulin signaling. Notably, Lactobacillus and Akkermansia emerged as recurrent beneficial targets across multiple herbal interventions. However, evidence is predominantly preclinical, and translational validity to humans requires further validation.\nHerbal medicines ameliorate metabolic diseases through multi-target gut microbiota modulation, involving SCFA production, bile acid metabolism, and inflammatory pathway attenuation. These mechanistic insights support the development of microbiota-targeted herbal therapeutics, though clinical translation necessitates standardized formulations and rigorous human trials.",
       "first_seen": "2026-07-10 20:44:25 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "대사질환에서 장내 미생물을 조절하는 한약재: 고찰",
       "publication_types": [
         "Journal Article",
@@ -537,7 +862,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42423822/",
       "abstract": "To evaluate the feasibility and safety as well as potential effects of percutaneous sacral nerve stimulation (SNS) via acupuncture needles in patients with active rheumatoid arthritis (RA).\nTwenty-one patients with active RA were allocated to receive either active SNS (n = 11) or sham stimulation (n = 10) for 60 min daily over 14 days. Primary outcomes were changes in disease activity, assessed by the Disease Activity Score in 28 joints (DAS-28), tender joint count (TJC), swollen joint count (SJC), pain intensity on a visual analogue scale (VAS), erythrocyte sedimentation rate (ESR), and C-reactive protein (CRP). Secondary outcomes included the following: (1) patient-reported outcomes for joint function, fatigue, anxiety, and depression; (2) serum levels of inflammatory cytokines; and (3) heart rate variability (HRV) parameters as a measure of autonomic function.\nIn this pilot study, the SNS group showed significant within-group improvements in TJC, VAS, DAS28-ESR, and DAS28-CRP. However, an analysis of covariance (ANCOVA) adjusting for baseline values revealed no significant between-group differences in clinical and inflammatory parameters. The SNS group showed a significant increase in rMSSD (parasympathetic marker), with the between-group difference sustained after baseline adjustment. No significant differences were observed in functional and psychological scores or serum cytokine levels between the two groups.\nThis first-in-human study indicates that percutaneous SNS is feasible and safe, with a possible modulatory effect on autonomic function in active RA. Further large‑scale, adequately powered trials are warranted to confirm the clinical efficacy and mechanisms of SNS in RA.\nThis study was registered at ClinicalTrials.gov on March 25, 2021 under the identifier NCT04821050 (Protocol ID: 202002053). Key Points • First-in-human pilot study of percutaneous sacral nerve stimulation (SNS) in active RA. • SNS was associated with significant within-group improvements in tender joint count, pain VAS, and DAS28, but between-group differences did not reach statistical significance after baseline adjustment. • SNS significantly enhances parasympathetic activity (rMSSD) compared with sham stimulation, an effect that remained significant after adjusting for baseline differences. • Percutaneous SNS was safe and well-tolerated, with no serious adverse events reported.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "활동성 류마티스관절염에서 천수신경자극이 질병 활성도와 자율신경 기능을 조절하는가: 무작위 파일럿 연구",
       "publication_types": [
         "Journal Article"
@@ -619,7 +944,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42423220/",
       "abstract": "Some complementary and integrative health (CIH) therapies are recommended for the management of chronic musculoskeletal pain, but little research has evaluated how these alternatives affect downstream healthcare utilization, including imaging costs.\nUsing US Department of Veterans Affairs (VA) Veterans Health Administration electronic health record data, we conducted propensity score modeling, allocating 2,215,231 Veterans with chronic pain using the VA from 2018 to 2022 into two therapy exposure groups - acupuncture with and without movement therapies (yoga or Tai Chi/Qigong) - compared with conventional care, or primary care management alone, to examine differences in imaging costs during a 6-month period following indexing. We calculated the probability of treatment in either exposure group based on demographic and clinical characteristics, and applied a nearest neighbor matching algorithm for subsequent estimation of average treatment effects.\nVeterans using acupuncture with or without movement therapies had sizable baseline clinical needs and healthcare utilization. After matching, we found that imaging costs and visits were higher among Veterans using acupuncture with CIH movement therapies (cost difference $140, 95% confidence interval (CI) $97-$183; visit difference 0.37; 95% CI 0.30-0.45) and without CIH movement therapies (cost difference $155, 95% CI $147-$163; visit difference 0.34; 95% CI 0.33-0.35) during the 6-month follow-up period, compared with those using conventional care.\nVeterans using acupuncture with or without CIH movement therapies had greater imaging costs than those using conventional care, possibly reflecting higher usage of healthcare among integrative therapy patients. These results also suggest unobserved patterns of comorbidity, recovery or access and/or radiology inefficiencies leading to an imaging loop effect as potential considerations for future investigation.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "만성 근골격계 통증 재향군인에서 침치료, 움직임 치료와 영상검사 비용 평가",
       "publication_types": [
         "Journal Article"
@@ -658,7 +983,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42421070/",
       "abstract": "Acupuncture is widely used for lumbar pain, yet needle-related spinal epidural haematoma (SEH) remains a rarely reported but potentially catastrophic complication. The lumbar segment is often assumed to be a \"safe\" needling zone, and the true incidence, mechanistic basis and preventive strategy for iatrogenic SEH are poorly defined.\nAn 80-year-old Chinese man developed progressive right lumbosciatalgia 10 days after three sessions of electro-acupuncture and a right L5-S1 paravertebral nerve block. Pre-intervention CT had shown no epidural collection; repeat imaging revealed a 3 cm organised haematoma compressing the thecal sac. Formal WHO-UMC causality assessment rated the event 'Probable' iatrogenic, though competing causality with the nerve block cannot be fully excluded. He underwent urgent L5-S1 laminectomy, clot evacuation and cement-augmented pedicle-screw fixation, with complete neurological recovery at 3 months.\nThis case, together with a systematic review of seven similar reports, establishes a clear clinical pathway: repeated lumbosacral needling-venous wall trauma-organised haematoma-nerve-root compression. Key preventive measures include pre-procedure MRI in high-risk subjects, careful individualization of needle depth and electro-acupuncture parameters based on patient anatomy and clinical context. Advanced age and spinal degeneration are not surgical contraindications; timely decompression restores function even after prolonged compression.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "침술 후 발생한 요추 경막외 혈종: 증례 보고 및 문헌 고찰",
       "publication_types": [
         "Journal Article"
@@ -699,7 +1024,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42421041/",
       "abstract": "Perioperative neurocognitive disorders (PND), including postoperative delirium, delayed neurocognitive recovery, and postoperative cognitive dysfunction, are common complications in older surgical patients and are associated with impaired recovery, reduced quality of life, and increased postoperative morbidity. Current management remains largely supportive and preventive, and effective targeted therapies are still lacking. Electroacupuncture (EA), as a minimally invasive neuromodulatory intervention, has attracted increasing attention because of its potential multi-target regulatory effects. This review summarizes current mechanistic and clinical evidence regarding EA for PND. Preclinical studies suggest that EA may modulate several interacting pathological processes, including neuroinflammation, oxidative stress, autophagy dysfunction, ferroptosis, mitochondrial injury, microbiota-gut-brain axis dysregulation, and hippocampal synaptic plasticity. Recent PND/POCD animal studies further support EA-related regulation of NLRP3 inflammasome activation, cGAS-STING signaling, SIRT1/NRF2/GPX4-mediated ferroptosis, AMPK/SIRT1/FOXO1/PINK1/Parkin-related autophagy pathways, and MAPK-related synaptic plasticity. Clinical studies and meta-analyses suggest that EA and related acupoint-based electrical stimulation techniques may reduce early postoperative cognitive decline and improve short-term cognitive outcomes in older surgical patients. However, the overall evidence remains limited by heterogeneous stimulation protocols, variable acupoint prescriptions, incomplete blinding, short follow-up, and reliance on cognitive screening scales. Several proposed mechanisms are still partly inferred from non-PND models. Future studies should use standardized EA protocols, clinically relevant PND models, dynamic mechanistic assessments, and adequately powered sham-controlled trials to clarify the therapeutic role of EA in PND.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "수술 전후 신경인지장애에서 전침의 진전: 기전과 임상근거",
       "publication_types": [
         "Journal Article",
@@ -739,7 +1064,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42420191/",
       "abstract": "To assess and summarize the outcomes of major pharmacologic, device-based, and surgical interventions reported in systematic reviews and meta-analyses for the treatment of Meniere's disease.\nCINAHL, Cochrane, PubMed, Scopus.\nTwenty-two systematic reviews with meta-analyses of randomized and nonrandomized studies were identified, assessing interventions including gentamicin, corticosteroids, betahistine, positive pressure therapy, adjunctive acupuncture, endolymphatic sac decompression, and cochlear implantation. The review was reported in accordance with PRISMA 2020 and PRISMA-S, and methods followed Cochrane Handbook guidance. Four investigators extracted data. When possible, data were pooled using a random-effects model. Outcomes included vertigo control, tinnitus improvement, and adverse events.\nIntratympanic gentamicin showed the highest vertigo control rate (89%) but carried a mild hearing loss risk and a 23% subjective hearing reduction rate. Intratympanic steroids offered modest benefit with fewer auditory risks. Positive pressure therapy showed mixed results, while acupuncture demonstrated symptomatic benefit when combined with other therapies. Endolymphatic sac decompression achieved 75%-82% control of vertigo initially but declined over time. Cochlear implants improved speech perception and tinnitus in profound hearing loss. No eligible meta-analyses evaluated antivirals, ventilation tubes, vestibular nerve section, or labyrinthectomy.\nIntratympanic gentamicin provides the strongest vertigo control but is backed by low-quality evidence and risks hearing loss. Conservative treatments like intratympanic steroids and betahistine show modest benefit with mixed evidence. Adjunctive options like acupuncture require cautious interpretation due to low-quality evidence. Surgical and device-based options demonstrate variable effectiveness, highlighting the need for individualized, symptom-driven care and further high-quality trials.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "메니에르병 중재의 치료 결과: 범우산 문헌고찰",
       "publication_types": [
         "Journal Article",
@@ -781,7 +1106,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42420108/",
       "abstract": "",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "",
       "publication_types": [
         "Published Erratum"
@@ -821,7 +1146,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42417894/",
       "abstract": "This study investigates the antitumor effects and immunomodulatory mechanisms of Astragalus membranaceus (AM) injection at Zusanli (ST36) acupoint in a mouse model of lung cancer with chronic obstructive pulmonary disease (LC-COPD). Mice were divided into LC-COPD and lung cancer-only groups, each further subdivided into model, AM, cisplatin (DDP), and AM + DDP subgroups. Tumor growth, lung metastasis, and survival were assessed. Expression of PD-1 and TIM-3 in tumor tissues was evaluated by immunohistochemistry and Western blot. The proportions of PD-1⁺ and PD-1⁺ TIM-3⁺ CD8⁺ and CD4⁺ T cells were analyzed by flow cytometry. AM injection at Zusanli alone inhibited tumor weight to a similar extent in both the LC-COPD and lung cancer-only groups, but conferred greater inhibition of pulmonary metastasis and prolonged survival only the LC-COPD group. Combining this therapy with DDP further reduced tumor weight and metastasis and extended survival, outperforming either single treatment in the LC-COPD group only. AM intervention downregulated PD-1 and TIM-3 expression in tumor tissues and reduced the proportions of PD-1⁺ and PD-1⁺ TIM-3⁺ CD8⁺ and CD4⁺ T cells. These immunomodulatory effects were greater in the LC-COPD group. In the LC-COPD model, AM injection at Zusanli significantly downregulated PD-1 and TIM-3 expression and alleviated T cell exhaustion. This may explain why LC-COPD derives greater benefit from this therapy. The combination of this therapy with DDP enhanced anti-tumor efficacy, suggesting its promise as an effective treatment strategy for LC-COPD.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "족삼리(ST36) 혈위 자추자 아스트라갈루스 막세브라누스 주사의 폐암-만성폐쇄성폐질환에 대한 효과",
       "publication_types": [
         "Journal Article"
@@ -861,7 +1186,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42422574/",
       "abstract": "Dysmenorrhea poses significant disease burden beyond menstruation pain but patients are known to be undertreated.\nTo describe treatment patterns after the diagnosis of dysmenorrhea using health insurance claims data from insured members in Japan.\nWe analyzed treatment patterns following the diagnosis of dysmenorrhea in women aged 18-45 years using health insurance claims from multiple Japanese health insurance societies between January 1, 2017 and September 30, 2022. We examined the first-line and subsequent treatment lines up to the third line treatments.\nA total of 70,981 patients were identified, with a mean age of 29.7 years old. The most common first-line treatments and their median [interquartile range] durations were as follows: low-dose estrogen-progestin (LEP; otherwise known as combined oral contraceptive) in 33,169 patients (46.7%) for 161 [65, 384] days, analgesics/hemostatic agents (symptomatic therapy) in 13,619 patients (19.2%) for 9 [5, 29] days, and Kampo medicine (Chinese traditional herbal medicine adapted to and evolved in Japan) in 10,835 patients (15.3%) for 62 [29, 134] days. Across the treatment sequences from the first to third lines, LEP was the most frequently prescribed therapy. The most frequent pattern was LEP plus analgesics/hemostatic agents (18,019; 25.4%), followed by LEP monotherapy (10,389;14.6%), which collectively accounted for approximately 40% of all treatments. Analgesics/hemostatic agents alone accounted for 8,523 (12.0%) and Kampo medicine alone for 4,806 (6.8%). The transition from analgesics/hemostatic agents to LEP occurred in 2,166 (3.1%) of patients.\nAn analysis of treatment sequences up to the third line revealed that LEP was the most commonly prescribed medication for dysmenorrhea. The median duration of LEP use exceeded five months, suggesting that many patients continued LEP across multiple menstrual cycles and that LEP was well accepted and sustained as a treatment for dysmenorrhea in Japan.",
       "first_seen": "2026-07-09 20:57:32 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "일본 월경통 환자의 실제 진료 현황: 후향적 데이터베이스 연구",
       "publication_types": [
         "Journal Article"
@@ -901,7 +1226,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42379280/",
       "abstract": "He Xue Ming Mu Tablets (HXMMT) are traditional Chinese medicine formulations used in clinical practice for the treatment of diabetic retinopathy. The primary purpose of this article is to illuminate the potential mechanistic pathways underlying its therapeutic efficacy in non-proliferative diabetic retinopathy. UHPLC/QE-MS was used for plasma metabolomics analysis of 10 HXMMT-treated NPDR patients, 10 untreated NPDR patients, and 10 healthy controls. To identify differential metabolites, principal component analysis (PCA) for visualizing metabolic variation and hierarchical clustering for grouping samples by metabolic profiles, were combined with Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis to investigate related biological pathways. Intraocular pressure (IOP), best-corrected visual acuity (BCVA), central foveal thickness (CFT), and inflammatory/angiogenic markers (IL-6, TNF-α, VEGF, Ang-2) were assessed, with correlations analyzed between altered metabolites and clinical indices. HXMMT significantly improved macular edema, reduced fundus hemorrhage, and attenuated retinal inflammation (P < 0.05). Metabolomic profiling identified a total of 813 plasma metabolites, and 283 metabolites exhibited distinct expression patterns that effectively discriminated NPDR patients from healthy controls, while 39 metabolites were found to distinguish between untreated NPDR patients and those who received HXMMT treatment. Consequently, 12 key metabolites showed significant covariance with clinical parameters of NPDR (P < 0.05), suggesting their potential role as critical mediators in the pharmacodynamic mechanism of HXMMT. HXMMT exerts therapeutic effects on NPDR by targeting 12 plasma metabolites, particularly via the glycerophospholipid metabolic axis, providing a mechanistic basis for its clinical use.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "비증식성 당뇨망막병증에서 허혈명목환의 기전을 UHPLC/QE-MS 대사체학으로 분석한 연구",
       "publication_types": [
         "Journal Article"
@@ -979,7 +1304,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42341497/",
       "abstract": "Achyranthes bidentata (AB), a prominent medicinal herb in traditional Chinese medicine, possesses diverse bioactive components responsible for its broad spectrum of pharmacological activities. Achyranthes bidentata polysaccharides (ABP) are bioactive constituents isolated from AB. Common extraction techniques include hot water, ultrasound-assisted, microwave-assisted, and enzyme-assisted extraction. Purification typically involves deproteinization followed by column chromatography. Variations in extraction and purification methods can lead to differences in the structural characteristics and biological activities of the final products. Current studies have demonstrated that ABP exhibit a range of biological activities, including immunomodulatory, anti-tumor, antioxidant, and anti-osteoporotic effects. This article systematically reviews the extraction, isolation, purification methods, and biological activities of ABP, aiming to provide a valuable reference for further research on these bioactive compounds.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "우슬 다당의 추출, 구조 및 생리활성: 문헌고찰",
       "publication_types": [
         "Journal Article",
@@ -1019,7 +1344,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42415722/",
       "abstract": "Women victims of domestic violence often present with psychiatric disorders and may benefit from nonpharmacological interventions. Acupoint stimulation therapy may be an effective approach.\nTo examine whether a combination of electroacupuncture (EA) and transcutaneous electrical acupoint stimulation (TEAS) can alleviate depression, post-traumatic stress disorder (PTSD) and insomnia in women victims of domestic violence.\nAn assessor-blinded randomised controlled trial was conducted in Hong Kong, China, with 110 Chinese women with major depressive disorder who had experienced domestic violence and were randomly assigned to care as usual (CAU) alone or combined with EA + TEAS (n = 55 per group) for 12 weeks, two clinic-based EA sessions and three home-based TEAS sessions per week. The primary outcome was baseline-to-endpoint change in the Beck Depression Inventory-II (BDI-II). Secondary outcomes included the 17-item Hamilton Depression Rating Scale, 10-item Perceived Stress Scale, PTSD Check List-Civilian Version, Insomnia Severity Index and the 12-item Short Form Survey for health-related quality of life.\nOf the 110 participants (n = 55 each group), 91.8% (101/110) completed the study. At 12 weeks, the EA + TEAS group showed a significantly greater reduction in BDI-II score than that of the CAU group (mean difference = -10.9; 95% confidence interval -16.5 to -5.4; t = -3.9; p < 0.001), exceeding the minimal clinically important difference (5 points). The superiority of EA + TEAS was also observed across secondary measures, including depression, PTSD, perceived stress, insomnia and quality of life. The EA + TEAS group had significantly higher rates of clinical response (49.1% vs. 18.2%, χ 2 = 11.770, p < 0.001) and remission (38.2% vs. 12.7%, χ 2 = 9.390, p = 0.002) at endpoint than those of the CAU group. All treatment-related adverse events were mild.\nThe addition of EA + TEAS produced substantially greater improvements in depression and other psychiatric symptoms. EA + TEAS may serve as an effective intervention for women victims of domestic violence.\nThis trial was registered on www.clinicaltrials.gov (NCT05102253).",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "가정폭력 피해 여성의 정신질환에 대한 전침과 경피적 경혈 전기자극 병합치료: 평가자 눈가림 무작위대조시험",
       "publication_types": [
         "Journal Article"
@@ -1061,7 +1386,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42417612/",
       "abstract": "",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "",
       "publication_types": [
         "Journal Article"
@@ -1100,7 +1425,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42414925/",
       "abstract": "Pregnancy-related pelvic girdle pain (PPGP) affects more than 50% of pregnant women, and for some it may lead to persistent postpartum pain. The factors affecting the prevalence of PPGP postpartum are unclear. Recommended interventions for PPGP include exercise, pelvic belts, acupuncture, and promotion of physical activity. However, individually tailored interventions based on treatment guidelines are necessary given the multifaceted nature of PPGP, but this has not been evaluated in a clinical setting. The aim of this study was to describe levels of functioning, physical activity, pain, and treatment satisfaction at four months postpartum in women who received individually tailored physiotherapy based on treatment guidelines for PPGP and to investigate relationships between factors that could impact disability resulting from PPGP postpartum.\nA cross-sectional study based on questionnaires answered four months postpartum by 164 women who received physiotherapy for PPGP during pregnancy. Treatment satisfaction, and functioning measured by the Pelvic Girdle Questionnaire (PGQ), were the primary outcomes, and multiple linear regression analyses were performed to investigate factors with a possible impact on the PGQ score.\nOf the total respondents (n = 164), 125 women reported (76%) reported PPGP four months postpartum, of whom 40% (n = 50) experienced moderate-to-severe disability according to the PGQ. Most women were satisfied with the physiotherapy treatment, regardless of their level of disability. Concern about pain was the only variable associated with the PGQ score. Despite limitations in functioning among women who reported pain, one third reached the recommended levels of physical activity.\nAlthough 76% of women experienced persistent PPGP four months postpartum, individually tailored physiotherapy for PPGP during pregnancy was perceived as an intervention with positive impact. Concern about pain appears to be associated with postpartum functioning, but the study design precludes causal conclusions.\nFoU in Region Västra Götaland, Sweden No. 220,091, https://www.researchweb.org/is/vgr/project/220091 .",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "임신 관련 골반대 통증에 대한 개인 맞춤 물리치료 중재: 산후 4개월의 기능, 신체활동, 치료 만족도에 대한 단면 연구",
       "publication_types": [
         "Journal Article"
@@ -1140,7 +1465,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42413794/",
       "abstract": "Anacyclus pyrethrum (L.) DC. is a herbaceous species of the Asteraceae family. This medicinal plant has been widely used in traditional medicine to treat diabetes and its associated complications. N-(4-Hydroxyphenethyl)-(4E)-decenamide (HPD) is a synthetic derivative of natural N-alkylamides extracted from its roots. To date, the therapeutic efficacy and molecular mechanisms of HPD against diabetic retinopathy (DR) have not been fully clarified.\nThis study aimed to explore the therapeutic potential of HPD against DR and clarify its molecular mechanisms.\nHPD was chemically synthesized. Its anti-angiogenic efficacy was evaluated using both in vitro and in vivo assays. Proteomic analysis, combined with molecular docking and surface plasmon resonance (SPR), was employed to screen and validate the direct binding targets of HPD. Additionally, siRNA-mediated gene knockdown was performed to clarify the functional role of the identified target in DR pathology.\nIn vitro and in vivo experiments demonstrated that HPD significantly inhibited pathological angiogenesis and restored retinal thickness in diabetic retinopathy (DR) model mice. Proteomics analysis, coupled with surface plasmon resonance (SPR) validation, revealed that HPD directly and exclusively bound to PARK7. Furthermore, knockdown of PARK7 exacerbated pathological angiogenesis, whereas intervention with HPD markedly reversed this phenotypic alteration.\nHPD directly targets PARK7 to attenuate diabetic retinopathy by suppressing pathological angiogenesis, preserving retinal structure, and maintaining blood-retinal barrier integrity.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "천연 파이토케미컬 유래 N-(4-하이드록시페네틸)-(4E)-데세나미드가 PARK7을 통해 혈관신생을 억제하여 당뇨망막병증을 개선한다",
       "publication_types": [
         "Journal Article"
@@ -1179,7 +1504,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42413766/",
       "abstract": "",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "",
       "publication_types": [
         "Letter"
@@ -1218,7 +1543,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42413705/",
       "abstract": "Irritable bowel syndrome (IBS) is a recurrent abdominal disease globally, with limited efficacious therapeutics. Acupuncture is increasingly gaining attention on IBS with inconsistent evidence. Therefore, this study aims to evaluate the specific effect of acupuncture versus sham non-acupoint controls on IBS.\nInternational and Chinese databases were searched to identify eligible randomized controlled trials (RCTs). Primary outcomes included response rate, overall symptom severity, and quality of life (QOL). Data for dichotomous and continuous variables were extracted and pooled using risk ratios (RR), and standardized mean differences (SMD) or mean difference (MD) and 95% CIs.\nTwelve RCTs encompassing 1105 participants were included for systematic review and 11 RCTs for meta-analysis. Acupuncture demonstrated a significantly higher response rate for IBS compared to sham control (RR [95% CIs]: 1.61 [1.25, 2.07], I2=77%, 1004 participants). Acupuncture significantly improved the total symptom severity at the end of treatment as compared to sham acupuncture (SMD [95%CIs]: 0.79 [0.30, 1.28], I2 = 86%) and at follow-up (SMD [95%CIs]: 0.70 [0.22, 1.18], I2 = 83%). The significance was also noted for QOL at the end of treatment (SMD [95%CIs]: 0.36 [0.01, 0.71]). However, sensitivity analysis only confirmed the robustness regarding the response rate and symptom severity at the end of treatment.\nWe discovered acupuncture significantly improved IBS patients' response rate and overall symptom at the end of treatment, as compared to sham non-acupoint acupuncture. Due to the significant heterogeneity and low certainty of evidence, our work merits more confirmation by large-scale and high-quality trials.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "과민성대장증후군에서 침 치료와 가짜 비경혈 침의 비교: 체계적 문헌고찰 및 메타분석",
       "publication_types": [
         "Journal Article"
@@ -1257,7 +1582,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42417102/",
       "abstract": "Marked by high blood glucose and systemic metabolic dysfunction, type 2 diabetes mellitus (T2DM) is a significant health issue with a rapidly increasing worldwide prevalence. Recent studies have highlighted the gut microbiota as a key determinant of host metabolism, and identified that the composition and metabolic activity are closely linked to the development and progression of T2DM. This review comprehensively explores the intricate connection between T2DM and the gut microbiota, with a particular focus on how traditional Chinese medicine (TCM) can influence intestinal microbiota composition to manage disease. It also discusses the therapeutic potential of TCM, which includes natural medicinal extracts like baicalin, berberine, tetrahydrocurcumin, ginsenoside Rb1, ophiopogonin D, and resveratrol, compound formulations, and acupuncture, in regulating the intestinal microbiota ecosystem to manage T2DM. Although the current evidence suggests that these interventions may slow T2DM progression, most studies have been confined to animal models and early clinical trials which lack adequate clinical evidence to confirm their efficacy. This discrepancy has created an imbalance between theoretical and validated clinical applications. Building on existing research, future research should focus on large-scale clinical trials and advanced multi-omics studies to uncover the potential of TCM in managing T2DM through the gut microbiota.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "제2형 당뇨병 관리: 장내 미생물군 치료를 표적으로 한 접근",
       "publication_types": [
         "Journal Article"
@@ -1298,7 +1623,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42416189/",
       "abstract": "Scalp acupuncture and brain stimulation techniques, such as transcranial electrical stimulation, have shown promise in the management of mental disorders. However, the identification of precise stimulation targets remains a critical bottleneck. Pinpointing brain regions associated with mental disorders is essential for optimizing the efficacy of these scalp-based therapies.\nUsing Neurosynth Compose, we performed large-scale coordinate-based meta-analyses to identify potential targets for nine mental disorders: schizophrenia, bipolar disorder, major depressive disorder, anxiety disorders, obsessive-compulsive disorder, post-traumatic stress disorder, insomnia, autism spectrum disorder, and attention deficit hyperactivity disorder. The identified brain clusters were projected onto the scalp surface and spatially integrated with standard acupoints, and the electroencephalography (EEG) 10-20 system to define accessible intervention sites.\nThe analyses successfully delineated scalp targets for each of the nine investigated disorders. These findings largely corroborated existing clinical protocols while also suggesting novel regions as potential therapeutic targets. The results revealed both disorder-specific targets and cortical areas implicated across multiple psychiatric conditions. Notably, the dorsolateral and ventrolateral prefrontal cortices, middle temporal gyrus, and inferior parietal lobule emerged as critical overlapping targets, offering potential avenues for scalp acupuncture and brain stimulation in comorbid mental disorders.\nWe propose refined, evidence-based protocols for scalp acupuncture and brain stimulation. These findings may advance precision-targeted neuromodulation strategies and support the development of novel therapeutic approaches in psychiatric care.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "정신질환에서 두피침과 뇌자극의 잠재적 표적: 대규모 메타분석 근거",
       "publication_types": [
         "Journal Article",
@@ -1339,7 +1664,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42415755/",
       "abstract": "The global prevalence of has reached epidemic proportions, largely driven by dietary shifts toward high-calorie, processed foods, and sedentary lifestyles. Obesity is a complex polygenic disorder characterized by excessive adipose tissue accumulation and adipocyte hypertrophy, leading to various metabolic dysfunctions. The gut microbiota plays a pivotal role in regulating host energy metabolism, and dysbiosis, an imbalance in its composition and function, is strongly linked to obesity development and progression, Traditional Chinese medicine (TCM) has long been utilized for weight management, yet \"efficiency limitations\" and \"resource waste\" remain significant concerns. This comprehensive review explores the emerging approach of using probiotic-fermented herbal residues for obesity management. We examine how fermentation technologies transform herbal byproducts into high-value anti-obesity preparations through biological processes that enhance bioactive compounds, improve bioavailability, and modulate the gut-liver axis. The integration of herbal medicine with modern biotechnology impossible represents a promising frontier in sustainable healthcare and precision medicine for metabolic disorders.",
       "first_seen": "2026-07-08 20:38:31 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "비만 관리에서 프로바이오틱스로 발효한 한약 잔재물: 문헌고찰",
       "publication_types": [
         "Journal Article",
@@ -1420,7 +1745,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42338379/",
       "abstract": "Inferior alveolar nerve (IAN) sensory disturbance after mandibular third molar extraction can persist and affect speech, mastication, and quality of life. Photobiomodulation (PBM) has been used to promote peripheral nerve recovery, but the most suitable irradiation strategy remains unclear. Laser acupuncture (LA) delivers PBM to predefined acupoints and may provide both local and central neuromodulatory effects.\nTo compare standardized LA with direct nerve-trajectory PBM for post-extraction IAN hypoesthesia in a randomized, double-blind, sham-controlled trial.\nAdults aged 18-60 years with unilateral IAN hypoesthesia lasting ≥7 days and ≤12 weeks were randomized (1:1:1) to LA, direct PBM along the external IAN projection, or sham treatment. All participants received mecobalamin (0.5 mg, three times daily) for 30 days. PBM was delivered using an 808-nm diode laser (continuous wave, 100 mW; beam area 1.0 cm2), 90 s/site (9 J; 9 J/cm2), every other day for 15 sessions. LA used a fixed 5 + 2 prescription: ST4, ST6, ST7, CV24, Jiachengjiang (EX-HN19), plus LI4 and PC6. Primary outcomes were two-point discrimination (TPD) and Semmes-Weinstein monofilament examination (SWME) at day 30. Secondary outcomes included Visual Analog Scale (VAS) numbness, additional sensory tests, and day-60 follow-up.\nSixty participants completed the intervention. Both active groups improved more than sham for TPD and SWME (group × time p < 0.01). Mean TPD change at day 30 was -3.2 ± 1.8 mm (LA) and -2.6 ± 1.7 mm (direct PBM) versus -0.8 ± 1.1 mm (sham). SWME improved by ≥1 grade in 85%, 80%, and 25%, respectively. VAS numbness decreased by 60%, 48%, and 12%, respectively, and the improvement was largely maintained at day 60. No treatment-related adverse events occurred.\nUnder matched PBM dosimetry, both irradiation strategies improved sensory recovery compared with sham. LA produced comparable results and was associated with greater improvement in patient-reported numbness.",
       "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "하악 제3대구치 발치 후 하치조신경 감각저하에 대한 레이저 침과 직접 광생체조절요법의 비교 효능: 무작위 이중맹검 위약대조 임상시험",
       "publication_types": [
         "Journal Article",
@@ -1505,7 +1830,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42412535/",
       "abstract": "",
       "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "",
       "publication_types": [
         "Journal Article"
@@ -1544,7 +1869,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42411379/",
       "abstract": "The aim of this study was to explore the potential role of microRNA (miR)-133a, the nucleotide-binding oligomerization domain, leucine-rich repeat family pyrin domain-containing 3 (NLRP3) inflammasome and Sirtuin1 (SIRT1) in the effects of electroacupuncture (EA) on disuse muscular atrophy in mice.\nC2C12 cells were analyzed for protein expression of NLRP3, SIRT1, myogenin (MyoG) and myosin heavy chain protein (MyHC) after being transfected with a miR-133a-1 mimetic or miR-133a-3p inhibitor. Disuse muscular atrophy was induced in mice by tail suspension, and the mice either remained untreated (DA group) or received EA (frequency 20 Hz, intensity 1 mA, 15 min per day). The morphology of skeletal muscle was measured by muscle/body weight ratios, muscle fiber cross-sectional area (CSA) and expression of Atrogin-1 and Muscle RING finger-1 (MuRF1). miR-133a, NLRP3, apoptosis-associated speck-like protein (ASC), caspase-1 and SIRT1 were detected sequentially. Differentiation of skeletal muscle was examined by measurement of MyoG and MyHC.\nIn our in vitro experiments, overexpression of miR-133a downregulated the expression of NLRP3 and SIRT1, and upregulated the expression of MyoG and MyHC. In our in vivo experiments, EA effectively ameliorated muscle wet weight and fiber CSA in the mouse model of disuse muscular atrophy, and decreased Atrogin-1 and MuRF1. EA also significantly increased the expression of miR-133a, inhibited the expression of NLRP3, ASC, caspase-1 and SIRT1, and increased the expression of MyoG and MyHC.\nThese results indicate that EA-induced reductions of disuse muscular atrophy may be related to miR-133a. First, miR-133a may inhibit NLRP3 inflammasome activation to reduce muscle loss. Second, miR-133a may regulate SIRT1 expression to induce skeletal muscle differentiation and potentially promote muscle tissue recovery.",
       "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "전침이 miR-133a를 통해 NLRP3 인플라마좀과 SIRT1을 억제하며 사용성 근위축을 개선한다는 마우스 연구",
       "publication_types": [
         "Journal Article"
@@ -1624,7 +1949,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42407001/",
       "abstract": "Symptom burden continues to be a significant challenge throughout the cancer care continuum, frequently persisting even when guideline-directed pharmacologic treatments are used. Acupuncture has emerged as a nonpharmacologic supportive care option with growing evidence of benefit in selected cancer-related symptoms and has been incorporated into multiple professional oncology guidelines. However, uncertainty about proper indications, safety issues, referral processes, and reimbursement structures has hindered its adoption into standard oncology practice. This review provides practical guidance for oncology clinicians about the roles of acupuncture in cancer care. We summarize clinical indications supported by guidelines, outline oncology-specific safety and risk stratification principles, and discuss implementation strategies within cancer centers, which include referral workflows, use of patient-reported outcomes, staffing and training considerations, and financial sustainability. When administered by oncology-trained practitioners and coordinated within multidisciplinary care teams, acupuncture is typically safe, provided that clinicians consider the patient's treatment phase, relevant laboratory and imaging results, presence of implanted devices, surgical scheduling, and extent of metastatic disease. Although insurance coverages for acupuncture in cancer care remains heterogenous in the United States, experience from mixed-payer environments demonstrates that services can be implemented using flexible delivery and staffing models, although financial sustainability remains influenced by payer mix and institutional support. For oncology professionals, familiarity with acupuncture referral criteria and available evidence can help broaden care options and support patient-centered symptom management.",
       "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
+      "last_seen": "2026-07-11 20:11:17 UTC",
       "title_ko": "암 치료에서의 침 치료: 근거, 안전성 및 종양학 진료에서의 적용",
       "publication_types": [
         "Journal Article"
@@ -1690,325 +2015,6 @@
         }
       },
       "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42410909",
-      "pmid": "42410909",
-      "doi": "10.1002/vms3.71080",
-      "title": "Can Acupuncture Be Effective in Treating Insufficiently Dilated Cervix Following Intrapartum Uterine Torsion in Cows?",
-      "journal": "Veterinary medicine and science",
-      "pub_date": "2026-07-01",
-      "authors": "Erteld EM, Sendag S, Yildiz M, Wehrend A",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42410909/",
-      "abstract": "This prospective clinical field study evaluated the effect of acupuncture on cervical dilatation following manual correction of intrapartum uterine torsion in cows.\nA total of 93 cows of different breeds and ages diagnosed with intrapartum uterine torsion were randomly assigned to two groups: Group I (n = 45), which received standardised acupuncture prior to retorsion, and Group II (n = 48), which served as a control without acupuncture treatment. Acupuncture was applied approximately 15 min before the initiation of the retorsion procedure. During this interval, all animals underwent a standardised clinical assessment of the birth canal, including manual evaluation of cervical passability based on predefined reference dimensions of the examiner's hand and tissue elasticity. This ensured consistent baseline characterisation of cervical status prior to retorsion. The acupuncture needles were inserted intramuscularly at predefined anatomical points and remained in situ throughout the subsequent obstetrical management, including the retorsion procedure and, where applicable, until completion of fetal delivery.\nThere was no significant difference in the degree of cervical dilatation immediately after retorsion between the two groups (p = 0.60). However, the interval between successful retorsion and calf delivery was significantly shorter in the acupuncture group compared with the control group (12.2 ± 1.2 min vs. 33.0 ± 1.3 min; p = 0.002). Surgical intervention for delivery was required less frequently in cows treated with acupuncture, although this difference did not reach statistical significance.\nAcupuncture may represent a supportive therapeutic option in bovine obstetrics following uterine torsion. The observed reduction in time to delivery suggests potential clinical relevance, particularly in cases complicated by insufficient cervical dilatation. These findings support the consideration of acupuncture as an adjunctive, field-applicable strategy in bovine obstetrical practice, although further controlled studies are required to clarify the underlying physiological mechanisms.",
-      "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-08 01:12:29 UTC",
-      "title_ko": "분만 중 자궁 비틀림 후 경부 확장이 충분하지 않은 소에서 침 치료가 효과적인가?",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "분만 중 자궁 비틀림을 수기로 교정한 뒤 소의 자궁경부 확장에 침 치료가 도움이 되는지 평가한 연구이다.",
-        "methods": "전향적 임상 현장 연구로, 자궁 비틀림 소를 침 치료군과 비침 치료 대조군으로 무작위 배정해 교정 전후 경부 상태와 분만 경과를 비교했다.",
-        "results": "교정 직후 자궁경부 확장 정도는 두 군 차이가 없었으나, 침 치료군은 송아지 분만까지의 시간이 더 짧았다.",
-        "clinical_takeaway": "소 산과에서 침 치료는 자궁 비틀림 교정 후 분만을 보조하는 현장 적용 가능 옵션으로 고려될 수 있으나, 인과적 효과는 추가 연구가 필요하다.",
-        "limitations": "분만 시간 감소는 관찰되었지만 경부 확장 자체의 차이는 없었고, 기전과 재수술 필요성 차이는 명확하지 않았다.",
-        "pico": {
-          "p": "분만 중 자궁 비틀림이 있는 소",
-          "i": "교정 전 시행한 표준화된 침 치료",
-          "c": "침 치료를 하지 않은 대조군",
-          "o": "교정 후 자궁경부 확장 정도와 송아지 분만까지의 시간"
-        }
-      },
-      "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42409590",
-      "pmid": "42409590",
-      "doi": "10.1111/jog.70399",
-      "title": "Gynecologists' Perspectives on Menopausal Care and Work-Related Outcomes in Japan: A Nationwide Cross-Sectional Survey.",
-      "journal": "The journal of obstetrics and gynaecology research",
-      "pub_date": "2026-07-01",
-      "authors": "Ogawa M, Kinouchi R, Yamaguchi A, Iida M, Okano H, Takamatsu K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42409590/",
-      "abstract": "This study investigated the current clinical status, structural barriers, and perceived outcomes of menopausal care provided by gynecologists in Japan, with a specific focus on the management of menopausal disorders among working women.\nA web-based survey was conducted among 919 gynecologists in December 2025. Participants were categorized by weekly menopausal patient volume (none/minimal, 1-19, or ≥ 20 patients/week). A mixed-methods approach was employed, including adjusted multivariable logistic regression analyses.\nMost gynecologists (89.4%) encountered patients with decreased work performance, and 29.8% reported managing patients who had resigned owing to menopausal symptoms. Meanwhile, 82.4% of respondents perceived improvements in work performance following treatment. Adjusted multivariable analyses confirmed weekly patient volume as an independent predictor of occupational outcomes and willingness to continue menopausal care. While nearly all gynecologists prescribed hormone replacement therapy and Kampo (Japanese herbal) medicine, the variety of additional treatments increased significantly with patient volume. Furthermore, 66.4% of gynecologists reported that their residency training in menopausal disorders was insufficient. Consultations for menopausal disorders required significantly more time than those for dysmenorrhea, regardless of patient volume. Qualitative analysis identified inadequate reimbursement as the most frequently cited systemic concern.\nGynecologists frequently encounter menopause-related work performance impairment but perceive treatment as beneficial. After adjustment for physician characteristics, higher patient volume remained an independent predictor of severe occupational consequences and willingness to continue menopausal care. Addressing time-intensive consultations, insufficient reimbursement, and limited postgraduate education is essential to support working women with menopausal symptoms.",
-      "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
-      "title_ko": "일본 산부인과 의사들의 폐경기 진료와 직업 관련 결과에 대한 전국 횡단면 조사",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "일본 산부인과 의사들은 폐경기 진료에서 어떤 임상적·구조적 문제를 경험하고, 근로 여성의 직업 관련 결과를 어떻게 인식하는가?",
-        "methods": "일본 산부인과 의사 919명을 대상으로 웹 기반 전국 횡단면 설문을 시행하고, 환자 진료량에 따라 비교한 혼합방법 연구이다.",
-        "results": "대부분의 의사는 폐경 증상으로 인한 업무 수행 저하를 보았고 치료 후 업무 향상을 인식했으며, 환자 진료량은 직업적 결과와 향후 진료 의향의 독립적 예측인자였다.",
-        "clinical_takeaway": "폐경기 진료는 근로 여성의 업무 기능과 연관될 수 있으나, 진료 시간 부담과 보상 체계, 수련 교육 부족 같은 구조적 장벽을 함께 고려해야 한다.",
-        "limitations": "의사 인식에 기반한 횡단면 설문이므로 실제 환자 임상결과를 직접 입증하지는 못한다.",
-        "pico": {
-          "p": "일본의 산부인과 의사와 이들이 진료하는 폐경기 환자, 특히 근로 여성",
-          "i": "폐경기 진료 및 한방(캄포) 약물과 호르몬 대체요법을 포함한 치료 경험",
-          "c": "주당 폐경기 환자 수가 적거나 없는 경우",
-          "o": "업무 수행 저하, 치료 후 업무 향상 인식, 폐경기 진료 지속 의향"
-        }
-      },
-      "categories": [
-        "여성질환",
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42406800",
-      "pmid": "42406800",
-      "doi": "10.3791/71878",
-      "title": "Isoflurane-Assisted Electroacupuncture in a Rat Model of Oligoasthenozoospermia.",
-      "journal": "Journal of visualized experiments : JoVE",
-      "pub_date": "2026-06-16",
-      "authors": "Zhang Q, Chen X, Meng C, Zhao C, Na Q, Zhang J et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42406800/",
-      "abstract": "Oligoasthenozoospermia is one of the most common forms of male reproductive dysfunction. In rodent studies, delivering electroacupuncture (EA) consistently across repeated sessions poses a technical challenge, particularly when combining abdominal midline and hind-limb acupoints, where stable electrode contact is critical. Zhongji (CV3), Guanyuan (CV4), Zusanli (ST36), and Sanyinjiao (SP6) were selected because these points are frequently used in acupuncture protocols for infertility and semen abnormalities, and the abdominal midline plus hind-limb configuration suits standardized electrode pairing. This report describes a practical protocol for establishing an adenine-induced rat model of oligoasthenozoospermia and for administering isoflurane-assisted EA with paired stimulation of CV3-CV4 and ST36-SP6. Male Sprague-Dawley rats received adenine by daily gavage for 28 days to induce reproductive impairment. Subsequently, EA was administered daily for 28 days under inhalational anesthesia, using 3% isoflurane for induction and 1.5% for mask maintenance, to enable stable needle placement and electrode pairing (CV3-CV4 and ST36-SP6) with defined stimulation parameters (2 Hz, 1.5 mA, 30 min). Treatment effects were evaluated via computer-assisted semen analysis for sperm count and motility, supplemented by testicular hematoxylin and eosin (HE) histology. Representative results indicate that adenine exposure reduced sperm count and motility and disrupted seminiferous tubule architecture, while EA was associated with partial recovery in both semen parameters and testicular morphology. This protocol offers a ready reference for studies requiring consistent EA delivery and semen/histological verification in a rat model of oligoasthenozoospermia.",
-      "first_seen": "2026-07-07 20:59:43 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
-      "title_ko": "쥐의 희소정자·정자무력증 모델에서 이소플루란 보조 전침",
-      "publication_types": [
-        "Journal Article",
-        "Video-Audio Media"
-      ],
-      "evidence_type": "Protocol",
-      "evidence_level": "낮음",
-      "clinical_applicability": "낮음",
-      "priority": "보류",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "이소플루란 보조 전침이 아데닌 유도 쥐 희소정자·정자무력증 모델에서 정액 및 고환 변화와 어떤 관련이 있는지를 제시하는가?",
-        "methods": "아데닌으로 유도한 수컷 랫드 모델에 대해 CV3-CV4와 ST36-SP6를 이소플루란 마취 하 전침으로 자극하는 실험 프로토콜을 기술한 보고이다.",
-        "results": "아데닌 노출은 정자 수와 운동성을 감소시키고 세정관 구조를 교란했으며, 전침은 이들 지표와 고환 형태의 부분적 회복과 연관되었다.",
-        "clinical_takeaway": "이 연구는 생식기능 이상 동물모델에서 반복적 전침 적용을 표준화하는 실험적 참고자료를 제공하지만, 사람에게의 임상적 효과는 이 보고만으로 판단하기 어렵다.",
-        "limitations": "증례나 치료시험이 아닌 프로토콜 보고이므로 전침의 유효성은 제한적으로만 해석해야 한다.",
-        "pico": {
-          "p": "아데닌 유도 희소정자·정자무력증 수컷 랫드",
-          "i": "이소플루란 보조 전침(CV3-CV4, ST36-SP6)",
-          "c": "명확한 정보 없음",
-          "o": "정자 수, 정자 운동성, 고환 조직학적 변화"
-        }
-      },
-      "categories": [
-        "여성질환",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42308762",
-      "pmid": "42308762",
-      "doi": "10.1016/j.phymed.2026.158412",
-      "title": "Clinopodium chinense extract alleviates ferroptosis of endometrial epithelial cells via regulating TLR4/SLC7A11 signaling pathway in lipopolysaccharide-induced endometritis.",
-      "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
-      "pub_date": "2026-08-01",
-      "authors": "Tao H, Liu Y, Su Q, Tang R, Wang J, Li L et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42308762/",
-      "abstract": "Clinopodium chinense (Benth.) O. Kuntze (C. chinense) is one of the traditional Chinese medicine that has been used in treating gynecological bleeding. Recent research showed that total extract of C. chinense (TEC) played an important role in the treatment of endometritis, but the mechanism of which need to be further revealed. Ferroptosis has served as a pathogenic mechanism in endometritis. The aim of this experiment was to clarify whether TEC ameliorates endometritis by attenuating ferroptosis and to elucidate its underlying mechanism.\nThe purpose of this research is to investigate the therapeutic effect and underlying mechanism of TEC suppressing ferroptosis of endometrial epithelial cells in endometritis.\nThe mouse model of endometritis was established via intrauterine injection of lipopolysaccharide (LPS, 5 mg/ml) into female mice. Primary mouse endometrial epithelial cells (MEECs) were isolated from pregnant female mice and subjected to in vitro experiments. High-resolution mass spectrometry (HRMS) identified the bioactive ingredients in TEC. Transcriptomic and proteomic analyses revealed the potential targets of TEC against endometritis. Specifically, HE staining evaluated the pathological changes in the uterus. Immunohistochemistry staining assayed the expression of CD138, SLC7A11 and GPX4. The mitochondrial morphology was observed by transmission electron microscope (TEM). Prussian blue staining and Ferro orange staining evaluated the content of Fe2+. The contents of ROS, Fe2+, LDH, GSH, MPO and pro-inflammatory cytokine levels including IL-1β, IL-6, TNF-α were detected using kits. Molecular docking evaluated the binding activities between active compounds of TEC and potential targets. Mechanistically, the expression of TLR4, p-p53, SLC7A11, ACSL4 and GPX4 were evaluated using western blotting or immunofluorescence staining.\nThe nine active compounds in TEC were detected. Transcriptomic and proteomic analyses showed that TEC may alleviate endometritis by attenuating ferroptosis. The pharmacological results demonstrated that TEC alleviated endometrial pathological damage, decreased CD138 expression, reduced MPO activity and pro-inflammatory cytokine levels. TEC also diminished mitochondrial shrinkage and increased membrane integrity in uterine tissue. And, TEC decreased ROS, Fe2+, GSH contents, and suppressed ferroptosis of endometrial epithelial cells. Furthermore, the molecular docking technique revealed that hesperidin, didymin and quercetin, which were the major active components of TEC could bind to TLR4 and SLC7A11. Western blotting analysis further verified that TEC down-regulated TLR4, p-p53 and ACSL4 expression, up-regulated SLC7A11 and GPX4 expression.\nTEC alleviates LPS-induced inflammatory damage in both mouse uterine tissues and MEECs by suppressing ferroptosis, the underlying mechanisms of which were related to inhibiting TLR4/SLC7A11 signaling pathway.",
-      "first_seen": "2026-07-06 21:03:29 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
-      "title_ko": "Clinopodium chinense 추출물이 LPS 유발 자궁내막염에서 TLR4/SLC7A11 신호를 조절해 자궁내막 상피세포의 페롭토시스를 완화한다",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "Clinopodium chinense 총추출물이 리포폴리사카라이드 유발 자궁내막염에서 페롭토시스를 억제해 염증 손상을 줄이는지 확인하려는 연구이다.",
-        "methods": "LPS로 유도한 마우스 자궁내막염 모델과 분리한 일차 자궁내막 상피세포에서 병리, 염증, 철 관련 지표, 전자현미경, 전사체·단백체 분석, 분자도킹과 Western blot 등을 사용한 실험 연구이다.",
-        "results": "TEC는 자궁 조직 손상과 염증 지표를 줄이고 철 축적과 ROS를 감소시켰으며, TLR4/p-p53/ACSL4를 낮추고 SLC7A11/GPX4를 높여 페롭토시스를 억제했다.",
-        "clinical_takeaway": "한약 추출물이 자궁내막염의 염증성 손상과 연관된 페롭토시스 경로를 조절할 가능성을 시사하지만, 전임상 결과이므로 임상적 효용은 추가 검증이 필요하다.",
-        "limitations": "동물과 세포 기반의 전임상 연구로, 사람 대상의 유효성과 안전성은 확인되지 않았다.",
-        "pico": {
-          "p": "LPS로 유도된 마우스 자궁내막염 및 일차 자궁내막 상피세포",
-          "i": "Clinopodium chinense 총추출물(TEC)",
-          "c": "명확한 정보 없음",
-          "o": "자궁내막 손상, 염증, 철 축적 및 페롭토시스 관련 지표"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42405462",
-      "pmid": "42405462",
-      "doi": "10.1177/09645284261454388",
-      "title": "Electroacupuncture ameliorates ovariectomy-induced osteoporosis by modulating ferroptosis via the SLC7A11/GPX4 axis.",
-      "journal": "Acupuncture in medicine : journal of the British Medical Acupuncture Society",
-      "pub_date": "2026-07-06",
-      "authors": "Zhang C, Ouyang G",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42405462/",
-      "abstract": "This aim of the study was to investigate whether electroacupuncture (EA) can mitigate osteoporosis (OP) in an ovariectomy (OVX)-induced rat model by affecting the ferroptosis-related pathway.\nThirty-two 12-week-old female Sprague-Dawley rats were randomly allocated into four groups: CONTROL, SHAM, OVX and EA. We examined the effects of OVX and EA on markers of bone resorption and formation, iron content, malondialdehyde (MDA) levels, and the expression of ferritin heavy chain 1 (FTH1), solute carrier family 7 member 11 (SLC7A11) and glutathione peroxidase 4 (GPX4). In addition, femoral morphology and immunofluorescence were analysed.\nThe OVX group exhibited a significant increase in bone resorption markers, iron and MDA levels, with a notable decrease in alkaline phosphatase (ALP) levels, FTH1, SLC7A11 and GPX4 expression, and impaired trabecular architecture. EA significantly reduced bone resorption markers, iron and MDA content while substantially elevating ALP levels and FTH1, SLC7A11 and GPX4 expression. At the same time, EA improved trabecular architecture.\nEA ameliorated OVX-induced OP by decreasing iron accumulation and activating the SLC7A11/GPX4 axis.",
-      "first_seen": "2026-07-06 21:03:29 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
-      "title_ko": "전침이 SLC7A11/GPX4 축을 통해 철사멸을 조절하여 난소절제 유발 골다공증을 완화한다",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "전침이 난소절제 유발 골다공증에서 철사멸 관련 경로를 통해 골손실을 완화하는지 평가했다.",
-        "methods": "난소절제 유발 골다공증 랫드 모델에서 대조군, sham, OVX군, 전침군을 비교한 실험연구이다.",
-        "results": "전침은 철 축적과 MDA를 감소시키고 ALP와 FTH1, SLC7A11, GPX4 발현을 증가시키며 해면골 구조를 개선했다.",
-        "clinical_takeaway": "전침이 실험동물 골다공증에서 산화스트레스 및 철사멸 관련 지표와 연관된 보호효과를 보였으나, 임상 적용 가능성은 추가 연구가 필요하다.",
-        "limitations": "동물모델 연구이므로 사람 대상 임상효과로 직접 일반화하기 어렵다.",
-        "pico": {
-          "p": "난소절제 유발 골다공증 랫드",
-          "i": "전침",
-          "c": "대조군 및 sham, OVX",
-          "o": "골흡수·골형성 지표, 철 및 MDA, SLC7A11/GPX4 발현, 해면골 구조"
-        }
-      },
-      "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42402897",
-      "pmid": "42402897",
-      "doi": "10.1093/jnci/djag187",
-      "title": "RE：Electroacupuncture improves cognitive function and neuropsychiatric symptoms in breast cancer survivors: a pilot randomized controlled trial.",
-      "journal": "Journal of the National Cancer Institute",
-      "pub_date": "2026-07-03",
-      "authors": "Shen P, Chen X, Wang C, Xu F",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42402897/",
-      "abstract": "",
-      "first_seen": "2026-07-06 21:03:29 UTC",
-      "last_seen": "2026-07-09 20:57:32 UTC",
-      "title_ko": "",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [],
-      "summary_status": "missing",
-      "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
-        "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
-        }
-      },
-      "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42404684",
-      "pmid": "42404684",
-      "doi": "10.2147/JPR.S622950",
-      "title": "Efficacy of Acupuncture for Pain in Parkinson's Disease: Study Protocol for a Randomized Controlled Trial.",
-      "journal": "Journal of pain research",
-      "pub_date": "2026-01-01",
-      "authors": "Wu Y, Zhang F, Xiao L, Wang Y, Lin S, Wu S et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42404684/",
-      "abstract": "Pain in Parkinson's disease (PD) is common and significantly reduces quality of life, yet it is often poorly managed. As current treatments have limitations, acupuncture may offer a non-pharmacological option. This trial aims to evaluate the efficacy and safety of acupuncture versus sham acupuncture for pain in PD.\nThis prospective, double-blind, randomized controlled trial will enroll 66 patients with Parkinson's disease-related pain at the First Affiliated Hospital of Guangzhou University of Chinese Medicine between April 2026 and June 2027. Participants will be allocated via block randomization to either an acupuncture group or a sham acupuncture group. Rigorous blinding of patients, practitioners, outcome assessors, and statisticians will be implemented. Both groups will receive 12 sessions (3 sessions per week for 4 weeks) of their assigned intervention while maintaining stable anti-PD medication. The primary outcome is the change in the King's Parkinson's Disease Pain Scale (KPPS) score. Secondary outcomes include the painDETECT Questionnaire (PD-Q), Unified Parkinson's Disease Rating Scale (UPDRS), 39-item Parkinson's Disease Questionnaire (PDQ-39), Hamilton Depression Rating Scale (HAMD), somatosensory evoked potentials (SSEPs), and serum levels of Tumor Necrosis Factor-alpha (TNF-α), S100 calcium-binding protein B (S100B), and Glial Fibrillary Acidic Protein (GFAP). All analyses will follow the intention-to-treat principle.\nPain in PD is prevalent but undertreated due to limited evidence, invasiveness, or high cost of current therapies. This study aims to determine if acupuncture significantly reduces pain scores compared to sham acupuncture, potentially offering an effective, safe, and cost-effective complementary option. By assessing changes in serum biomarkers, it will also explore whether acupuncture's effects involve modulating neuroinflammation. With its rigorous design, this trial is expected to provide high-level evidence for integrating acupuncture into PD pain management.\nInternational Traditional Medicine Clinical Trial Registry (ITMCTR2026000325).",
-      "first_seen": "2026-07-06 21:03:29 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
-      "title_ko": "파킨슨병 통증에 대한 침 치료의 효과: 무작위 대조시험 연구 프로토콜",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "낮음",
-      "priority": "보류",
-      "safety_flags": [
-        "safety"
-      ],
-      "summary_status": "complete",
-      "summary": {
-        "question": "파킨슨병 관련 통증에서 침 치료가 가짜 침 치료보다 통증을 더 줄이는지 평가하려는 연구이다.",
-        "methods": "파킨슨병 관련 통증 환자 66명을 대상으로 이중눈가림 무작위 대조시험으로 침 치료와 가짜 침 치료를 4주간 비교하는 연구 프로토콜이다.",
-        "results": "아직 결과는 보고되지 않았으며, 침 치료의 통증 감소 효과와 안전성을 평가할 예정이다.",
-        "clinical_takeaway": "파킨슨병 통증에 대한 침 치료의 가능성을 탐색하는 엄격한 임상시험 계획으로, 실제 유효성은 본 연구 결과를 기다려 해석해야 한다.",
-        "limitations": "결과가 없는 연구 프로토콜이며, 단일 기관에서 비교적 소규모로 진행되어 일반화에는 주의가 필요하다.",
-        "pico": {
-          "p": "파킨슨병 관련 통증 환자",
-          "i": "침 치료",
-          "c": "가짜 침 치료",
-          "o": "King's Parkinson's Disease Pain Scale(KPPS) 점수 변화"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42404251",
-      "pmid": "42404251",
-      "doi": "10.1136/bmjmed-2025-001908",
-      "title": "Conservative treatments for chronic non-specific low back pain: time course network meta-analysis.",
-      "journal": "BMJ medicine",
-      "pub_date": "2026-01-01",
-      "authors": "Belavý DL, Saueressig T, Arora NK, Balasundaram AP, Chen X, Diwan AD et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42404251/",
-      "abstract": "To examine the efficacy of conservative (non-surgical) treatments, usual care, and no treatment for chronic radicular and non-specific back pain.\nTime course network meta-analysis.\nSix electronic databases (Medline, SPORTDiscus, CINAHL, PsycINFO, Embase, and CENTRAL), searched from inception to 24 July 2020, and 302 previous systematic reviews.\nFull peer reviewed publications in English or German of randomised controlled trials, randomised clinical trials, randomised controlled cluster trials, or randomised crossover trials in adults (aged ≥18 years) receiving common conservative treatments for non-specific and radicular chronic low back pain. Treatments examined were acupuncture, education or advice, electrotherapy (including heat and ice electrotherapeutic modalities applied non-invasively), exercise training, manual treatments or manipulation, massage, the McKenzie method, pharmacotherapy, psychological treatments, traction, physical therapy (otherwise not falling into specific treatment combinations), placebo, multidisciplinary pain management, usual care (eg, management by a doctor), and no treatment (true control).\nBack pain intensity, leg pain intensity, disability, and mental health outcomes were reported immediately (<1 day), and at short term (≥1 day and ≤3 months), intermediate term (>3 and <12 months), and long term (≥12 months) time points. 581 reports of 551 studies (71 126 patients) were included. 510 trials included people with non-specific chronic low back pain and 41 trials included those with radicular chronic low back pain. For back pain (0-100 scale), acupuncture (mean difference -20.91, 95% credible interval -24.00 to -11.95), electrotherapy (-18.98, -21.84 to-10.95), exercise (-15.59, -17.51 to -10.05), manual treatment (-19.48, -22.17 to -11.74), massage (-25.61, -30.42 to -10.91), and multidisciplinary pain management (-18.96, -22.26 to -9.58) exceeded the minimal clinically important difference (set at 0.5 standard deviation) in the short term. For disability (0-100 scale), acupuncture (mean difference -10.52, 95% credible intervals -11.84 to -6.59), massage (-9.95, -11.45 to -5.50), and multidisciplinary pain management (-12.56, -13.91 to -8.55) were clinically effective in the short term. In the immediate and intermediate term only, the McKenzie method and massage, respectively, exceeded the minimal clinically important difference. In the long term, although two of the 14 treatments for back pain and nine of 14 treatments for disability had statistically significant benefits compared with no treatment, the effects were not clinically significant. The certainty of the evidence based on the GRADE (Grading of Recommendations, Assessment, Development, and Evaluation) framework was low (1.4%) to very low (98.6%) across interventions and time points. Findings for massage and the McKenzie method were not stable in the sensitivity analyses. Treatment effects for radicular chronic low back pain did not seem to differ from those for non-specific chronic low back pain.\nSome treatments were effective for pain and function in non-specific chronic low back pain, but improvements did not persist long term. Most of the evidence was for non-specific chronic low back pain; the evidence base for radicular chronic low back pain was limited. Although sensitivity analyses did not provide evidence for a different response in radicular chronic low back pain, an evidence gap remains for this subpopulation. Future work should explore strategies to establish the long term efficacy of modifications to lifestyle and behaviour.\nPROSPERO CRD42020182039.",
-      "first_seen": "2026-07-06 21:03:29 UTC",
-      "last_seen": "2026-07-10 20:44:25 UTC",
-      "title_ko": "만성 비특이적 요통에 대한 보존적 치료: 시간경과 네트워크 메타분석",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Meta-analysis",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "만성 비특이적 및 신경근성 요통에서 보존적 치료가 통증과 기능을 언제, 얼마나 개선하는지 평가했다.",
-        "methods": "성인 만성 요통 환자를 대상으로 한 무작위배정 연구들을 모은 시간경과 네트워크 메타분석이다.",
-        "results": "침, 전기치료, 운동, 도수치료, 마사지, 다학제 통증관리 등은 단기적으로 일부 유의한 개선을 보였으나 장기 효과는 임상적으로 의미 있지 않았고 근거 수준은 전반적으로 낮았다.",
-        "clinical_takeaway": "한의 임상에서는 일부 보존적 중재가 단기 증상 완화와 기능 개선에 도움을 줄 수 있으나, 장기 지속 효과는 근거가 약하다는 점을 함께 고려해야 한다.",
-        "limitations": "대부분의 근거가 비특이적 만성 요통에 편중되어 있었고, 장기 효과와 신경근성 요통에 대한 근거는 제한적이었다.",
-        "pico": {
-          "p": "성인 만성 비특이적 요통 및 신경근성 요통 환자",
-          "i": "침, 교육/조언, 전기치료, 운동, 도수치료, 마사지, 맥켄지법 등 보존적 치료",
-          "c": "평소 치료, 무치료, 위약",
-          "o": "통증, 장애, 정신건강 결과의 즉시·단기·중기·장기 변화"
-        }
-      },
-      "categories": [
-        "근골격",
         "침구/전침"
       ]
     }
