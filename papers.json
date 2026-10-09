@@ -1,8 +1,616 @@
 {
-  "updated": "2026-10-08 23:45:24 UTC",
+  "updated": "2026-10-09 23:17:41 UTC",
   "total": 50,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42852623",
+      "pmid": "42852623",
+      "doi": "10.3892/ijmm.2026.6010",
+      "title": "Multi‑target mechanisms of paeoniflorin in inflammatory regulation: A network pharmacology (Review).",
+      "journal": "International journal of molecular medicine",
+      "pub_date": "2026-12-01",
+      "authors": "Zhang J, Ye J, Jin K, Sun X, Yu X, Zhao Y et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42852623/",
+      "abstract": "Paeoniflorin (PF), a monoterpene glycoside from Paeonia roots, shows low toxicity and broad anti‑inflammatory activity. A systematic review (PubMed, through 2025) with network pharmacology indicates that PF restores mitochondrial function, raises anti‑inflammatory mediators (IL‑10 and arginase‑1), reduces TNF‑α, IL‑1β and IL‑6, and eases oxidative stress. Its effects hinge on intertwined routes, dampening TLR4/MyD88, blocking NF‑κB nuclear entry, lowering MAPK phosphorylation, reshaping JAK‑STAT, and disrupting NLRP3 inflammasome assembly. Network mapping singles out a conserved core module (MAPK1, MAPK3, HSP90AA1, TP53, ESR1, BCL2, HIF1A, IL6, IL10 and FGF2), with HSP90AA1 and ESR1 as disease‑tailored effectors in rheumatoid arthritis and osteoarthritis (OA). PF absorbs fast and gathers in the liver with minimal toxicity, yet oral availability stays poor. Preclinical promise spans OA, colitis, and atherosclerosis, while clinical data remain thin. Synergistic pairing with other agents and structural refinement of PF broaden its reach, though such computational leads need experimental corroboration. Future efforts should improve its bioavailability, develop targeted delivery systems, and conduct rigorous clinical trials to move PF from tradition to evidence‑based medicine.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "파에오니플로린의 염증 조절에서 다중 표적 기전: 네트워크 약리학 고찰",
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Systematic Review"
+      ],
+      "evidence_type": "Meta-analysis",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [
+        "toxicity"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "파에오니플로린이 염증을 어떤 다중 표적 기전으로 조절하는지 검토하였다.",
+        "methods": "PubMed(2025년까지) 문헌을 바탕으로 한 체계적 고찰과 네트워크 약리학 분석이다.",
+        "results": "파에오니플로린은 미토콘드리아 기능 회복, 항염증 매개물질 증가, 염증성 사이토카인 감소, 산화스트레스 완화와 함께 TLR4/MyD88, NF-κB, MAPK, JAK-STAT, NLRP3 경로를 조절하는 것으로 요약되었다.",
+        "clinical_takeaway": "류마티스관절염과 골관절염 등에서 전임상 근거는 유망하지만, 경구 생체이용률과 임상 근거가 부족해 한약 성분으로서의 적용은 신중한 해석이 필요하다.",
+        "limitations": "네트워크 약리학과 전임상 근거 중심이라 예측 성격이 강하고 임상시험으로 충분히 검증되지 않았다.",
+        "pico": {
+          "p": "염증성 질환 및 OA/RA 전임상 연구",
+          "i": "파에오니플로린",
+          "c": "명확한 정보 없음",
+          "o": "염증 조절, 산화스트레스 감소, 관련 신호경로 조절"
+        }
+      },
+      "categories": [
+        "근골격",
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42854037",
+      "pmid": "42854037",
+      "doi": "10.1097/MD.0000000000051060",
+      "title": "Associations between lifestyle behaviors and traditional Chinese Medicine body constitutions: A cross-sectional study.",
+      "journal": "Medicine",
+      "pub_date": "2026-10-09",
+      "authors": "Tsai CI, Chen YM, Tseng JS, Fu PK, Wang JS, Wang JL et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42854037/",
+      "abstract": "This study aims to assess the associations between lifestyle behaviors - including smoking, alcohol consumption, tea consumption, and leisure-time physical activity - and traditional Chinese Medicine (TCM) body constitutions (BCs), Yin deficiency, Yang deficiency, and phlegm stasis, among Taiwanese adults participating in the Taiwan Biobank Study. A total of 15,665 participants from the Taiwan Biobank Study were included in the analysis. Comprehensive data were collected on lifestyle behaviors (including smoking, alcohol consumption, tea consumption, and leisure-time physical activity) and family medical history. TCM BC types - Yin deficiency, Yang deficiency, and phlegm stasis - were assessed using a well-validated BC questionnaire. Associations between lifestyle behaviors and BC types were examined using multivariate logistic regression models to estimate odds ratios (ORs). The average age was 46.55 years (standard deviation: 12.17), with 5611 males (35.82%). Compared with nonsmokers, current smokers had a significantly higher likelihood of having Yang deficiency (OR [95% confidence interval (CI)]: 1.62 [1.39-1.89]), Yin deficiency (1.64 [1.41-1.90]), and phlegm stasis (1.88 [1.59-2.22]) after multivariate adjustment. Compared with nondrinkers, current drinkers had a significantly higher likelihood of having Yin deficiency (1.21 [1.02-1.44]) and phlegm stasis (1.27 [1.04-1.56]) after multivariate adjustment. Tea consumption was significantly associated with phlegm stasis (1.18 [1.08-1.29]). Regarding leisure-time physical activity, this habit was negatively associated with Yang deficiency, Yin deficiency, and phlegm stasis with multivariate adjustment (0.71 [0.65-0.78], 0.74 [0.68-0.81], and 0.63 [0.58-0.70], respectively). This study demonstrates that lifestyle behaviors are associated with imbalanced TCM BCs, particularly Yin deficiency, Yang deficiency, and phlegm stasis.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "생활습관 행동과 한의학 체질의 연관성: 단면 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "생활습관 행동이 대만 성인의 한의학 체질 불균형과 연관되는지 평가하였다.",
+        "methods": "대만 바이오뱅크 참여 성인을 대상으로 흡연, 음주, 차 섭취, 여가 신체활동과 음허, 양허, 담어 체질을 단면적으로 조사하고 다변량 로지스틱 회귀분석을 시행하였다.",
+        "results": "흡연과 음주는 일부 체질 불균형의 높은 가능성과 연관되었고, 여가 신체활동은 음허·양허·담어와 낮은 가능성과 연관되었다.",
+        "clinical_takeaway": "생활습관과 한의학 체질 간 연관성이 관찰되었지만, 단면 연구이므로 인과로 해석하기는 어렵다.",
+        "limitations": "단면 연구라 시간적 선후와 인과성을 확인할 수 없고, 자기보고식 생활습관 및 체질 평가의 영향을 받을 수 있다.",
+        "pico": {
+          "p": "대만 바이오뱅크에 참여한 대만 성인",
+          "i": "흡연, 음주, 차 섭취, 여가 신체활동",
+          "c": "비흡연, 비음주, 차 미섭취 또는 해당 습관 없음",
+          "o": "음허, 양허, 담어 체질의 연관성"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42853356",
+      "pmid": "42853356",
+      "doi": "10.1186/s40643-026-01127-z",
+      "title": "Physicochemical evaluation, GC-MS-based phytoconstituent analysis and network pharmacology study of Guduchi Arka: an ayurvedic hydro-distillate.",
+      "journal": "Bioresources and bioprocessing",
+      "pub_date": "2026-10-09",
+      "authors": "Sharma D, Dane G, Tandon S, Jagtap C, Kumar V, Mondal S et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42853356/",
+      "abstract": "Guduchi Arka is a classical Ayurvedic hydro-distillate formulation with quick absorption and healing properties, prepared from Tinospora cordifolia (Willd.) Miers. Despite its long history of traditional use, the scientific community still lacks a complete set of quality parameters for its chemical composition and its molecular mechanisms. To overcome this problem, laboratory analysis and computer modelling parameters were used to investigate the quality, safety, and effectiveness of the formulation in treating fever and cold. Guduchi samples were obtained from three locations in India (Jhansi, Bengaluru, and Itanagar), and the raw materials were analysed to verify compliance with API standards. Authenticated Guduchi samples were processed arka preparation by using a standardised hydro-distillation method, and the resulting arka was assessed by physicochemical analysis, with a pH of 6.15-6.95, a specific gravity near 1.00, and an essential oil content of approximately 0.236%. Raw drugs and Arka preparations complied with standard API safety standards, as no pathogenic organisms were detected, heavy metals, pesticides, and aflatoxins were undetectable, and microbial content was below the standard API limit. GC-MS analysis of the arka formulation revealed a consistent and rich array of bioactive compounds, including 1-Eicosanol, α-Campholenal, o-toluric acid, Anethole, Estragole, Embelin, Nicolaioidesin A, (-)-Globulol, Paliclavine, and Chamazulene. To assess its therapeutic significance, 20 phytoconstituents of the Guduchi arka formulation were screened using network pharmacology and molecular docking. These compounds showed 248 overlapping targets with genes associated with fever and respiratory infections. The key regulatory proteins HSP90AA1, EGFR, and HSP90AB1 emerged as central nodes in the protein-protein interaction networks. To better validate the molecular docking study, robust biological interactions were observed: Nicolaiodesin A interacted effectively with EGFR (score: - 7.2 kcal/mol), whereas Embelin interacted effectively with HSP90AA1 (score: - 6.6 kcal/mol). Finally, this study demonstrates that Guduchi Arka is a highly standardised and safe formulation that retains all its healing phytochemicals during the distillation process. This study elucidates the mode of action of Guduchi Arka on immunity and inflammation, providing a solid scientific basis for its traditional use and future applications in herbal medicine.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "구두치 아르카의 물리화학 평가, GC-MS 기반 식물성분 분석 및 네트워크 약리학 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "safety",
+        "interaction"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "구두치 아르카의 품질, 안전성, 그리고 발열·감기 관련 잠재적 작용기전을 평가할 수 있는가를 확인한 연구이다.",
+        "methods": "인도 3개 지역 시료를 표준화된 수증기 증류로 아르카로 제조한 뒤, 물리화학 검사와 미생물·중금속·농약·아플라톡신 안전성 평가, GC-MS 분석, 네트워크 약리학 및 분자도킹을 시행했다.",
+        "results": "구두치 아르카는 API 기준에 부합하는 안전성과 일정한 화학성분을 보였고, 여러 성분이 발열·호흡기 감염 관련 표적과 연관되었으며 일부 성분은 EGFR와 HSP90 계열 단백질에 좋은 도킹 점수를 보였다.",
+        "clinical_takeaway": "이 연구는 구두치 아르카의 표준화된 조성과 잠재적 면역·염증 관련 기전을 시사하지만, 임상적 유효성은 전임상 기반 결과이므로 신중히 해석해야 한다.",
+        "limitations": "안전성·기전 분석은 실험실 및 계산 기반으로 수행되어 실제 환자에서의 임상 효과를 직접 입증하지는 못한다.",
+        "pico": {
+          "p": "구두치(Tinospora cordifolia) 기반 아유르베다 아르카 제제",
+          "i": "표준화된 수증기 증류로 제조한 Guduchi Arka",
+          "c": "명확한 정보 없음",
+          "o": "물리화학적 품질, 안전성, GC-MS 성분, 네트워크 약리학적 표적 및 도킹 결과"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42853320",
+      "pmid": "42853320",
+      "doi": "10.1007/s11748-026-02419-z",
+      "title": "Improving causality assessment and ambulatory outcome reporting in acupuncture-related pneumothorax.",
+      "journal": "General thoracic and cardiovascular surgery",
+      "pub_date": "2026-10-09",
+      "authors": "Naz S, Iqbal S, Safwan M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42853320/",
+      "abstract": "",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "",
+      "publication_types": [
+        "Letter",
+        "Comment"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42852971",
+      "pmid": "42852971",
+      "doi": "10.1177/10538127261494834",
+      "title": "Acupuncture-Related interventions for exercise-induced delayed-onset muscle soreness in active adults: A systematic review and meta-analysis for sport rehabilitation.",
+      "journal": "Journal of back and musculoskeletal rehabilitation",
+      "pub_date": "2026-10-09",
+      "authors": "Liu R, Yusof HA, Zhong Z, Gao B, Hami R",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42852971/",
+      "abstract": "BackgroundDelayed-onset muscle soreness (DOMS) is a common post-exercise condition that can impair athletic performance, training quality, and rehabilitation.ObjectiveTo evaluate the efficacy and safety of acupuncture-related interventions for exercise-induced DOMS in active adults.MethodsPubMed, Embase, Cochrane Library, and CNKI were searched from inception to December 2025, with a manual reference-list update in January 2026. Randomized controlled trials comparing acupuncture-related interventions with sham/placebo or no treatment in healthy adults with exercise-induced DOMS were eligible. Nine RCTs met the eligibility criteria, and seven contributed compatible pain data to meta-analysis. Two reviewers independently extracted data, assessed risk of bias using RoB 2, and rated evidence certainty with GRADE. Pain intensity on a 0-10 visual analogue scale was pooled using random-effects models.ResultsAcross seven RCTs, acupuncture-related interventions reduced DOMS pain at 24 h (MD -0.62, 95% CI -1.01 to -0.23), 48 h (MD -0.71, 95% CI -1.20 to -0.22), and 72 h (MD -0.84, 95% CI -1.35 to -0.32). Heterogeneity was low (I2 = 0%, 3%, and 23%, respectively). None of the pooled estimates reached commonly cited 1.0- or 1.3-point pain thresholds, and no DOMS-specific minimal clinically important difference has been established. Evidence certainty was moderate.ConclusionAcupuncture-related interventions may provide modest short-term reductions in DOMS pain, but their clinical importance remains uncertain. The evidence base is small and does not support dry-needling-specific conclusions. Larger, rigorously controlled, modality-specific RCTs are needed.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "운동 유발 지연성 근육통에서 침구 관련 중재의 효과와 안전성: 체계적 문헌고찰 및 메타분석",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "evidence_type": "Meta-analysis",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [
+        "safety"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "활동적인 성인에서 운동 유발 지연성 근육통에 침구 관련 중재가 효과와 안전성 측면에서 유효한지 평가했다.",
+        "methods": "건강한 성인의 운동 유발 지연성 근육통을 대상으로 침구 관련 중재와 가짜침·위약 또는 무처치를 비교한 무작위대조시험을 체계적 문헌고찰과 메타분석으로 분석했다.",
+        "results": "침구 관련 중재는 24시간, 48시간, 72시간의 통증을 소폭 감소시켰지만 효과 크기는 임상적으로 의미 있는 수준에 미치지 못했다.",
+        "clinical_takeaway": "침구 관련 중재는 단기 DOMS 통증을 약간 줄일 수 있으나 임상적 의미는 아직 불확실하므로 근거 해석에 신중해야 한다.",
+        "limitations": "포함 연구 수가 적고 이질성이 낮았지만 규모가 작아, 특히 건침을 포함한 개별 기법에 대한 결론은 제한적이다.",
+        "pico": {
+          "p": "운동 유발 지연성 근육통이 있는 건강한 활동적 성인",
+          "i": "침구 관련 중재",
+          "c": "가짜침·위약 또는 무처치",
+          "o": "0-10점 시각상사척도(VAS) 통증 강도"
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42851199",
+      "pmid": "42851199",
+      "doi": "10.3760/cma.j.cn112151-20260315-00174",
+      "title": "[Clinicopathological and molecular genetic characteristics of embryonal rhabdomyosarcoma with divergent neuroectodermal differentiation: an analysis of 17 cases].",
+      "journal": "Zhonghua bing li xue za zhi = Chinese journal of pathology",
+      "pub_date": "2026-10-08",
+      "authors": "Zeng M, Li HL, Xu YY, Xie L, Mao RJ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42851199/",
+      "abstract": "Objective: To investigate the clinicopathological and molecular genetic features of embryonal rhabdomyosarcoma with heterologous neuroectodermal differentiation (ERMS-HND). Methods: A retrospective analysis was performed on 17 patients with ERMS-HND diagnosed from January 2021 to December 2025 at the Foshan Hospital of Traditional Chinese Medicine, Foshan, China. The clinicopathological, immunohistochemical, and molecular genetic characteristics were evaluated. Results: Among the 17 ERMS-HND patients, 15 were male and 2 were female. Their age was 24.0 (12.0, 46.5) months, ranging from 0.5 months to 22 years. Fourteen patients were children aged ≤5 years. The pelvic/genitourinary region was the most frequently involved site (8/17). All cases exhibited biphasic differentiation. The mesenchymal component was predominantly embryonal rhabdomyosarcoma (ERMS, 16/17). The neuroectodermal component encompassed the spectrum of neural crest differentiation, including neuroblastoma in 12 cases, ganglioneuroma/ganglion cells in 2 cases, composite ganglioneuroblastoma in 1 case, and Schwann cell differentiation in 2 cases. In addition to the classic configuration, two distinctive architectural patterns, namely micronest and inverted, were identified. The mesenchymal component uniformly expressed desmin, MyoD1, and Myogenin. The neuroblastoma component was mostly positive for synaptophysin (SYN), neuron-specific enolase (NSE), chromogranin A (CgA), and CD56, whereas the Schwann cell differentiation expressed only S-100 and/or SOX10. Only 2 cases showed focal PHOX2B positivity. RAS mutations were detected in 3 cases (HRAS mutation in 1 case and NRAS mutations in 2 cases). The tumor cells were all negative for FOXO1, PAX3 and PAX7. Case 17 showed no PRC2 alterations, NF1 inactivation, or CDKN2A/2B deletion, but retained H3K27me3 expression in Schwann cell areas, in contrast to the loss of H3K27me3 observed in malignant triton tumor. Conclusions: The neuroectodermal component of ERMS-HND encompasses the complete spectrum of neural crest-derived differentiation. S-100 and SOX10 are key and reliable markers for confirming the neuroectodermal component, while negativity of neuroendocrine markers such as SYN does not exclude this differentiation. Unlike malignant triton tumors, Schwann cell differentiation in this tumor does not exhibit loss of H3K27me3. Low PHOX2B expression in the neuroblastoma component may serve as an important marker for the differential diagnosis.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "분화가 다양한 배아형 횡문근육종의 신경외배엽 분화 특성: 17예 분석",
+      "publication_types": [
+        "English Abstract",
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "신경외배엽 분화를 동반한 배아형 횡문근육종의 임상병리 및 분자유전학적 특징은 무엇인지 평가하였다.",
+        "methods": "2021년부터 2025년까지 한 한의학병원에서 진단된 17예를 후향적으로 분석해 조직병리, 면역조직화학, 분자유전학 소견을 비교했다.",
+        "results": "ERMS-HND는 주로 어린 남아의 골반·비뇨생식기 부위에 발생했고, 신경능 관련 분화가 다양한 형태로 나타났으며 일부에서 RAS 변이가 확인되었고 FOXO1/PAX3/PAX7는 모두 음성이었다.",
+        "clinical_takeaway": "이 종양에서는 S-100과 SOX10이 신경외배엽 분화를 확인하는 데 유용하며, 신경내분비 표지자 음성만으로는 해당 분화를 배제하기 어렵다는 점을 염두에 두어야 한다.",
+        "limitations": "단일 기관의 후향적 증례군이며 표본 수가 적어 일반화에 주의가 필요하다.",
+        "pico": {
+          "p": "신경외배엽 분화를 동반한 배아형 횡문근육종 환자",
+          "i": "임상병리·면역조직화학·분자유전학적 평가",
+          "c": "명확한 정보 없음",
+          "o": "임상병리 및 분자유전학적 특징"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42850647",
+      "pmid": "42850647",
+      "doi": "10.1186/s13020-026-01501-1",
+      "title": "Scalp acupuncture coupled with speech-language therapy modulates the ventral-dorsal structural brain network in patients with post-stroke anomia: a randomized clinical and DTI neuroimaging trial.",
+      "journal": "Chinese medicine",
+      "pub_date": "2026-10-08",
+      "authors": "Song J, Nan R, Ni J, Chai L, Zhang L, Wang M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42850647/",
+      "abstract": "Scalp acupuncture (SA) is used as adjunctive rehabilitation for post-stroke aphasia, but its effect on naming recovery and structural language-network changes remains unclear. We evaluated SA coupled with speech-language therapy (SLT) in patients with post-stroke anomia and explored diffusion tensor imaging markers of ventral-dorsal structural language networks.\nThis randomized controlled trial recruited 85 patients with post-stroke anomia and randomly assigned them to SA or control. Both groups received conventional stroke treatment and SLT; the SA group additionally received scalp acupuncture synchronously with SLT during needle retention. Treatment was delivered once daily, 5 days/week for 4 weeks. The primary outcome was WAB naming total score. Diffusion tensor imaging assessed white matter integrity and topological properties before and after treatment.\nCompared to the control group, the SA group showed greater improvements in the WAB naming total score (P = 0.009), object naming, sentence completion, responsive speech, BNT spontaneous naming, and SAQOL-39 communication. In the ventral-dorsal structural network, the SA group showed smaller changes in the area under the curve (AUC) of small-worldness properties (P = 0.008) and normalized clustering coefficient (P = 0.017), and greater changes in clustering coefficient and local efficiency. In the SA group, the change in small-worldness was negatively correlated with the change in the WAB naming total score (r = -0.451, P = 0.027). The SA group also showed smaller axial diffusivity (AD) changes in the left uncinate fasciculus (P = 0.003, Bonferroni corrected), which correlated negatively with the WAB naming total score change (r = -0.440, P = 0.031). Exploratory adjusted regression showed that SA-group assignment was associated with greater naming improvement after adjustment for baseline naming and clinical covariates.\nSA coupled with SLT was associated with greater naming recovery in patients with post-stroke anomia. The benefit was accompanied by changes in structural language-network topology and white matter integrity, particularly involving the left UF. These findings support further evaluation of scalp acupuncture as an adjunct to language rehabilitation and suggest structural network plasticity as a relevant imaging correlate.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "뇌졸중 후 명명장애 환자에서 언어치료와 병행한 두피침이 복측-배측 구조적 뇌 언어망에 미치는 영향: 무작위 임상 및 DTI 영상 연구",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "뇌졸중 후 명명장애에서 두피침을 언어치료에 병행하면 명명 회복과 구조적 언어망 변화가 더 커지는지 평가했다.",
+        "methods": "85명의 뇌졸중 후 명명장애 환자를 두피침+언어치료군과 대조군으로 무작위 배정한 뒤 4주간 치료 효과와 DTI 기반 백질 지표를 비교한 RCT이다.",
+        "results": "두피침 병행군은 대조군보다 WAB 명명 점수와 일부 언어 관련 지표가 더 크게 향상되었고, 구조적 언어망 위상과 좌측 uncinate fasciculus 지표도 함께 변했다.",
+        "clinical_takeaway": "두피침은 언어치료의 보조요법으로 명명 회복과 관련된 영상학적 변화와 동반될 가능성이 있으나, 임상 적용 해석에는 추가 근거가 필요하다.",
+        "limitations": "단일 연구의 단기 추적 결과이며, 영상학적 연관성이 인과관계를 확정하지는 못한다.",
+        "pico": {
+          "p": "뇌졸중 후 명명장애 환자",
+          "i": "언어치료와 병행한 두피침",
+          "c": "언어치료를 포함한 대조군",
+          "o": "WAB 명명 점수와 DTI 기반 구조적 언어망 변화"
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42850622",
+      "pmid": "42850622",
+      "doi": "10.1186/s13020-026-01489-8",
+      "title": "Large language models linking traditional Chinese medicine knowledge and clinical practice.",
+      "journal": "Chinese medicine",
+      "pub_date": "2026-10-08",
+      "authors": "Li C, Zhang X, Zhu L, Zhu B, Chu C, Li X et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42850622/",
+      "abstract": "Traditional Chinese medicine (TCM) is a complex medical system characterized by multi-source data, implicit knowledge representation, and syndrome-based diagnostic and therapeutic reasoning. With the increasing digitization of classical texts and clinical records, large language models (LLMs) have attracted growing interest as computational tools for organizing and utilizing knowledge related to TCM. However, existing studies remain scattered, and a comprehensive overview of data resources, modeling strategies, evaluation practices, and application scenarios is still lacking.\nIn this review, we summarize current research on the application of LLMs in TCM based on published literature. We focus on commonly used data sources, including classical texts, clinical records, and related structured resources, and review representative modeling approaches such as knowledge-enhanced and multimodal methods. Domain-specific training and fine-tuning strategies, as well as reported evaluation practices, are also summarized. Furthermore, we review representative application scenarios described in the literature, including medical consultation support, syndrome differentiation assistance, prescription-related support, education, and research assistance. Key limitations, such as limited interpretability, safety concerns, and the lack of standardized evaluation frameworks, are discussed.\nBy organizing existing studies along the workflow from data construction to model development, evaluation, and application, this review aims to clarify the current research landscape and highlight methodological challenges that should be addressed to support cautious and appropriate use of LLMs in TCM research and practice.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "대규모 언어모델과 전통중의학 지식 및 임상 실천의 연결",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "safety"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "대규모 언어모델이 전통중의학에서 어떤 데이터, 모델링, 평가, 응용에 활용되는지 정리하는 것이었다.",
+        "methods": "전통중의학에서 대규모 언어모델의 활용에 관한 발표 문헌을 바탕으로 한 서술적 문헌고찰이었다.",
+        "results": "고전 문헌·임상기록·구조화 자원, 지식강화·멀티모달 방법, 그리고 상담·변증·처방·교육·연구 지원 응용이 보고되었으나 해석가능성, 안전성, 표준화된 평가체계 부족이 한계로 정리되었다.",
+        "clinical_takeaway": "전통중의학에서 대규모 언어모델은 지식 정리와 보조적 활용 가능성이 있으나, 임상 적용 시 안전성과 평가 기준을 신중히 검토해야 한다.",
+        "limitations": "발표 문헌을 요약한 고찰로서, 이질적인 연구들 사이의 표준화된 비교와 임상적 타당성에 제한이 있다.",
+        "pico": {
+          "p": "전통중의학 지식과 임상 자료",
+          "i": "대규모 언어모델",
+          "c": "명확한 정보 없음",
+          "o": "지식 조직, 평가, 상담·변증·처방 지원 및 관련 한계"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42849958",
+      "pmid": "42849958",
+      "doi": "10.1136/bmjopen-2026-121882",
+      "title": "Effectiveness and safety of electroacupuncture as an adjunct to guideline-based usual care for acute lumbar disc herniation: a multicentre, randomised, sham-controlled trial protocol.",
+      "journal": "BMJ open",
+      "pub_date": "2026-10-08",
+      "authors": "Yan Z, You P, Lai Q, Zhu Y, Xu S, Shen X et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849958/",
+      "abstract": "",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "낮음",
+      "priority": "보류",
+      "safety_flags": [
+        "safety"
+      ],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42849949",
+      "pmid": "42849949",
+      "doi": "10.1136/bmjopen-2026-122378",
+      "title": "Electroacupuncture with different pulse patterns for the post-acute phase of Bell's palsy: a study protocol for a randomised controlled trial with surface electromyography evaluation.",
+      "journal": "BMJ open",
+      "pub_date": "2026-10-08",
+      "authors": "Li L, Bian Z, Jiang Y, Hu R, Wu Z, Li J et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849949/",
+      "abstract": "",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "낮음",
+      "priority": "보류",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42849948",
+      "pmid": "42849948",
+      "doi": "10.1136/bmjopen-2026-126650",
+      "title": "Effect of auricular acupressure as an adjunct to standard postoperative care on physical and psychological outcomes following coronary artery bypass graft surgery: protocol for a randomised, single-blind, sham-controlled trial.",
+      "journal": "BMJ open",
+      "pub_date": "2026-10-08",
+      "authors": "Allahbakhshian A, Farshbaf-Khalili A, Ghasemi K, Rahimi H, Babaei L, Radimaher F",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849948/",
+      "abstract": "",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "RCT",
+      "evidence_level": "높음",
+      "clinical_applicability": "낮음",
+      "priority": "보류",
+      "safety_flags": [],
+      "summary_status": "missing",
+      "summary": {
+        "question": "",
+        "methods": "",
+        "results": "",
+        "clinical_takeaway": "",
+        "limitations": "",
+        "pico": {
+          "p": "",
+          "i": "",
+          "c": "",
+          "o": ""
+        }
+      },
+      "categories": [
+        "침구/전침"
+      ]
+    },
+    {
+      "id": "pmid-42849827",
+      "pmid": "42849827",
+      "doi": "10.1016/j.jep.2026.122487",
+      "title": "Bufei Yishen formula ameliorates chronic obstructive pulmonary disease by restoring alveolar macrophage efferocytosis through Nrf2 activation.",
+      "journal": "Journal of ethnopharmacology",
+      "pub_date": "2026-10-08",
+      "authors": "Wei Y, Wu Y, Li C, Chen Y, Wu Y, Zhao P et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849827/",
+      "abstract": "Bufei Yishen formula (BYF) is a traditional Chinese medicine (TCM) prescription clinically used to improve pulmonary function and quality of life in patients with stable chronic obstructive pulmonary disease (COPD). However, its mechanism in regulating alveolar macrophage dysfunction remains unclear.\nThis study aimed to determine whether BYF ameliorates COPD by restoring alveolar macrophage efferocytosis and to elucidate the involvement of nuclear factor erythroid 2-related factor 2 (Nrf2) signaling.\nSingle-cell RNA sequencing (scRNA-seq) was used to characterize macrophage alterations in COPD. Cigarette smoke/Klebsiella pneumoniae-induced COPD animals and cigarette smoke extract (CSE) alveolar macrophages were employed to assess the effects of BYF on lung injury, inflammation, efferocytosis, oxidative stress, and Nrf2 signaling. Nrf2 involvement was verified with dimethyl fumarate and ML385, and Nrf2-binding constituents of BYF were identified using Affinity ultrafiltration-LC/MS (AU-LC/MS), molecular docking, and surface plasmon resonance (SPR).\nscRNA-seq analysis revealed that impaired macrophage efferocytosis is closely associated with COPD progression, identifying defective apoptotic cell clearance as a key pathological process. Consistently, in COPD animal models, BYF markedly improved pulmonary function, attenuated emphysematous and inflammatory lung lesions, reduced pro-inflammatory cytokine production, and corrected the imbalance between matrix metalloproteinases and their tissue inhibitor. To further clarify the underlying mechanism, RNA sequencing (RNA-seq) profiling of alveolar macrophages showed that BYF-regulated genes were mainly enriched in macrophage efferocytosis and Nrf2-related pathways. Mechanistically, both in vivo and in vitro experiments demonstrated that BYF activated Nrf2 signaling, promoted downstream HO-1 expression, reduced oxidative stress, and consequently restored cigarette smoke-impaired alveolar macrophage efferocytosis. Importantly, pharmacological inhibition of Nrf2 largely abolished the protective effects of BYF, whereas Nrf2 activation reproduced similar benefits, confirming the essential role of Nrf2 signaling in BYF-mediated macrophage protection. Furthermore, integrated AU-LC/MS, molecular docking, and SPR analyses identified nine constituents in BYF that interact with Nrf2, among which ononin exhibited the highest affinity (KD = 20.4 μM). Finally, ononin was verified to promote Nrf2 nuclear translocation, activate Nrf2 downstream genes, and may contribute to BYF-mediated efferocytosis restoration.\nBYF alleviates COPD-related lung injury, at least in part, by activating Nrf2 signaling and restoring alveolar macrophage efferocytosis. These findings provide mechanistic evidence supporting BYF as a potential therapeutic strategy for COPD.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "부페이 이선 방이 Nrf2 활성화를 통해 폐포 대식세포의 이퍼로사이토시스를 회복시켜 만성폐쇄성폐질환을 완화한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "부페이 이선 방이 COPD에서 폐포 대식세포의 이퍼로사이토시스를 회복시켜 폐손상을 줄일 수 있는지와 Nrf2의 관여 여부를 확인하고자 하였다.",
+        "methods": "흡연과 Klebsiella pneumoniae로 유도한 COPD 동물모델과 CSE 처리 폐포 대식세포를 이용해 BYF의 효과를 평가하고, scRNA-seq, RNA-seq, Nrf2 조절 실험 및 AU-LC/MS·도킹·SPR로 기전을 분석하였다.",
+        "results": "BYF는 폐기능과 염증성 폐손상을 개선하고 산화스트레스를 낮추면서 Nrf2/HO-1 신호를 활성화해 폐포 대식세포 이퍼로사이토시스를 회복했으며, Nrf2 억제 시 이러한 효과가 크게 감소하였다.",
+        "clinical_takeaway": "이 연구는 BYF와 그 성분이 COPD의 대식세포 기능 이상과 연관된 기전을 가질 수 있음을 시사하지만, 임상 적용은 추가 검증이 필요하다.",
+        "limitations": "동물 및 세포 기반 기전 연구로, 실제 COPD 환자에서의 유효성과 안전성은 이 초록만으로 판단할 수 없다.",
+        "pico": {
+          "p": "흡연 관련 COPD 동물과 CSE 처리 폐포 대식세포",
+          "i": "부페이 이선 방(BYF)",
+          "c": "명확한 정보 없음",
+          "o": "폐기능, 폐손상, 염증, 산화스트레스, 폐포 대식세포 이퍼로사이토시스"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42849826",
+      "pmid": "42849826",
+      "doi": "10.1016/j.jep.2026.122499",
+      "title": "Dendrobium huoshanense ameliorates spermatogenesis disorder in rats through modulating m6A methylation modification and the NRF2-GPX4/TLR4-MyD88 signaling pathways.",
+      "journal": "Journal of ethnopharmacology",
+      "pub_date": "2026-10-08",
+      "authors": "Tao R, Li X, Ji L, Li Y, Su T, Ma M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849826/",
+      "abstract": "Spermatogenesis disorder (SPD) has become a significant factor affecting male reproductive health. Dendrobium huoshanense (DH) is a rare and precious perennial orchid used in traditional Chinese medicine to nourish yin and tonify the kidney, but its mechanism in improving spermatogenic function remains unclear.\nThis study aims to elucidate the pharmacodynamic material basis and mechanism of action of DH in improving SPD.\nMale rats were divided into blank control, model, positive drug, and DH high, medium, and low dose groups. SPD model was induced by Tripterygium wilfordii glycosides (TWG). Testicular histopathology, fibrosis, apoptosis, and protein levels of METTL3, METTL14, METTL16, WTAP, ALKBH5, TLR4, NRF2, and GPX4 were assessed. m6A-seq, metabolomics, and transcriptomics were performed to analyze m6A modifications and methyl donor abundance. Active components were identified via high-resolution mass spectrometry (HRMS).\nDH aqueous extract attenuated spermatogenic cell loss, seminiferous tubules basement membrane fibrosis and germ cell apoptosis in SPD model group, up-regulated the protein expression levels of METTL3, METTL14, METTL16, WTAP, ALKBH5, NRF2, and GPX4 in testicular tissues of the model group, promoted consumption of carnitine derivative methyl donors, and increased m6A modification of Sox family (Sox4, Sox9, Sox11, Sox13, etc.), Nrf2, and Gpx4 in germ cells. The active components identified in DH aqueous extract primarily included bibenzyl and flavonoid compounds.\nDH up-regulates the METTL3/METTL14 complex, promoting methyl donor consumption and enhancing m6A modification and protein expression of Sox9, Gpx4, and Nrf2, thereby alleviating oxidative stress and restoring impaired spermatogenesis.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "Dendrobium huoshanense가 m6A 메틸화 조절과 NRF2-GPX4/TLR4-MyD88 신호경로를 통해 랫드의 정자형성장애를 개선한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "Dendrobium huoshanense가 정자형성장애를 어떤 기전으로 개선하는지 평가한 연구이다.",
+        "methods": "Tripterygium wilfordii glycosides로 유도한 랫드 정자형성장애 모델에서 Dendrobium huoshanense 추출물의 조직학, 섬유화, 세포사멸, 관련 단백질 발현, m6A-seq, 대사체 및 전사체를 분석한 전임상 연구이다.",
+        "results": "Dendrobium huoshanense는 정자세포 소실과 섬유화 및 세포사멸을 줄이고 METTL3/METTL14 관련 m6A 조절과 Nrf2-Gpx4 발현을 높여 산화스트레스와 정자형성장애를 완화했다.",
+        "clinical_takeaway": "본 연구는 DH의 잠재적 생물학적 기전을 시사하지만, 동물 전임상 결과이므로 임상 적용은 인체 연구로 추가 확인이 필요하다.",
+        "limitations": "랫드 모델의 전임상 연구이며, 사람 대상 유효성과 안전성은 확인되지 않았다.",
+        "pico": {
+          "p": "Tripterygium wilfordii glycosides로 유도한 랫드 정자형성장애 모델",
+          "i": "Dendrobium huoshanense 수용성 추출물",
+          "c": "무처치 대조군과 양성약 대조군",
+          "o": "정자형성 관련 조직 손상, 섬유화, 세포사멸 및 m6A/산화스트레스 관련 지표"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42849823",
+      "pmid": "42849823",
+      "doi": "10.1016/j.jep.2026.122496",
+      "title": "Natural (+)-Camphor Alleviates Migraine Induced by Reserpine with Local Cerebral Vasospasm via Inhibiting p38β MAPK/ATF2 Pathway.",
+      "journal": "Journal of ethnopharmacology",
+      "pub_date": "2026-10-08",
+      "authors": "Yang N, Qian Y, Gao Q, Shi G",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849823/",
+      "abstract": "The pathogenesis of migraine model by reserpine with local cerebral vasospasm matches the characteristics of migraine with cold-coagulation in traditional Chinese medicine (TCM). Natural (+)-camphor (NC) is one of the Chinese herbal medicines with heat property, which is known to be effective in expelling cold and alleviating pain in TCM.\nThe proteomic analysis of migraine model by reserpine with local cerebral vasospasm and effect of NC was investigated to delineate the possible underlying mechanism.\nMice brain proteomic analysis was carried out by data-independent acquisition mass spectrometry. The biological information of differentially-expressed proteins was analyzed based on Kyoto Encyclopedia of Genes and Genomes analysis. Animal behavior, brain histopathology and NO generation assay were observed.\nCompared with normal, migraine mice had lower pain threshold, severe brain lesion and reduced NO content in serum. NC could improve pathological change. A total of 479 differentially-expressed proteins were identified. 8significant differential proteins were focused based on analysis. The distinctive proteins are commonly related to MAPK signaling pathway, and p38β MAPK was validated, which was excessively expressed in migraine mice. NC could mitigate cold-coagulation migraine symptoms by regulating NO production via inhibiting p38β MAPK/ATF2 pathway.\nNC showed analgesic effect, and p38β MAPK was most likely to be the targets against vasospastic cold-coagulation migraine.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "천연 (+)-캠퍼가 p38β MAPK/ATF2 경로 억제를 통해 국소 뇌혈관연축이 동반된 리서핀 유발 편두통을 완화한다",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "천연 (+)-캠퍼가 리서핀 유발 국소 뇌혈관연축 편두통을 완화하는지와 그 기전을 평가하였다.",
+        "methods": "리서핀으로 유발한 편두통 마우스에서 행동, 뇌조직 병리, NO 생성과 뇌 프로테오믹스를 분석한 전임상 연구이다.",
+        "results": "천연 (+)-캠퍼는 통증 역치를 개선하고 뇌 병변과 혈중 NO 저하를 완화했으며, p38β MAPK/ATF2 경로 억제와 연관되었다.",
+        "clinical_takeaway": "본 연구는 한약재의 편두통 관련 기전을 시사하지만, 전임상 결과이므로 임상 적용은 추가 근거가 필요하다.",
+        "limitations": "동물모델과 단일 기전 분석에 근거한 연구로, 사람에서의 효과와 안전성은 확인되지 않았다.",
+        "pico": {
+          "p": "리서핀으로 유발된 국소 뇌혈관연축 편두통 마우스",
+          "i": "천연 (+)-캠퍼",
+          "c": "정상군 또는 편두통 모델 대조군",
+          "o": "통증 역치, 뇌 병리, NO 생성, p38β MAPK/ATF2 경로 변화"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42851444",
+      "pmid": "42851444",
+      "doi": "10.3389/fpain.2026.1886313",
+      "title": "Metabolic and neuropathic outcomes following combined sodium-glucose cotransporter-2 inhibitor therapy and adjunctive acupuncture in obese patients with diabetic neuropathy: a case series.",
+      "journal": "Frontiers in pain research (Lausanne, Switzerland)",
+      "pub_date": "2026-01-01",
+      "authors": "Kim YJ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42851444/",
+      "abstract": "Obesity and type 2 diabetes mellitus (T2DM) are associated with chronic metabolic dysregulation and microvascular complications, including diabetic peripheral neuropathy (DPN). This case series describes metabolic and patient reported outcomes during ongoing empagliflozin therapy with adjunctive acupuncture treatment.\nThe prospective observational case series included three adult participants with obesity, T2DM, and symptom defined DPN. All participants received empagliflozin 10 mg daily for at least 4 weeks before enrollment and continued treatment while receiving standardized acupuncture twice weekly for 10 weeks. Primary outcomes included body weight, body mass index (BMI), and waist circumference. Secondary outcomes included neuropathic pain intensity assessed using the visual analogue scale (VAS), sleep quality measured by a single-item sleep quality score, and fatigue assessed using the fatigue severity scale were recorded at baseline and week 10.\nAll participants completed the intervention without adverse events. The body weight decreased by 4-9 kg, BMI by 1.2-3.5 kg/m2, and waist circumference by 5-10 cm. VAS reduction range from 2 to 4 points, sleep quality and fatigue scores also improved consistently in all cases. Exploratory outcomes indicated enhanced mobility, reduced nocturnal neuropathic symptoms, and high treatment tolerability.\nCombined therapy with SGLT2 inhibitors and acupuncture was associated with improvements in metabolic, neuropathic, and functional outcomes in obese patients with T2DM, and DPN. These findings suggest that a potential multidimensional therapeutic approach, however, larger controlled studies are required to confirm efficacy.",
+      "first_seen": "2026-10-09 23:17:41 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
+      "title_ko": "비만 당뇨병성 신경병증 환자에서 SGLT2 억제제와 보조 침치료 병용 후 대사 및 신경병증 결과: 증례군",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "evidence_type": "Case report",
+      "evidence_level": "낮음",
+      "clinical_applicability": "낮음",
+      "priority": "보류",
+      "safety_flags": [
+        "adverse"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "비만과 제2형 당뇨병을 동반한 당뇨병성 신경병증 환자에서 엠파글리플로진과 침치료 병용이 대사 및 증상 지표에 어떤 변화와 관련되는지 평가하였다.",
+        "methods": "비만, 제2형 당뇨병, 증상 기반 말초신경병증이 있는 성인 3명을 대상으로 엠파글리플로진을 유지한 채 표준화된 침치료를 주 2회 10주간 시행한 전향적 관찰 증례군 연구이다.",
+        "results": "3명 모두 이상반응 없이 중재를 마쳤고, 체중·BMI·허리둘레와 VAS, 수면, 피로 점수가 모두 호전되었다.",
+        "clinical_takeaway": "침치료 병용이 SGLT2 억제제 치료 중인 비만 당뇨병성 신경병증 환자에서 대사·통증·수면 관련 지표 개선과 연관될 수 있으나, 증례군이라 효과 해석에는 신중해야 한다.",
+        "limitations": "대조군이 없고 대상자 수가 매우 적어 병용 치료의 인과적 효과를 결론내기 어렵다.",
+        "pico": {
+          "p": "비만과 제2형 당뇨병 및 증상성 당뇨병성 말초신경병증 환자",
+          "i": "엠파글리플로진 유지와 표준화된 침치료 병용",
+          "c": "명확한 정보 없음",
+          "o": "체중, BMI, 허리둘레, 신경병성 통증, 수면, 피로"
+        }
+      },
+      "categories": [
+        "대사/비만",
+        "수면/정신",
+        "침구/전침"
+      ]
+    },
     {
       "id": "pmid-42849030",
       "pmid": "42849030",
@@ -14,10 +622,11 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42849030/",
       "abstract": "Traditional Chinese medicine (TCM) has received increasing attention in evidence-based medicine. However, its largely experience-based and practice-oriented nature has slowed modernization and standardization. Advances in AI provide new opportunities for integrating AI with TCM.\nThis study evaluates the application of large language models (LLMs), including ChatGPT (OpenAI) and DeepSeek, in generating acupuncture treatment protocols. We compare the validity and clinical effectiveness of physician-generated protocols with those produced by LLMs, examine differences in outputs across language corpora (Chinese and English), and establish a standardized assessment framework for systematically assessing the effectiveness of acupuncture point selection. Ultimately, this research aims to support the standardization of acupoint selection and promote greater consistency, reliability, and evidence-based development in acupuncture practice.\nQualified acupuncture treatment cases published in Acupuncture in Medicine were identified and translated from English into Chinese to create a bilingual case dataset. Standardized case prompts were independently input into DeepSeek and ChatGPT to generate acupuncture treatment protocols. Ten senior TCM physicians evaluated the AI-generated and physician-generated protocols using 7 criteria: local point selection, distal point selection, syndrome-based point selection, meridian-tracing point selection, neuroanatomical point selection, core acupoint selection, and synergistic effects. Repeated-measures ANOVA with sphericity assessment was used to examine differences across LLMs, language corpora, and protocol groups.\nBlinded expert evaluations revealed significant differences among the 5 acupuncture groups for local point selection (P=.006), syndrome-based point selection (P=.005), neuroanatomical point selection (P<.001), and core acupoints coverage principle (P=.03). For local point selection, DeepSeek Chinese output received higher scores than the other evaluated outputs, while ChatGPT English output scored higher than ChatGPT Chinese output. For syndrome-based point selection, the journal physician-generated protocols received lower scores than the DeepSeek Chinese, DeepSeek English, and ChatGPT Chinese outputs. For neuroanatomical point selection, DeepSeek English output achieved the highest scores among the 5 groups. For core acupoints coverage, the journal physician-generated protocols received lower scores than the DeepSeek Chinese, DeepSeek English, and ChatGPT English outputs. No significant differences were observed among the 5 groups for distal point selection, meridian-tracing point selection, or therapeutic synergy. Overall, DeepSeek performed better in the Chinese-language setting, whereas ChatGPT performed better in the English-language setting.\nAI has demonstrated substantial progress in encoding explicit acupuncture knowledge and performing systematic acupoint selection. However, challenges remain in individualized treatment and consistency across linguistic contexts. Enhancing bilingual or multilingual training corpora and developing syndrome-specific reasoning modules may improve the clinical applicability of AI-assisted TCM systems.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "ChatGPT, DeepSeek 및 의사 생성 침치료 프로토콜의 중국어·영어 언어 환경별 비교 평가: 횡단면 평가 연구",
       "publication_types": [
-        "Journal Article"
+        "Journal Article",
+        "Comparative Study"
       ],
       "evidence_type": "Protocol",
       "evidence_level": "낮음",
@@ -54,7 +663,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42848100/",
       "abstract": "Astragalus membranaceus is a widely used immunomodulatory herb in traditional Chinese medicine; however, the effects of its ultrafine-grained powder (UGAM) on the peripheral immune system of young ruminants remain largely unexplored. Thirty-six weaned black Xiangdong goats (postnatal day 42; 5.34 ± 1.342 kg) were randomly allocated to a control group (n = 16; basal diet only) and a UGAM group (n = 20; control plus 10 g/d UGAM) from postnatal days 43-78, including 8 days adaption period. On postnatal day 78, blood samples were analyzed for complement proteins (C1q, C1r, C1s, C3, C4, C4bp, and Factor H), immunoglobulins (IgA, IgG, and IgM), and inflammatory cytokines (IL-1α, IL-1β, IL-6, IL-10, TNF-α, and IFN-γ), along with peripheral blood cell profiles. Hepatic complement gene expression was measured in a randomly selected subset of animals (Control n = 11; UGAM n = 16) using RT-qPCR. UGAM significantly increased serum C4bp concentrations and serum and hepatic C4bp mRNA expression (p < 0.001) and increased peripheral IgM concentrations (p = 0.032), whereas IgA, IgG, and all measured inflammatory cytokines (IL-1α, IL-1β, IL-6, IL-10, TNF-α, and IFN-γ) remained unchanged (p > 0.05). In the multi-parameter analysis, UGAM treatment was independently and positively associated with C4bp (partial r = 0.74, p < 0.001), and the overall correlation structure of the complement system was positively associated with that of the immunoglobulins (Mantel r = 0.36, p = 0.001). Oral administration of UGAM increased circulating C4bp and IgM and hepatic C4bp in weaned goats, consistent with engagement of homeostatic complement regulatary and possible post-weaning immune support. However, complement activity, plasma-cell responses, signaling, and safety were not measured; mechanisms remain hypothetical and require validation.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "초미세 아스트라갈루스 막반세우스 경구 투여가 이유 흑샹둥 염소의 말초 면역을 보체 조절인자 C4bp와 면역글로불린 반응 증가를 통해 강화한다",
       "publication_types": [
         "Journal Article"
@@ -95,7 +704,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42612392/",
       "abstract": "Senkyunolide A (SEA), the major phthalide from the ethyl acetate extract of traditional Chinese medicine Chuanxiong (Ligusticum chuanxiong), potently inhibited xanthine oxidase (XOD) in vitro in our preliminary study. However, its efficacy in alleviating hyperuricemia and hyperuricemia-induced renal injury in vivo, along with its molecular mechanisms, remains unverified. The study found that SEA significantly lowered serum uric acid levels and attenuated hyperuricemia-induced renal damage of rats, while exhibiting no hepatotoxicity. Further mechanism study suggested that SEA inhibited the production of uric acid by inhibiting XOD. Moreover, SEA significantly promoted uric acid excretion. Western blotting results suggested that SEA increased protein expression of ABCG2 and decreased expression levels of GLUT9 and URAT1 in the kidneys. Transcriptomic, qRT-PCR and ELISA data revealed that SEA alleviated HUA-induced kidney inflammation of rats, which was associated with IL-17 and TNF signaling pathways. SEA significantly downregulated the mRNA expression levels of Nfkb1, Tnfrsf1a, IL-1β, IL-6, Jun, Cxcl1, Fos and S100a9. Simultaneously, SEA reduced the mRNA expression levels and inhibited the activities of caspase-3, caspase-8, and caspase-9 in the kidneys of HUA rats, indicating that SEA alleviated HUA-induced renal apoptosis. Overall, SEA exhibited excellent potential as a treatment for hyperuricemia with a favorable safety profile. This study firstly reports SEA as a candidate drug for hyperuricemia.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "센큐놀리드 A의 고요산혈증 및 고요산혈증 유발 신장 손상 완화 효과",
       "publication_types": [
         "Journal Article"
@@ -138,7 +747,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41565266/",
       "abstract": "An active component of traditional Chinese medicine, isoorientin (IRT), has been shown to relieve liver fibrosis, which triggers the investigation regarding its impact on pulmonary fibrosis (PF) and the associated mechanism. An in vitro PF model was induced in rat type II alveolar RLE-6TN cells by treatment with transforming growth factor-β1 (TGF-β1), before which IRT (10 µM, 20 µM and 40 µM) pretreatment was performed. The effects of IRT on cell survival and apoptosis were detected. Western blot was used to analyze the expressions of fibrotic markers and TGF-β1/Smad2 pathway proteins in cells. An RLE-6TN cell line with carbonic anhydride enzyme 12 (CA12) knockdown was created to further explore the mechanism by which IRT improves PF. IRT (10, 20, and 40 µM) pretreatment did not induce cytotoxicity in RLE-6TN cells, but reversed the effects of TGF-β1 exposure on RLE-6TN cells, including apoptosis promotion, viability decreases, downregulation of CA12, upregulation of TGF-β1, α-smooth muscle actin (α-SMA) and Collagen I, and activation of the TGF-β1/Smad2 pathway. CA12 silencing enhanced the effect of TGF-β1 and attenuated the reversing effects of IRT (40 µM) pretreatment on TGF-β1. IRT (40 µM) pretreatment, in turn, offset the promoting role of CA12 silencing in TGF-β1. CA12 overexpression alleviated TGF-β1-induced damage, consistent with the therapeutic effects of IRT. In conclusion, IRT alleviates PF through CA12-induced suppression of the TGFβ1/Smad signaling pathway.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "이소오리엔틴의 폐섬유증 치료 기전: 탄산무수효소 12에서 TGFβ1/Smad 경로까지",
       "publication_types": [
         "Journal Article"
@@ -179,7 +788,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42844650/",
       "abstract": "Traditional Chinese medicine bioactives have considerable therapeutic value in psoriasis management, while their clinical applications are still constrained by the insufficient therapeutic efficacy of single components, uncontrolled release, and low local bioavailability. In this study, we report a hierarchically structured microparticle system loaded with multiple plant-derived bioactives for psoriasis therapy. The microparticles of sodium alginate (SA) hydrogel with polydopamine (PDA)-modification were fabricated through microfluidics, co-loaded with paeoniflorin (PF) and ginger-derived exosome-like nanoparticles (GELNs). Benefiting from the porous structure of hydrogel and adhesive property of PDA, the microparticles enable stable co-encapsulation of multiple plant-derived bioactives and achieve sustained release at lesion sites, enhancing local bioavailability. The encapsulated PF and GELNs exert complementary anti-inflammatory, antioxidant, and anti-proliferative effects, collectively regulating key pathological processes associated with psoriasis. These results prove that the microparticle-based multiple plant-derived bioactives delivery system provides a safe, cost-effective, and translatable approach for long-term topical treatment of psoriasis, highlighting their therapeutic potential in inflammatory skin diseases.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "건선 치료를 위해 여러 식물 유래 생리활성 물질을 캡슐화한 계층적 미세입자",
       "publication_types": [
         "Journal Article"
@@ -218,7 +827,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42844562/",
       "abstract": "Electroacupuncture has been shown to effectively reduce anti-Müllerian hormone levels and improve follicular development in polycystic ovary syndrome. However, the mechanism of action is yet to be deciphered. Long noncoding RNAs have been shown to play an important role in polycystic ovary syndrome and function as competing endogenous RNAs to regulate target genes. Therefore, the aim of this study was to observe whether the effect of electroacupuncture on anti-Müllerian hormone involves modulation of the long noncoding RNA LOC103691336.\nA polycystic ovary syndrome rat model was established and treated with low-frequency electroacupuncture at CV3 and CV4. Estrous cycle, ovarian morphology, and the levels of anti-Müllerian hormone and testosterone in the serum and ovaries were measured. Follicular granulosa cells of rats in each group were collected for in vitro experiments. High-throughput sequencing and bioinformatics methods were applied to analyze anti-Müllerian hormone-related long noncoding RNAs, and LOC103691336 was identified as the long noncoding RNA most closely related to anti-Müllerian hormone. Silencing of LOC103691336 was applied to observe its effect on the expression of anti-Müllerian hormone. Argonaute 2 RNA immunoprecipitation assays and RNA pulldown were used to observe whether LOC103691336 functions as a miR-138-5p sponge to regulate anti-Müllerian hormone.\nEstrus cycle and ovarian morphology were improved by electroacupuncture. Expression levels of anti-Müllerian hormone and testosterone were significantly reduced in ovarian tissues and peripheral serum (P < 0.01 and P < 0.05). High-throughput sequencing and bioinformatic analysis showed a close relationship between LOC103691336 and anti-Müllerian hormone. After silencing LOC103691336 expression, LOC103691336 and anti-Müllerian hormone levels were reduced in rat follicular granulosa cells (P < 0.01). Furthermore, Argonaute 2 RNA immunoprecipitation assay and RNA pulldown results showed that LOC103691336 regulated anti-Müllerian hormone by binding to miR-138-5p. After electroacupuncture, LOC103691336 and anti-Müllerian hormone levels were significantly reduced in follicular granulosa cells (P < 0.01), whereas miR-138-5p expression levels were significantly increased (P < 0.01).\nOur results demonstrated that the effect of electroacupuncture on anti-Müllerian hormone levels may be mediated by reductions in abnormal LOC103691336 expression levels and increased miR-138-5p levels in this polycystic ovary syndrome rat model.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "다낭성난소증후군 랫드 모델에서 전침의 LOC103691336-miR-138-5p 축과 항뮐러관호르몬에 미치는 영향",
       "publication_types": [
         "Journal Article"
@@ -257,7 +866,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42844111/",
       "abstract": "IgAN is the most common primary glomerular disease worldwide. It is characterized by high heterogeneity and poor long-term prognosis. Integrated traditional Chinese medicine and Western medicine (TCM-WM) has become a distinct and effective strategy for the treatment of IgAN in China. This review summarizes recent evidence-based research into integrated TCM-WM in IgAN management and its contribution to our understanding of IgAN etiology, current clinical practices, and the therapeutic mechanisms of TCM-WM treatments. Western explanations for IgAN pathogenesis center on aberrant IgA1 glycosylation, mucosal immune abnormalities, and inflammatory injury. These correspond to the traditional Chinese medicine (TCM) explanation of wind pathogen invading the kidney, inducing deficiency, stasis, and toxicity. Integrated TCM-WM management follows a staged approach to syndrome differentiation, and interventions aim to regulate the immune response, modulate the gut-kidney axis, and reduce inflammation and fibrosis. High-quality clinical evidence supports the efficacy and safety of several representative Chinese medicines. Based on long-term research, we have established a combined TCM five-syndrome typing and Western medicine five-stage pathologic blockade framework and propose an integrated five-sphere disease-syndrome-symptom-stage-biological characterization model. Supported by multiomics and artificial intelligence, this model bridges TCM syndromes and molecular pathologic mechanisms and facilitates precision therapy. Integrated TCM-WM effectively improves clinical remission and delays disease progression in IgAN. Future studies should focus on further biological integration of TCM syndrome dynamics and core molecular mechanisms to establish standardized precision protocols that promote the global application of integrated TCM-WM in IgAN management.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "면역글로불린 A 신병증에서 한·양방 통합의학: 최근 진전과 향후 방향",
       "publication_types": [
         "Journal Article",
@@ -300,7 +909,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42843673/",
       "abstract": "Medicinal leeches have long been administered orally in traditional Chinese medicine for blood stasis-related disorders. The thermal instability and poor oral bioavailability of hirudin suggest that other heat- and digestion-resistant constituents may contribute to the pharmacological activity of orally administered leech preparations.\nTo characterize the antithrombotic activity of an ethanol-soluble fraction derived from processed Hirudo nipponia decoction pieces (Hn70) and identify peptide candidates with anticoagulant and antiplatelet activities.\nHn70 was prepared by aqueous extraction followed by 70% ethanol fractionation. Its anticoagulant and antiplatelet activities, in vivo antithrombotic effects, and retention of anticoagulant activity under thermal and simulated gastrointestinal conditions were evaluated. Antithrombin activity was quantified using recombinant hirudin as an activity reference. The major active fraction was isolated by bioactivity-guided gel filtration, followed by coagulation factor and platelet aggregation assays, nLC-MS/MS-based de novo sequencing, bioinformatics screening, molecular docking, and functional validation of selected peptides.\nHn70 showed concentration-dependent anticoagulant and antiplatelet activities and significantly reduced carrageenan-induced thrombosis in vivo. Six batches showed a specific antithrombin activity of 1.156 ± 0.020 ATU·mg-1 dry Hn70 (CV, 1.70%). Hn70 retained substantial anticoagulant activity after thermal and simulated gastrointestinal treatment. Hn70-D was identified as a major active fraction that reduced multiple coagulation-factor activities and inhibited platelet aggregation. Twenty-eight peptides were identified, and seven selected synthetic peptides exhibited both activities in single-concentration assays.\nHn70 is an antithrombotic fraction of Hirudo nipponia that retains substantial anticoagulant activity after thermal treatment and simulated gastrointestinal digestion. Bioactivity-guided analysis identified Hn70-D and candidate peptides for further investigation of its antithrombotic pharmacology.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "히루도 니폰니아 에탄올 가용 분획에서 항혈전 활성 펩타이드의 생물활성 유도 규명",
       "publication_types": [
         "Journal Article"
@@ -339,7 +948,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42843668/",
       "abstract": "In Traditional Chinese Medicine (TCM), \"Jianpi Liqi Huatan\" (strengthening the spleen, regulating qi, and resolving phlegm) represents a traditional therapeutic strategy for managing obesity-associated metabolic disorders. According to TCM theory, postmenopausal MS is primarily associated with spleen deficiency, qi stagnation, and phlegm-dampness accumulation. Finger Citron Fruit (FCF), a representative Lingnan medicinal and edible herb and a core herb for Jianpi Liqi Huatan, The correspondence between the traditional properties of FCF and this TCM pathological framework provides an ethnopharmacological rationale for investigating its effects on postmenopausal metabolic dysfunction.\nTo explore the metabolic effects and mechanisms of FCF in postmenopausal MS.\nAn ovariectomy (OVX)-induced mouse model, OA&PA-induced primary hepatocytes, and untargeted serum metabolomics were employed to evaluate the therapeutic effects and molecular mechanisms of FCF against postmenopausal MS.\nFCF significantly improved metabolic homeostasis by reducing body weight gain, dyslipidemia, hepatic steatosis, adipose tissue accumulation, and systemic inflammation, while increasing whole-body energy expenditure. Untargeted metabolomics revealed that FCF restored a candidate metabolite putatively annotated as indole-3-acetylglutamic acid. FCF improved hepatic steatosis in association with downregulation of SREBP-1c/ChREBP-related lipogenic signaling and restoration of GPX4 and SLC40A1 expression, thereby alleviating oxidative stress and lipid peroxidation.\nFCF ameliorated postmenopausal MS by suppressing hepatic lipogenesis and attenuating ferroptosis-related alterations. These findings provide metabolomic and molecular evidence supporting its traditional \"Jianpi Liqi Huatan\" functions and highlight its therapeutic potential for postmenopausal MS.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "손귤 열매가 지방생성 및 페롭토시스 관련 변화를 조절해 난소절제 유발 폐경기 대사증후군을 개선함",
       "publication_types": [
         "Journal Article"
@@ -379,7 +988,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42843625/",
       "abstract": "Functional dyspepsia is a disorder of gut-brain interaction that significantly affects quality of life and has a limited therapeutic response. This systematic review, conducted according to PRISMA 2020, analyzed randomized clinical trials published over the past ten years in adults meeting Rome III/IV criteria. Prokinetics showed no consistent benefit, except in some patients with overlapping subtypes. In postprandial distress syndrome, a low-FODMAP diet was not superior to conventional dietary advice, except, in a subgroup analysis, in patients with abdominal distension, while mirtazapine showed signals of benefit in patients with weight loss or early satiety. In epigastric pain syndrome, low-dose amitriptyline was superior to pantoprazole. Herbal therapies, electroacupuncture, transcutaneous auricular vagus nerve stimulation, and multidisciplinary care showed signals of benefit, mostly derived from single trials, whereas cannabidiol was ineffective. Overall, the evidence supports a personalized, stepwise, and biopsychosocial approach to treatment.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "기능성 소화불량에 대한 맞춤형 단계적 치료: 최근 무작위 임상시험 체계적 문헌고찰 및 메타분석",
       "publication_types": [
         "Journal Article",
@@ -423,7 +1032,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42844689/",
       "abstract": "Salvia miltiorrhiza Bunge is a valuable medicinal plant, yet its genetic manipulation has been limited by the lack of efficient and practical transformation methods. Here, we report a simplified, tissue culture-independent strategy enabling Agrobacterium-mediated gene delivery under non-sterile conditions, termed hypocotyl acupuncture. The method employs needle-assisted inoculation of intact seedlings at the hypocotyl, completely bypassing callus induction, regeneration, and repeated subculture. Following inoculation, EGFP-positive hairy roots are selectively cultivated for approximately 4 months and then induced to regenerate shoots within one additional month, yielding transgenic plantlets in approximately 5 months. Systematic optimization achieved a transformation efficiency of approximately 55% (defined as the percentage of explants producing EGFP-positive regenerants). ACCC10060 was selected as the optimal strain based on efficiency and root morphology. CRISPR/Cas9-mediated genome editing generated mutation frequencies of 53.8%-88.9% with no off-target effects. Targeted mutagenesis of SmCPS1, a gene encoding a key rate-limiting enzyme in tanshinone biosynthesis, resulted in altered root pigmentation. The method was successfully extended to Astragalus membranaceus, Platycodon grandiflorus, and Isatis indigotica, achieving transformation efficiencies of 25%-55%. This study provides an efficient, practical, and broadly applicable tool for genome editing and functional genomics in medicinal plants.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "황고둥이 아쿠펑처: Salvia miltiorrhiza의 형질전환과 유전체 편집을 위한 효율적이고 실용적인 프로토콜",
       "publication_types": [
         "Journal Article"
@@ -462,10 +1071,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42846941/",
       "abstract": "",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "",
       "publication_types": [
-        "Journal Article",
+        "Letter",
         "Comment"
       ],
       "evidence_type": "RCT",
@@ -503,7 +1112,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42846486/",
       "abstract": "Cerebral ischemia-reperfusion injury (CIRI) can continue after recanalization because disruption of neurovascular-unit compartmental integrity exposes damage-associated molecular patterns (DAMPs) and couples innate immune sensing to regulated cell death. This mechanism-oriented narrative review integrates CIRI biology with experimental evidence on acupuncture while distinguishing pathway association from mechanistic necessity. HMGB1-TLR4 signaling, extracellular ATP-P2X7 signaling, and aberrant DNA sensing can translate tissue damage into inflammatory transcription, inflammasome activation, and interferon-related responses. Pyroptosis, necroptosis, and ferroptosis can further amplify inflammatory and oxidative injury through membrane-pore formation or rupture, release of intracellular contents, and lipid peroxidation. Acupuncture-specific mechanistic evidence derives predominantly from electroacupuncture in rodent middle cerebral artery occlusion/reperfusion models. Functional support is comparatively stronger for α7 nicotinic acetylcholine receptor-dependent signaling, caspase-1/GSDMD-related pyroptotic execution, Nrf2-SLC7A11/GPX4 antioxidant defense, and TFEB-dependent lysosomal iron regulation; recent NCOA4 perturbation data also strengthen the ferritinophagy evidence. By contrast, P2X7, ATP-binding cassette transporter A1, microRNA-223, and cGAS-STING remain less uniformly validated, and direct acupuncture evidence for AIM2 signaling and necroptosis remains lacking. Clinical studies support acupuncture primarily as an adjunctive intervention for functional recovery and do not establish inflammasome activation, pyroptosis, ferroptosis, or other animal-defined molecular events as mediators of clinical benefit. Future studies should distinguish pretreatment from post-onset therapy, standardize acupoint and stimulation parameters, and combine cell-specific perturbation, time-resolved sampling, and clinically accessible intermediate phenotypes to determine whether experimentally defined mechanisms translate into neurological recovery.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "뇌 허혈-재관류 손상에서 침 치료: 선천면역 인식과 조절된 세포사멸 관련 염증 증폭에 대한 기전 중심 서술적 고찰",
       "publication_types": [
         "Journal Article",
@@ -543,7 +1152,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42846111/",
       "abstract": "Primary dysmenorrhea (PD) is one of the most common gynecological disorders in women of reproductive age and significantly impairs quality of life. Epidemiological data indicate that the cold congestion and blood stasis pattern accounts for a large proportion of PD cases. Tuina, a traditional Chinese external therapy, has unique advantages in pain management; however, its clinical efficacy and central mechanisms for PD remain unclear.\nThis study aims to conduct an assessor-blind, parallel-group randomized controlled superiority trial, integrating functional magnetic resonance imaging (fMRI), to evaluate the clinical efficacy, safety, and central brain network modulation of Tuina therapy for primary dysmenorrhea with the cold congestion and blood stasis pattern.\nThis study employed a randomized controlled trial design. A total of 54 patients who met the diagnostic criteria were recruited and randomly assigned in a 1:1 ratio to either the treatment or control group. An additional 15 healthy women were included as the healthy group. Participants in the treatment group received standardized manipulation over two consecutive menstrual cycles. For each cycle, treatment began 7 days before menstruation and was administered once daily for 7 consecutive days. Participants in the control group received conventional oral ibuprofen, taken as needed for pain relief. The primary outcome was the change in the Visual Analog Scale score. Secondary outcomes included the COX Menstrual Symptom Scale, Traditional Chinese Medicine pattern score, sleep index, and psychological assessments. All outcomes were evaluated at three time points: baseline, after the first treatment cycle, and after the second treatment cycle. All participants underwent two fMRI sessions-both resting-state and task-state fMRI scans-during days 1-3 of their menstrual cycle: once before enrollment and once after the treatment period. All statistical analyses followed the intention-to-treat principle.\nThis study aims to provide high-level clinical evidence on pain relief, symptom improvement, and brain functional network regulation for the treatment of cold congestion stasis type dysmenorrhea with Tuina therapy, using a randomized controlled trial design combined with functional magnetic resonance imaging.\nhttps://itmctr.ccebtcm.org.cn, International Traditional Medicine Clinical Trial Registry ITMCTR2026001387.",
       "first_seen": "2026-10-08 23:45:24 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "원발성 월경통의 한랭응체·어혈 변증에 대한 추나의 임상효과와 신경기전: 무작위대조 fMRI 시험 프로토콜",
       "publication_types": [
         "Journal Article"
@@ -586,7 +1195,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42840268/",
       "abstract": "Fibromyalgia (FM) is a chronic syndrome characterized by widespread pain, fatigue, cognitive dysfunction and neuropsychiatric disturbances, associated with dysregulated oxidative stress and neuroinflammation. Emerging evidence suggests that microRNAs guiding these pathways, including miR-145-5p and miR-451a, may play a central role in FM pathogenesis. However, currently available pharmacological therapies provide limited efficacy and are frequently associated with adverse effects. Therefore, the present study investigated whether the methanolic extract of Hibiscus sabdariffa (MeOH-Exs), a polyphenol rich extract with known antioxidant and anti-inflammatory properties, alleviates reserpine (Res)-induced FM in rats through modulation of the neuroinflammation-oxidative stress-microRNA axis. FM was induced by Res (1 mg/kg, s.c., for three days), followed by 28-day treatment with MeOH-Exs (25 or 50 mg/kg, p.o.) compared with the standard drug Neurontin (Neu). Behavioral assessments, serum hydrogen peroxide, brain serotonin, peripheral expression of miR-145-5p and miR-451a, and spinal cord inflammatory and histopathological alterations were evaluated. MeOH-Exs significantly improved hyperalgesia, depressive- and anxiety-like behaviors, locomotion, and cognition relative to the Res group. The 50 mg/kg dose exerted the most pronounced effects, restoring expression of miR-145-5p and miR-451a, reducing oxidative stress, and elevating brain serotonin levels. Histological and immunohistochemical analyses confirmed attenuation of spinal cord inflammation and neuronal degeneration, caspase 3 expression and TNF-α immunoreactivity with effects comparable to or greater than Neu. Collectively, these findings indicate that Hibiscus sabdariffa may ameliorate FM - like menifistations by targeting an integrated biochemical pathway linking oxidative stress, neuroinflammation, apoptosis, microRNA dysregulation and spinal cord histopathological alterations. While the precise molecular mechanisms require further investigation, MeOH-Exs demonstrates a promising multi-target neuroprotective profile and may represent a potential complementary preclinical therapeutic candidate for FM.",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "히비스커스 사브다리파가 신경염증-산화스트레스-마이크로RNA 축 조절을 통해 섬유근통을 보호하는 효과",
       "publication_types": [
         "Journal Article"
@@ -628,7 +1237,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42842496/",
       "abstract": "To perform a bibliometric analysis that comprehensively evaluates the status of Chinese multiethnic medicine research, knowledge structure, and the developmental trajectory of ischemic stroke prevention and treatment and provide scientific insights for future advancements.\nCiteSpace, VOSviewer, and Scimago Graphica were used to analyze studies retrieved from the Web of Science Core Collection (WoSCC) and China National Knowledge Infrastructure (CNKI) databases. Multidimensional evaluations included keyword co-occurrences, author networks, international and institutional collaborations, and publishing patterns.\nPublication output exhibited a phased increase, accelerating after 2020, with CNKI publications substantially outnumbering those in WoSCC. China dominated the global collaboration network, led by institutions such as the Beijing University of Chinese Medicine. Research focus has gradually shifted from investigations of pathophysiological mechanisms to clinical applications of integrated Chinese and Western medicine, with increasing attention being paid concurrently to fundamental mechanistic research and clinical translation. Traditional Chinese medicine's \"Qi deficiency, blood stasis, and phlegm-dampness obstructing the orifices\" theory, Mongolian medicine's \"Sa disease\" theory, and Tibetan medicine's \"pathogenic factors related to stars and planets\" theory represent distinct theoretical frameworks and intervention approaches developed within these traditional systems to explain ischemic stroke.\nChinese multiethnic medicine shows promise and a developing evidence base for ischemic stroke prevention and treatment; however, challenges include research imbalances, insufficient standardization, and cross-ethnic integration difficulties. Future research should focus on generating high-quality clinical evidence, promoting standardization and normalization, deepening interdisciplinary mechanistic studies, and advancing integration and translational application of multiethnic medicine. Through multidisciplinary collaboration and supportive policy frameworks, a stroke prevention and treatment system with Chinese characteristics should be established, contributing Chinese expertise to global stroke management.",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "중국 다민족 의학 이론에 기반한 허혈성 뇌졸중 치료 연구의 서지계량학적 분석",
       "publication_types": [
         "Journal Article"
@@ -667,7 +1276,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42841877/",
       "abstract": "Ginseng (Panax ginseng C.A. Meyer), a highly valued traditional herb in traditional medicine, exerts its major health benefits through ginsenosides - its core bioactive triterpenoid saponins. With a characteristic steroidal structure, ginsenosides interact with cell membranes, receptors, and signaling cascades to produce diverse pharmacological effects. This review summarizes the pharmacological properties, molecular mechanisms, structure-activity relationships, and advanced delivery strategies of key ginsenosides, including Rb1, Rg1, Rg3, Rh2, compound K (CK), and Rd. These compounds exhibit potent anti-oxidant, anti-inflammatory, cardioprotective, neuroprotective, antidiabetic, anti-obesity, anticancer, and anti-aging activities, acting through well-characterized pathways such as PI3K/Akt, Nrf2/ARE, AMPK, MAPK, and NF-[Formula: see text]B. Notably, their bioactivity is strongly governed by the number and position of sugar moieties: ginsenosides with fewer glycosyl groups (e.g., Rg3, Rh2, and CK) generally display higher potency in vitro and in vivo, whereas multi-glycosylated forms like Rb1 and Rc show milder effects. Despite their promising efficacy, poor oral bioavailability, rapid metabolism, and nonspecific tissue distribution remain major hurdles for clinical translation. To overcome these limitations, recent nanotechnology-based delivery systems have been developed, including liposomes, polymeric nanoparticles, inorganic nanocarriers, self-assembled micelles, and exosome-based platforms, to enhance solubility, prolong circulation, enable targeted delivery, and improve therapeutic outcomes. By integrating current knowledge on ginsenoside pharmacology and formulation engineering, this work supports their translational research and clinical application as multi-target agents for treating inflammatory, metabolic, cardiovascular, neurodegenerative, and malignant disorders.",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "인삼 진세노사이드의 구조와 치료학적 핵심",
       "publication_types": [
         "Journal Article"
@@ -706,7 +1315,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42841555/",
       "abstract": "Osteoarthritis is a chronic degenerative joint disease that commonly affects the knee and causes pain, swelling, stiffness, and functional limitation. Synovial inflammation and changes in periarticular muscles contribute to disease initiation and progression. Clinical evidence suggests that electroacupuncture may alleviate local inflammation and modulate cartilage metabolism. In this study, knee osteoarthritis was induced in mice by surgical destabilization of the medial meniscus. Outcomes were assessed using a multimodal protocol comprising the rotarod test, ultrasound, infrared thermography, magnetic resonance imaging, and histological staining. Joint cavity volume and skin temperature were monitored longitudinally, and endpoint magnetic resonance imaging and Safranin O-Fast Green staining were used to assess periarticular muscle signal changes and cartilage pathology. Electroacupuncture was associated with improved motor performance, reduced joint swelling, higher local skin temperature, less pronounced periarticular muscle signal changes on magnetic resonance images, and lower cartilage degeneration scores. These findings support the use of this multimodal protocol to assess electroacupuncture-associated outcomes in a preclinical mouse model.",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "생쥐 무릎 골관절염에서 전침 치료를 평가하기 위한 다중모달 평가",
       "publication_types": [
         "Journal Article",
@@ -747,7 +1356,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42841486/",
       "abstract": "Acute ischemic stroke is accompanied by systemic inflammation and intestinal microbial disturbance. This single-center, assessor-blinded randomized controlled trial tested whether standardized acupuncture plus modified Xiaoxuming Decoction, added to standard care, improved early neurological recovery and was associated with predefined gut and inflammatory biomarkers. Adults with imaging-confirmed acute ischemic stroke within 72 h and a National Institutes of Health Stroke Scale (NIHSS) score of 4-15 were randomized 1:1 to standard care or the combined intervention for 28 days, with 64 participants per group. The primary endpoint was day-28 NIHSS adjusted for baseline NIHSS, age, sex, reperfusion therapy, and onset-to-randomization time, with missing outcomes handled by 30-fold multiple imputation. Secondary and exploratory outcomes included the Barthel Index, day-90 modified Rankin Scale (mRS), adverse events, inflammatory markers, lipopolysaccharide (LPS), fecal microbial diversity, selected genera, and short-chain fatty acids. Multiple imputation analysis estimated a lower day-28 NIHSS score in the intervention group (adjusted difference: -1.30 points; 95% confidence interval: -2.36 to -0.24; P = 0.017). Day-28 Barthel Index was higher, whereas day-90 NIHSS, Barthel Index, and observed mRS 0-2 did not differ significantly. At day 28, the intervention group had higher Shannon diversity and fecal butyrate and lower interleukin-6 and LPS. Participant-level changes in butyrate, interleukin-6, LPS, and Shannon diversity were not significantly associated with NIHSS change; therefore, mediation analysis was not performed. No intervention-related serious adverse event was identified. The combined intervention was associated with modest early neurological improvement and selected biomarker differences, but the biological findings are exploratory and do not establish a causal brain-gut pathway.",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "급성 허혈성 뇌졸중에서 표준화 침과 변형 소소명탕 병용의 효과: 무작위대조시험",
       "publication_types": [
         "Journal Article",
@@ -1076,7 +1685,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42841034/",
       "abstract": "",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "",
       "publication_types": [
         "Letter"
@@ -1115,7 +1724,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42839938/",
       "abstract": "Evidence suggests that acupuncture can alleviate tinnitus symptoms and improve the anxiety associated with tinnitus, but the relationship between these outcomes is unclear.\nTo evaluate the efficacy of acupuncture for tinnitus with anxiety using a meta-analysis.\nComputerized searches were conducted in nine databases: China National Knowledge Infrastructure (CNKI), Wanfang Data, VIP Chinese Science and Technology Journal Full-text Database, SinoMed, Chinese Medical Journal Full-text Database (CMAJD), PubMed, Embase, the Cochrane Library, and Web of Science. The search covered the period from the establishment of each database to January 15, 2026. Relevant randomized controlled trials meeting the inclusion and exclusion criteria were selected. The Cochrane Collaboration's recommended methods were used to assess the quality of included studies. Outcomes evaluated included the total effective rate, Tinnitus Severity Questionnaire (TEQ), Tinnitus Handicap Inventory (THI), Traditional Chinese Medicine syndrome scores (TCM syndrome scores), Hamilton Anxiety Scale (HAMA), Self-Rating Anxiety Scale (SAS), Beck Anxiety Inventory (BAI), brain-derived neurotrophic factor (BDNF), serum 5-hydroxytryptamine (5-HT), and serum gamma-aminobutyric acid (GABA) levels as outcome measures. Meta-analysis was performed using ReMan 5.3 software.\nTwelve studies involving 908 patients were included. Meta-analysis revealed that acupuncture demonstrated superiority in improving the total effective rate for tinnitus with anxiety (RR = 1.18, 95% CI: 1.10-1.26, P < 0.00001) and significantly reduced TEQ scores (MD = -1.96, 95% CI: -2.47 to -1.45, Z = 7.57, P < 0.00001), and THI (MD = -9.11, 95% CI: -12.89 to -5.34, Z = 4.73, P < 0.00001), TCM syndrome scores (MD = -0.59, 95% CI: -1.13 to -0.06, Z = 2.17, P = 0.03 < 0.05), HAMA (MD = -2.04, 95% CI: -3.08 to -1.00, Z = 3.84, P = 0.0001 < 0.05) scores, SAS (MD = -3.50, 95% CI: -6.22 to -0.77, Z = 2.52, P = 0.01 < 0.05), BAI (MD = -8.80, 95% CI: -13.48 to -4.12, Z = 3.68, P = 0.0002 < 0.05) scores, but not in improving BDNF (MD = -72.27, 95% CI: -312.41 to 167.87, Z = 0.59, P = 0.56 > 0.05), 5-HT (MD = -22.56, 95% CI: -56.12 to 10.99, Z = 1.32, P = 0.19 > 0.05), and GABA (MD = 56.23, 95% CI: -46.50 to 158.96, Z = 1.07, P = 0.28 > 0.05) levels.\nAcupuncture treatment for tinnitus with anxiety demonstrated greater improvement than non-acupuncture approaches in enhancing the clinical total effective rate and reducing TEQ, THI, TCM syndrome scores, BAI, HAMA, and SAS scores, warranting clinical promotion. However, evidence levels for certain outcome measures (BDNF, 5-HT, and GABA) remain low, necessitating further validation through well-designed, methodologically rigorous, high-quality, large-scale randomized controlled trials.\nhttps://www.crd.york.ac.uk/PROSPERO/view/CRD42024596594; identifier: CRD42024596594.",
       "first_seen": "2026-10-07 23:35:58 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "불안이 동반된 이명에 대한 침의 효과: 체계적 문헌고찰 및 메타분석",
       "publication_types": [
         "Journal Article",
@@ -1158,7 +1767,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42836659/",
       "abstract": "Finding bioactive substances that can promote the de novo differentiation of stem cells into thermogenic adipocytes is a promising anti-obesity strategy. Cinnamaldehyde (CM) and 18β-glycyrrhetinic acid (GA) are the main active ingredients in Chinese herbal medicine. In this study, C3H10T1/2 mesenchymal stem cells (MSCs) were used to investigate whether CM and GA could promote the differentiation of MSCs into thermogenic adipocytes and the possible molecular mechanism. The experimental results demonstrated that CM and GA could promote the mRNA expression of adipogenic transcription factors Pparγ, Cebpα and Cebpβ, as well as thermogenic adipocyte-specific markers Pgc1α and Ucp1. CM combined with GA further enhanced these effects. CM/GA alone or in combination could increase the expression of FNDC5 mRNA and protein. After transfection with FNDC5 siRNA, the mRNA and protein levels of FNDC5 and UCP1 were significantly decreased, while the levels of PGC1α did not change apparently. After the combination of CM and GA intervention, the levels of FNDC5 and UCP1 were slightly restored, but could not return to the normal level. In conclusion, CM and GA could promote the differentiation of C3H10T1/2 MSCs into thermogenic adipocytes, and their combination could enhance this effect, which may be mediated by PGC1α/FNDC5/UCP1 signalling pathway.",
       "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "신남알데하이드와 18β-글리시레티닉산의 병용이 C3H10T1/2 중간엽줄기세포의 갈색지방세포 분화를 PGC1α/FNDC5/UCP1 경로를 통해 촉진한다",
       "publication_types": [
         "Journal Article"
@@ -1198,7 +1807,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42771906/",
       "abstract": "Social media has become an increasingly important channel for public health information seeking and patient education. However, little is known about how Traditional Chinese Medicine (TCM) practitioners perceive and engage with social media in their professional practice. This study explores TCM practitioners' perceptions of social media in health communication, identifies key factors influencing its adoption and use, examines perceived barriers and challenges, and assesses its implications for doctor-patient communication.\nSemi-structured, in-depth interviews were conducted with 31 TCM practitioners working in Shanghai. Interviews were audio-recorded, transcribed verbatim, and analyzed using reflexive thematic analysis involving iterative coding, theme development, and interpretation.\nTCM practitioners expressed mixed and context-dependent attitudes toward social media, ranging from active engagement to deliberate avoidance. Beyond commercial considerations, participants viewed social media as a means of disseminating TCM knowledge and sustaining cultural traditions. Social media was perceived as facilitating initial trust-building with patients, although long-term trust was seen to depend on clinical competence and treatment outcomes. Practitioners also reported greater willingness to present diverse personal identities online and to engage in more relational forms of interaction with patients. Institutional differences were evident between public and private healthcare settings. Public hospital practitioners faced stricter organizational constraints on social media use.\nSocial media plays a multifaceted role in TCM practice, supporting patient education, cultural transmission, and evolving forms of doctor-patient communication. Adoption is shaped by professional values, institutional contexts, and tensions between visibility, trust, and regulation.\nContext-sensitive guidance should distinguish general health education from individualized advice, establish tiered institutional review, and help practitioners communicate limitations, manage expectations, and maintain professional boundaries.",
       "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "전통중의학 진료에서 소셜미디어: 시술자의 인식, 도입 장벽, 의사소통 함의",
       "publication_types": [
         "Journal Article"
@@ -1239,7 +1848,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42836413/",
       "abstract": "Tendinopathy involves pathological extracellular matrix (ECM) remodeling and dysregulated fibroblast activity, yet the functional stratification of fibroblast subpopulations during disease and repair remains unclear. Although electroacupuncture (EA) shows clinical potential, its cellular mechanisms in tendon healing are not fully understood. Here, we integrated publicly available single-cell RNA sequencing datasets with bulk transcriptomic profiling from a murine Achilles tendinopathy model to establish a tendon cellular reference atlas and characterize MMP2+ fibroblast-associated ECM remodeling states, including High_ECM and Low_ECM programs. EA significantly improves pain sensitivity, locomotor function, and collagen organization while reducing fibrotic adhesions. Transcriptomic analysis reveals that EA reverses inflammatory and matrix-degradation pathways and upregulates collagen-assembly and ECM-receptor interaction genes. Integrated single-cell reference mapping and bulk transcriptomic analysis revealed that EA-associated tendon repair was accompanied by enrichment of ECM-related transcriptional programs overlapping with MMP2+ fibroblast-associated ECM remodeling states. Single-cell co-expression analysis identified coordinated expression patterns of key ECM-related genes. Our study suggests that EA-associated tendon repair is accompanied by modulation of ECM-related molecular programs overlapping with fibroblast-associated ECM remodeling states, providing new insights into the molecular framework underlying tendon repair after ECM injury.",
       "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
+      "last_seen": "2026-10-09 23:17:41 UTC",
       "title_ko": "전침 치료가 힘줄 수리에서 섬유아세포 관련 세포외기질 재형성을 조절하는지에 대한 단일세포 참조 매핑 및 전사체 분석",
       "publication_types": [
         "Journal Article"
@@ -1429,607 +2038,6 @@
           "i": "천마-구등(Tianma-Gouteng) 약물쌍",
           "c": "명확한 정보 없음",
           "o": "혈압, 내피 기능, 혈관평활근 표현형, NO 관련 지표, 혈관재형성"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42833367",
-      "pmid": "42833367",
-      "doi": "10.1016/j.jep.2026.122473",
-      "title": "Mass spectrometry molecular networking coupled with network pharmacology reveals cichoric acid as the potential ROS-associated antitumor constituent in Taraxacum mongolicum Hand.-Mazz.",
-      "journal": "Journal of ethnopharmacology",
-      "pub_date": "2026-10-05",
-      "authors": "Feng-Jie L, Li X, Ke-Ke Y, Jiao Y, Yu-Kun W, Hui-Jun L",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833367/",
-      "abstract": "Triple negative breast cancer (TNBC) is the most aggressive subtype that results in the major death of woman cancer patients. Due to its high heterogeneity, there still lack of efficient therapy for TNBC. Taraxacum mongolicum Hand.-Mazz. (TM) has a long history as traditional Chinese medicine for its heat-clearing, detoxifying and nodule-dispersing properties. Although the promising anti-TNBC potential of TM has been demonstrated in various researches, its candidate bioactive constituents and underlying mechanisms of action remain incompletely elucidated.\nThe present study aimed to reveal the main active components of TM and underlying mechanism against TNBC through a combining strategy of mass spectrometry molecular networking, network pharmacology prediction and experimental validation.\nTM was analyzed by UPLC-Q-Exactive Orbitrap MS under negative and positive ion modes. Feature-based molecular network approach was applied to comprehensively identify the potential phenolic acids and flavonoids in TM extract and its absorbed components in rat plasma after administration. Network pharmacology analysis was performed based on these absorbed components to predict the mechanisms of TM extract and the potential active components. Then the efficacy of TM extract and the potential active components against TNBC were evaluated in vitro and in vivo.\nAs a result, a total of 31 phenolic acids and 17 flavonoids were identified in TM extract. And 22 absorbed components were used for network pharmacology analysis, which suggested to be highly correlated to ROS-related pathways. Low dose of TM extract significantly inhibited tumor growth in TNBC cell-derived xenograft mice with elevating ROS levels and cell apoptosis. The higher dose of TM extracts, however, showed no significant change compared with the model group. Similar phenomena were observed in cichoric acid-treated TNBC cell-derived xenograft mice.\nThis study demonstrated that cichoric acid represented a potential component of TM extract against TNBC, and its efficacy exhibited a non-monotonic dose-response profile, challenging the general assumption that higher doses always produced superior therapeutic effects.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-07 23:35:58 UTC",
-      "title_ko": "질경이속 민들레(Taraxacum mongolicum)에서 ROS 관련 항종양 성분으로서 시코릭산을 제시한 질량분석 네트워크 및 네트워크 약리학 연구",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "Taraxacum mongolicum의 주요 활성 성분과 TNBC에 대한 작용기전이 무엇인지 평가한 연구이다.",
-        "methods": "UPLC-Q-Exactive Orbitrap MS, 분자 네트워킹, 네트워크 약리학, 그리고 세포 및 동물 실험으로 TM 추출물과 흡수 성분의 항TNBC 효과를 검증했다.",
-        "results": "시코릭산이 ROS 관련 경로와 연관된 잠재적 항TNBC 성분으로 제시되었고, 저용량 TM 추출물과 시코릭산이 TNBC 이식종양에서 종양 성장 억제와 ROS 및 세포사멸 증가를 보였다.",
-        "clinical_takeaway": "본 연구는 민들레 추출물의 항TNBC 가능성을 시사하지만, 한의 임상에서는 성분·용량에 따른 비선형 반응 가능성을 함께 고려해야 한다.",
-        "limitations": "세포 및 동물 기반 연구로, 사람 대상 유효성과 안전성은 확인되지 않았다.",
-        "pico": {
-          "p": "TNBC 세포유래 이식종양 및 TM 흡수 성분",
-          "i": "Taraxacum mongolicum 추출물과 cichoric acid",
-          "c": "모델군 또는 비교 대조군",
-          "o": "종양 성장, ROS 수준, 세포사멸"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42833365",
-      "pmid": "42833365",
-      "doi": "10.1016/j.jep.2026.122446",
-      "title": "Shema Zhichuan Liquid alleviates airway inflammation in Allergic Asthma by regulating autophagy pathways through DNA methylation.",
-      "journal": "Journal of ethnopharmacology",
-      "pub_date": "2026-10-05",
-      "authors": "Xie L, Xie Y, Chen Y, Song D, Luo H, Yuan Q et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833365/",
-      "abstract": "Shema Zhichuan Liquid (SMZCL) is a traditional Chinese medicine formulation used clinically as an adjunct therapy for asthma. Its therapeutic mechanism in allergic asthma (AA), however, remains poorly understood.\nThis study aimed to evaluate the efficacy of SMZCL in treating AA and to elucidate its molecular mechanisms, with particular focus on the regulation of autophagy via DNMT1-mediated promoter demethylation of autophagy-related genes.\nThe AA mouse model was established by ovalbumin (OVA)/Al(OH)3 sensitization and challenge. Lung histopathological, inflammatory cytokine levels, Th2 cell proportion, methylation status of autophagy-related genes, and the expression of autophagy-associated markers were assessed. Additionally, an in vitro inflammatory model was generated using lipopolysaccharide (LPS)-stimulated RAW264.7 macrophages to further investigate the mechanism by which SMZCL modulates autophagy through modulating DNA methylation.\nIn vivo, SMZCL attenuated airway inflammation in AA mice and reduced the proportion of Th2 cells in BALF. It significantly decreased serum levels of IgE, Th2 cytokines IL-4 and IL-13, and pro-inflammatory cytokines TNF-α and IL-6, while increasing the Th1 cytokine IFN-γ. Mechanistically, SMZCL inhibited DNMT1 mRNA and protein expression, decreased the relative methylation levels of the ATG5 and Beclin-1 promoters, upregulated mRNA and protein levels of ATG5, Beclin-1, and LC3, and downregulated p62 mRNA expression. In vitro, SMZCL treatment reduced pro-inflammatory cytokines (TNF-α, IL-6, and IL-1β), suppressed DNMT1 expression, induced demethylation of ATG5 and Beclin-1 promoters, and upregulated their expression. SMZCL restored autophagic flux, as evidenced by elevated absolute levels of LC3-II, enhanced p62 degradation, an upward trend in the LC3-II/I ratio, a concurrent increase in both autophagosome and autolysosome puncta in mCherry-GFP-LC3 dual-fluorescence analysis, and further LC3-II accumulation in the presence of chloroquine. Moreover, SMZCL inhibited the expression of mTOR and phosphorylated mTOR (p-mTOR).\nSMZCL inhibited DNMT1, leading to demethylation of the ATG5 and Beclin-1 promoters, and concurrently suppressed the mTOR signaling pathway. Through these mechanisms, SMZCL restored autophagic flux, exerted anti-inflammatory effects, and thereby provided protection against AA.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-07 23:35:58 UTC",
-      "title_ko": "DNA 메틸화를 통해 자가포식 경로를 조절함으로써 알레르기 천식의 기도 염증을 완화하는 Shema Zhichuan Liquid",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "Shema Zhichuan Liquid이 알레르기 천식의 기도 염증을 완화하는지와 그 기전이 DNMT1-매개 DNA 메틸화 및 자가포식 조절과 관련되는지 평가하였다.",
-        "methods": "OVA/Al(OH)3로 유도한 천식 마우스 모델과 LPS 자극 RAW264.7 대식세포 모델에서 염증지표, 자가포식 표지자, 유전자 프로모터 메틸화와 관련 신호를 평가한 실험 연구이다.",
-        "results": "Shema Zhichuan Liquid은 염증성 사이토카인과 Th2 반응을 낮추고 ATG5·Beclin-1 프로모터 탈메틸화 및 자가포식 회복과 mTOR 억제를 통해 항염 효과를 보였다.",
-        "clinical_takeaway": "한약 복합제의 알레르기 천식 보조치료 가능성을 시사하지만, 본 결과는 전임상 자료이므로 임상 적용 해석에는 주의가 필요하다.",
-        "limitations": "동물과 세포 수준의 전임상 연구로, 실제 환자에서의 유효성과 안전성은 확인되지 않았다.",
-        "pico": {
-          "p": "OVA/Al(OH)3로 유도한 알레르기 천식 마우스와 LPS 자극 RAW264.7 세포.",
-          "i": "Shema Zhichuan Liquid.",
-          "c": "명확한 정보 없음.",
-          "o": "기도 염증, Th2/염증성 사이토카인, 자가포식 관련 지표와 프로모터 메틸화."
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42833064",
-      "pmid": "42833064",
-      "doi": "10.1016/j.imbio.2026.153252",
-      "title": "Senecio scandens extract alleviates allergic rhinitis by attenuating epithelial inflammation and modulating gut microbiota balance.",
-      "journal": "Immunobiology",
-      "pub_date": "2026-10-02",
-      "authors": "Cao L, Wang J, Pan W, Li S, Zeng Z, Meng J et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833064/",
-      "abstract": "Senecio scandens Buch.-Ham. ex D.Don (SS) has a history of use in traditional Chinese medicine for the treatment of inflammatory allergic conditions, including allergic rhinitis (AR), although its precise mechanisms of action remain unclear.\nThis study aims to reveal the effect and the underlying mechanism of SS on treating AR.\nAn in vivo AR model was established via ovalbumin (OVA) sensitization and challenge. The therapeutic effects of SS were assessed by evaluating symptom scores (sneezing, scratching), nasal mucosal pathology, and inflammatory factor expression. The composition of the intestinal microbiota was analyzed by 16S rRNA sequencing. In vitro nasal epithelial cells inflammation was induced to verify the direct anti-inflammatory effects of SS and the role of short-chain fatty acids.\nSS treatment significantly alleviated AR symptoms, both eosinophil infiltration and goblet cell hyperplasia in the nasal mucosa were reduced, and lowered levels of key inflammatory factors. It directly suppressed the expression of epithelial-derived alarmins in vitro. Furthermore, SS restored gut microbiota diversity and normalized the perturbed profile of Bacteroidota and Firmicutes, which are critically involved in the potential regulation of SCFA metabolism. The microbial metabolite butyrate was verified to inhibit inflammatory response in nasal epithelial cells in vitro, suggesting that the therapeutic effect of SS may be partially associated with gut microbiota-related SCFA metabolic regulation.\nThis study demonstrates that SS may alleviate AR potentially through a dual mechanism: direct suppression of nasal epithelial inflammation and modulation of the gut microbiota and its associated SCFA metabolism.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-06 23:05:11 UTC",
-      "title_ko": "어성초 추출물이 비염상피 염증을 줄이고 장내 미생물 균형을 조절하여 알레르기 비염을 완화한다",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "어성초 추출물이 알레르기 비염을 완화하는지와 그 기전을 확인하고자 했다.",
-        "methods": "OVA로 유도한 알레르기 비염 동물모델과 비강 상피세포 염증 실험을 통해 임상증상, 비점막 병리, 염증인자, 장내미생물, SCFA 관련 변화를 평가했다.",
-        "results": "어성초 추출물은 알레르기 비염 증상과 비점막 염증을 줄였고, 상피 유래 염증인자를 억제했으며 장내미생물 다양성과 부티르산 관련 대사 이상을 일부 정상화했다.",
-        "clinical_takeaway": "한약재 추출물이 알레르기 비염의 상피 염증과 장내미생물-단쇄지방산 축에 관여할 가능성을 시사하나, 임상 적용은 추가 검증이 필요하다.",
-        "limitations": "동물실험과 세포실험 중심의 연구로, 사람 대상 임상적 유효성과 안전성은 명확하지 않다.",
-        "pico": {
-          "p": "OVA로 유도한 알레르기 비염 모델과 비강 상피세포 염증",
-          "i": "Senecio scandens 추출물",
-          "c": "명확한 정보 없음",
-          "o": "알레르기 비염 증상, 비점막 염증, 염증인자, 장내미생물 및 SCFA 관련 변화"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42835793",
-      "pmid": "42835793",
-      "doi": "10.1002/hsr2.73337",
-      "title": "The Use of Cupping (Hijama) Therapy Among Athletes and Its Relationship With Sleep Quality: A Cross-Sectional Study in Palestine.",
-      "journal": "Health science reports",
-      "pub_date": "2026-10-01",
-      "authors": "Amer F, Alatrash M, Salahat D, Kafrin A, Jaradat N",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42835793/",
-      "abstract": "Wet cupping, or Hijama, is commonly used by athletes for recovery, yet evidence regarding its relationship with sleep quality remains limited. This study examined cupping use, perceived benefits, adverse effects, and factors associated with self-reported sleep quality among Palestinian athletes.\nA cross-sectional survey was conducted among Palestinian athletes. Of 754 athletes screened at nine sports clubs and training centers across the West Bank, 470 (62.3%) reported previous wet-cupping use; 468 had sufficient primary-outcome data and were analyzed. Data were collected using a structured paper-based questionnaire incorporating the Pittsburgh Sleep Quality Index. Analyses included descriptive statistics, exact and chi-square tests, Spearman correlations, multiple linear regression, and path analysis.\nImproved mobility (30.8%), reduced muscle cramps (25.6%), enhanced immunity (16.2%), and increased endurance (9.0%) were the most frequently reported intended benefits. Cupping was commonly reported for chronic or recurrent conditions (99.6%), muscle strain (41.5%), and headaches (41.2%). Higher BMI and greater cupping-session frequency were associated with greater perceived cupping benefit (p = 0.010 and p < 0.001, respectively). Reported inflammation was associated with BMI category, gender, and competition level, while mild pain was associated with BMI category and competition level. Lower PSQI scores were associated with higher BMI, greater cupping-session frequency, and greater perceived cupping benefit. In the multivariable model, higher BMI, vitamin use, greater cupping-session frequency, greater perceived benefit, and manual rather than automated suction were independently associated with lower PSQI scores. The model explained 35.2% of the variance in sleep quality.\nCupping-related practices and participant characteristics were associated with sleep quality. More frequent sessions, vitamin use, manual suction, higher BMI, and greater perceived benefit were associated with better sleep quality. These findings do not establish causality. Prospective studies are needed before cupping can be recommended to improve sleep or recovery.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "팔레스타인 선수들에서 부항(Hijama) 치료 사용과 수면의 질의 관련성: 단면 연구",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Safety",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [
-        "adverse"
-      ],
-      "summary_status": "complete",
-      "summary": {
-        "question": "선수들의 부항 치료 사용과 자가 보고 수면의 질은 어떤 관련이 있는가?",
-        "methods": "팔레스타인 선수들을 대상으로 파워리버그 수면의 질 지수(PSQI)를 포함한 설문을 사용한 단면조사 연구이다.",
-        "results": "부항 세션 빈도, 높은 BMI, 비타민 사용, 수기 흡인, 그리고 더 큰 지각된 이득이 더 낮은 PSQI 점수와 관련되었다.",
-        "clinical_takeaway": "선수에서 부항 관련 특성과 수면의 질 사이의 연관성이 관찰되었지만, 인과성은 입증되지 않았으므로 임상적으로 해석할 때 주의가 필요하다.",
-        "limitations": "단면 연구와 자가보고 자료만으로 수행되어 부항이 수면을 개선한다고 결론낼 수 없다.",
-        "pico": {
-          "p": "팔레스타인 선수",
-          "i": "습식 부항(Hijama) 사용",
-          "c": "명확한 정보 없음",
-          "o": "자가 보고 수면의 질(PSQI)"
-        }
-      },
-      "categories": [
-        "수면/정신"
-      ]
-    },
-    {
-      "id": "pmid-42835756",
-      "pmid": "42835756",
-      "doi": "10.1002/mco2.71042",
-      "title": "Both Genetic Manipulation and Acupuncture Alleviate Depressive-Like Behavior Mediated by Astrocytic P2X7 Receptors.",
-      "journal": "MedComm",
-      "pub_date": "2026-10-01",
-      "authors": "Ren WJ, Khan MT, Ren XY, Li X, Rubini P, Yin HY et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42835756/",
-      "abstract": "Major depressive disorder (MDD) has been associated with P2X7 receptors (P2X7Rs), yet the contribution of astrocytic P2X7Rs to neuronal dysfunction remains unclear. We investigated the role of astrocytic P2X7Rs in depression-like behaviors using a chronic unpredictable mild stress (CUMS) mouse model and further examined whether electroacupuncture (EA) exerts antidepressant effects by modulating astrocytic P2X7Rs. Astrocytic P2X7Rs in the medial prefrontal cortex (mPFC) were selectively knocked down or overexpressed via gene manipulation. Depression-like behaviors were assessed after CUMS exposure and EA intervention, and in vivo fiber photometry was used to monitor calcium dynamics in excitatory and inhibitory neurons within the mPFC. CUMS markedly increased P2X7R expression in the mPFC and induced depression-like behaviors. Genetic deletion or knockdown of astrocytic P2X7Rs alleviated these abnormalities, whereas overexpression of astrocytic P2X7Rs exacerbated them and diminished the antidepressant efficacy of EA. Fiber photometry revealed that astrocytic P2X7Rs contributed to stress-induced dysregulation of neuronal calcium activity. EA restored the balance between excitatory and inhibitory neuronal activity in the mPFC, and this effect depended on appropriate regulation of astrocytic P2X7Rs. These findings suggest that astrocytic P2X7Rs are key mediators of stress-induced depressive phenotypes and may represent a promising therapeutic target for MDD.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "유전적 조작과 침이 성상세포 P2X7 수용체가 매개하는 우울 유사 행동을 완화한다",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "성상세포 P2X7 수용체가 스트레스성 우울 유사 행동에 관여하는지와 전침이 이를 통해 항우울 효과를 나타내는지 평가했다.",
-        "methods": "만성 예측불가 경미 스트레스(CUMS) 마우스 모델에서 성상세포 mPFC의 P2X7 수용체를 유전적으로 조절하고 전침을 시행한 뒤, 우울 유사 행동과 신경세포 칼슘 활동을 비교했다.",
-        "results": "CUMS는 mPFC의 P2X7 수용체 발현과 우울 유사 행동을 증가시켰고, 성상세포 P2X7 수용체 억제는 이를 완화했으며 과발현은 악화시키면서 전침의 항우울 효과를 약화시켰다.",
-        "clinical_takeaway": "이 연구는 전침의 항우울 효과가 성상세포 P2X7 수용체와 mPFC 흥분/억제 균형 조절과 연관될 수 있음을 시사하지만, 동물실험 결과이므로 임상 적용은 신중해야 한다.",
-        "limitations": "마우스 전임상 연구이므로 사람의 우울증과 침 치료 효과를 직접 단정할 수 없다.",
-        "pico": {
-          "p": "만성 예측불가 경미 스트레스에 노출된 마우스",
-          "i": "전침과 성상세포 P2X7 수용체 유전 조절",
-          "c": "유전 조절 없음 또는 CUMS 대조",
-          "o": "우울 유사 행동과 mPFC 신경세포 칼슘 활동"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42837419",
-      "pmid": "42837419",
-      "doi": "10.1371/journal.pone.0359405",
-      "title": "Shenling Qige Granules inhibit esophageal squamous cell carcinoma progression in TE-1 xenograft and cell-based models by modulating the DCN-TGF-β/Smad signaling axis.",
-      "journal": "PloS one",
-      "pub_date": "2026-01-01",
-      "authors": "Liu Z, Gu Y, Fan H, Huang M, Li D, Guo W et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42837419/",
-      "abstract": "Shenling Qige Granules (SLQG), derived from the Qing Dynasty formula Qige San recorded in Yi Xue Xin Wu, has been used in clinical practice in China as an adjuvant traditional Chinese medicine preparation for esophageal squamous cell carcinoma (ESCC), but its molecular basis remains unclear. This study investigated the antitumor effects and mechanisms of SLQG using TE-1 xenograft mice and SLQG-containing serum-treated TE-1 cells. Transcriptome sequencing, network pharmacology, molecular docking, molecular dynamics simulation, and public-database analysis were integrated to prioritize candidate mechanisms. Histological, molecular, cellular, and siRNA-mediated decorin (DCN) knockdown assays were performed for validation. SLQG, especially at the medium dose, inhibited xenograft tumor growth and increased DCN expression. Transcriptomic analysis highlighted the transforming growth factor-β (TGF-β)/Smad pathway. In silico analyses suggested that several SLQG-derived compounds, particularly ursolic acid, may be associated with DCN-related regulation. Public-database analysis indicated lower DCN expression in esophageal carcinoma tumor samples than in normal samples and an association with pathological stage. In vivo and in vitro, SLQG increased DCN expression, reduced Smad2/3 phosphorylation, promoted pro-apoptotic signaling, and induced G0/G1 arrest; these effects were attenuated by DCN knockdown. These findings suggest that SLQG inhibited ESCC progression in TE-1 xenograft and cell-based models, potentially through modulation of the DCN-associated TGF-β/Smad signaling axis.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-07 23:35:58 UTC",
-      "title_ko": "선링 치거 과립이 DCN-TGF-β/Smad 신호축 조절을 통해 TE-1 이식종양 및 세포 모델에서 식도편평상피암 진행을 억제함",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "SLQG가 식도편평상피암 진행을 어떤 기전으로 억제하는지 평가하였다.",
-        "methods": "TE-1 이식종양 마우스와 SLQG 처리 혈청을 사용한 TE-1 세포에서 전사체 분석, 네트워크 약리학, 분자도킹, 동역학 시뮬레이션, 공개 DB 분석과 DCN siRNA 검증을 시행하였다.",
-        "results": "SLQG는 이식종양 성장을 억제하고 DCN 발현을 증가시켰으며, Smad2/3 인산화 감소와 세포사멸 촉진 및 G0/G1 정지를 유도했고, 이러한 효과는 DCN 저해 시 약화되었다.",
-        "clinical_takeaway": "이 결과는 SLQG의 항종양 가능성을 시사하지만, 전임상 근거이므로 임상 적용 여부는 추가 검증이 필요하다.",
-        "limitations": "이 연구는 TE-1 기반 전임상 모델 중심이라 사람 대상의 유효성과 안전성을 직접 판단하기 어렵다.",
-        "pico": {
-          "p": "TE-1 이식종양 및 TE-1 세포 기반 식도편평상피암 모델",
-          "i": "Shenling Qige Granules(SLQG)",
-          "c": "대조군 또는 DCN knockdown",
-          "o": "종양 성장, DCN 발현, Smad2/3 인산화, 세포사멸 및 세포주기 변화"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42835730",
-      "pmid": "42835730",
-      "doi": "10.2147/JPR.S630526",
-      "title": "Efficacy of Electroacupuncture for Chronic Pelvic Pain: A Randomized, Single-Blind, Sham-Controlled Trial.",
-      "journal": "Journal of pain research",
-      "pub_date": "2026-01-01",
-      "authors": "Huang L, Yu J, Gan D, Ding Y, Yang Y, Jin F",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42835730/",
-      "abstract": "To evaluate the efficacy and safety of electroacupuncture in the management of chronic pelvic pain (CPP).\nThis randomized, single-blind, sham-controlled trial enrolled 66 women aged 18 to 50 years with CPP. Participants were randomly assigned in a 1:1 ratio to receive either electroacupuncture or sham electroacupuncture. Each treatment session lasted 30 minutes and was administered three times weekly, with treatment suspended during menstruation and subsequently resumed until 24 sessions were completed. The primary outcomes were lower abdominal pain and lumbosacral pain assessed using the Visual Analogue Scale (VAS) at baseline, week 8 (end of treatment), and week 16 (8-week follow-up). Secondary outcomes were depression and anxiety assessed using the Hamilton Depression Rating Scale HAMD) and Hamilton Anxiety Rating Scale (HAMA) before and after treatment.\nSixty-six women were randomized, with 32 assigned to electroacupuncture and 34 to sham electroacupuncture. At week 8, the reported between-group effect estimates were 3.37 (95% CI, 2.62-4.12) for lower abdominal pain and 3.14 (95% CI, 2.42-3.87) for lumbosacral pain (both p < 0.001). At week 16, the corresponding reported estimates were 3.69 (95% CI, 2.90-4.48) and 3.38 (95% CI, 2.63-4.13), respectively (both p < 0.001), indicating that the reduction in pain was maintained during follow-up. No significant between-group differences were observed in changes in HAMD or HAMA scores after treatment. No serious adverse events were reported.\nElectroacupuncture may reduce lower abdominal and lumbosacral pain in women with CPP, and the observed reduction was maintained through the 8-week follow-up period. No specific between-group benefit was demonstrated for anxiety or depressive symptoms. Larger studies with longer follow-up are warranted.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "만성 골반통에 대한 전침의 효과: 무작위 단일맹검 가짜침 대조시험",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [
-        "adverse",
-        "safety"
-      ],
-      "summary_status": "complete",
-      "summary": {
-        "question": "전침이 만성 골반통 여성의 통증과 불안·우울 증상에 효과적인지 평가했다.",
-        "methods": "18~50세 만성 골반통 여성 66명을 전침군과 가짜전침군으로 무작위 배정한 단일맹검 가짜침 대조 임상시험이다.",
-        "results": "전침군은 8주와 16주에 하복부통과 요천추통 VAS가 가짜전침군보다 유의하게 감소했고, 불안·우울 지표는 두 군 간 차이가 없었으며 중대한 이상반응은 없었다.",
-        "clinical_takeaway": "만성 골반통의 통증 완화에 전침이 잠재적 이점을 보였지만, 정신증상 개선 근거는 분명하지 않다.",
-        "limitations": "표본이 작고 추적 기간이 짧아 효과의 일반화와 장기 지속성을 확정하기 어렵다.",
-        "pico": {
-          "p": "만성 골반통이 있는 18~50세 여성",
-          "i": "전침",
-          "c": "가짜전침",
-          "o": "하복부통 및 요천추통 VAS, HAMD/HAMA 변화"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42835707",
-      "pmid": "42835707",
-      "doi": "10.2147/JPR.S644750",
-      "title": "Comment on Efficacy of Acupuncture Treatment in the Treatment of Female Myofascial Pelvic Pain Syndrome: A Protocol for a Dual-Center Randomized Controlled Trial [Response to Letter].",
-      "journal": "Journal of pain research",
-      "pub_date": "2026-01-01",
-      "authors": "Ye Y, Dong W, Jiang L",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42835707/",
-      "abstract": "",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "",
-      "publication_types": [
-        "Journal Article",
-        "Comment"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "낮음",
-      "priority": "보류",
-      "safety_flags": [],
-      "summary_status": "missing",
-      "summary": {
-        "question": "",
-        "methods": "",
-        "results": "",
-        "clinical_takeaway": "",
-        "limitations": "",
-        "pico": {
-          "p": "",
-          "i": "",
-          "c": "",
-          "o": ""
-        }
-      },
-      "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42835681",
-      "pmid": "42835681",
-      "doi": "10.3389/fmed.2026.1939184",
-      "title": "Efficacy and exploratory treatment-response modeling of acupuncture for acute migraine based on DIA proteomics: a study protocol for a randomized controlled trial.",
-      "journal": "Frontiers in medicine",
-      "pub_date": "2026-01-01",
-      "authors": "Zhang Q, Liu M, Xu F, Jiang H",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42835681/",
-      "abstract": "According to estimates from the 2019 Global Burden of Disease (GBD) study, approximately 1.1 billion people worldwide suffer from migraine, with a prevalence rate of about 14% to 15%. Despite the development of various medications for different types of migraine, such as acetaminophen and caffeine combination preparations, most patients still experience suboptimal symptom control. Therefore, identifying effective and safer alternative treatments holds significant clinical importance. Acupuncture was formally recommended by the World Health Organization as a migraine therapy as early as 1979. In recent years, substantial domestic and international research evidence has demonstrated the distinct advantages of acupuncture in treating migraine. Proteomics technology can assess the final products of adaptive changes in the body following acupuncture, thereby establishing a close association with disease progression.\nThis study aims to evaluate the efficacy of a single acupuncture session for acute migraine, identify subgroups with different short-term treatment responses, and explore baseline plasma protein biomarkers potentially associated with acupuncture response. An exploratory proof-of-concept model will be developed to assess whether a small set of prespecified clinical and proteomic features may contain preliminary predictive information regarding short-term treatment response.\nThis study is divided into three parts. First, this randomized controlled trial will recruit 86 acute migraine patients. All participants will be randomly assigned in a 1:1 ratio to either the real acupuncture (RA) group or the sham acupuncture (SA) group. Each patient will receive one acupuncture treatment session. The primary outcome is the between-group difference in the change in visual analog scale (VAS) scores from baseline to 24 h post-treatment. Secondary outcomes include assessment of VAS scores at 72 h and 1 week post-needling; Hamilton Anxiety Scale/Hamilton Depression Scale (HAMA/HAMD) at 1 week post-needling; clinical response rates at 24 h, 72 h, and 1 week post-needling; and migraine attack count, attack frequency, and attack duration at 24 h, 72 h, and 1 week post-needling. Second, using the prespecified percentage change in VAS as the efficacy metric, 20 participants will be selected from the 43 participants in the RA group, including 10 high-responders and 10 low-responders. Baseline plasma samples collected before acupuncture will be analyzed using DIA-based proteomics to identify differentially expressed proteins and explore biological pathways potentially associated with short-term acupuncture response. Third, an exploratory proof-of-concept treatment-response model will be developed using the clinical and proteomic data from these 20 participants. Because of the limited sample size, no training-test split will be performed and complex machine-learning algorithms will not be compared. A parsimonious penalized logistic regression model will be assessed using nested leave-one-out cross-validation, with all data-dependent preprocessing and feature-selection procedures performed within each resampling iteration. The results will be considered hypothesis-generating and will require independent external validation.\nThis protocol describes a randomized, single-blind trial that will evaluate the efficacy of acupuncture for acute migraine and explore plasma protein biomarkers potentially associated with short-term acupuncture response. The exploratory model is intended to assess methodological feasibility and generate hypotheses rather than provide a validated clinical decision-support tool.\nwww.chictr.org.cn, identifier ITMCTR2026000359.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "DIA 프로테오믹스를 기반으로 한 급성 편두통 침 치료의 유효성과 치료반응 탐색 연구: 무작위대조시험 연구 프로토콜",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "낮음",
-      "priority": "보류",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "급성 편두통에서 단회 침 치료가 가짜 침보다 통증 감소에 더 유효한지와, 반응 예측과 연관된 혈장 단백질 표지자를 찾을 수 있는지 평가하려는 연구이다.",
-        "methods": "86명의 급성 편두통 환자를 실제 침과 가짜 침에 1:1 무작위 배정하는 단일맹검 무작위대조시험과, 실제 침 반응군 일부를 대상으로 DIA 기반 혈장 프로테오믹스 및 탐색적 예측모형을 구축하는 연구 프로토콜이다.",
-        "results": "아직 결과는 보고되지 않았으며, 본 문헌은 유효성과 반응 예측을 탐색하는 연구 계획을 제시한다.",
-        "clinical_takeaway": "급성 편두통에서 침 치료의 단기 효과와 반응 예측 바이오마커 가능성을 탐색하지만, 이는 검증 전 가설 생성 단계로 해석해야 한다.",
-        "limitations": "프로토콜 단계라 실제 효과는 아직 알 수 없고, 탐색적 예측모형은 작은 표본과 외부검증 부재로 일반화에 제한이 있다.",
-        "pico": {
-          "p": "급성 편두통 환자",
-          "i": "실제 침 치료 단회 시술",
-          "c": "가짜 침 치료",
-          "o": "VAS 변화, 반응률, 공격 횟수·빈도·지속시간, 불안/우울 점수, 혈장 단백질 표지자"
-        }
-      },
-      "categories": [
-        "수면/정신",
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42834977",
-      "pmid": "42834977",
-      "doi": "10.2147/DMSO.S618894",
-      "title": "Traditional Chinese Medicine Interventions for Overweight and Obesity in Adults: An Umbrella Review and Evidence Map.",
-      "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
-      "pub_date": "2026-01-01",
-      "authors": "Qin Q, Gou Y, Xie Y, Zhu H, Liu Y",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42834977/",
-      "abstract": "Traditional Chinese medicine (TCM) is widely used for weight management, but the reliability and comparability of the available review-level evidence remain uncertain. This umbrella review evaluated the methodological quality, certainty, and quantitative findings of systematic reviews and meta-analyses of TCM interventions for adults with overweight or obesity.\nWe searched PubMed, Embase, the Cochrane Library, CNKI, Wanfang, CBM, and VIP for systematic reviews and meta-analyses of randomized controlled trials. Methodological quality and certainty of evidence were evaluated using AMSTAR-2 and GRADE. Primary-study overlap was assessed using a citation matrix and the corrected covered area (CCA). Mean differences (MDs) were pooled only when outcome units were clinically compatible; standardized effects were reported narratively and were not combined with MDs. Random-effects models and leave-one-out analyses were used for body weight and body mass index (BMI).\nTwelve systematic reviews or meta-analyses were retained. They contained 254 primary-study occurrences and a non-unique review-level participant total of 19,795. Citation matching identified 155 unique primary studies, producing a CCA of 5.81%, which indicated moderate overlap. In MD-only analyses, TCM interventions were associated with reductions in body weight (overall MD = -3.11 kg, 95% CI -4.05 to -2.16; I2 = 90.9%) and BMI (overall MD = -1.26 kg/m2, 95% CI -1.61 to -0.90; I2 = 91.0%).The body-weight and BMI results remained statistically significant in leave-one-out analyses. For BMI, external therapies, TCM exercise, and the herbal-medicine subgroup all showed significant pooled effects.\nTCM interventions may improve body weight and BMI in adults with overweight or obesity. However, substantial heterogeneity, overlap between reviews, inconsistent outcome reporting, and predominantly low-to-moderate certainty limit confidence in the estimates. The current evidence is insufficient to support definitive treatment rankings or strong clinical recommendations.",
-      "first_seen": "2026-10-06 23:05:11 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "성인 과체중·비만에서의 전통중의학 중재: 우산형 문헌고찰과 근거 지도",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "evidence_type": "Meta-analysis",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "성인 과체중·비만에서 전통중의학(TCM) 중재가 체중과 BMI 개선에 도움이 되는지 평가했다.",
-        "methods": "무작위대조시험의 체계적 문헌고찰과 메타분석을 대상으로 AMSTAR-2와 GRADE로 질을 평가한 우산형 문헌고찰이다.",
-        "results": "TCM 중재는 체중과 BMI 감소와 관련되었으나, 이질성과 중복, 낮은 수준의 근거로 인해 확신도는 제한적이었다.",
-        "clinical_takeaway": "한의 임상에서는 TCM 계열 중재가 체중과 BMI에 유리할 가능성을 시사하지만, 근거의 질과 일관성이 낮아 강한 권고 근거로 보기 어렵다.",
-        "limitations": "연구 간 이질성, 리뷰 간 중복, 결과 보고의 불일치, 주로 낮음~중등도 수준의 근거가 주요 한계였다.",
-        "pico": {
-          "p": "과체중 또는 비만 성인",
-          "i": "전통중의학(TCM) 중재",
-          "c": "명확한 정보 없음",
-          "o": "체중과 BMI"
-        }
-      },
-      "categories": [
-        "대사/비만",
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42832068",
-      "pmid": "42832068",
-      "doi": "10.1007/s00425-026-05166-w",
-      "title": "An aromatic substrate prenyltransferase involved in the chemical diversification of flavonoids in Glycyrrhiza glabra.",
-      "journal": "Planta",
-      "pub_date": "2026-10-05",
-      "authors": "Kubomura A, Arai T, Han J, Munakata R, Yasuno N, Kobayashi O et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42832068/",
-      "abstract": "Using cultured Glycyrrhiza glabra roots, we identified a new prenyltransferase involved in the formation of a variety of flavonoids, thereby revealing novel prenylated isoflavonoid pathways in licorice. Prenylated isoflavonoids are widely distributed specialized metabolites within the Fabaceae and contribute to various characteristic biological activities in both plants and humans. Several aromatic prenyltransferases (PTs) have been identified in Glycyrrhiza species, which are the most widely consumed crude drugs in traditional Chinese medicine. However, these enzymes do not sufficiently explain the structural diversity of prenylated flavonoids produced by the Glycyrrhiza genus. To identify additional novel PTs, we used elicited cultured Glycyrrhiza glabra roots as source material, where elicitor treatment increased the accumulation of multiple prenylated flavonoids. To identify the responsible enzyme, PT candidates were screened using G. uralensis transcriptomes, currently the sole publicly available transcriptomic resource within the genus, and a homolog designated GgBSPT1 (BSPT; a broad-substrate prenyltransferase) was subsequently isolated from elicited cultured G. glabra roots. GgBSPT1 differed from previously identified Glycyrrhiza PTs in both amino acid sequence and enzymatic properties. GgBSPT1 displayed unusually broad substrate acceptance across 20 distinct flavonoid structures and catalyzed regiospecific 3'-prenylation of isoliquiritigenin and 6-prenylation of five flavonoids. Overall, elicited cultured G. glabra roots enabled the identification of a previously unrecognized PT that is functionally distinct from earlier reported Glycyrrhiza PTs. This study provides new insights into the metabolic plasticity of Glycyrrhiza species and expands the enzymatic toolkit for future metabolic engineering of prenylated phytochemicals through the unusually broad substrate specificity of GgBSPT1.",
-      "first_seen": "2026-10-06 00:50:16 UTC",
-      "last_seen": "2026-10-07 23:35:58 UTC",
-      "title_ko": "칡속감초(Glycyrrhiza glabra)의 플라보노이드 화학적 다양화에 관여하는 방향족 기질 프레닐전이효소",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "감초 배양 뿌리에서 새로운 프레닐전이효소가 프레닐화 플라보노이드 다양성 형성에 관여하는지 확인하고자 했다.",
-        "methods": "자극 처리한 Glycyrrhiza glabra 배양 뿌리에서 후보 효소를 선별하고, 전사체 정보를 바탕으로 GgBSPT1을 분리해 기질 특이성과 반응 위치를 분석했다.",
-        "results": "GgBSPT1은 20종 플라보노이드에 대해 넓은 기질 수용성을 보였고, isoliquiritigenin의 3'-프레닐화와 일부 플라보노이드의 6-프레닐화를 촉매했다.",
-        "clinical_takeaway": "감초의 프레닐화 이소플라보노이드 생합성 다양성을 이해하는 데 도움이 되며, 향후 프레닐화 식물성분 대사공학 연구의 표적 효소로 참고할 수 있다.",
-        "limitations": "자극 처리된 배양 뿌리와 효소 수준의 연구로, 실제 임상적 효능이나 인체 적용 가능성은 직접 평가하지 않았다.",
-        "pico": {
-          "p": "자극 처리된 Glycyrrhiza glabra 배양 뿌리",
-          "i": "새롭게 분리한 GgBSPT1 프레닐전이효소",
-          "c": "기존에 보고된 Glycyrrhiza 프레닐전이효소",
-          "o": "플라보노이드의 프레닐화와 구조적 다양성"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42831987",
-      "pmid": "42831987",
-      "doi": "10.1007/s11064-026-04901-9",
-      "title": "Electroacupuncture Targeting the NLRP3 Inflammasome in Senescence‑associated Cognitive Impairment: Mechanistic Synthesis and Meta‑analysis of Clinical Randomized Controlled Trials.",
-      "journal": "Neurochemical research",
-      "pub_date": "2026-10-05",
-      "authors": "Ma T, Zhou H, Liu Y, Cheng X, Li M",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42831987/",
-      "abstract": "Global population aging leads to a growing clinical demand for interventions against age-related cognitive decline (ARCD), including mild cognitive impairment (MCI, termed senescence-associated cognitive impairment [SACI] in this review)-a prodromal pathological stage preceding Alzheimer's disease (AD) and vascular dementia. Chronic microglia-mediated neuroinflammation, predominantly triggered by excessive NLRP3 inflammasome activation, acts as a key upstream mediator of hippocampal neuronal injury and gradual cognitive decline in preclinical aging models.Manual acupuncture and electroacupuncture (EA) exert reproducible neuroprotective effects against cognitive deficits, yet a comprehensive, multi-layered regulatory framework unifying NLRP3-centered molecular mechanisms of acupuncture remains absent from current literature. This review systematically summarizes NLRP3‑dependent pathological cascades in SACI and outlines four synergistic signaling axes through which acupuncture may modulate excessive NLRP3‑dependent inflammatory responses to potentially alleviate neurotoxic inflammatory injury.Persistent overactivation of the NLRP3 inflammasome triggers self-amplifying inflammatory feedback cycles in hippocampal tissue through four interrelated pathological processes: impaired autophagic clearance, disrupted mitochondrial homeostasis, persistent endoplasmic reticulum (ER) stress, and caspase-1/GSDMD-mediated neuronal pyroptosis.Acupuncture counteracts NLRP3-dependent neural injury through synergistic multi-target modulation: (1) activation of AMPK/mTOR signaling to restore defective autophagy; (2) suppression of the ROS-TXNIP cascade to block NLRP3 transcriptional priming and protein oligomerization; (3) phenotypic reprogramming of microglia from pro-inflammatory M1 toward anti-inflammatory M2 states; (4) inhibition of pyroptotic execution by blunting caspase-1 maturation and GSDMD proteolytic cleavage. Collectively, available pre‑clinical evidence suggests these signaling axes constitute a bidirectionally‑interconnected hypothetical protective network that may mitigate chronic neuroinflammation.A meta analysis integrating nine eligible randomized controlled trials (published 2015-2025) involving 614 participants was performed. After subject dropout, 599 participants completed the studies. Pooled analyses of heterogeneous acupuncture/electroacupuncture RCTs revealed that intervention was associated with short‑term improvements in MoCA and MMSE scores and reduction in peripheral pro‑inflammatory cytokine IL‑6. Pooled effect sizes were moderately larger in MCI subgroups compared with patients with early AD. Nevertheless, substantial methodological heterogeneity existed across included trials, and these short term observational findings cannot confirm durable disease modifying benefits.Severe methodological heterogeneity across existing trials-including inconsistent acupoint prescriptions, divergent EA stimulation parameters, and variable treatment cycles-impairs cross-study comparability and translational reproducibility. Herein, we synthesize high‑quality preclinical and clinical evidence to propose a provisional consensus‑oriented translational reference protocol for electroacupuncture, intended for standardized mechanistic research rather than routine clinical intervention.Collectively, the NLRP3 inflammasome constitutes a tractable therapeutic target for acupuncture-mediated SACI intervention. Acupuncture exerts pleiotropic neuroprotection by dampening NLRP3-dependent neuroinflammation, alongside complementary NLRP3-independent regulatory pathways. This review‑meta‑analysis provides preliminary translational theoretical evidence for a provisional electroacupuncture intervention framework targeting NLRP3‑mediated neuroinflammation in MCI and early‑AD. Future high‑quality, multi‑center RCTs are warranted to validate these preliminary findings.",
-      "first_seen": "2026-10-06 00:50:16 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "센서스-관련 인지장애에서 NLRP3 인플라마좀을 표적으로 하는 전침: 기전적 종합과 임상 무작위대조시험 메타분석",
-      "publication_types": [
-        "Journal Article",
-        "Meta-Analysis",
-        "Review"
-      ],
-      "evidence_type": "Meta-analysis",
-      "evidence_level": "높음",
-      "clinical_applicability": "낮음",
-      "priority": "보류",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "노화 관련 인지저하에서 전침이 NLRP3 관련 신경염증과 인지기능에 어떤 연관을 보이는지 평가한 연구이다.",
-        "methods": "SACI/MCI 및 초기 알츠하이머병 관련 기전 문헌을 종합하고, 2015~2025년 발표된 무작위대조시험 9편의 메타분석을 수행한 체계적 문헌고찰이다.",
-        "results": "전침/침 치료는 단기적으로 MoCA와 MMSE 점수 개선 및 말초 IL-6 감소와 연관되었고, MCI 하위군에서 효과 크기가 더 큰 경향을 보였다.",
-        "clinical_takeaway": "침구치료가 노화 관련 인지저하의 단기 인지지표와 염증표지자에 잠재적 관련성을 보이지만, 이 결과는 이질성이 커서 임상적 질병변형 효과로 해석하기에는 이르다.",
-        "limitations": "포함 연구 간 혈위, 자극 파라미터, 치료기간이 크게 달라 이질성이 높고, 단기 관찰 결과만으로 지속적 효과를 확정할 수 없다.",
-        "pico": {
-          "p": "MCI/SACI 및 초기 알츠하이머병 환자",
-          "i": "침/전침",
-          "c": "명확한 정보 없음",
-          "o": "MoCA, MMSE, 말초 IL-6"
-        }
-      },
-      "categories": [
-        "침구/전침"
-      ]
-    },
-    {
-      "id": "pmid-42831964",
-      "pmid": "42831964",
-      "doi": "10.1007/s40199-026-00657-3",
-      "title": "Effects of rosehip (Rosa canina) supplementation on orthostatic intolerance symptoms in patients with type 2 diabetes: a randomized double-blind placebo-controlled clinical trial.",
-      "journal": "Daru : journal of Faculty of Pharmacy, Tehran University of Medical Sciences",
-      "pub_date": "2026-10-05",
-      "authors": "Ghelmani SY, Rajaie SH, Zare R, Hazar N, Khiveh A, Zaboli Mahdiabadi M et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42831964/",
-      "abstract": "Orthostatic hypotension (OH) and related symptoms are common complications in individuals with type 2 diabetes mellitus (T2DM). Antioxidant compounds, such as those found in rosehip fruit, may have the potential to alleviate orthostatic symptom burden. This study evaluated the effects of rosehip fruit extract on orthostatic symptoms in adults with T2DM.\nThis randomized, double-blind, placebo-controlled, parallel-group clinical trial was conducted over four weeks among 60 adults with T2DM and OH referred to the Yazd Center for Diabetes. Participants were randomly assigned to receive either rosehip fruit extract (two capsules daily, each containing 500 mg) or placebo. Orthostatic symptoms were assessed using the Orthostatic Intolerance Questionnaire (OIQ). Clinical relevance was evaluated using predefined minimal clinically important difference thresholds.\nOf the 60 randomized participants, 57 completed the 4-week intervention. At the end of the study, a greater proportion of participants in the rosehip group no longer met diagnostic criteria for orthostatic hypotension compared with the placebo group (prevalence ratio = 2.57, 95% CI: 1.18-5.62). The rosehip group experienced significantly greater reductions in OIQ scores compared with placebo, and these differences remained statistically significant after adjustment for baseline values and age (P = 0.001). The magnitude of symptom improvement in the rosehip group exceeded the predefined thresholds for clinical relevance.\nRosehip extract significantly reduced orthostatic symptom burden and the prevalence of OH in patients with T2DM. Benefits were primarily reflected in symptomatic scores and systolic blood pressure. While promising and well-tolerated, these preliminary results require confirmation in larger, multicenter trials incorporating long-term objective hemodynamic monitoring.",
-      "first_seen": "2026-10-06 00:50:16 UTC",
-      "last_seen": "2026-10-08 23:45:24 UTC",
-      "title_ko": "제2형 당뇨병 환자의 기립성 불내성 증상에 대한 로즈힙(Rosa canina) 보충의 효과: 무작위 이중맹검 위약대조 임상시험",
-      "publication_types": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "evidence_type": "RCT",
-      "evidence_level": "높음",
-      "clinical_applicability": "높음",
-      "priority": "필독",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "로즈힙 추출물이 제2형 당뇨병과 기립성 저혈압이 있는 성인의 기립성 증상과 저혈압 유병에 영향을 주는지 평가했다.",
-        "methods": "제2형 당뇨병과 기립성 저혈압이 있는 성인 60명을 대상으로 4주간 로즈힙 추출물 또는 위약을 무작위 이중맹검 평행군으로 투여한 임상시험이다.",
-        "results": "로즈힙군은 위약군보다 기립성 저혈압 기준 미달 비율이 더 높았고 기립성 불내성 설문 점수 감소도 더 커서 통계적 및 임상적으로 유의한 개선을 보였다.",
-        "clinical_takeaway": "로즈힙 추출물은 제2형 당뇨병 환자의 기립성 증상 부담을 줄일 가능성이 있으나, 근거는 아직 소규모 단기 연구이므로 해석에 주의가 필요하다.",
-        "limitations": "단일기관의 단기간 소규모 시험이어서 장기 안전성과 객관적 혈역학 지표에 대한 확증이 부족하다.",
-        "pico": {
-          "p": "제2형 당뇨병과 기립성 저혈압이 있는 성인",
-          "i": "로즈힙(Rosa canina) 열매 추출물 1,000 mg/일",
-          "c": "위약",
-          "o": "기립성 불내성 증상과 기립성 저혈압 유병률"
-        }
-      },
-      "categories": [
-        "대사/비만"
-      ]
-    },
-    {
-      "id": "pmid-42830277",
-      "pmid": "42830277",
-      "doi": "10.1186/s12866-026-05269-0",
-      "title": "Metagenomic analysis of rhizosphere soil microbiota in wild and cultivated Notopterygium incisum, an umbelliferae medicinal herb.",
-      "journal": "BMC microbiology",
-      "pub_date": "2026-10-05",
-      "authors": "Feng T, Shang J, Ma Y, Li J, Qin Y, Zhang J et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42830277/",
-      "abstract": "Notopterygium incisum is not only a traditional Chinese medicine but also an endemic herb. Artificial domestication and large-scale cultivation are crucial for resolving the crisis of wild resources and the supply-demand imbalance of N. incisum, yet current techniques have failed to stably provide the herb medicine in good quality. Metagenomic analyses revealed significant differences in the rhizomicrobiota between wild and cultivated N. incisum, particularly in microbial composition, gene functions, and community assembly. The rhizomicrobiota of the wild N. incisum from 3 different sites with an altitude drop over 1400 m had a similar composition when being compared with the cultivated samples. The wild N. incisum had higher abundances of beneficial microbes, particularly Hyphomicrobiales (Rhizobiales) (21.27% on average). In contrast, the rhizosphere microbial communities of the cultivated N. incisum showed a high prevalence of functional genes involved in the pathways of DNA repair and recombination proteins, replication and repair, peptidases and inhibitors, DNA replication proteins, and transfer RNA biogenesis. The co-occurrence networks analysis indicated that the stability of the wild samples' network remained significantly more robust when nodes were proportionally removed, as the wild samples' network had approximately the same positive and negative links while the cultivated samples' network had nearly all positive links and many fewer connectors. This is related to the conclusion that wild N. incisum exhibits superior efficacy, as reported in previous studies. Additionally, it can be observed from the sampling images that the root surface of wild N. incisum has more pronounced tiny protrusions, which may be associated with rhizobial attachment, thereby enhancing the nitrogen fixation process. Importantly, the observed shifts in rhizosphere microbial communities, particularly the enrichment of beneficial rhizobia in wild plants, are closely linked to enhanced accumulation of bioactive secondary metabolites such as coumarins and volatile oils. These microbiome-driven differences are likely associated with the superior medicinal quality of wild N. incisum compared to cultivated counterparts, highlighting the pivotal role of rhizosphere microbes in shaping therapeutic efficacy.",
-      "first_seen": "2026-10-06 00:50:16 UTC",
-      "last_seen": "2026-10-06 23:05:11 UTC",
-      "title_ko": "야생 및 재배 독활유사 약용식물 Notopterygium incisum의 근권 토양 미생물군집 메타게놈 분석",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Clinical study",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [],
-      "summary_status": "complete",
-      "summary": {
-        "question": "야생과 재배 Notopterygium incisum의 근권 미생물군집 차이가 약용 품질과 관련되는지를 평가하였다.",
-        "methods": "야생과 재배 N. incisum의 근권 토양을 메타게놈 분석해 미생물 조성, 기능 유전자, 군집 형성 및 공존 네트워크를 비교하였다.",
-        "results": "야생 개체는 유익한 미생물, 특히 Hyphomicrobiales가 더 풍부하고 네트워크 안정성이 높았으며, 재배 개체는 DNA 복구·복제 관련 기능 유전자가 상대적으로 두드러졌다.",
-        "clinical_takeaway": "이 연구는 약용식물의 품질 차이에 근권 미생물군집이 관여할 가능성을 시사하지만, 인과관계는 확인되지 않았으므로 재배 품질 해석에 신중해야 한다.",
-        "limitations": "관찰연구로서 미생물 차이가 실제 약효 차이를 직접 입증하지 못하며, 기능적 연관성도 추정 수준이다.",
-        "pico": {
-          "p": "야생 및 재배 Notopterygium incisum의 근권 토양 미생물군집",
-          "i": "메타게놈 분석",
-          "c": "야생 개체와 재배 개체의 비교",
-          "o": "미생물 조성, 기능 유전자, 네트워크 안정성 및 약용 품질 관련성"
-        }
-      },
-      "categories": [
-        "한약/본초"
-      ]
-    },
-    {
-      "id": "pmid-42172932",
-      "pmid": "42172932",
-      "doi": "10.1016/j.ejmech.2026.118978",
-      "title": "Novel autophagy-promoted cancer therapy: Discovery of matrine-based selective TBC1D2 inhibitors by drug-target complex purification.",
-      "journal": "European journal of medicinal chemistry",
-      "pub_date": "2026-10-05",
-      "authors": "Han K, Wang L",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42172932/",
-      "abstract": "Autophagy strategies have seen clinical or preclinical studies underway to combat cancer therapeutic resistance, but the on-target effects in normal tissues necessitate new selective approaches. Based on the antitumor efficacy and low toxicity of matrine, a traditional Chinese medicine component, we designed and synthesized 24 matrine derivatives with higher in vitro activities. Among these compounds, A1 demonstrated the highest activity and selectivity against the HeLa cell line, with a half maximal inhibitory concentration of 0.43 μM and a selective index of 3.5. Subsequently, a label-free target fishing method using size exclusion chromatography was developed to separate proteins binding to A1. Surprisingly, TBC1 domain family member 2 (TBC1D2) emerged as the selective target of compound A1, which promotes Ras-related protein Rab-7a (RAB7A) accumulation on the lysosomal membrane and facilitates autophagy by inhibiting TBC1D2-mediated guanosine triphosphate (GTP) hydrolysis on RAB7A-GTP. Further mechanistic studies show that low-dose compound A1 induced reversible cell cycle arrest and anastasis through autophagy. Finally, A1 proved to be more efficient than matrine in HeLa-infected nude mice and was well-tolerated. These findings provide new insights into target identification techniques, ultimately leading to the discovery of first-in-class TBC1D2 inhibitors and paving the way for a novel therapeutic strategy for cervical carcinoma and beyond.",
-      "first_seen": "2026-10-06 00:50:16 UTC",
-      "last_seen": "2026-10-06 23:05:11 UTC",
-      "title_ko": "마트린 기반 선택적 TBC1D2 억제제의 발굴: 약물-표적 복합체 정제를 이용한 새로운 자가포식 촉진 암 치료",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "evidence_type": "Safety",
-      "evidence_level": "중간",
-      "clinical_applicability": "보통",
-      "priority": "참고",
-      "safety_flags": [
-        "toxicity"
-      ],
-      "summary_status": "complete",
-      "summary": {
-        "question": "마트린 유도체가 자가포식 촉진을 통해 암 치료 후보로서 선택적 표적과 효능을 가질 수 있는지 평가했다.",
-        "methods": "마트린 유도체 24종을 합성해 in vitro 활성을 비교하고, 무표지 표적 탐색법으로 결합 단백질을 분리한 뒤 HeLa 세포와 누드마우스 모델에서 기전과 효능을 확인했다.",
-        "results": "A1이 HeLa 세포에서 가장 높은 선택성과 활성을 보였고 TBC1D2의 선택적 억제를 통해 자가포식을 촉진했으며, 누드마우스에서 마트린보다 더 효율적이고 잘 견디는 것으로 나타났다.",
-        "clinical_takeaway": "마트린 유도체가 자가포식 조절을 통한 항암 후보가 될 수 있으나, 본 연구는 전임상 자료이므로 임상 적용 전 추가 검증이 필요하다.",
-        "limitations": "세포 및 동물 기반 전임상 연구로, 사람에서의 안전성과 유효성은 아직 명확하지 않다.",
-        "pico": {
-          "p": "HeLa 세포 및 HeLa 이식 누드마우스 모델",
-          "i": "마트린 기반 유도체 A1",
-          "c": "마트린",
-          "o": "세포 증식 억제, 자가포식 유도, 전임상 효능 및 내약성"
         }
       },
       "categories": [
