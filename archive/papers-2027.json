@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17 21:29:05 UTC",
+  "updated": "2026-10-18 21:31:30 UTC",
   "year": "2027",
   "total": 27,
   "source": "PubMed (NCBI E-utilities)",
@@ -15,7 +15,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42800168/",
       "abstract": "Immune checkpoint inhibitors (ICIs) often exhibit limited clinical efficacy due to insufficient infiltration of T cells in the tumor microenvironment (TME). To address this challenge, we utilized quercetin, an active ingredient of traditional Chinese medicine, as an alternative ICI, and developed a hyaluronic acid-coated manganese-embedded mesoporous silica nanoparticle (HA-MSN(Mn) for TME-triggered co-delivery quercetin (Que) and Mn2+ to potentiate cancer immunotherapy. This nanoplatform exploits the dual pH/redox-responsive MnO bond cleavage within the TME, triggering structural disintegration of the nanoparticles and subsequent controlled release. Through in vitro and in vivo models, we demonstrated that this nanoplatform employs a triple immunomodulatory mechanism to enhance T-cell function and reverse the immunosuppressive TME. Specifically: (1) both Que and Mn2+ could independently promote dendritic cell (DC) maturation, contributing to T-cell activation; (2) Mn2+ and Que could independently facilitate M1 macrophage polarization, thereby recruiting T cells to tumors by secreting immune cytokines; (3) Que loaded HA-MSN(Mn) downregulates PD-L1 expression on tumor cells, overcoming immune escape and enhancing T cell cytotoxicity. Furthermore, the nanoplatform exhibits antitumor effects associated with immune modulation, alongside enhanced inhibition of tumor growth, with minimal off-target toxicity. Importantly, this study provides deeper insights into the multi-immunomodulatory role of quercetin, offering a promising nanotechnology-driven approach for immunotherapy.",
       "first_seen": "2026-10-02 22:59:42 UTC",
-      "last_seen": "2026-10-17 21:29:05 UTC",
+      "last_seen": "2026-10-18 21:31:30 UTC",
       "title_ko": "T세포 기능을 강화하고 종양 미세환경을 재구성하는 삼중 면역조절 퀘르세틴 나노플랫폼",
       "publication_types": [
         "Journal Article"
@@ -98,7 +98,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785392/",
       "abstract": "Transcutaneous electrical cranial-auricular acupoint stimulation (TECAS) is an effective and safe neuromodulation therapy for major depressive disorder (MDD). However, interindividual variability in treatment response limits its clinical efficiency. Reliable and interpretable biomarkers for pretreatment response prediction are urgently needed to enable precision acupuncture strategies.\nTo develop an explainable machine-learning framework integrating baseline EEG microstate dynamics and clinical features to predict antidepressant response to TECAS, to translate these predictions into a clinical decision-support tool.\nFifty first-episode, drug-naïve patients with MDD underwent resting-state EEG assessment prior to 8-week TECAS intervention. Twenty-four EEG microstate features (duration, coverage, occurrence, and transition probabilities of microstates A-D) and six clinical variables were entered into six machine-learning models. Class imbalance was addressed using K-means SMOTE. Model interpretability was achieved using SHAP analyses, and key predictors were validated by conventional statistics and symptom improvement correlations.\nThe random forest model achieved the best performance in discriminating Responders from Non-responders (AUC = 0.912). Explainability analyses consistently identified microstate D metrics, particularly mean duration, coverage, and occurrence, as robust predictors. Responders exhibited significantly shorter duration, lower coverage, and reduced occurrence of microstate D at baseline, and these parameters were negatively correlated with the magnitude of depressive symptom improvement.\nThis study demonstrates that EEG microstate dynamics, especially microstate D, constitute clinically meaningful and interpretable biomarkers for predicting TECAS treatment response. By integrating neurophysiological signatures with explainable machine learning, we propose a precision acupuncture framework and a practical auxiliary decision-support tool to optimize individualized treatment selection in MDD.",
       "first_seen": "2026-09-25 22:24:10 UTC",
-      "last_seen": "2026-10-17 21:29:05 UTC",
+      "last_seen": "2026-10-18 21:31:30 UTC",
       "title_ko": "우울증에서 정밀 침치료를 위한 방향: TECAS 반응 예측의 EEG 마이크로상태 바이오마커와 설명가능한 머신러닝",
       "publication_types": [
         "Journal Article"
