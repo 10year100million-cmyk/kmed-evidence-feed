@@ -1,9 +1,170 @@
 {
-  "updated": "2026-10-18 21:31:30 UTC",
+  "updated": "2026-10-19 22:54:38 UTC",
   "year": "2027",
-  "total": 27,
+  "total": 31,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42830003",
+      "pmid": "42830003",
+      "doi": "10.1016/j.saa.2026.128859",
+      "title": "Machine learning algorithms empower traditional Chinese medicine: Breakthrough approaches from chemical component analysis to pharmacological mechanism research.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pub_date": "2027-02-05",
+      "authors": "Han Z, Zhao F, Xu H, Zhang Z, Wu J, Zhang Y et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42830003/",
+      "abstract": "Traditional Chinese medicine studies are constrained by complex chemical components and multi-target biological interactions, making conventional analytical methods inefficient for mechanism exploration. As a data-driven technique, machine learning has been widely adopted to tackle diverse complex challenges in TCM research. Nevertheless, most existing reviews merely summarize individual algorithms or scattered application cases, lacking systematic task-based classification and unified operational standards. Based on literature published from 2022 to 2026, this review systematically classifies machine learning applications in TCM into four core research tasks. A task-oriented framework is constructed to match different algorithms with appropriate TCM research scenarios. This paper further establishes a complete standardized workflow covering algorithm selection, model construction and model evaluation to standardize ML applications in TCM research. This review also summarizes the applications of machine learning in TCM quality control, bioactive compound identification, processing analysis, and mechanism elucidation. Furthermore, major bottlenecks in current ML-based TCM studies are analyzed, and feasible optimization strategies are proposed. This review aims to provide clear and practical guidelines for the standardized application of machine learning in future TCM research.",
+      "first_seen": "2026-10-19 22:54:38 UTC",
+      "last_seen": "2026-10-19 22:54:38 UTC",
+      "title_ko": "기계학습 알고리즘이 전통중의학을 강화한다: 화학 성분 분석에서 약리 기전 연구까지의 혁신적 접근",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "interaction"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "기계학습을 전통중의학 연구의 어떤 과제에 어떻게 체계적으로 적용할 수 있는지를 정리한 문헌고찰이다.",
+        "methods": "2022~2026년 문헌을 바탕으로 전통중의학에서의 기계학습 활용을 네 가지 핵심 연구 과제로 분류하고 표준화된 작업 흐름을 제안한 서술적 고찰이다.",
+        "results": "기계학습은 전통중의학의 품질관리, 생리활성 성분 식별, 가공 분석, 기전 규명에 폭넓게 활용되며 과제별 알고리즘-시나리오 매칭과 표준화 절차가 필요하다고 정리했다.",
+        "clinical_takeaway": "한약/본초 연구에서 기계학습은 복잡한 데이터 해석을 돕는 도구가 될 수 있으나, 임상 적용 전에는 과제 적합성, 모델 평가, 재현성 기준을 신중히 확인해야 한다.",
+        "limitations": "개별 연구의 요약이 아니라 문헌고찰이므로 실제 임상 유효성이나 안전성을 직접 입증하지는 않는다.",
+        "pico": {
+          "p": "전통중의학 관련 연구 데이터 및 화학 성분·기전 탐색 문제",
+          "i": "기계학습 알고리즘 적용",
+          "c": "명확한 정보 없음",
+          "o": "품질관리, 생리활성 성분 식별, 가공 분석, 약리 기전 규명"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42815313",
+      "pmid": "42815313",
+      "doi": "10.1016/j.saa.2026.128889",
+      "title": "Ratiometric fluorescence determination of phoxim in traditional Chinese medicine matrices using Astragalus residue-derived carbon dots and rhodamine B.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pub_date": "2027-02-05",
+      "authors": "Wang C, He X, Li X, Dong J, Zhang J, Shao P et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42815313/",
+      "abstract": "An internally referenced fluorescence method was developed for the determination of phoxim in traditional Chinese medicine matrices. Astragalus residue-derived carbon quantum dots (AR-CQDs) were prepared from Astragalus residue and urea by one-step hydrothermal treatment and combined with Rhodamine B (RhB) to form a dual-emission probe. The AR-CQDs were quasi-spherical, with an average particle size of 4.02 nm, a fluorescence quantum yield of 10.33%, and abundant oxygen- and nitrogen-containing surface groups. Under 320 nm excitation, the AR-CQDs emission at 413 nm served as the response signal, whereas the RhB emission at 580 nm served as the reference signal. Phoxim selectively attenuated the 413 nm emission, and F413/F580 was linearly related to phoxim concentration from 5 to 100 μM (R2 = 0.9952), with a detection limit of 0.106 μM after a 1 min incubation. UV-Vis absorption, fluorescence lifetime, inner-filter-effect correction, zeta-potential, and dynamic light-scattering results suggested that phoxim-induced surface interactions accompanied by aggregation-related effects contributed to the fluorescence attenuation, while the exact microscopic mechanism was not uniquely resolved.In Astragalus, red date, goji berry, and tap-water samples, recoveries were 96.90%-99.60% with RSDs of 1.72%-3.32%, and the results showed acceptable agreement with LC-MS/MS. The method provides a simple ratiometric approach for phoxim screening within the tested matrix and concentration ranges while enabling the analytical valorization of Astragalus residue.",
+      "first_seen": "2026-10-19 22:54:38 UTC",
+      "last_seen": "2026-10-19 22:54:38 UTC",
+      "title_ko": "황기 잔재 유래 탄소점과 로다민 B를 이용한 전통 중국약 재질 내 포시움 정량용 비율형 형광법",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "interaction"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "전통 중국약 재질에서 포시움을 간편하게 검출할 수 있는 비율형 형광 분석법이 가능한지 평가하였다.",
+        "methods": "황기 잔재와 요소로 합성한 탄소양자점과 로다민 B를 이용해 이중 방출 형광 프로브를 만들고, 표준물질 및 실제 시료에서 형광 변화를 측정한 분석법 연구이다.",
+        "results": "포시움은 413 nm 형광을 선택적으로 감소시켰고 F413/F580는 5–100 μM 범위에서 선형성을 보였으며, 실제 시료에서 LC-MS/MS와 대체로 일치하는 회수율이 확인되었다.",
+        "clinical_takeaway": "한약재 및 관련 시료의 오염물 스크리닝에 참고될 수 있으나, 측정 범위와 매트릭스가 제한적이어서 현장 적용 전 추가 검증이 필요하다.",
+        "limitations": "포시움의 정확한 미세 기전은 단일하게 규명되지 않았고, 검증된 시료와 농도 범위가 제한적이다.",
+        "pico": {
+          "p": "전통 중국약 매트릭스의 황기, 대추, 구기자 및 수돗물 시료",
+          "i": "황기 잔재 유래 탄소점과 로다민 B 기반 비율형 형광 분석",
+          "c": "LC-MS/MS",
+          "o": "포시움 정량 및 검출"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42810032",
+      "pmid": "42810032",
+      "doi": "10.1016/j.saa.2026.128858",
+      "title": "Multi-source fusion of NIR and UV spectroscopy with refractometry for pooled prediction of total flavonoids, total polyphenols and solids content in herbal water extracts.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pub_date": "2027-02-05",
+      "authors": "Gao W, Cheng L, Dong Y, Tao J, Wu Y, Fang C et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42810032/",
+      "abstract": "Rapid quantification of multiple quality indicators in compositionally distinct herbal formulas calls for predictive approaches that can accommodate pooled samples within a shared modeling framework. To address this limitation, the present study integrates multi-source information from near-infrared (NIR) spectroscopy, ultraviolet (UV) spectroscopy, and refractive index (RI) measurements to develop one pooled model for each of three indicators: total flavonoids, total polyphenols and total solids content in aqueous extracts of six TCM formulas. Six TCM formulas with markedly distinct herbal compositions were selected, and 216 samples were prepared through a gradient extraction protocol. Under a unified SGS + FD pretreatment, three fusion architectures, five feature selection algorithms, and 16 machine learning models were systematically compared. Low-level fusion (LowFusion) performed best for flavonoids and polyphenols before feature selection, whereas mid-level fusion performed slightly better for solids content; the optimal feature selection algorithm was analyte-dependent, and the selected wavelength regions were consistent with plausible electronic-transition and vibrational assignments. Validation using 18 independent samples from new batches of the same six formulas showed strong predictive performance for flavonoids and solids content. The polyphenol model displayed systematic underestimation in the high-concentration range. These results support pooled multi-formula modeling and independent-batch prediction within the investigated formula set, providing a basis for rapid multi-indicator quality assessment without developing a separate model for each formula.",
+      "first_seen": "2026-10-19 22:54:38 UTC",
+      "last_seen": "2026-10-19 22:54:38 UTC",
+      "title_ko": "NIR·UV 분광과 굴절계 정보를 융합한 한약 물추출물 총 플라보노이드·총 폴리페놀·고형분의 pooled 예측",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Protocol",
+      "evidence_level": "낮음",
+      "clinical_applicability": "낮음",
+      "priority": "보류",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "구성이 서로 다른 여러 한약 처방의 물추출물에서 복수 품질지표를 공통 모델로 빠르게 예측할 수 있는지 평가하였다.",
+        "methods": "여섯 가지 TCM 처방의 216개 시료에 대해 NIR, UV, RI 정보를 융합해 세 지표별 pooled 예측모델을 만들고, 여러 전처리·특징선택·기계학습 조합을 비교한 프로토콜 연구이다.",
+        "results": "융합모델은 총 플라보노이드와 고형분 예측에서 좋은 성능을 보였고, 총 폴리페놀은 고농도 구간에서 체계적 과소추정이 나타났다.",
+        "clinical_takeaway": "한약 추출물의 품질평가에서 처방별 개별모델 대신 다중 분광정보를 활용한 pooled 모델이 유용할 수 있으나, 지표와 농도 범위에 따라 성능 차이를 주의해야 한다.",
+        "limitations": "여섯 처방 집합 내에서만 검증되었고 총 폴리페놀의 고농도 구간 과소추정이 있어 일반화에는 제한이 있다.",
+        "pico": {
+          "p": "화학 조성이 서로 다른 여섯 가지 TCM 처방의 수성 추출물",
+          "i": "NIR, UV, RI 정보를 결합한 pooled 예측모델",
+          "c": "명확한 정보 없음",
+          "o": "총 플라보노이드, 총 폴리페놀, 총 고형분의 예측 정확도"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42800135",
+      "pmid": "42800135",
+      "doi": "10.1016/j.saa.2026.128843",
+      "title": "Application of a semi-supervised learning framework combining principal component constraint enhancement in near-infrared spectroscopy of Rhizome Coptidis.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pub_date": "2027-02-05",
+      "authors": "An N, Zhang J, Chen H",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800135/",
+      "abstract": "Rhizome Coptidis is a popular traditional Chinese medicinal herb, and analyzing its composition is crucial for evaluating its quality. However, existing analytical methods can produce significantly different results due to various practical factors, so there is an urgent need to develop more suitable analytical methods. Near-infrared spectroscopy (NIR) is widely used in the analysis of traditional Chinese medicine due to its rapid, non-destructive, and pollution-free characteristics. It offers numerous possibilities for the detection of Rhizome Coptidis. However, this technology often encounters challenges such as small sample sizes, limited annotated data, and redundant information. More advanced modeling methods are therefore required to address these issues. Based on this, this paper proposes a fusion framework for the quantitative analysis of Rhizome Coptidis: Spectral Augmented Principal Component Analysis-Semi-Supervised Learning-Convolutional Neural Network-Twin-Kernel Support Vector Regression (SAPCA-SSLCNN-TKSVR). This framework comprises three modules: Spectral Augmented Principal Component Analysis (SAPCA) for data augmentation, Semi-Supervised Learning Convolutional Neural Networks (SSLCNN) for feature extraction, and Twin Kernel Support Vector Regression (TKSVR) for data prediction. The experimental results demonstrate that this method is well-suited to the quantitative analysis of Rhizome Coptidis, particularly in scenarios involving small sample sizes, limited labeled data, and redundant information. It effectively improves modeling performance for high-dimensional, highly linear data and offers a viable approach to the field of near-infrared spectroscopy.",
+      "first_seen": "2026-10-19 22:54:38 UTC",
+      "last_seen": "2026-10-19 22:54:38 UTC",
+      "title_ko": "principal component constraint 향상을 결합한 반지도 학습 프레임워크의 황련 근경 근적외선 분광 적용",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "황련 근경의 근적외선 분광 정량분석에서 소표본·적은 라벨 데이터·중복 정보 문제를 개선할 수 있는가를 평가했다.",
+        "methods": "황련 근경 근적외선 분광 자료에 SAPCA-SSLCNN-TKSVR을 적용한 정량분석 모델을 제안하고 성능을 평가한 연구이다.",
+        "results": "제안한 방법은 소표본, 제한된 라벨 데이터, 중복 정보가 있는 상황에서 황련 근경의 정량분석 성능을 향상시키는 것으로 보고되었다.",
+        "clinical_takeaway": "한약 재료의 품질평가에서 근적외선 분광과 반지도 학습 기반 모델이 유용할 수 있으나, 실제 임상 적용 전에는 외부 검증이 필요하다.",
+        "limitations": "추상만으로는 표본 규모와 외부 검증 여부가 명확하지 않아 일반화 가능성에 주의가 필요하다.",
+        "pico": {
+          "p": "황련 근경 근적외선 분광 정량분석 대상 시료",
+          "i": "SAPCA-SSLCNN-TKSVR 기반 반지도 학습 프레임워크",
+          "c": "기존 분석 방법 또는 기존 모델",
+          "o": "정량분석 성능 향상"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
     {
       "id": "pmid-42800168",
       "pmid": "42800168",
@@ -15,7 +176,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42800168/",
       "abstract": "Immune checkpoint inhibitors (ICIs) often exhibit limited clinical efficacy due to insufficient infiltration of T cells in the tumor microenvironment (TME). To address this challenge, we utilized quercetin, an active ingredient of traditional Chinese medicine, as an alternative ICI, and developed a hyaluronic acid-coated manganese-embedded mesoporous silica nanoparticle (HA-MSN(Mn) for TME-triggered co-delivery quercetin (Que) and Mn2+ to potentiate cancer immunotherapy. This nanoplatform exploits the dual pH/redox-responsive MnO bond cleavage within the TME, triggering structural disintegration of the nanoparticles and subsequent controlled release. Through in vitro and in vivo models, we demonstrated that this nanoplatform employs a triple immunomodulatory mechanism to enhance T-cell function and reverse the immunosuppressive TME. Specifically: (1) both Que and Mn2+ could independently promote dendritic cell (DC) maturation, contributing to T-cell activation; (2) Mn2+ and Que could independently facilitate M1 macrophage polarization, thereby recruiting T cells to tumors by secreting immune cytokines; (3) Que loaded HA-MSN(Mn) downregulates PD-L1 expression on tumor cells, overcoming immune escape and enhancing T cell cytotoxicity. Furthermore, the nanoplatform exhibits antitumor effects associated with immune modulation, alongside enhanced inhibition of tumor growth, with minimal off-target toxicity. Importantly, this study provides deeper insights into the multi-immunomodulatory role of quercetin, offering a promising nanotechnology-driven approach for immunotherapy.",
       "first_seen": "2026-10-02 22:59:42 UTC",
-      "last_seen": "2026-10-18 21:31:30 UTC",
+      "last_seen": "2026-10-19 22:54:38 UTC",
       "title_ko": "T세포 기능을 강화하고 종양 미세환경을 재구성하는 삼중 면역조절 퀘르세틴 나노플랫폼",
       "publication_types": [
         "Journal Article"
@@ -98,7 +259,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785392/",
       "abstract": "Transcutaneous electrical cranial-auricular acupoint stimulation (TECAS) is an effective and safe neuromodulation therapy for major depressive disorder (MDD). However, interindividual variability in treatment response limits its clinical efficiency. Reliable and interpretable biomarkers for pretreatment response prediction are urgently needed to enable precision acupuncture strategies.\nTo develop an explainable machine-learning framework integrating baseline EEG microstate dynamics and clinical features to predict antidepressant response to TECAS, to translate these predictions into a clinical decision-support tool.\nFifty first-episode, drug-naïve patients with MDD underwent resting-state EEG assessment prior to 8-week TECAS intervention. Twenty-four EEG microstate features (duration, coverage, occurrence, and transition probabilities of microstates A-D) and six clinical variables were entered into six machine-learning models. Class imbalance was addressed using K-means SMOTE. Model interpretability was achieved using SHAP analyses, and key predictors were validated by conventional statistics and symptom improvement correlations.\nThe random forest model achieved the best performance in discriminating Responders from Non-responders (AUC = 0.912). Explainability analyses consistently identified microstate D metrics, particularly mean duration, coverage, and occurrence, as robust predictors. Responders exhibited significantly shorter duration, lower coverage, and reduced occurrence of microstate D at baseline, and these parameters were negatively correlated with the magnitude of depressive symptom improvement.\nThis study demonstrates that EEG microstate dynamics, especially microstate D, constitute clinically meaningful and interpretable biomarkers for predicting TECAS treatment response. By integrating neurophysiological signatures with explainable machine learning, we propose a precision acupuncture framework and a practical auxiliary decision-support tool to optimize individualized treatment selection in MDD.",
       "first_seen": "2026-09-25 22:24:10 UTC",
-      "last_seen": "2026-10-18 21:31:30 UTC",
+      "last_seen": "2026-10-19 22:54:38 UTC",
       "title_ko": "우울증에서 정밀 침치료를 위한 방향: TECAS 반응 예측의 EEG 마이크로상태 바이오마커와 설명가능한 머신러닝",
       "publication_types": [
         "Journal Article"
