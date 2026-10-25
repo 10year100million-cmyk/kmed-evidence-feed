@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24 21:37:53 UTC",
+  "updated": "2026-10-25 21:49:16 UTC",
   "year": "2027",
   "total": 31,
   "source": "PubMed (NCBI E-utilities)",
@@ -15,7 +15,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42830003/",
       "abstract": "Traditional Chinese medicine studies are constrained by complex chemical components and multi-target biological interactions, making conventional analytical methods inefficient for mechanism exploration. As a data-driven technique, machine learning has been widely adopted to tackle diverse complex challenges in TCM research. Nevertheless, most existing reviews merely summarize individual algorithms or scattered application cases, lacking systematic task-based classification and unified operational standards. Based on literature published from 2022 to 2026, this review systematically classifies machine learning applications in TCM into four core research tasks. A task-oriented framework is constructed to match different algorithms with appropriate TCM research scenarios. This paper further establishes a complete standardized workflow covering algorithm selection, model construction and model evaluation to standardize ML applications in TCM research. This review also summarizes the applications of machine learning in TCM quality control, bioactive compound identification, processing analysis, and mechanism elucidation. Furthermore, major bottlenecks in current ML-based TCM studies are analyzed, and feasible optimization strategies are proposed. This review aims to provide clear and practical guidelines for the standardized application of machine learning in future TCM research.",
       "first_seen": "2026-10-19 22:54:38 UTC",
-      "last_seen": "2026-10-24 21:37:53 UTC",
+      "last_seen": "2026-10-25 21:49:16 UTC",
       "title_ko": "기계학습 알고리즘이 전통중의학을 강화한다: 화학 성분 분석에서 약리 기전 연구까지의 혁신적 접근",
       "publication_types": [
         "Journal Article",
@@ -57,7 +57,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42815313/",
       "abstract": "An internally referenced fluorescence method was developed for the determination of phoxim in traditional Chinese medicine matrices. Astragalus residue-derived carbon quantum dots (AR-CQDs) were prepared from Astragalus residue and urea by one-step hydrothermal treatment and combined with Rhodamine B (RhB) to form a dual-emission probe. The AR-CQDs were quasi-spherical, with an average particle size of 4.02 nm, a fluorescence quantum yield of 10.33%, and abundant oxygen- and nitrogen-containing surface groups. Under 320 nm excitation, the AR-CQDs emission at 413 nm served as the response signal, whereas the RhB emission at 580 nm served as the reference signal. Phoxim selectively attenuated the 413 nm emission, and F413/F580 was linearly related to phoxim concentration from 5 to 100 μM (R2 = 0.9952), with a detection limit of 0.106 μM after a 1 min incubation. UV-Vis absorption, fluorescence lifetime, inner-filter-effect correction, zeta-potential, and dynamic light-scattering results suggested that phoxim-induced surface interactions accompanied by aggregation-related effects contributed to the fluorescence attenuation, while the exact microscopic mechanism was not uniquely resolved.In Astragalus, red date, goji berry, and tap-water samples, recoveries were 96.90%-99.60% with RSDs of 1.72%-3.32%, and the results showed acceptable agreement with LC-MS/MS. The method provides a simple ratiometric approach for phoxim screening within the tested matrix and concentration ranges while enabling the analytical valorization of Astragalus residue.",
       "first_seen": "2026-10-19 22:54:38 UTC",
-      "last_seen": "2026-10-24 21:37:53 UTC",
+      "last_seen": "2026-10-25 21:49:16 UTC",
       "title_ko": "황기 잔재 유래 탄소점과 로다민 B를 이용한 전통 중국약 재질 내 포시움 정량용 비율형 형광법",
       "publication_types": [
         "Journal Article"
@@ -98,7 +98,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42810032/",
       "abstract": "Rapid quantification of multiple quality indicators in compositionally distinct herbal formulas calls for predictive approaches that can accommodate pooled samples within a shared modeling framework. To address this limitation, the present study integrates multi-source information from near-infrared (NIR) spectroscopy, ultraviolet (UV) spectroscopy, and refractive index (RI) measurements to develop one pooled model for each of three indicators: total flavonoids, total polyphenols and total solids content in aqueous extracts of six TCM formulas. Six TCM formulas with markedly distinct herbal compositions were selected, and 216 samples were prepared through a gradient extraction protocol. Under a unified SGS + FD pretreatment, three fusion architectures, five feature selection algorithms, and 16 machine learning models were systematically compared. Low-level fusion (LowFusion) performed best for flavonoids and polyphenols before feature selection, whereas mid-level fusion performed slightly better for solids content; the optimal feature selection algorithm was analyte-dependent, and the selected wavelength regions were consistent with plausible electronic-transition and vibrational assignments. Validation using 18 independent samples from new batches of the same six formulas showed strong predictive performance for flavonoids and solids content. The polyphenol model displayed systematic underestimation in the high-concentration range. These results support pooled multi-formula modeling and independent-batch prediction within the investigated formula set, providing a basis for rapid multi-indicator quality assessment without developing a separate model for each formula.",
       "first_seen": "2026-10-19 22:54:38 UTC",
-      "last_seen": "2026-10-24 21:37:53 UTC",
+      "last_seen": "2026-10-25 21:49:16 UTC",
       "title_ko": "NIR·UV 분광과 굴절계 정보를 융합한 한약 물추출물 총 플라보노이드·총 폴리페놀·고형분의 pooled 예측",
       "publication_types": [
         "Journal Article"
