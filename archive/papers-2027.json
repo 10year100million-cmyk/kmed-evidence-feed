@@ -1,9 +1,49 @@
 {
-  "updated": "2026-10-29 23:18:52 UTC",
+  "updated": "2026-10-30 22:59:35 UTC",
   "year": "2027",
-  "total": 31,
+  "total": 32,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42896358",
+      "pmid": "42896358",
+      "doi": "10.1016/j.jpba.2026.117769",
+      "title": "Development and validation of an LC-MS/MS method for the determination of mycotoxins in the medicinal and edible herb dandelion.",
+      "journal": "Journal of pharmaceutical and biomedical analysis",
+      "pub_date": "2027-01-15",
+      "authors": "Wang G, Tian C, Jiao M, Wang Y, Zhang X, Mohamed SR et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896358/",
+      "abstract": "Dandelion (Taraxacum mongolicum Hand.-Mazz.) is a medicinal and edible herb widely used in traditional Chinese medicine; however, studies on mycotoxin contamination in dandelion remain limited. Herein, we developed a liquid chromatography-triple quadrupole-tandem mass spectrometry (LC-QqQ-MS/MS) method for the simultaneous quantification of five common mycotoxins: aflatoxin B1 (AFB1), deoxynivalenol (DON), fumonisin B1 (FB1), ochratoxin A (OTA), and zearalenone (ZEN) in dandelion. The mycotoxins were extracted from dandelion herb, cleaned up by solvent dilution, and analyzed in multiple reaction monitoring (MRM) mode on an LC-QqQ-MS/MS system. Key parameters were optimized to achieve the best performance, including chromatographic conditions, MRM ion pairs, extraction solvents, and sample cleanup methods. Method validation was conducted in terms of specificity, limit of determination, limit of quantitation, linearity, intraday and interday precision, and matrix effect. Finally, a total of 54 dandelion samples collected from different regions of China were analyzed using the developed method. AFB1 and FB1 were detected in all the dandelion samples, while OTA was found in 45 samples. DON was detected in nine samples from three regions, whereas ZEN was not detected in any of the samples. FB1 was found to be the most prevalent mycotoxin in the samples, ranging from 9.77 to 35.86 μg/kg, followed by AFB1 and OTA, indicating co-occurrence of mycotoxins in this herb.",
+      "first_seen": "2026-10-30 22:59:35 UTC",
+      "last_seen": "2026-10-30 22:59:35 UTC",
+      "title_ko": "민들레의 마이코톡신 정량을 위한 LC-MS/MS 방법 개발 및 검증",
+      "publication_types": [
+        "Journal Article",
+        "Validation Study"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "민들레에서 5종 주요 마이코톡신을 동시에 정량할 수 있는 분석법을 개발하고 시료에서의 오염 실태를 확인하고자 하였다.",
+        "methods": "민들레 시료에 대해 LC-QqQ-MS/MS 기반 다중반응모니터링(MRM) 분석법을 개발·검증하고 중국 각지의 시료 54건에 적용하였다.",
+        "results": "개발된 방법으로 AFB1과 FB1은 모든 시료에서, OTA는 45건에서 검출되었고 ZEN은 검출되지 않았으며 FB1이 가장 흔한 오염원으로 나타났다.",
+        "clinical_takeaway": "본초로 사용하는 민들레에서도 마이코톡신 동시 오염이 확인되어 원료의 품질관리와 오염 모니터링의 중요성을 시사한다.",
+        "limitations": "중국에서 수집한 민들레 시료에 대한 분석 연구이므로 다른 지역이나 다른 유통 조건에 일반화에는 주의가 필요하다.",
+        "pico": {
+          "p": "민들레(Taraxacum mongolicum) 시료",
+          "i": "LC-QqQ-MS/MS 기반 마이코톡신 동시 정량 분석",
+          "c": "명확한 정보 없음",
+          "o": "AFB1, DON, FB1, OTA, ZEN의 검출 및 함량"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
     {
       "id": "pmid-42830003",
       "pmid": "42830003",
