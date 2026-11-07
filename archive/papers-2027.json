@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-06 23:43:55 UTC",
+  "updated": "2026-11-07 22:46:40 UTC",
   "year": "2027",
-  "total": 34,
+  "total": 35,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42945782",
+      "pmid": "42945782",
+      "doi": "10.1016/j.cmpb.2026.109698",
+      "title": "UWMT-net: An uncertainty-weighted multi-task network for ultrasound-based three-class classification of thyroid nodules.",
+      "journal": "Computer methods and programs in biomedicine",
+      "pub_date": "2027-01-01",
+      "authors": "Li Q, Mao Z, He Y, Wang J, Yang Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42945782/",
+      "abstract": "Risk stratification of thyroid nodules on ultrasound remains inconsistent in routine practice, particularly for borderline presentations. Many deep-learning studies report discrimination alone, while probability reliability and threshold-based clinical utility receive less attention.\nWe retrospectively included 364 development patients, each contributing one thyroid nodule labeled using surgical histopathology or fine-needle aspiration cytology. The primary analysis used a patient-level fixed training/validation/test framework, and robustness was additionally assessed with stratified patient-level five-fold cross-validation. A locked model was independently evaluated in 121 patients from the Affiliated Hospital of Shandong University of Traditional Chinese Medicine (Shandong Provincial Hospital of Traditional Chinese Medicine), Jinan, China. The task was formulated as three-class classification: benign, indeterminate or suspicious, and malignant.\nThe multimodal model outperformed clinical-only and image-only baselines, with the largest gains observed on class-balanced metrics. On the held-out test set, UWMT-Net achieved an accuracy of 0.838 and a macro-AUC of 0.943. Post-hoc temperature scaling reduced ECE from 0.040 to 0.015 without changing hard-label metrics. Five-fold cross-validation yielded a macro-AUC of 0.936 ± 0.011. In the independent external cohort, the locked model achieved an accuracy of 0.810, macro-F1 of 0.804, macro-AUC of 0.921, and ECE of 0.031. The added fusion baselines and paired bootstrap analysis supported a modest, but not statistically significant, numerical advantage of uncertainty-weighted multi-task learning.\nIntegrating ultrasound with structured clinical information improved three-class classification and probability reliability in the development cohort, with retained performance in the independent external cohort. Larger prospective multicenter validation remains required before clinical use.",
+      "first_seen": "2026-11-07 22:46:40 UTC",
+      "last_seen": "2026-11-07 22:46:40 UTC",
+      "title_ko": "불확실성 가중 다중작업 네트워크를 이용한 초음파 기반 갑상선 결절 3분류",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Cohort",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "초음파와 구조화된 임상 정보를 결합한 불확실성 가중 다중작업 모델이 갑상선 결절의 3분류 성능과 확률 신뢰도를 개선하는지 평가했다.",
+        "methods": "갑상선 결절 환자 후향 코호트에서 개발·내부검증·시험 분할과 5겹 교차검증을 시행하고, 독립 외부 코호트에서 잠금 모델을 추가 검증한 다중모달 딥러닝 연구이다.",
+        "results": "UWMT-Net은 개발 및 외부 코호트에서 비교 모델보다 더 나은 3분류 성능과 확률 보정을 보였으나, 불확실성 가중 다중작업의 추가 이점은 통계적으로 유의하지 않았다.",
+        "clinical_takeaway": "초음파 단독보다 임상 정보 결합이 갑상선 결절 위험 분류와 예측 확률 신뢰도 향상에 도움이 될 수 있으나, 임상 적용 전에는 전향적 다기관 검증이 필요하다.",
+        "limitations": "후향적 단일계열 연구로 외부 검증은 있었지만, 전향적 다기관 검증이 없어 임상적 일반화에는 주의가 필요하다.",
+        "pico": {
+          "p": "초음파로 평가한 갑상선 결절 환자",
+          "i": "초음파와 구조화된 임상 정보를 결합한 불확실성 가중 다중작업 네트워크",
+          "c": "임상 정보만 또는 영상만 사용하는 기준 모델",
+          "o": "3분류 정확도, macro-AUC, 예측 확률 신뢰도(ECE)"
+        }
+      },
+      "categories": [
+        "대사/비만",
+        "한약/본초"
+      ]
+    },
     {
       "id": "pmid-42913157",
       "pmid": "42913157",
@@ -15,7 +55,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42913157/",
       "abstract": "Diabetic wounds (DW) are one of the most common complications of diabetes with complex pathogenesis, causing high morbidity and disability. Conventional therapies fail to resolve multiple obstacles to DW healing, urgently requiring efficient and safe novel interventions. Compounds from medicine and food homology substances have attracted widespread attention owing to their superior biosafety and diverse pharmacological activities. Herein, carrier-free APC and GQS nanoparticles were manufactured separately via self-assembly using medicine and food homology bioactive components, including astragalus polysaccharide, chlorogenic acid, quercetin, β-sitosterol, and glycyrrhizin acid. Subsequently, dissolvable APC@GQS@MNs co-loaded with APC and GQS were constructed using polyvinylpyrrolidone, hyaluronic acid, and aloe vera as matrix materials. Physicochemical characterization confirmed that APC@GQS@MNs have a well-defined conical morphology, satisfactory mechanical strength, and favorable skin penetration. The APC@GQS@MNs also enabled efficient selective scavenging of cytotoxic reactive oxygen species (ROS), while physiological ROS were less affected. Meanwhile, APC@GQS@MNs exhibited favorable biocompatibility, reduced intracellular ROS levels, ameliorated oxidative stress-induced damage to cell proliferation, migration and tube formation, promoted M1 to M2 macrophage polarization, and effectively inhibited the growth and biofilm formation of Staphylococcus aureus and Escherichia coli. In vivo results showed that APC@GQS@MNs promoted collagen deposition, re-epithelialization, and reduced local inflammatory infiltration in DW by upregulating CD31, CD163, IL-10 and suppressing iNOS, NF-κB, and TNF-α signaling. Notably, APC@GQS@MNs combined with electroacupuncture exerted synergistic effects, which further ameliorated the wound microenvironment and markedly accelerated wound healing and tissue regeneration. Such synergistic therapy modulates local wound states and inflammatory responses, laying a promising foundation for the management of DW.",
       "first_seen": "2026-11-05 00:23:44 UTC",
-      "last_seen": "2026-11-06 23:43:55 UTC",
+      "last_seen": "2026-11-07 22:46:40 UTC",
       "title_ko": "천연 무운반체 자가조립 나노입자를 탑재한 신규 용해성 마이크로니들와 전침 병용의 당뇨성 상처 치유",
       "publication_types": [
         "Journal Article"
@@ -57,7 +97,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42874379/",
       "abstract": "Dental caries is a prevalent bacterial infectious disease, yet current clinical treatments remain limited because conventional restorative materials provide only mechanical filling and fail to induce dental tissue regeneration. Herein, we developed a composite gelatin methacryloyl (GelMA) hydrogel system (Gel/UFN) co-loaded with three active components from traditional Chinese medicine, including ursolic acid (UA), ferulic acid (FA) and naringin (Nar), to remodel the carious microenvironment and promote dentin remineralization and vascularized pulp-dentin-like tissue formation. Gel/UFN showed excellent biocompatibility and favorable physicochemical and mechanical properties for dental applications, supporting adhesion and proliferation of human dental pulp stem cells (hDPSCs). Functionally, Gel/UFN significantly inhibited Streptococcus mutans (S. mutans) growth and biofilm formation, downregulated inflammatory cytokine expression and promoted the migration and angiogenesis of human umbilical vein endothelial cells (HUVECs). More importantly, Gel/UFN upregulated odontogenesis-related genes in hDPSCs, thereby enhancing odontogenic differentiation, alkaline phosphatase activity, collagen maturation and regenerative mineralization. In vivo, Gel/UFN exhibited slow degradation and sustained drug release for over 55 days. After implantation of Gel/UFN-filled dentin discs into nude mice, H&E staining demonstrated the formation of vascular structures, dentin-like mineralized tissue and cell-rich pulp-like tissue. Western blot analysis further revealed increased expression of the odontogenesis-related proteins RUNX2, DSPP, DMP1, and COL1A1 in the Gel/UFN group, providing additional protein-level evidence of its pro-odontogenic effects in vivo. These newly formed tissues were observed to cover exposed dentinal tubules on the surface of dentin disc using scanning electron microscopy (SEM). Micro-CT further confirmed that dental tissue induced by Gel/UFN exhibited a higher remineralization density at the defect site, supporting enhanced dentin remineralization. Overall, Gel/UFN may serve as a promising bioactive hydrogel platform for dentin repair and vascularized pulp-dentin-like tissue formation through antibacterial, anti-inflammatory, pro-angiogenic and pro-differentiation effects.",
       "first_seen": "2026-11-05 00:23:44 UTC",
-      "last_seen": "2026-11-06 23:43:55 UTC",
+      "last_seen": "2026-11-07 22:46:40 UTC",
       "title_ko": "우르솔산·페룰산·나린진을 공동 탑재한 GelMA 하이드로겔의 상아질 재생 촉진 효과",
       "publication_types": [
         "Journal Article"
@@ -96,7 +136,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42896358/",
       "abstract": "Dandelion (Taraxacum mongolicum Hand.-Mazz.) is a medicinal and edible herb widely used in traditional Chinese medicine; however, studies on mycotoxin contamination in dandelion remain limited. Herein, we developed a liquid chromatography-triple quadrupole-tandem mass spectrometry (LC-QqQ-MS/MS) method for the simultaneous quantification of five common mycotoxins: aflatoxin B1 (AFB1), deoxynivalenol (DON), fumonisin B1 (FB1), ochratoxin A (OTA), and zearalenone (ZEN) in dandelion. The mycotoxins were extracted from dandelion herb, cleaned up by solvent dilution, and analyzed in multiple reaction monitoring (MRM) mode on an LC-QqQ-MS/MS system. Key parameters were optimized to achieve the best performance, including chromatographic conditions, MRM ion pairs, extraction solvents, and sample cleanup methods. Method validation was conducted in terms of specificity, limit of determination, limit of quantitation, linearity, intraday and interday precision, and matrix effect. Finally, a total of 54 dandelion samples collected from different regions of China were analyzed using the developed method. AFB1 and FB1 were detected in all the dandelion samples, while OTA was found in 45 samples. DON was detected in nine samples from three regions, whereas ZEN was not detected in any of the samples. FB1 was found to be the most prevalent mycotoxin in the samples, ranging from 9.77 to 35.86 μg/kg, followed by AFB1 and OTA, indicating co-occurrence of mycotoxins in this herb.",
       "first_seen": "2026-10-30 22:59:35 UTC",
-      "last_seen": "2026-11-06 23:43:55 UTC",
+      "last_seen": "2026-11-07 22:46:40 UTC",
       "title_ko": "민들레의 마이코톡신 정량을 위한 LC-MS/MS 방법 개발 및 검증",
       "publication_types": [
         "Journal Article",
