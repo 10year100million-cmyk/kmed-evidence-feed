@@ -1,9 +1,89 @@
 {
-  "updated": "2026-11-14 22:59:52 UTC",
+  "updated": "2026-11-15 23:23:30 UTC",
   "year": "2027",
-  "total": 37,
+  "total": 39,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42925695",
+      "pmid": "42925695",
+      "doi": "10.1016/j.saa.2026.128997",
+      "title": "Fabrication of carbon dots derived from Alangium salviifolium for the sequential sensing Ag+ and S2- and further monitoring of H2S in spoiled food.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pub_date": "2027-02-15",
+      "authors": "Qi X, Yang H, Xu D, Cui T, Dai Q, Chen G et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42925695/",
+      "abstract": "Given the significant threat posed by heavy metals to ecological system and human health, the development of precise, portable, and on-site analytical technologies is urgently required. Herein, multifunctional carbon dots (A-CDs) derived from the traditional chinese medicine (TCM) were synthesized and exhibited optimal emission at 604 nm excited at 495 nm, with quantum yield (QY) of 18.25%. The A-CDs achieved the cascade determination of Ag+ and S2- via a subsequent \"on-off-on\" process with LODs of 63.7 nM and 0.98 μM, respectively. Notably, A-CDs portable platform was constructed and enabled on-site quantitative analysis with LODs of 0.83 μM and 1.19 μM, respectively. Leveraging this unique sensing performance, the A-CDs test strips were developed for visual screening of H2S during food spoilage at varying storage temperatures, allowing qualitative food freshness discrimination via naked-eye observation. The precise quantitative detection in real water and foodstuff was applied, and further verified by ICP-MS, confirmed the excellent accuracy and environmental tolerance. This work presented an intelligent strategy for designing cost-effective, high-performance multivariate probes, holding significant promise for advancing food safety and environmental monitoring.",
+      "first_seen": "2026-11-15 23:23:30 UTC",
+      "last_seen": "2026-11-15 23:23:30 UTC",
+      "title_ko": "알랑기움 살비폴리움 유래 탄소점의 Ag+와 S2- 순차 센싱 및 부패 식품의 H2S 모니터링",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Safety",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [
+        "safety"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "전통 중국약 유래 탄소점이 Ag+와 S2-를 순차적으로 감지하고 부패 식품의 H2S를 모니터링할 수 있는지 평가하였다.",
+        "methods": "알랑기움 살비폴리움에서 유래한 탄소점을 합성해 형광 기반 온-오프-온 방식의 Ag+ 및 S2- 센싱과 휴대형 플랫폼, 시험지 적용을 평가한 연구이다.",
+        "results": "탄소점은 Ag+와 S2-를 각각 낮은 검출한계로 순차 검출했으며, 식품 부패 중 H2S를 육안 판별하는 시험지와 실제 시료 분석에서도 양호한 정확도를 보였다.",
+        "clinical_takeaway": "한약 유래 소재가 환경·식품 안전용 형광 센서 개발의 원료가 될 수 있음을 시사하지만, 임상 적용보다는 분석 플랫폼 연구로 해석해야 한다.",
+        "limitations": "생체·임상 검증이 아닌 분석화학 연구이며, 한약재 기반 센서의 실제 임상적 유용성은 명확하지 않다.",
+        "pico": {
+          "p": "명확한 정보 없음",
+          "i": "알랑기움 살비폴리움 유래 탄소점",
+          "c": "명확한 정보 없음",
+          "o": "Ag+와 S2-의 순차 검출 및 부패 식품의 H2S 모니터링"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
+    {
+      "id": "pmid-42913028",
+      "pmid": "42913028",
+      "doi": "10.1016/j.saa.2026.128987",
+      "title": "A dual-signal sensor for highly selective and reliable detection of rutin based on molecularly imprinted Prussian blue analogue.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pub_date": "2027-02-15",
+      "authors": "Xu J, Wang H, Bai H, Li J, Li H, Ma D",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42913028/",
+      "abstract": "The reliable and accurate quantification of rutin is essential for pharmaceutical quality control, pharmacokinetic investigations, and clinical applications, owing to its broad pharmacological activities. In this study, we address this need by developing a novel dual-mode sensing platform based on a molecularly imprinted polymer-coated bimetallic Prussian blue analogue (Mn/FePBA@MIP). The Mn/FePBA@MIP analogue not only exhibits high peroxidase-like catalytic activity via its synergistic bimetallic sites but also possesses target-specific recognition capability through its surface-imprinted cavities. Upon specific rebinding of rutin, the imprinted polymer layer blocks substrate access to the catalytic sites via a gatekeeper effect, thereby quenching both the colorimetric and fluorescent signals. Under optimized conditions, the developed sensor achieves wide linear detection ranges of 6-1536 μg mL-1 for the colorimetric mode and 6-3072 μg mL-1 for the fluorescent mode, with corresponding detection limits of 3.98 μg mL-1 and 1.32 μg mL-1, respectively. For on-site applications, the sensor was integrated with a smartphone-based readout system for quantitative analysis via RGB value extraction, and successfully applied to determine rutin in traditional Chinese medicine samples with satisfactory recoveries. This work thus provides a reliable and portable dual-signal strategy for routine quality assurance of rutin-related herbal products.",
+      "first_seen": "2026-11-15 23:23:30 UTC",
+      "last_seen": "2026-11-15 23:23:30 UTC",
+      "title_ko": "루틴의 고선택적·신뢰성 높은 검출을 위한 분자각인 프러시안 블루 유사체 기반 이중 신호 센서",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "evidence_type": "Clinical study",
+      "evidence_level": "중간",
+      "clinical_applicability": "보통",
+      "priority": "참고",
+      "safety_flags": [],
+      "summary_status": "complete",
+      "summary": {
+        "question": "분자각인 프러시안 블루 유사체 기반 이중 신호 센서가 루틴을 선택적으로 정량할 수 있는지 평가하였다.",
+        "methods": "분자각인 고분자 코팅 이성분 프러시안 블루 유사체를 이용해 색도 및 형광 이중 모드 센서를 개발하고, 스마트폰 RGB 판독으로 한약 시료의 루틴을 분석하였다.",
+        "results": "개발된 센서는 루틴에 대해 색도·형광 신호를 모두 정량 가능하게 반응했고, 전통중의약 시료에서 만족스러운 회수율로 적용되었다.",
+        "clinical_takeaway": "루틴 함유 한약재의 품질관리에서 휴대형 이중 신호 검출 플랫폼이 유용할 수 있으나, 실제 임상 활용 전에는 시료 종류별 검증이 더 필요하다.",
+        "limitations": "추상만으로는 실제 임상 검체 적용 범위와 비교 표준법 성능이 충분히 명확하지 않다.",
+        "pico": {
+          "p": "루틴이 포함된 전통중의약 시료",
+          "i": "분자각인 프러시안 블루 유사체 기반 이중 신호 센서",
+          "c": "명확한 정보 없음",
+          "o": "루틴의 선택적 정량 및 검출"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
     {
       "id": "pmid-42945782",
       "pmid": "42945782",
@@ -15,7 +95,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42945782/",
       "abstract": "Risk stratification of thyroid nodules on ultrasound remains inconsistent in routine practice, particularly for borderline presentations. Many deep-learning studies report discrimination alone, while probability reliability and threshold-based clinical utility receive less attention.\nWe retrospectively included 364 development patients, each contributing one thyroid nodule labeled using surgical histopathology or fine-needle aspiration cytology. The primary analysis used a patient-level fixed training/validation/test framework, and robustness was additionally assessed with stratified patient-level five-fold cross-validation. A locked model was independently evaluated in 121 patients from the Affiliated Hospital of Shandong University of Traditional Chinese Medicine (Shandong Provincial Hospital of Traditional Chinese Medicine), Jinan, China. The task was formulated as three-class classification: benign, indeterminate or suspicious, and malignant.\nThe multimodal model outperformed clinical-only and image-only baselines, with the largest gains observed on class-balanced metrics. On the held-out test set, UWMT-Net achieved an accuracy of 0.838 and a macro-AUC of 0.943. Post-hoc temperature scaling reduced ECE from 0.040 to 0.015 without changing hard-label metrics. Five-fold cross-validation yielded a macro-AUC of 0.936 ± 0.011. In the independent external cohort, the locked model achieved an accuracy of 0.810, macro-F1 of 0.804, macro-AUC of 0.921, and ECE of 0.031. The added fusion baselines and paired bootstrap analysis supported a modest, but not statistically significant, numerical advantage of uncertainty-weighted multi-task learning.\nIntegrating ultrasound with structured clinical information improved three-class classification and probability reliability in the development cohort, with retained performance in the independent external cohort. Larger prospective multicenter validation remains required before clinical use.",
       "first_seen": "2026-11-07 22:46:40 UTC",
-      "last_seen": "2026-11-14 22:59:52 UTC",
+      "last_seen": "2026-11-15 23:23:30 UTC",
       "title_ko": "불확실성 가중 다중작업 네트워크를 이용한 초음파 기반 갑상선 결절 3분류",
       "publication_types": [
         "Journal Article"
@@ -176,7 +256,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42906698/",
       "abstract": "Polygala tenuifolia Willd. is an important medicinal plant widely applied in traditional Chinese medicine. Its pharmacological activities are primarily derived from triterpenoid saponins and other specialized metabolites. Nevertheless, the regulatory mechanisms governing methyl jasmonate (MeJA)-triggered accumulation of bioactive constituents in P. tenuifolia remain poorly characterized. In this study, to evaluate corresponding changes in biomass and characteristic metabolite production, hairy root cultures of P. tenuifolia were subjected to MeJA treatment at concentrations spanning 0-400 µM over a 1-6 day period. MeJA modulated hairy root growth and secondary metabolite accumulation in a concentration-dependent and time-dependent manner. Compared with the control group, the contents of onjisaponin B and polygalasaponin III increased by 1.81-fold and 2.60-fold, respectively, following treatment with 50 µM MeJA for 3 days. A total of 447 differentially expressed transcription factors (TFs) that belonged to 64 families were identified through transcriptome analysis. MeJA suppressed the expression of most TF families, whereas the NAC family exhibited a global upregulation trend. The above results indicated that MeJA activated transcriptional reprogramming of secondary-metabolism-associated genes via targeted regulation of specific TFs. Correlation analysis involving ten key enzyme genes and six characteristic metabolites demonstrated that the majority of biosynthetic genes were positively associated with bioactive metabolite levels. Of these genes, UGT74B1 and UGT73B2 showed strong positive correlations with multiple saponin components; CYP94A2 served as a critical node responsible for oxidative modification. In contrast, MK and HDS displayed negative correlations with saponins, which suggested precursor competition across distinct terpenoid pathways. As indicated by RT-qPCR validation for ten candidate biosynthetic genes, MeJA time-dependently upregulated key genes participating in the MVA/MEP pathways, squalene cyclization, CYP450-mediated oxidation, and UGT-catalyzed glycosylation, thereby facilitating precursor supply and subsequent structural modification. Accordingly, triterpenoid saponin biosynthesis and accumulation in P. tenuifolia hairy roots were enhanced. This study offers fresh understanding of the molecular basis underlying MeJA-modulated secondary metabolism in P. tenuifolia, and identifies candidate genes applicable to metabolic engineering for elevating yields of bioactive compounds in hairy root cultures.",
       "first_seen": "2026-10-23 22:13:51 UTC",
-      "last_seen": "2026-11-14 22:59:52 UTC",
+      "last_seen": "2026-11-15 23:23:30 UTC",
       "title_ko": "메틸 자스모네이트가 Polygala tenuifolia 모상근에서 트리테르페노이드 사포닌의 생합성과 축적을 유도한다",
       "publication_types": [
         "Journal Article"
