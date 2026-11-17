@@ -1,9 +1,54 @@
 {
-  "updated": "2026-11-15 23:23:30 UTC",
+  "updated": "2026-11-17 02:29:12 UTC",
   "year": "2027",
-  "total": 39,
+  "total": 40,
   "source": "PubMed (NCBI E-utilities)",
   "papers": [
+    {
+      "id": "pmid-42962945",
+      "pmid": "42962945",
+      "doi": "10.1016/j.jep.2026.121203",
+      "title": "Exploring the therapeutic role of Chinses herbal medicine in the recurrence rate of uterine fibroids after conservative surgery: a systematic review and meta-analysis.",
+      "journal": "Journal of ethnopharmacology",
+      "pub_date": "2027-02-10",
+      "authors": "Liu Z, Liu Y, Li S, Zhang X, Qiang R, Jin F et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42962945/",
+      "abstract": "Since surgery can only remove lesions of a larger size visible to the naked eye, the recurrence rate of uterine fibroids after surgery is high. In recent years, numerous scholars have found that traditional Chinese medicine (TCM) treatment is effective in reducing the recurrence rate of postoperative fibroids, as well as improving the clinical treatment rate, regulating serum hormone levels, reducing plasma viscosity, and promoting the restoration of uterine volume following surgery. Several randomized controlled trials have been undertaken on the prevention and treatment of postoperative recurrence of uterine fibroids using patented Chinese medicines and self-proposed formulations, such as Guizhi Fuling Pill, Xiaozheng decoction, Xiangleng pill, Zhengjia decoction, Xiaoliu decoction, Guizhi Jiliu pill, Huoxue Huayu formula, Huoxue Xiaozheng decoction, Shugan Sanjie decoction, Gongliuxiao capsule, Hongjin Xiaojie concentrated pill, and Jiawei Guizhi Fuling decoction. However, no study has systematically evaluated Chinese herbal medicine (CHM) in reducing the recurrence rate of uterine fibroids after surgery.\nThis study aimed to conduct a meta-analysis of randomized controlled trials of CHM for the prevention of postoperative recurrence of uterine fibroids, evaluating its efficacy and safety.\nA comprehensive search was conducted on PubMed, Cochrane, Embase, Web of Science, China National Knowledge Infrastructure (CNKI), VIP Information Database (VIP), WanFang Database, and China Biomedical Database (CBM) to identify randomized controlled clinical studies conducted up to March 2025 that examined the efficacy of CHM in treating patients with postoperative uterine fibroids. Two institutes were independently under-selected, and data were extracted and quality assessed using the Cochrane Risk of Bias 2.0 tool. Meta-analyses were performed using Review Manager software 5.4, and forest plots were generated. The quality of evidence was assessed using GRADEpro 3.2.2. This study was registered in PROSPERO (CRD420251000288).\n16 trials were included in this study, and the postoperative recurrence rate after treatment was mainly analyzed. CHM treatment reduces postoperative recurrence rates in patients with uterine fibroids compared to the blank (6 trials, n = 588; OR (odds ratio) = 0.22; 95 % CI (95 % confidence intervals) = 0.14-0.34; I2 = 0 %, p < 0.00001), conventional western medicine (CWM) (1 trial, n = 80; OR = 0.30; 95 % CI = 0.09-0.93, p = 0.04), and combined CHM with CWM (9 trials, n = 959; OR = 0.29; 95 % CI = 0.19-0.46; I2 = 0 %, p < 0.00001). In addition, CHM is also effective in improving clinical efficiency, restoring serum sex hormone levels, lowering plasma viscosity, and reducing uterine volume. CHM is generally considered safe, with a low incidence of adverse reactions.\nCHM is effective in avoiding recurrence of uterine fibroids after surgery, excelling in terms of overall effectiveness, restoring female hormone levels, improving hemorheological indices, and promoting uterine recovery and safety. However, these findings are preliminary and still need to be validated by higher-quality studies.",
+      "first_seen": "2026-11-17 02:29:12 UTC",
+      "last_seen": "2026-11-17 02:29:12 UTC",
+      "title_ko": "근종 보존수술 후 자궁근종 재발에 대한 중국 한약의 치료적 역할: 체계적 문헌고찰 및 메타분석",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Review"
+      ],
+      "evidence_type": "Meta-analysis",
+      "evidence_level": "높음",
+      "clinical_applicability": "높음",
+      "priority": "필독",
+      "safety_flags": [
+        "adverse",
+        "safety"
+      ],
+      "summary_status": "complete",
+      "summary": {
+        "question": "자궁근종 보존수술 후 재발 예방에 중국 한약이 유효하고 안전한지 평가하였다.",
+        "methods": "무작위대조시험을 대상으로 여러 데이터베이스를 검색해 체계적 문헌고찰과 메타분석을 시행하고, RoB 2.0과 GRADE로 근거를 평가하였다.",
+        "results": "중국 한약은 대조군에 비해 수술 후 자궁근종 재발률을 낮추고 일부 임상지표와 호르몬·혈액유변학·자궁용적 지표를 개선하는 경향을 보였다.",
+        "clinical_takeaway": "수술 후 자궁근종 재발 억제에 한약이 잠재적 이점과 비교적 양호한 안전성을 보였으나, 근거는 아직 예비적이어서 해석에 주의가 필요하다.",
+        "limitations": "포함 연구의 질과 이질성이 완전히 제시되지 않았고, 결론은 더 높은 질의 연구로 확인이 필요하다.",
+        "pico": {
+          "p": "자궁근종 보존수술 후 환자",
+          "i": "중국 한약",
+          "c": "무처치, 서양의학, 또는 서양의학 병용 대조",
+          "o": "수술 후 재발률 및 관련 임상지표"
+        }
+      },
+      "categories": [
+        "한약/본초"
+      ]
+    },
     {
       "id": "pmid-42925695",
       "pmid": "42925695",
@@ -15,7 +60,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42925695/",
       "abstract": "Given the significant threat posed by heavy metals to ecological system and human health, the development of precise, portable, and on-site analytical technologies is urgently required. Herein, multifunctional carbon dots (A-CDs) derived from the traditional chinese medicine (TCM) were synthesized and exhibited optimal emission at 604 nm excited at 495 nm, with quantum yield (QY) of 18.25%. The A-CDs achieved the cascade determination of Ag+ and S2- via a subsequent \"on-off-on\" process with LODs of 63.7 nM and 0.98 μM, respectively. Notably, A-CDs portable platform was constructed and enabled on-site quantitative analysis with LODs of 0.83 μM and 1.19 μM, respectively. Leveraging this unique sensing performance, the A-CDs test strips were developed for visual screening of H2S during food spoilage at varying storage temperatures, allowing qualitative food freshness discrimination via naked-eye observation. The precise quantitative detection in real water and foodstuff was applied, and further verified by ICP-MS, confirmed the excellent accuracy and environmental tolerance. This work presented an intelligent strategy for designing cost-effective, high-performance multivariate probes, holding significant promise for advancing food safety and environmental monitoring.",
       "first_seen": "2026-11-15 23:23:30 UTC",
-      "last_seen": "2026-11-15 23:23:30 UTC",
+      "last_seen": "2026-11-17 02:29:12 UTC",
       "title_ko": "알랑기움 살비폴리움 유래 탄소점의 Ag+와 S2- 순차 센싱 및 부패 식품의 H2S 모니터링",
       "publication_types": [
         "Journal Article"
@@ -95,7 +140,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42945782/",
       "abstract": "Risk stratification of thyroid nodules on ultrasound remains inconsistent in routine practice, particularly for borderline presentations. Many deep-learning studies report discrimination alone, while probability reliability and threshold-based clinical utility receive less attention.\nWe retrospectively included 364 development patients, each contributing one thyroid nodule labeled using surgical histopathology or fine-needle aspiration cytology. The primary analysis used a patient-level fixed training/validation/test framework, and robustness was additionally assessed with stratified patient-level five-fold cross-validation. A locked model was independently evaluated in 121 patients from the Affiliated Hospital of Shandong University of Traditional Chinese Medicine (Shandong Provincial Hospital of Traditional Chinese Medicine), Jinan, China. The task was formulated as three-class classification: benign, indeterminate or suspicious, and malignant.\nThe multimodal model outperformed clinical-only and image-only baselines, with the largest gains observed on class-balanced metrics. On the held-out test set, UWMT-Net achieved an accuracy of 0.838 and a macro-AUC of 0.943. Post-hoc temperature scaling reduced ECE from 0.040 to 0.015 without changing hard-label metrics. Five-fold cross-validation yielded a macro-AUC of 0.936 ± 0.011. In the independent external cohort, the locked model achieved an accuracy of 0.810, macro-F1 of 0.804, macro-AUC of 0.921, and ECE of 0.031. The added fusion baselines and paired bootstrap analysis supported a modest, but not statistically significant, numerical advantage of uncertainty-weighted multi-task learning.\nIntegrating ultrasound with structured clinical information improved three-class classification and probability reliability in the development cohort, with retained performance in the independent external cohort. Larger prospective multicenter validation remains required before clinical use.",
       "first_seen": "2026-11-07 22:46:40 UTC",
-      "last_seen": "2026-11-15 23:23:30 UTC",
+      "last_seen": "2026-11-17 02:29:12 UTC",
       "title_ko": "불확실성 가중 다중작업 네트워크를 이용한 초음파 기반 갑상선 결절 3분류",
       "publication_types": [
         "Journal Article"
@@ -256,7 +301,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42906698/",
       "abstract": "Polygala tenuifolia Willd. is an important medicinal plant widely applied in traditional Chinese medicine. Its pharmacological activities are primarily derived from triterpenoid saponins and other specialized metabolites. Nevertheless, the regulatory mechanisms governing methyl jasmonate (MeJA)-triggered accumulation of bioactive constituents in P. tenuifolia remain poorly characterized. In this study, to evaluate corresponding changes in biomass and characteristic metabolite production, hairy root cultures of P. tenuifolia were subjected to MeJA treatment at concentrations spanning 0-400 µM over a 1-6 day period. MeJA modulated hairy root growth and secondary metabolite accumulation in a concentration-dependent and time-dependent manner. Compared with the control group, the contents of onjisaponin B and polygalasaponin III increased by 1.81-fold and 2.60-fold, respectively, following treatment with 50 µM MeJA for 3 days. A total of 447 differentially expressed transcription factors (TFs) that belonged to 64 families were identified through transcriptome analysis. MeJA suppressed the expression of most TF families, whereas the NAC family exhibited a global upregulation trend. The above results indicated that MeJA activated transcriptional reprogramming of secondary-metabolism-associated genes via targeted regulation of specific TFs. Correlation analysis involving ten key enzyme genes and six characteristic metabolites demonstrated that the majority of biosynthetic genes were positively associated with bioactive metabolite levels. Of these genes, UGT74B1 and UGT73B2 showed strong positive correlations with multiple saponin components; CYP94A2 served as a critical node responsible for oxidative modification. In contrast, MK and HDS displayed negative correlations with saponins, which suggested precursor competition across distinct terpenoid pathways. As indicated by RT-qPCR validation for ten candidate biosynthetic genes, MeJA time-dependently upregulated key genes participating in the MVA/MEP pathways, squalene cyclization, CYP450-mediated oxidation, and UGT-catalyzed glycosylation, thereby facilitating precursor supply and subsequent structural modification. Accordingly, triterpenoid saponin biosynthesis and accumulation in P. tenuifolia hairy roots were enhanced. This study offers fresh understanding of the molecular basis underlying MeJA-modulated secondary metabolism in P. tenuifolia, and identifies candidate genes applicable to metabolic engineering for elevating yields of bioactive compounds in hairy root cultures.",
       "first_seen": "2026-10-23 22:13:51 UTC",
-      "last_seen": "2026-11-15 23:23:30 UTC",
+      "last_seen": "2026-11-17 02:29:12 UTC",
       "title_ko": "메틸 자스모네이트가 Polygala tenuifolia 모상근에서 트리테르페노이드 사포닌의 생합성과 축적을 유도한다",
       "publication_types": [
         "Journal Article"
